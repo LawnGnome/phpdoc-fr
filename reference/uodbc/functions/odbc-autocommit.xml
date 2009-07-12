@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- $Revision: 1.20 $ -->
-<!-- EN-Revision: 1.8 Maintainer: yannick Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283840 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.odbc-autocommit" xmlns="http://docbook.org/ns/docbook">
