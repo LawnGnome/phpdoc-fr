@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 289162 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: remote.mail -->
 <!-- Membership: bundled, external -->
@@ -18,7 +18,7 @@
    et les boîtes aux lettres locales.
   </para>
   <para>
-   Cependant, soyez prudent car quelques fonctions IMAP ne fonctionnent pas
+   Cependant, soyez prudent, car quelques fonctions IMAP ne fonctionnent pas
    correctement avec le protocole POP.
   </para>
  </preface>

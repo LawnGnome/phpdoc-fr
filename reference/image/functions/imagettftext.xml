@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 289104 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagettftext" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -163,6 +163,7 @@ $font = 'SomeFont';
    points sont relatifs au texte par rapport à l'angle, donc, "supérieur
    gauche" signifie dans le coin en haut à gauche lorsque vous
    regardez le texte horizontalement.
+   Retourne &false; si une erreur survient.
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: didou Status: ready -->
+<!-- EN-Revision: 289162 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="imap.installation" xmlns="http://docbook.org/ns/docbook">
@@ -15,6 +15,8 @@
   en fonction de la description ci-dessus. Les utilisateurs 
   <productname>Windows</productname> peuvent inclure la bibliothèque
   DLL <filename>php_imap.dll</filename> dans le &php.ini;.
+ </para>
+ <para>
   IMAP n'est pas supporté sur les systèmes plus anciens que Windows 2000.
   Cela est dû au fait que IMAP utilise les fonctions de chiffrement
   pour activer les connexions SSL aux serveurs de mails.
@@ -52,4 +54,3 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
-
