@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 289003 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="dateperiod.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -83,7 +83,7 @@
      <term><parameter>options</parameter></term>
      <listitem>
       <para>
-       Peut être configuré à <constant>DateTime::EXCLUDE_START_DATE</constant>.
+       Peut être configuré à <constant>DatePeriod::EXCLUDE_START_DATE</constant>.
       </para>
      </listitem>
     </varlistentry>
