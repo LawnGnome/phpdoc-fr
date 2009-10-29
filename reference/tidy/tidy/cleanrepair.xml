@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 289276 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="tidy.cleanrepair" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>tidy::CleanRepair</refname>
+  <refname>tidy::cleanRepair</refname>
   <refname>tidy_clean_repair</refname>
   <refpurpose>
    Effectue les opérations de nettoyage et de réparation
@@ -64,7 +64,7 @@
 $html = '<p>test</I>';
 
 $tidy = tidy_parse_string($html);
-tidy_clean_repair($tidy);
+$tidy->cleanRepair();
 
 echo $tidy;
 ?>
