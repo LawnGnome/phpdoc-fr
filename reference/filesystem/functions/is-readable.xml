@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290078 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.is-readable">
  <refnamediv>
   <refname>is_readable</refname>
-  <refpurpose>Indique si un fichier est accessible en lecture</refpurpose>
+  <refpurpose>Indique si un fichier existe et est accessible en lecture</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -16,7 +16,7 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Indique si un fichier est accessible en lecture.
+   Indique si un fichier existe et est accessible en lecture.
   </para>
  </refsect1>
 
