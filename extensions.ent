@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 276794 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 287860 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <!ENTITY extcat.intro '<title>Catégorie/Liste des extensions</title><para>
@@ -47,7 +47,7 @@ dans le manuel PHP suivant différents critères.</para>'>
 
 <!ENTITY extcat.purpose.compression '<title>Extensions relatives à la compression et aux archives</title>'>
 
-<!ENTITY extcat.purpose.calendar '<title>Extensions relatives aux calendriers et aux évènements</title>'>
+<!ENTITY extcat.purpose.calendar '<title>Extensions relatives aux dates et aux heures</title>'>
 
 <!ENTITY extcat.purpose.utilspec '<title>Extensions relatives aux régions spécifiques</title>'>
 <!ENTITY extcat.purpose.utilspec.nontext '<title>Sortie MIME Non-Texte</title>'>
