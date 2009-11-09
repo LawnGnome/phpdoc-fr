@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.tmpfile">
@@ -37,7 +37,7 @@
   <para>
    Retourne un pointeur de fichier, identique à celui retourné
    par la fonction <function>fopen</function>, pour le nouveau
-   fichier, ou &false; si une erreur survient.
+   fichier&return.falseforfailure;.
   </para>
  </refsect1>
 
