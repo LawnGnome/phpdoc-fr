@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.date-sunrise" xmlns="http://docbook.org/ns/docbook">
@@ -116,7 +116,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne l'heure de levé du soleil dans un <parameter>format</parameter> spécifié
-   en cas de succès, &false; si une erreur survient.
+   en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 

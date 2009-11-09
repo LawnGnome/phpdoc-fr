@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.enchant-broker-request-pwl-dict" xmlns="http://docbook.org/ns/docbook">
@@ -48,7 +48,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne une ressource de dictionnaire en cas de succès, &false; si une erreur survient.
+   Retourne une ressource de dictionnaire en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 

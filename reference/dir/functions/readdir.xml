@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.readdir" xmlns="http://docbook.org/ns/docbook">
@@ -45,7 +45,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne le nom du fichier en cas de réussite ou &false; en cas d'échec.
+   Retourne le nom du fichier en cas de réussite&return.falseforfailure;.
   </para>
   &return.falseproblem;
  </refsect1>

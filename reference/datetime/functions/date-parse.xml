@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.date-parse" xmlns="http://docbook.org/ns/docbook">
@@ -36,7 +36,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne un &array; contenant des informations sur la date analysée en
-   cas de succès ou &false; en cas d'échec.
+   cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 

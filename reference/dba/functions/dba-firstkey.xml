@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.dba-firstkey" xmlns="http://docbook.org/ns/docbook">
@@ -39,7 +39,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la clé en cas de succès, &false; si une erreur survient.
+   Retourne la clé en cas de succès&return.falseforfailure;. 
   </para>
  </refsect1>
  <refsect1 role="seealso">
