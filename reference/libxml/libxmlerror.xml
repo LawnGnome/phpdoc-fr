@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 289106 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:classref
@@ -19,7 +19,8 @@
    &reftitle.intro;
    <para>
     Contient diverses informations sur les erreurs émises par la
-    bibliothèque libxml.
+    bibliothèque libxml. Les codes erreurs sont décrits dans la
+    <link xlink:href="&url.libxml.errorcodes;">documentation officielle de l'API xmlError</link>.
    </para>
   </section>
 <!-- }}} -->

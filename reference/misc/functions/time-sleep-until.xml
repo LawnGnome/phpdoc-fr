@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290143 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.time-sleep-until" xmlns="http://docbook.org/ns/docbook">
@@ -91,7 +91,7 @@
 var_dump(time_sleep_until(time()-1));
 
 // Fonctionnera que sur les ordinateurs rapides, stoppera le script 0.2 secondes
-var_dump(time_sleep_until(time()+0.2));
+var_dump(time_sleep_until(microtime(true)+0.2));
 
 ?>
 ]]>

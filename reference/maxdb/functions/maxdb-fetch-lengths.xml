@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-fetch-lengths">
@@ -28,8 +28,7 @@
    ligne courante du jeu de résultats représenté par le
    paramètre <parameter>result</parameter>. Si cela réussit,
    un tableau indexé numériquement représentant la
-   longueur de chaque colonne est retourné, ou &false; si une
-   erreur survient.
+   longueur de chaque colonne est retourné&return.falseforfailure;.
   </para>
  </refsect1>
 

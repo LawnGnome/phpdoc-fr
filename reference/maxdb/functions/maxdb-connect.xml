@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-connect">
@@ -40,8 +40,7 @@
    MaxDB fonctionnant sur l'hôte <parameter>host</parameter> qui peut être soit
    un nom d'hôte, soit une adresse IP. Passer la chaîne "localhost" à ce paramètre,
    l'hôte local sera assumé. En cas de succès, <function>maxdb_connect</function>
-   retournera une ressource représentant la connexion à la base de données, ou &false;
-   si une erreur survient.
+   retournera une ressource représentant la connexion à la base de données&return.falseforfailure;.
   </para>
   <para>
    Les paramètres <parameter>username</parameter> et

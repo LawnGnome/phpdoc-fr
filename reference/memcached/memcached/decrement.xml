@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="memcached.decrement" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,8 +51,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la nouvelle valeur de l'élément en cas de succès,
-   et &false; en cas d'erreur.
+   Retourne la nouvelle valeur de l'élément en cas de succès&return.falseforfailure;.
    La méthode <methodname>Memcached::getResultCode</methodname> retourne
    <constant>Memcached::RES_NOTFOUND</constant> si la clé n'existe pas.
   </para>

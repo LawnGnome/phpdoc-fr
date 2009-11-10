@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.set-include-path" xmlns="http://docbook.org/ns/docbook">
@@ -43,8 +43,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne l'ancienne valeur de
-   <link linkend="ini.include-path">include_path</link> en cas de succès, et &false;
-   si une erreur survient.
+   <link linkend="ini.include-path">include_path</link> en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.memcache-increment" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -65,8 +65,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la valeur du nouvel élément en cas de succès ou &false; en cas
-   d'échec.
+   Retourne la valeur du nouvel élément en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 
