@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.ziparchive-statindex" xmlns="http://docbook.org/ns/docbook">
@@ -47,8 +47,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un tableau contenant les détails de l'entrée, ou &false; si une
-   erreur survient.
+   Retourne un tableau contenant les détails de l'entrée&return.falseforfailure;.
   </para>
  </refsect1>
  <refsect1 role="examples">

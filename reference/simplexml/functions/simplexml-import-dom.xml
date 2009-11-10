@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.simplexml-import-dom' xmlns="http://docbook.org/ns/docbook">
@@ -55,8 +55,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un objet <classname>SimpleXMLElement</classname> ou
-   &false; si une erreur survient.
+   Retourne un objet <classname>SimpleXMLElement</classname>&return.falseforfailure;.
   </para>
  </refsect1>
 

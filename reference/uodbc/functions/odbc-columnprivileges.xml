@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.odbc-columnprivileges" xmlns="http://docbook.org/ns/docbook">
@@ -77,9 +77,9 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un identifiant de résultat ODBC ou &false; si une
-   erreur survient. Cet identifiant de résultat pourra être utilisé
-   pour récupérer une liste des colonnes ainsi que les droits associés.
+   Retourne un identifiant de résultat ODBC &return.falseforfailure;.
+   Cet identifiant de résultat pourra être utilisé pour récupérer une
+   liste des colonnes ainsi que les droits associés.
   </para>
   <para>
    Le jeu de résultat contient les colonnes suivantes :

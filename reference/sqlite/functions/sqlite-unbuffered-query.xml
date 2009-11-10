@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.sqlite-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
@@ -106,7 +106,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne une ressource de résultat ou &false; en cas d'échec.
+   Retourne une ressource de résultat&return.falseforfailure;.
   </para>
   <para>
    <function>sqlite_unbuffered_query</function> retourne un jeu de résultats

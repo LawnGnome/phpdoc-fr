@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.unicode-encode" xmlns="http://docbook.org/ns/docbook">
@@ -61,7 +61,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Une &string; en cas de succès, ou &false; si une erreur survient.
+   Une &string; en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 

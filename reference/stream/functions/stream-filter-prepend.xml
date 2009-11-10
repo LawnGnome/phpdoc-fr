@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.stream-filter-prepend" xmlns="http://docbook.org/ns/docbook">
@@ -103,7 +103,7 @@
        <entry>5.1.0</entry>
        <entry>
         Avant PHP 5.1.0, cette fonction retourne &true; en cas de 
-        succès, et &false; sinon.
+        succès&return.falseforfailure;.
        </entry>
       </row>
      </tbody>

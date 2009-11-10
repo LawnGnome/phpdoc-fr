@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.ziparchive-getcommentindex" xmlns="http://docbook.org/ns/docbook">
@@ -46,7 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne le commentaire en cas de succès, ou &false; si une erreur survient.
+   Retourne le commentaire en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
  <refsect1 role="examples">
