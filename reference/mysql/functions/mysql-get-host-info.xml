@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-get-host-info" xmlns="http://docbook.org/ns/docbook">
@@ -35,7 +35,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne une chaîne décrivant le type de connexion MySQL utilisé
-   pour la connexion ou &false; si une erreur survient.
+   pour la connexion&return.falseforfailure;.
   </para>
  </refsect1>
 

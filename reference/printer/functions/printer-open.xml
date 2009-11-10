@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.printer-open" xmlns="http://docbook.org/ns/docbook">
@@ -46,8 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un gestionnaire d'imprimante en cas de succès,
-   ou &false; si une erreur survient.
+   Retourne un gestionnaire d'imprimante en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 

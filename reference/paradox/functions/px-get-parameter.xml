@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.px-get-parameter" xmlns="http://docbook.org/ns/docbook">
@@ -81,7 +81,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la valeur du paramètre ou &false; en cas d'échec.
+   Retourne la valeur du paramètre&return.falseforfailure;.
   </para>
  </refsect1>
 </refentry>

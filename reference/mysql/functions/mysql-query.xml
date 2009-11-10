@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283826 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-query" xmlns="http://docbook.org/ns/docbook">
@@ -36,6 +36,8 @@
       </para>
       <para>
        La chaîne de requête ne doit pas se terminer par un point-virgule.
+       Les données contenues dans la requête doivent être <link
+       linkend="function.mysql-real-escape-string">échappées proprement</link>.
       </para>
      </listitem>
     </varlistentry>
@@ -179,7 +181,7 @@ sgml-indent-step:1
 sgml-indent-data:t
 indent-tabs-mode:nil
 sgml-parent-document:nil
-sgml-default-dtd-file:"../../../../manual.ced"
+sgml-default-dtd-file:"~/.phpdoc/manual.ced"
 sgml-exposed-tags:nil
 sgml-local-catalogs:nil
 sgml-local-ecat-files:nil

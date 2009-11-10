@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.ps-close-image" xmlns="http://docbook.org/ns/docbook">
@@ -52,7 +52,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne &null; en cas de succès et &false; en cas d'échec.
+   Retourne &null; en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 
