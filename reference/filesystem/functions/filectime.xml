@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290704 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.filectime">
@@ -40,7 +40,7 @@
   &reftitle.returnvalues;
   <para>
    Renvoie la date à laquelle l'inode a été accédé pour
-   la dernière fois, ou &false; en cas d'erreur. L'heure
+   la dernière fois &return.falseforfailure;. L'heure
    est retournée sous la forme d'un timestamp Unix.
   </para>
  </refsect1>

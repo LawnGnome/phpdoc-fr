@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290704 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.disk-free-space">
@@ -46,7 +46,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne le nombre d'octets disponible, sous la forme d'un &float;.
+   Retourne le nombre d'octets disponible, sous la forme d'un &float;
+   &return.falseforfailure;.
   </para>
  </refsect1>
 

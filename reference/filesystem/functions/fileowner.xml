@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290704 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fileowner">
@@ -40,7 +40,7 @@
   &reftitle.returnvalues;
   <para>
    Renvoie l'identifiant du propriétaire du fichier
-   <parameter>filename</parameter>, ou &false; en cas d'erreur.
+   <parameter>filename</parameter>, &return.falseforfailure;.
    L'identifiant du propriétaire est numérique : il faut utiliser
    <function>posix_getpwuid</function> pour retrouver le nom d'utilisateur.
   </para>
