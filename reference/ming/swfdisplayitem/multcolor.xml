@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290721 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.swfdisplayitem.multcolor" xmlns="http://docbook.org/ns/docbook">
@@ -36,8 +36,7 @@
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
-   Ces paramètres sont des entiers compris entre 0 et 255 ou des hexadécimaux
-   compris entre <literal>0x00</literal> et <literal>0xFF</literal> :
+   Ces paramètres sont des nombres à virgule flottante, compris entre 0 et 1.0 :
    <variablelist>
     <varlistentry>
      <term><parameter>red</parameter></term>
