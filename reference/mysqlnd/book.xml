@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 283976 $ -->
-<!-- EN-Revision: 290562 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 290684 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
@@ -28,6 +28,7 @@
  &reference.mysqlnd.config;
  &reference.mysqlnd.persist;
  &reference.mysqlnd.stats;
+ &reference.mysqlnd.notes;
  
 </book>
 

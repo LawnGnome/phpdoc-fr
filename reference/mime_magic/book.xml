@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290709 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: fileprocess.file -->
 <!-- Membership: bundled -->
@@ -38,7 +38,6 @@
 
  &reference.mime-magic.setup;
  &reference.mime-magic.constants;
- &reference.mime-magic.reference;
 
 </book>
 
