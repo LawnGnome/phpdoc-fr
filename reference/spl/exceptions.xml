@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 289303 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <part xml:id="spl.exceptions" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
- <title>Exceptions</title>
-
- <partintro>
-  <para>
-   SPL fournit un jeu d'exception standard.
-  </para>
-  <para>
-   Voir aussi <xref linkend="reserved.exceptions" />
-  </para>
-
- </partintro>
+ &spl.exceptions.intro.title;
+ &spl.exceptions.intro;
 
  &reference.spl.badfunctioncallexception;
  &reference.spl.badmethodcallexception;
