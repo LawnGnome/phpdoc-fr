@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290877 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.echo">
@@ -145,12 +145,6 @@ echo $some_var ? 'Oui': 'Non';
 
  <refsect1 role="notes">
   &reftitle.notes;
-  <simpara>
-   Pour une brève discussion à propos des différences
-   entre <function>print</function> et <function>echo</function>,
-   consultez cet article des <literal>FAQTs Knowledge Base</literal> :
-   <link xlink:href="&url.echo-print;">&url.echo-print;</link>.
-  </simpara>
   &note.language-construct;
  </refsect1>
 

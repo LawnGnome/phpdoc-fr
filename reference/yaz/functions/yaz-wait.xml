@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 290704 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.yaz-wait" xmlns="http://docbook.org/ns/docbook">
@@ -68,6 +68,8 @@
   &reftitle.returnvalues;
   <para>
    &return.success;
+   En mode événement, la fonction retourne une ressource
+   &return.falseforfailure;.
   </para>
  </refsect1>
 </refentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290688 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="streamwrapper.rename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -27,7 +27,7 @@
    <para>
     Afin d'appeler le bon message d'erreur, cette méthode 
     <emphasis>ne doit pas</emphasis> être définie, si le gestionnaire
-    ne supporte pas le renommage de dossiers ou de fichiers.
+    ne supporte pas le renommage de fichiers.
    </para>
   </note>
  </refsect1>
