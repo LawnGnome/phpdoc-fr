@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290410 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290970 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.dba-open" xmlns="http://docbook.org/ns/docbook">
@@ -44,6 +44,8 @@
        lecture/écriture, <literal>c</literal> pour lecture/écriture, et
        création si la base n'existe pas, et <literal>n</literal> pour
        création, écrasement et accès en lecture/écriture.
+       La base de données est créé en mode BTree ; les autres modes (comme Hash ou
+       Queue) ne sont pas supportés.
       </para>
       <para>
        De plus, vous pouvez choisir la méthode de verrouillage de la base avec le 

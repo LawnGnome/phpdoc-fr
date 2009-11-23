@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291076 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.getopt" xmlns="http://docbook.org/ns/docbook">
@@ -36,6 +36,9 @@
       <simpara>
        Par exemple, une chaîne optionnelle <literal>"x"</literal> correspondra
        à l'option <literal>-x</literal>.
+      </simpara>
+      <simpara>
+       Seuls a-z, A-Z et 0-9 are sont autorisés.
       </simpara>
      </listitem>
     </varlistentry>
