@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.libxml-use-internal-errors" xmlns="http://docbook.org/ns/docbook">
@@ -31,7 +31,7 @@
      <term><parameter>use_errors</parameter></term>
       <listitem>
        <para>
-        Active ou désactive le rapport d'erreur. Par défaut, &false;.
+        Active ou désactive le rapport d'erreur.
        </para>
       </listitem>
      </varlistentry>

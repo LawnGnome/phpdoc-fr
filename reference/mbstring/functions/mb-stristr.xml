@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291314 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mb-stristr" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
    <type>string</type><methodname>mb_stristr</methodname>
    <methodparam><type>string</type><parameter>haystack</parameter></methodparam>
    <methodparam><type>string</type><parameter>needle</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>part</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>part</parameter><initializer>false</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>encoding</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -57,7 +57,6 @@
        depuis le début jusqu'à la première occurrence de <parameter>needle</parameter>.
        Si défini à &false;, la fonction retournera toute la chaîne <parameter>haystack</parameter>
        depuis la première occurrence de <parameter>needle</parameter> jusqu'à la fin.
-       Par défaut, ce paramètre vaut &false;.
       </para>
      </listitem>
     </varlistentry>

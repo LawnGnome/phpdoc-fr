@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-encode" xmlns="http://docbook.org/ns/docbook">
@@ -46,7 +46,7 @@
        <constant>JSON_HEX_TAG</constant>,
        <constant>JSON_HEX_AMP</constant>,
        <constant>JSON_HEX_APOS</constant>,
-       <constant>JSON_FORCE_OBJECT</constant>. Par défaut, vaut 0.
+       <constant>JSON_FORCE_OBJECT</constant>.
       </para>
      </listitem>
     </varlistentry>
