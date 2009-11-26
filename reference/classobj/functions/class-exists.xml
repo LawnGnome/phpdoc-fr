@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.class-exists" xmlns="http://docbook.org/ns/docbook">
@@ -35,7 +35,7 @@
      <term><parameter>autoload</parameter></term>
      <listitem>
       <para>
-       Si l'on doit appeler &link.autoload; ou non par défaut. &true; par défaut.
+       Si l'on doit appeler &link.autoload; ou non par défaut.
       </para>
      </listitem>
     </varlistentry>

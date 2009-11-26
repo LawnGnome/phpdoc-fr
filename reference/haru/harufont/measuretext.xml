@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.harufont-measuretext" xmlns="http://docbook.org/ns/docbook">
@@ -75,7 +75,7 @@
       <para>
        Lorsque ce paramètre vaut &true;, la fonction émule la troncation
        des mots et n'inclut pas la partie courante du mot si l'on a atteint
-       la fin de l'espace. Par défaut, vaut &false;.
+       la fin de l'espace.
       </para>
      </listitem>
     </varlistentry>

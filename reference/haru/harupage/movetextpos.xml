@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291314 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.harupage-movetextpos" xmlns="http://docbook.org/ns/docbook">
@@ -50,7 +50,6 @@
       <para>
        Si le paramètre optionnel <parameter>set_leading</parameter> vaut &true;,
        la fonction défini l'espacement du texte à -<parameter>y</parameter>.
-       La valeur par défaut de <parameter>set_leading</parameter> est &false;.
       </para>
      </listitem>
     </varlistentry>

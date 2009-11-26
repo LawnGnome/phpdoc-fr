@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.harupage-measuretext" xmlns="http://docbook.org/ns/docbook">
@@ -48,7 +48,7 @@
       <para>
        Lorsque ce paramètre est défini à &true;, la fonction émule la
        troncation des mots et n'inclut pas la partie du mot courant
-       si l'on arrive à la fin de la zone. Par défaut, vaut &false;.
+       si l'on arrive à la fin de la zone.
       </para>
      </listitem>
     </varlistentry>
