@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291296 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.define" xmlns="http://docbook.org/ns/docbook">
@@ -55,6 +55,11 @@
        <literal>CONSTANT</literal> et <literal>Constant</literal>
        représentent des valeurs identiques.
       </para>
+      <note>
+       <para>
+        Les constantes insensibles à la casse sont stockées en minuscule.
+       </para>
+      </note>
      </listitem>
     </varlistentry>
    </variablelist>

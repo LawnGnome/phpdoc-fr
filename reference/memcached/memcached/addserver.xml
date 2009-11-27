@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291194 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="memcached.addserver" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,7 +15,7 @@
    <modifier>public</modifier> <type>bool</type><methodname>Memcached::addServer</methodname>
    <methodparam><type>string</type><parameter>host</parameter></methodparam>
    <methodparam><type>int</type><parameter>port</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>weight</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>weight</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>Memcached::addServer</function> ajoute le serveur indiqué
