@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: mikaelkael Status: ready -->
+<!-- EN-Revision: 291314 Maintainer: mikaelkael Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.svn-export" xmlns="http://docbook.org/ns/docbook">
@@ -48,7 +48,6 @@
      <listitem>
       <para>
        Si &true;, ceci exportera aussi les fichiers non-livrés de la copie de travail.
-       Par défaut vaut &true;
       </para>
      </listitem>
     </varlistentry>

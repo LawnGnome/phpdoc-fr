@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291014 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.str-pad">
@@ -42,8 +42,8 @@
      <term><parameter>pad_length</parameter></term>
      <listitem>
       <para>
-       Si la valeur de <parameter>pad_length</parameter> est négative, ou
-       inférieure à la taille courante de la chaîne <parameter>input</parameter>,
+       Si la valeur de <parameter>pad_length</parameter> est négative, plus petite
+       que, ou égale à la taille courante de la chaîne <parameter>input</parameter>,
        <parameter>input</parameter> est retournée inchangée.
       </para>
      </listitem>

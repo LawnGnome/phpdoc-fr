@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.sha1">
@@ -41,7 +41,7 @@
        Si le paramètre optionnel <parameter>raw_output</parameter>
        est passé à &true;, le sha1 est retourné sous forme binaire brute avec
        une taille de 20 caractères, sinon, il est retourné sous la forme d'un nombre
-       hexadécimal d'une taille de 40 caractères. Par défaut, vaut &false;.
+       hexadécimal d'une taille de 40 caractères.
       </para>
      </listitem>
     </varlistentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: mikaelkael Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: mikaelkael Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.svn-revert" xmlns="http://docbook.org/ns/docbook">
@@ -37,7 +37,7 @@
      <term><parameter>recursive</parameter></term>
      <listitem>
       <para>
-       Optionnellement applique ceci récursivement. Par défaut vaut &false;
+       Optionnellement applique ceci récursivement.
       </para>
      </listitem>
     </varlistentry>

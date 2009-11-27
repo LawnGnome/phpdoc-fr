@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291316 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strstr">
@@ -64,7 +64,7 @@
      <term><parameter>before_needle</parameter></term>
      <listitem>
       <para>
-       Si vaut &true; (par défaut, vaut &false;), <function>strstr</function> retourne
+       Si vaut &true;, <function>strstr</function> retourne
        la partie de <parameter>haystack</parameter> avant la première occurrence de
        <parameter>needle</parameter>.
       </para>
