@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-combineimages">
@@ -35,8 +35,7 @@
       <para>
        Fournit une constante de canal valide pour votre mode de canal.
        Pour utiliser plus d'un canal, combinez les constantes de type
-       de canal en utilisant les opérateurs de bits. Par défaut, c'est
-       <constant>Imagick::CHANNEL_ALL</constant>. Reportez-vous à la liste des
+       de canal en utilisant les opérateurs de bits. Reportez-vous à la liste des
        <link linkend="imagick.constants.channel">constantes de canal</link>.
       </para>
      </listitem>

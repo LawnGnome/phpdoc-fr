@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.phpcredits" xmlns="http://docbook.org/ns/docbook">
@@ -30,8 +30,7 @@
      <listitem>
       <para>
        Pour générer une page personnalisée sur les crédits, il faut utiliser le
-       paramètre <parameter>flag</parameter>. <parameter>flag</parameter> est
-       optionnel, et vaut par défaut <constant>CREDITS_ALL</constant>.
+       paramètre <parameter>flag</parameter>.
       </para>
       <para>
        <table>

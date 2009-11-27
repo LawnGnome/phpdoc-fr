@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageproperties">
@@ -31,8 +31,7 @@
      <term><parameter>pattern</parameter></term>
      <listitem>
       <para>
-       Le modèle pour les noms de propriétés. 
-       Par défaut, "<literal>*</literal>"
+       Le modèle pour les noms de propriétés.
       </para>
      </listitem>
     </varlistentry>

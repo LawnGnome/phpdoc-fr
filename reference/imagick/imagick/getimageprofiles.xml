@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageprofiles">
@@ -31,7 +31,7 @@
      <term><parameter>pattern</parameter></term>
      <listitem>
       <para>
-       Le modèle de profile à lire. Par défaut, c'est <literal>"*"</literal>
+       Le modèle de profile à lire.
       </para>
      </listitem>
     </varlistentry>
