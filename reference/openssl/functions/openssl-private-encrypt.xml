@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-private-encrypt">
@@ -60,8 +60,8 @@
      <term><parameter>padding</parameter></term>
      <listitem>
       <para>
-       Le paramètre <parameter>padding</parameter> est fixé par défaut à
-       <constant>OPENSSL_PKCS1_PADDING</constant> mais peut prendre la valeur
+       Le paramètre <parameter>padding</parameter> peut être
+       <constant>OPENSSL_PKCS1_PADDING</constant> ou
        <constant>OPENSSL_NO_PADDING</constant>.
       </para>
      </listitem>

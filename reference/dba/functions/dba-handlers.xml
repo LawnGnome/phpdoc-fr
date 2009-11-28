@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291316 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.dba-handlers" xmlns="http://docbook.org/ns/docbook">
@@ -27,8 +27,7 @@
      <term><parameter>full_info</parameter></term>
      <listitem>
       <para>
-       Active l'affiche de toutes les informations dans le résultat. Par défaut vaut
-       &false;.
+       Active l'affiche de toutes les informations dans le résultat.
       </para>
      </listitem>
     </varlistentry>

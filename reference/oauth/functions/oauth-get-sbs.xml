@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291194 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.oauth_get_sbs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,7 +15,7 @@
    <type>string</type><methodname>oauth_get_sbs</methodname>
    <methodparam><type>string</type><parameter>http_method</parameter></methodparam>
    <methodparam><type>string</type><parameter>uri</parameter></methodparam>
-   <methodparam><type>array</type><parameter>request_parameters</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>request_parameters</parameter></methodparam>
   </methodsynopsis>
   <para>
    Génère une chaîne de base de signature pour pecl/oauth.
