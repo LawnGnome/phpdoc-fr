@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.class-implements" xmlns="http://docbook.org/ns/docbook">
@@ -43,8 +43,7 @@
       <para>
        Si &true;, autorise cette fonction à charger la classe automatiquement
        grâce à la méthode magique
-       <link linkend="language.oop5.autoload">__autoload</link>. Par défaut,
-       l'argument vaut &true;.
+       <link linkend="language.oop5.autoload">__autoload</link>.
       </para>
      </listitem>
     </varlistentry>

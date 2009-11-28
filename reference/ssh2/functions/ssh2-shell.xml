@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-shell">
@@ -43,8 +43,7 @@
      <listitem>
       <para>
        <parameter>term_type</parameter> doit correspondre à une
-       des entrées du fichier <literal>/etc/termcap</literal> du système cible et vaut 
-       par défaut <literal>vanilla</literal>.
+       des entrées du fichier <literal>/etc/termcap</literal> du système cible.
       </para>
      </listitem>
     </varlistentry>

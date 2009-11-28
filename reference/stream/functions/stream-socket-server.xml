@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291314 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.stream-socket-server" xmlns="http://docbook.org/ns/docbook">
@@ -90,9 +90,7 @@
      <listitem>
       <para>
        Un champ de bits, qui peut être la combinaison de n'importe
-       quelle option de création de socket. La valeur par défaut est
-       <constant>STREAM_SERVER_BIND</constant> | 
-       <constant>STREAM_SERVER_LISTEN</constant>.
+       quelle option de création de socket.
       </para>
       <note>
        <para>
