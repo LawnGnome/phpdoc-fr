@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291249 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
  <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -401,6 +401,12 @@ Préparer un bol de acidophilus framboise.
     le contrôle à la ligne appelante. Voir <function>return</function>
     pour plus d'informations.
    </para>
+   <note>
+    <para>
+     Si <function>return</function> est omis, la valeur &null;
+     sera retournée.
+    </para>
+   </note>
    <para>
     <example>
      <title>Utilisation de <function>return</function></title>

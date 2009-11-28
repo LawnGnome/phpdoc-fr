@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291198 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-fill" xmlns="http://docbook.org/ns/docbook">
@@ -33,7 +33,8 @@
      <term><parameter>start_index</parameter></term>
      <listitem>
       <para>
-       Le premier index du tableau retourné
+       Le premier index du tableau retourné.
+       Ne supporte que les index qui ne sont pas négatifs.
       </para>
      </listitem>
     </varlistentry>
