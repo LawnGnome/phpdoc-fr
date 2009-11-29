@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 291316 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="phardata.extractto" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -52,7 +52,7 @@
      <term><parameter>overwrite</parameter></term>
      <listitem>
       <para>
-       &false; par défaut, passez le à &true; pour activer l'écrasement des fichiers déjà existants
+       Le passer à &true; pour activer l'écrasement des fichiers déjà existants
       </para>
      </listitem>
     </varlistentry>
