@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="sphinxclient.setfilter" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -47,7 +47,6 @@
      <listitem>
       <para>
        S'il vaut &true;, les documents sont exclus du résultat.
-       Par défaut, &false;.
       </para>
      </listitem>
     </varlistentry>

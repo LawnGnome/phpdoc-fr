@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290702 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="tidy.root" xmlns="http://docbook.org/ns/docbook">
@@ -13,15 +13,15 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <para>&style.procedural;</para>
-  <methodsynopsis>
-   <type>tidyNode</type><methodname>tidy_get_root</methodname>
-   <methodparam><type>tidy</type><parameter>object</parameter></methodparam>
-  </methodsynopsis>
   <para>&style.oop;</para>
   <methodsynopsis>
    <type>tidyNode</type><methodname>tidy::root</methodname>
    <void />
+  </methodsynopsis>
+  <para>&style.procedural;</para>
+  <methodsynopsis>
+   <type>tidyNode</type><methodname>tidy_get_root</methodname>
+   <methodparam><type>tidy</type><parameter>object</parameter></methodparam>
   </methodsynopsis>
   <para>
    Retourne un objet <classname>tidyNode</classname> représentant la

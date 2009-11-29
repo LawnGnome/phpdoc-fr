@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 291316 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.intval" xmlns="http://docbook.org/ns/docbook">
@@ -42,7 +42,7 @@
      <term><parameter>base</parameter></term>
      <listitem>
       <para>
-       La base pour la conversion (par défaut, la base vaut 10)
+       La base pour la conversion
       </para>
      </listitem>
     </varlistentry>

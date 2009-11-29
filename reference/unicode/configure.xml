@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 291082 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="unicode.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
-  Premièrement, vous devez télécharger et installer ICU :
+  Tout d'abord, vous devez télécharger et installer ICU :
   <example>
    <title>Installer ICU sur Unix</title>
    <programlisting role="shell">
 <![CDATA[
-./configure --disable-threads --enable-extras --enable-icuio --enable-layout
+./configure --enable-weak-threads
 make && make install
 ]]>
    </programlisting>

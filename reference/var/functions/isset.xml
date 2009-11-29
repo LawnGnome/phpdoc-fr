@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291056 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.isset" xmlns="http://docbook.org/ns/docbook">
@@ -69,7 +69,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne &true; si <parameter>var</parameter> existe ; &false; sinon.
+   Retourne &true; si <parameter>var</parameter> existe et a une valeur
+   autre que &null;, &false; sinon.
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 290702 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="tidy.getoptdoc" xmlns="http://docbook.org/ns/docbook">
@@ -14,15 +14,15 @@
 
  <refsect1 role="description">
   &reftitle.description;
+  <para>&style.oop;</para>
+  <methodsynopsis>
+   <type>string</type><methodname>tidy::getOptDoc</methodname>
+   <methodparam><type>string</type><parameter>optname</parameter></methodparam>
+  </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>
    <type>string</type><methodname>tidy_get_opt_doc</methodname>
    <methodparam><type>tidy</type><parameter>object</parameter></methodparam>
-   <methodparam><type>string</type><parameter>optname</parameter></methodparam>
-  </methodsynopsis>
-  <para>&style.oop;</para>
-  <methodsynopsis>
-   <type>string</type><methodname>tidy::getOptDoc</methodname>
    <methodparam><type>string</type><parameter>optname</parameter></methodparam>
   </methodsynopsis>
   <para>
