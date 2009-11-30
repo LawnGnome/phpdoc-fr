@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.posix-mknod" xmlns="http://docbook.org/ns/docbook">
@@ -61,7 +61,7 @@
      <term><parameter>minor</parameter></term>
      <listitem>
       <para>
-       L'identifiant mineur du dispositif du noyau (par défaut, 0).
+       L'identifiant mineur du dispositif du noyau.
       </para>
      </listitem>
     </varlistentry>

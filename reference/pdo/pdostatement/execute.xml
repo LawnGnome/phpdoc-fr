@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290782 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdostatement.execute" xmlns="http://docbook.org/ns/docbook">
@@ -133,6 +133,16 @@ $sth->execute();
 ]]>
    </programlisting>
   </example>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    Quelques drivers nécessitent de <link linkend="pdostatement.closecursor">fermer
+    le curseur</link> avant d'exécuter la requête suivante.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="seealso">
