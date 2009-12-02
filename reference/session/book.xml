@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291196 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: basic.session -->
 <!-- Membership: core -->
@@ -61,11 +61,6 @@
     référence à lui-même à un autre objet).
    </para>
   </warning>
-  <note>
-   <para>
-    La gestion des sessions a été ajoutée en PHP 4.0.0.
-   </para>
-  </note>
   <note>
    <para>
     Notez que lorsque vous travaillez avec les sessions, un enregistrement

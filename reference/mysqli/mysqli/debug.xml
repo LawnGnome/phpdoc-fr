@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291566 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli.debug" xmlns="http://docbook.org/ns/docbook">
@@ -71,7 +71,7 @@
 <?php
 
 /* Génère un fichier de "trace" dans '/tmp/client.trace' sur la machine (cliente) locale : */
-mysqli_debug("d:t:0,/tmp/client.trace");
+mysqli_debug("d:t:o,/tmp/client.trace");
 
 ?>
 ]]>

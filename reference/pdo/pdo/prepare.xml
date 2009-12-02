@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290706 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290976 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdo.prepare" xmlns="http://docbook.org/ns/docbook">
@@ -25,6 +25,8 @@
    pour lesquels les valeurs réelles seront substituées lorsque la requête sera exécutée.
    Vous ne pouvez pas utiliser les marqueurs nommés et les marqueurs interrogatifs
    dans une même requête SQL ; choisissez l'un ou l'autre.
+   Utilisez ces paramètres pour lier les entrées utilisateurs, ne les incluez pas
+   directement dans la requête.
   </para>
   <para>
    Vous devez inclure un marquer avec un nom unique pour chaque valeur que
