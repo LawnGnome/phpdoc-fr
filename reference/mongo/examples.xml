@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291705 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mongo.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,8 +15,6 @@
   <programlisting role="php">
 <![CDATA[
 <?php
-
-include "mongo.php";
 
 // connexion
 $m = new Mongo();
