@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291570 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291806 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 <!-- Purpose: compression -->
 <!-- Membership: pecl, external -->
@@ -28,9 +28,8 @@
  &reference.rar.setup;
  &reference.rar.constants;
  &reference.rar.examples;
+ &reference.rar.rararchive;
  &reference.rar.rarentry;
- <!-- FIXME: Apparently this extension has some classes -->
- &reference.rar.reference;
 
 </book>
 
