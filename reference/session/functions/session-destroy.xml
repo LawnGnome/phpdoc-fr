@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290693 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291738 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-destroy">
@@ -59,11 +59,11 @@ $_SESSION = array();
 // le cookie de session.
 // Note : cela détruira la session et pas seulement les données de session !
 if (ini_get("session.use_cookies")) {
- $params = session_get_cookie_params();
- setcookie(session_name(), '', time() - 42000,
-  $params["path"], $params["domain"],
-  $params["secure"], $params["httponly"]
- );
+    $params = session_get_cookie_params();
+    setcookie(session_name(), '', time() - 42000,
+        $params["path"], $params["domain"],
+        $params["secure"], $params["httponly"]
+    );
 }
 
 // Finalement, on détruit la session.

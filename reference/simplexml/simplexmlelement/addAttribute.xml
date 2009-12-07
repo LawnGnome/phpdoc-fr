@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283836 Maintainer: dams Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- Reviewed: no -->
 
-<refentry xml:id='function.simplexml-element-addAttribute' xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='simplexmlelement.addAttribute' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::addAttribute</refname>
   <refpurpose>
-   Ajoute un attribut Ã  l'Ã©lÃ©ment SimpleXML
+   Ajoute un attribut à l'élément SimpleXML
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
@@ -22,7 +22,7 @@
    </methodsynopsis>
   </classsynopsis>
   <para>
-   Ajoute un attribut Ã  l'Ã©lÃ©ment SimpleXML.
+   Ajoute un attribut à l'élément SimpleXML.
   </para>
  </refsect1>
 
@@ -34,7 +34,7 @@
      <term><parameter>name</parameter></term>
      <listitem>
       <para>
-       Le nom de l'attribut Ã  ajouter.
+       Le nom de l'attribut à ajouter.
       </para>
      </listitem>
     </varlistentry>
@@ -50,7 +50,7 @@
      <term><parameter>namespace</parameter></term>
      <listitem>
       <para>
-       Si spÃ©cifiÃ©, l'espace de nom auquel l'attribut appartient.
+       Si spécifié, l'espace de nom auquel l'attribut appartient.
       </para>
      </listitem>
     </varlistentry>
@@ -69,13 +69,13 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Ajoute des attributs et enfants Ã  un Ã©lÃ©ment SimpleXML</title>
+    <title>Ajoute des attributs et enfants à un élément SimpleXML</title>
     <programlisting role="php">
 <![CDATA[
 <?php
 
 include 'example.php';
-
+ 
 $sxe = new SimpleXMLElement($xmlstr);
 $sxe->addAttribute('type', 'documentary');
 
@@ -90,7 +90,7 @@ $character->addChild('actor', 'John Doe');
 
 $rating = $movie->addChild('rating', '5');
 $rating->addAttribute('type', 'stars');
-
+ 
 echo $sxe->asXML();
 
 ?>
@@ -121,7 +121,7 @@ sgml-indent-step:1
 sgml-indent-data:t
 indent-tabs-mode:nil
 sgml-parent-document:nil
-sgml-default-dtd-file:"../../../../manual.ced"
+sgml-default-dtd-file:"~/.phpdoc/manual.ced"
 sgml-exposed-tags:nil
 sgml-local-catalogs:nil
 sgml-local-ecat-files:nil
