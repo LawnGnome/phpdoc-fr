@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291759 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mssql-next-result" xmlns="http://docbook.org/ns/docbook">
@@ -59,7 +59,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// Connexion à MSSQL
+// Connexion à MSSQL et sélection de la base de données
 $link = mssql_connect('MANGO\SQLEXPRESS', 'sa', 'phpfi');
 mssql_select_db('php', $link);
 
@@ -68,14 +68,12 @@ $sql = 'SELECT [name], [age] FROM [php].[dbo].[persons]';
 $query = mssql_query($sql, $link);
 
 // Itération dans les lignes lues
-do
-{
-	while($row = mssql_fetch_row($query))
-	{
-		// Gestion des lignes
-	}
-}
-while(mssql_next_result($query));
+do {
+    while ($row = mssql_fetch_row($query))
+    {
+        // Gestion des lignes
+    }
+} while (mssql_next_result($query));
 
 // Nettoyage
 mssql_free_result($query);

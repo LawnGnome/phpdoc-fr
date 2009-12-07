@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291759 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mssql-query" xmlns="http://docbook.org/ns/docbook">
@@ -83,9 +83,8 @@
 // Connexion à MSSQL
 $link = mssql_connect('KALLESPC\SQLEXPRESS', 'sa', 'phpfi');
 
-if(!$link || !mssql_select_db('php', $link))
-{
-	die('Impossible de se connecter à la base!');
+if (!$link || !mssql_select_db('php', $link)) {
+    die('Impossible de se connecter à la base!');
 }
 
 // Exécution d'une requête simple, pour obtenir la 

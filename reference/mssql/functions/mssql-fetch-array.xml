@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291314 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291759 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mssql-fetch-array" xmlns="http://docbook.org/ns/docbook">
@@ -74,24 +74,20 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// Requête de sélection sur MSSQL
+// Requête de sélection à MSSQL
 $query = mssql_query('SELECT [username], [name] FROM [php].[dbo].[userlist]');
 
 // Vérifie s'il y a des lignes
-if(!mssql_num_rows($query))
-{
- echo 'Pas de ligne trouvée';
-}
-else
-{
- // Ceci est équivalent au code ci-dessous :
- //
- // while($row = mssql_fetch_row($query))
+if (!mssql_num_rows($query)) {
+    echo 'Pas de ligne trouvée';
+} else {
+    // Ceci est équivalent au code ci-dessous :
+    //
+    // while($row = mssql_fetch_row($query))
 
- while($row = mssql_fetch_array($query, MSSQL_NUM))
- {
-  // ...
- }
+    while ($row = mssql_fetch_array($query, MSSQL_NUM)) {
+        // ...
+    }
 }
 
 // Libération des ressources

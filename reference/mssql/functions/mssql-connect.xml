@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291759 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mssql-connect" xmlns="http://docbook.org/ns/docbook">
@@ -119,11 +119,11 @@
 // <serveur>,<port> quand on utilise un port différent de celui par défaut
 $server = 'KALLESPC\SQLEXPRESS';
 
+// Connexion à MSSQL
 $link = mssql_connect($server, 'sa', 'phpfi');
 
-if(!$link)
-{
-	die('Erreur de connexion à MSSQL');
+if(!$link) {
+    die('Erreur de connexion à MSSQL');
 }
 ?>
 ]]>

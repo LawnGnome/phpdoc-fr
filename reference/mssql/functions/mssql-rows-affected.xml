@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291760 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.mssql-rows-affected' xmlns="http://docbook.org/ns/docbook">
@@ -8,14 +8,12 @@
   <refname>mssql_rows_affected</refname>
   <refpurpose>Retourne le nombre de lignes affectées par une requête MS SQL Server</refpurpose>
  </refnamediv>
-
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>mssql_rows_affected</methodname>
    <methodparam><type>resource</type><parameter>link_identifier</parameter></methodparam>
   </methodsynopsis>
-
   <para>
    Retourne le nombre de lignes affectées par la dernière requête en écriture.
   </para>
