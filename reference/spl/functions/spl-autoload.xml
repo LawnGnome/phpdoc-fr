@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291890 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.spl-autoload" xmlns="http://docbook.org/ns/docbook">
@@ -18,8 +18,11 @@
    <methodparam choice="opt"><type>string</type><parameter>file_extensions</parameter><initializer>spl_autoload_extensions()</initializer></methodparam>
   </methodsynopsis>
   <para>
-   Cette fonction est prévue pour être utilisée en tant qu'implémentation par défaut
-   pour __autoload().
+   Cette fonction est prévu pour être utilisé comme implémentation par défaut
+   pour <function>__autoload</function>. Si rien de plus n'est spécifié et que
+   <function>spl_autoload_register</function> est appelé sans aucun paramètre,
+   alors cette fonction sera utilisée pour tous les futures appels à
+   <function>__autoload</function>.
   </para>
  </refsect1>
 
