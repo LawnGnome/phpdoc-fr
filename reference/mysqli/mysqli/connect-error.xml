@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291956 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mysqli.connect-error" xmlns="http://docbook.org/ns/docbook">
@@ -29,7 +29,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Une chaîne qui décrit l'erreur. Une chaîne vide si aucune erreur ne survient.
+   Une chaîne qui décrit l'erreur ou &null; si aucune erreur ne survient.
   </para>
  </refsect1>
 
