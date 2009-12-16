@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290705 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 291695 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -1336,7 +1336,7 @@ echo (true?'true':false?'t':'f');
 // car l'expression ternaire est évaluée de gauche à droite
 
 // l'expression suivante est une version plus évidente du même code
-echo ((true ? 'true' : 'false') ? 't' : 'f');
+echo ((true ? 'true' : false) ? 't' : 'f');
 
 // ici, vous pouvez voir que la première expression est évaluée à 'true',
 // ce qui fait qu'elle est évaluée à (bool)true, ce qui retourne la branche
