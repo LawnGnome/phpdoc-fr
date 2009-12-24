@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291759 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 292371 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mssql-field-length" xmlns="http://docbook.org/ns/docbook">
@@ -70,7 +70,7 @@ mssql_select_db('php');
 // Envoi d'une requête Select
 $query = mssql_query('SELECT [name], [age] FROM [php].[dbo].[persons]');
 
-// Affichage du type de champ et sa taille
+// Affichage de la taille du champ et sa taille
 echo 'Le champ \'age\' a la taille de ' . mssql_field_length($query, 1);
 
 // Free the query result
