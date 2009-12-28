@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 292172 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mongocollection.batchinsert" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -59,7 +59,7 @@ for ($i=0; $i<100; $i++) {
 }
 
 $m = new Mongo();
-$c = $m->selectCollection("foo", "bar.baz");
+$c = $m->foo->bar->baz;
 $c->batchInsert($batch);
 
 $cursor = $c->find()->sort(array("i" => 1));
