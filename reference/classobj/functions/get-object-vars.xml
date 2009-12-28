@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 292660 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.get-object-vars" xmlns="http://docbook.org/ns/docbook">
@@ -55,6 +55,22 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.3.0</entry>
+       <entry>
+        Cette fonction retourne maintenant <type>NULL</type>
+        si le paramètre <parameter>object</parameter> n'est pas un
+        objet.
+       </entry>
+      </row>
+      <row>
+       <entry>Avant 5.3.0</entry>
+       <entry>
+        Si le paramètre <parameter>object</parameter> n'est pas un
+        objet, alors la fonction
+        <function>get_object_vars</function> retourne &false;
+       </entry>
+      </row>
       <row>
        <entry>Avant 4.2.0</entry>
        <entry>
