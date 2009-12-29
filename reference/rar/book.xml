@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291806 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 292613 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 <!-- Purpose: compression -->
 <!-- Membership: pecl, external -->
@@ -30,6 +30,7 @@
  &reference.rar.examples;
  &reference.rar.rararchive;
  &reference.rar.rarentry;
+ &reference.rar.rarexception;
 
 </book>
 
