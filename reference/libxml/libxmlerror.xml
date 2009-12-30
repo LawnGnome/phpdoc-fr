@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289106 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 292734 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:classref
@@ -40,7 +40,7 @@
     </classsynopsisinfo>
 <!-- }}} -->
  
-    <classsynopsisinfo role="comment">Propriétés</classsynopsisinfo>
+    <classsynopsisinfo role="comment">&Properties;</classsynopsisinfo>
     <fieldsynopsis>
      <modifier>public</modifier>
      <type>int</type>
