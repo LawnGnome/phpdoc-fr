@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 292800 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.property-exists" xmlns="http://docbook.org/ns/docbook">
@@ -58,6 +58,11 @@
    Retourne &true; si la propriété existe, &false; si elle n'existe pas et &null;
    si une erreur survient.
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  &note.uses-autoload;
  </refsect1>
 
  <refsect1 role="changelog">
