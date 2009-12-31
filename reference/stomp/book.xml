@@ -3,7 +3,7 @@
 <!-- EN-Revision: 290998 Maintainer: pierrick Status: ready -->
 
 <book xml:id="book.stomp" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Stomp Client</title>
+ <title>Client Stomp</title>
  <titleabbrev>Stomp</titleabbrev>
  
  <preface xml:id="intro.stomp">
