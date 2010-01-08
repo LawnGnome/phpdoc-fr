@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293050 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.touch">
@@ -104,11 +104,9 @@
 <![CDATA[
 <?php
 if (touch($FileName)) {
-    echo "La date de modification de $FileName a
-    été fixée à maintenant";
+    echo "La date de modification de $FileName a été modifié à la date courante";
 } else {
-    echo "Désolé, il est impossible de changer 
-    la date de modification de $FileName";
+    echo "Désolé, il est impossible de changer la date de modification de $FileName";
 }
 ?>
 ]]>
@@ -129,12 +127,9 @@ if (touch($FileName)) {
 $time = time() - 3600;
 
 /* Touchons le fichier ! */
-if(!touch('some_file.txt', $time))
-{
+if (!touch('some_file.txt', $time)) {
     echo 'Whoops, une erreur est survenue...';
-}
-else
-{
+} else {
     echo 'L\'appel à la fonction touch() a réussi';
 }
 ?>
