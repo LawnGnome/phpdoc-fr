@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagepolygon" xmlns="http://docbook.org/ns/docbook">
@@ -118,6 +118,7 @@ imagedestroy($image);
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>Affichage de l'exemple : imagepolygon()</alt>
      <imageobject>
       <imagedata fileref="en/reference/image/figures/image.imagepolygon.png"/>
      </imageobject>

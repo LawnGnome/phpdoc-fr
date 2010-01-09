@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagecreatefromjpeg" xmlns="http://docbook.org/ns/docbook">
@@ -83,6 +83,7 @@ imagedestroy($img);
    </programlisting>
    &example.outputs.similar;
    <mediaobject>
+    <alt>Affichage de l'exemple : Exemple de gestion d'une erreur durant le chargement d'un JPEG</alt>
     <imageobject>
      <imagedata fileref="en/reference/image/figures/image.imagecreatefromjpeg.jpg"/>
     </imageobject>
