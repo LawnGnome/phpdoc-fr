@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291698 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293198 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.oop5.serialization" xmlns="http://docbook.org/ns/docbook">
@@ -23,11 +23,11 @@
   En d'autres termes, si vous  avez un objet de la classe A et le sérialisez, 
   la représentation linéaire obtenue dépendra de la classe A et contiendra toutes 
   ses variables. Si vous voulez désérialiser la représentation linéaire dans un 
-  endroit où la classe A
-  n'est pas définie (dans un autre fichier par exemple), alors vous devrez redéclarer 
-  la classe A avant de procéder à la désérialisation de la représentation linéaire.
-  Cela peut-être fait, par exemple, en incluant le fichier de définition de la classe
-  ou en utilisant la fonction <function>spl_autoload_register</function>.
+  endroit où la classe A n'est pas définie (dans un autre fichier par exemple),
+  alors vous devrez redéclarer la classe A avant de procéder à la désérialisation
+  de la représentation linéaire. Cela peut-être fait, par exemple, en incluant le
+  fichier de définition de la classe ou en utilisant la fonction
+  <function>spl_autoload_register</function>.
  </para>  
  
  <informalexample>

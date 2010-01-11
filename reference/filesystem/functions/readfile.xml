@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.readfile">
@@ -95,6 +95,7 @@ if (file_exists($file)) {
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>Fenêtre d'ouverture / de sauvegarde</alt>
      <imageobject>
       <imagedata fileref="en/reference/filesystem/figures/filesystem.readfile.png"/>
      </imageobject>
