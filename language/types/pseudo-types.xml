@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293478 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.pseudo-types">
@@ -166,6 +166,8 @@ print implode(' ', $new_numbers);
     "<link linkend="language.references">Explication sur les références</link>".
    </simpara>
   </note>
+
+  &note.func-callback-exceptions;
 
  </sect2>
 

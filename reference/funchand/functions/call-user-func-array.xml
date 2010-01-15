@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 293573 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.call-user-func-array" xmlns="http://docbook.org/ns/docbook">
@@ -154,6 +154,7 @@ int(8)
     suivant que le paramètre est passé par valeur ou par référence.
    </para>
   </note>
+  &note.func-callback-exceptions;
  </refsect1>
 
  <refsect1 role="seealso">

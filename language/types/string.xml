@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 293550 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -341,7 +341,7 @@ EOD
 // Variables statiques
 function foo()
 {
- static $bar = <<<LABEL
+    static $bar = <<<LABEL
 Nothing in here...
 LABEL;
 }
@@ -349,11 +349,11 @@ LABEL;
 // Constantes et propriétés de classe
 class foo
 {
- const BAR = <<<FOOBAR
+    const BAR = <<<FOOBAR
 Constant example
 FOOBAR;
 
- public $baz = <<<FOOBAR
+    public $baz = <<<FOOBAR
 Property example
 FOOBAR;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293049 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293577 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stat">
@@ -196,6 +196,7 @@ echo 'Date et heure de modification : ' . $stat['mtime'];
 
 /* Affichage du numéro du device */
 echo 'Numéro du Device : ' . $stat['dev'];
+?>
 ]]>
     </programlisting>
    </example>
