@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293617 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagegrabwindow" xmlns="http://docbook.org/ns/docbook">
@@ -27,7 +27,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>window</parameter></term>
+     <term><parameter>window_handle</parameter></term>
      <listitem>
       <para>
        L'identifiant HWND de la fenêtre.

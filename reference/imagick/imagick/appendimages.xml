@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289130 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 293274 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-appendimages">
@@ -75,6 +75,7 @@ echo $combined;
     </programlisting>
     &example.outputs.similar;
     <mediaobject>
+     <alt>Affichage de l'exemple : Imagick::appendImages()</alt>
      <imageobject>
       <imagedata fileref="en/reference/imagick/figures/floodfillpaint_intermediate.png"/>
      </imageobject>

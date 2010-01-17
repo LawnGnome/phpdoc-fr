@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 293630 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="domdocument.createelement" xmlns="http://docbook.org/ns/docbook">
@@ -38,7 +38,7 @@
      <listitem>
       <para>
        La valeur de l'élément. Par défaut, un élément vide sera créé.
-       Vous pouvez également définir la valeur plus tard avec la fonction 
+       La valeur peut également être définie plus tard avec la fonction 
        <literal>DOMElement->nodeValue</literal>.
       </para>
      </listitem>
@@ -99,6 +99,18 @@ echo $dom->saveXML();
    </example>
   </para>
  </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    La valeur <parameter>value</parameter> ne sera <emphasis>pas</emphasis>
+    échappée. Utilisez la méthode <methodname>DOMDocument::createTextElement</methodname>
+    pour créer un nœud de texte avec le support de l'échappement.
+   </para>
+  </note>
+ </refsect1>
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>

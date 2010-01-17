@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 290585 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.ingres-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
@@ -74,6 +74,10 @@
        la fonction <function>ingres-query</function>
        pour une liste de requêtes SQL qui ne peuvent pas être
        exécutées via la fonction <function>ingres_unbuffered_query</function>.
+      </para>
+      <para>
+       Les données contenues dans la requête doivent être <link
+       linkend="function.dbx-escape-string">proprement échappées</link>.
       </para>
      </listitem>
     </varlistentry>
@@ -190,6 +194,7 @@ if (ingres_errno())
    <simplelist>
     <member><function>ingres_query</function></member>
     <member><function>ingres_fetch_array</function></member>
+    <member><function>ingres_fetch_assoc</function></member>
     <member><function>ingres_fetch_object</function></member>
     <member><function>ingres_fetch_row</function></member>
     <member><function>ingres_commit</function></member>
