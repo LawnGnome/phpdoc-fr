@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293483 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.preg-split" xmlns="http://docbook.org/ns/docbook">
@@ -132,12 +132,6 @@
        <entry>4.0.5</entry>
        <entry>
         Le drapeau <constant>PREG_SPLIT_DELIM_CAPTURE</constant> a été ajouté.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.0</entry>
-       <entry>
-        Le paramètre <parameter>flags</parameter> a été ajouté.
        </entry>
       </row>
      </tbody>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290051 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 292248 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.preg-match" xmlns="http://docbook.org/ns/docbook">
@@ -294,11 +294,12 @@ Le nom de domaine est : php.net
 
 $str = 'foobar: 2008';
 
-// Fonctionne en PHP 5.2.2 et suivants
-preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
+preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
 
-// Avant PHP 5.2.2, utilisez ceci :
-// preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
+/* Ceci fonctionne également en PHP 5.2.2 (PCRE 7.0) et suivants,
+ * cependant, la syntaxe ci-dessous est recommandée pour des raisons
+ * de compatibilités ascendantes */
+// preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
 
 print_r($matches);
 
