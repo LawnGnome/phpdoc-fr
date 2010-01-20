@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290829 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 293656 Maintainer: gui Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="faq.build" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -228,7 +228,7 @@
        <simpara>
         Compilez PHP en lançant tout d'abord
         <command>./configure --with-apache=/&lt;path&gt;/apache-1.3</command>
-        (remplacez &lt;path&gt; par le chemin de votre répertoire apache-1.3)
+        (remplacez &lt;path&gt; par le chemin de votre répertoire apache-1.3).
        </simpara>
       </listitem>
       <listitem>
