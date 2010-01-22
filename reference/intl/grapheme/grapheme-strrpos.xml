@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291316 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.grapheme-stripos" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="function.grapheme-strrpos" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>grapheme_stripos</refname>
-  <refpurpose>Trouve la position en graphème de la première occurrence dans une chaîne, insensible à la casse</refpurpose>
+  <refname>grapheme_strrpos</refname>
+  <refpurpose>Trouve la position du dernier graphème</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <para>Procedural style</para>
   <methodsynopsis>
-   <type>int</type><methodname>grapheme_stripos</methodname>
+   <type>int</type><methodname>grapheme_strrpos</methodname>
    <methodparam><type>string</type><parameter>haystack</parameter></methodparam>
    <methodparam><type>string</type><parameter>needle</parameter></methodparam>
    <methodparam choice='opt'><type>int</type><parameter>offset</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Trouve la position en graphème de la première occurrence dans une chaîne,
-   en effectuant une recherche insensible à la casse.
-  </para> 
- </refsect1>
+   Trouve la position du dernier graphème, en effectuant une recherche
+   sensible à la casse.
+  </para>
+  </refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -47,7 +47,7 @@
      <term><parameter>offset</parameter></term>
      <listitem>
       <para>
-       Le paramètre $offset permet de spécifier la position dans la $haystack 
+       Le paramètre $offset permet de spécifier la position dans la $haystack
        de début de recherche, exprimée en graphème (et non pas en octets ou caractères).
        S'il est omis, la valeur par défaut est zéro. La position retournée
        est toujours donnée par rapport au début de $haystack, quelque soit
@@ -63,24 +63,23 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la position, sous forme d'entier. Si $needle n'est pas trouvé,
-   <function>grapheme_stripos</function> retourne &false;.   
+   Retourne la position sous forme d'un entier. Si $needle n'est pas trouvé,
+   <function>grapheme_strrpos</function> retourne &false;.   
   </para>
  </refsect1>
  
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Exemple avec <function>grapheme_stripos</function></title>
+   <title>Exemple avec <function>grapheme_strrpos</function></title>
    <programlisting role="php">
 <![CDATA[
-<?php
+< ?php
 
 $char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) forme normalisée "D"
 $char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) forme normalisée "D"
-$char_O_diaeresis_nfd = "O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) forme normalisée "D"
 
-print grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd);
+print grapheme_strrpos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_o_diaeresis_nfd, $char_o_diaeresis_nfd);
 
 ?>
 ]]>
@@ -98,10 +97,10 @@ print grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>grapheme_stripos</function></member>
     <member><function>grapheme_stristr</function></member>
     <member><function>grapheme_strpos</function></member>
     <member><function>grapheme_strripos</function></member>
-    <member><function>grapheme_strrpos</function></member>
     <member><function>grapheme_strstr</function></member>
     <member>
      <link xlink:href="&uri.unicode.graphemes;">
@@ -124,7 +123,7 @@ sgml-indent-step:1
 sgml-indent-data:t
 indent-tabs-mode:nil
 sgml-parent-document:nil
-sgml-default-dtd-file:"../../../../manual.ced"
+sgml-default-dtd-file:"~/.phpdoc/manual.ced"
 sgml-exposed-tags:nil
 sgml-local-catalogs:nil
 sgml-local-ecat-files:nil
