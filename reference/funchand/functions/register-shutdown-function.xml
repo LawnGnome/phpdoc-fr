@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293483 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293992 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.register-shutdown-function" xmlns="http://docbook.org/ns/docbook">
@@ -19,7 +19,8 @@
   </methodsynopsis>
   <para>
    <function>register_shutdown_function</function> enregistre la fonction 
-   <parameter>function</parameter> pour exécution à l'extinction.
+   <parameter>function</parameter> pour exécution à l'extinction ou
+   lorsque <function>exit</function> est appelé.
   </para>
   <para>
    Plusieurs appels à <function>register_shutdown_function</function> sont

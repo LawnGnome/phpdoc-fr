@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 293990 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickpixeliterator-getnextiteratorrow">
@@ -25,7 +25,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne une ligne, sous la forme d'un &array; d'objets ImagickPixel,
+   Retourne la prochaine ligne, sous la forme d'un &array; d'objets ImagickPixel,
    ou lance une exception ImagickPixelIteratorException si une erreur survient.
   </para>
  </refsect1>

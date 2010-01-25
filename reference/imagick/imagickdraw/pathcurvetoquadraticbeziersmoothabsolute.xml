@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294010 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-pathcurvetoquadraticbeziersmoothabsolute">
@@ -20,7 +20,7 @@
   <para>
    Dessine une courbe de Bézier de puissance 4, en coordonnées relatives, à 
    partir du point courant (<parameter>x</parameter>, <parameter>y</parameter>). Le point de contrôle est la réflexion du
-   point de contrôle sur la commande de dessin en coordonnées relatives.
+   point de contrôle sur la commande de dessin en coordonnées absolues.
    S'il n'y a pas eu de commande précédente ou si la commande précédente
    n'était pas <methodname>ImagickDraw::DrawPathCurveToQuadraticBezierAbsolute</methodname>, 
    <methodname>ImagickDraw::DrawPathCurveToQuadraticBezierRelative</methodname> ou
