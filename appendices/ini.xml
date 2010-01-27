@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293483 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294085 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -5252,9 +5252,6 @@ include_path=".;c:\php\includes"
        <para>
         Le nombre maximum de fichiers pouvant être envoyés simultanément.
        </para>
-
-       &ini.shorthandbytes;
-
       </listitem>
      </varlistentry>
     </variablelist>
