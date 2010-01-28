@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293598 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294154 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="mongo.manual" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Manuel</title>
 
+ &reference.mongo.configure;
+ &reference.mongo.ini;
  &reference.mongo.tutorial;
  &reference.mongo.examples;
  &reference.mongo.datatypes;

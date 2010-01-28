@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294141 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageproperty">
@@ -43,7 +43,7 @@
    <example>
     <title>Exemple avec <function>Imagick::getImageProperty</function></title>
     <para>
-     Définition et récupération de propriétés de l'image.
+     Définition et récupération des propriétés de l'image.
     </para>
     <programlisting role="php">
 <![CDATA[
