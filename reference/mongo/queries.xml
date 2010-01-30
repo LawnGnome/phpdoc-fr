@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293598 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294158 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="mongo.queries" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Interrogation de MongoDB</title>
+ <title>Interrogation</title>
 
  <section>
-  <title>INterrogation sur un _id</title>
+  <title>Interrogation sur un _id</title>
   <para>
    Chaque objet inséré se voit assigné automatiquement un champ unique _id,
    qui est bien utile pour être utilisé dans les requêtes..
