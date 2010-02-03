@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294290 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setoption">
@@ -18,7 +18,7 @@
   </methodsynopsis>
   &warn.undocumented.func;
   <para>
-   Configure une option de l'objet Imagick.
+   Configure une ou plusieurs  options de l'objet Imagick.
   </para>
  </refsect1>
 
