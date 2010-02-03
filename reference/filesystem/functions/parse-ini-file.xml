@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293498 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294383 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.parse-ini-file">
@@ -243,7 +243,7 @@ Array
 // Une fonction simple pour comparer les résultats ci-dessous
 function yesno($expression)
 {
- return($expression ? 'Yes' : 'No');
+    return($expression ? 'Yes' : 'No');
 }
 
 // Lit le chemin du php.ini en utilisant php_ini_loaded_file() 

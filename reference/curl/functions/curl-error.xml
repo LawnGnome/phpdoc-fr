@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294379 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='function.curl-error' xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,11 +51,11 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 if(curl_exec($ch) === false)
 {
-	echo 'Erreur Curl : ' . curl_error($ch);
+    echo 'Erreur Curl : ' . curl_error($ch);
 }
 else
 {
-	echo 'L\'opération s\'est terminée sans aucune erreur';
+    echo 'L\'opération s\'est terminée sans aucune erreur';
 }
 
 // Fermeture du gestionnaire
