@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294393 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imageistruecolor" xmlns="http://docbook.org/ns/docbook">
@@ -49,14 +49,14 @@
 // Vérife sir l'image est en truecolor ou non
 if(!imageistruecolor($im))
 {
-        // Création d'une nouvelle image en truecolor
-        $tc = imagecreatetruecolor(imagesx($im), imagesy($im));
+    // Création d'une nouvelle image en truecolor
+    $tc = imagecreatetruecolor(imagesx($im), imagesy($im));
 
-        imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im));
-        imagedestroy($im);
+    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im));
+    imagedestroy($im);
 
-        $im = $tc;
-        $tc = NULL;
+    $im = $tc;
+    $tc = NULL;
 }
 
 // On continue de travailler avec l'instance de l'image

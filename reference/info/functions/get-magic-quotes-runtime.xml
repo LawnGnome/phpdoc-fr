@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293633 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294395 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.get-magic-quotes-runtime" xmlns="http://docbook.org/ns/docbook">
@@ -39,8 +39,8 @@
 // Vérifie si magic_quotes_runtime est activé
 if(get_magic_quotes_runtime())
 {
-        // Désactivation
-        set_magic_quotes_runtime(false);
+    // Désactivation
+    set_magic_quotes_runtime(false);
 }
 ?>
 ]]>

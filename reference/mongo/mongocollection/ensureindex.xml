@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291235 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294401 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.ensureindex" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -80,7 +80,7 @@
    Returns &true;.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="changelog">
   &reftitle.changelog;
   <para>
