@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293172 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 294566 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
@@ -1273,7 +1273,6 @@
         Ajout de <constant>CURLOPT_AUTOREFERER</constant>,
         <constant>CURLOPT_BINARYTRANSFER</constant>,
         <constant>CURLOPT_FTPSSLAUTH</constant>,
-        <constant>CURLOPT_AUTOREFERER</constant>,
         <constant>CURLOPT_PROXYAUTH</constant> et
         <constant>CURLOPT_TIMECONDITION</constant>.
        </entry>

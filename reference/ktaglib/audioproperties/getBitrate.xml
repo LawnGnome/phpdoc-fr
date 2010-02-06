@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294399 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="audioproperties.getBitrate" xmlns="http://docbook.org/ns/docbook">
-  <refnamediv>
-    <refname>KTaglib_MPEG_AudioProperties::getBitrate</refname>
-    <refpurpose>Retourne le débit binaire d'un fichier MPEG</refpurpose>
-  </refnamediv>
-  <refsect1 role="description">
-    &reftitle.description;
-    <methodsynopsis>
-    <modifier>public</modifier>
-      <type>int</type>
-      <methodname>KTaglib_MPEG_AudioProperties::getBitrate</methodname>
-      <void />
-    </methodsynopsis>
-    <para>
-     Retourne le débit binaire d'un fichier MPEG.
-    </para>
-  </refsect1>
+ <refnamediv>
+  <refname>KTaglib_MPEG_AudioProperties::getBitrate</refname>
+  <refpurpose>Retourne le débit binaire d'un fichier MPEG</refpurpose>
+ </refnamediv>
+ <refsect1 role="description">
+  &reftitle.description;
+  <methodsynopsis>
+   <modifier>public</modifier>
+   <type>int</type>
+   <methodname>KTaglib_MPEG_AudioProperties::getBitrate</methodname>
+   <void />
+  </methodsynopsis>
+  <para>
+   Retourne le débit binaire d'un fichier MPEG.
+  </para>
+ </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    Retourne le débit binaire, sous la forme d'un entier.
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file

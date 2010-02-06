@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 294399 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="audioproperties.isCopyrighted" xmlns="http://docbook.org/ns/docbook">
-  <refnamediv>
-    <refname>KTaglib_MPEG_AudioProperties::isCopyrighted</refname>
-    <refpurpose>Retourne true si le fichier MPEG est sous copyright</refpurpose>
-  </refnamediv>
-  <refsect1 role="description">
-    &reftitle.description;
-    <methodsynopsis>
-    <modifier>public</modifier>
-      <type>bool</type>
-      <methodname>KTaglib_MPEG_AudioProperties::isCopyrighted</methodname>
-      <void />
-    </methodsynopsis>
-    <para>
-     Retourne true si le fichier MPEG est sous copyright.
-    </para>
-  </refsect1>
+ <refnamediv>
+  <refname>KTaglib_MPEG_AudioProperties::isCopyrighted</refname>
+  <refpurpose>Retourne true si le fichier MPEG est sous copyright</refpurpose>
+ </refnamediv>
+ <refsect1 role="description">
+  &reftitle.description;
+  <methodsynopsis>
+   <modifier>public</modifier>
+   <type>bool</type>
+   <methodname>KTaglib_MPEG_AudioProperties::isCopyrighted</methodname>
+   <void />
+  </methodsynopsis>
+  <para>
+   Retourne true si le fichier MPEG est sous copyright.
+  </para>
+ </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    Retourne true si le fichier MPEG est sous copyright.
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
