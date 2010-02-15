@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 291996 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongo.pairpersistconnect" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Mongo::pairPersistConnect</refname>
-  <refpurpose>Crée une connexion persistante avec une paire de serveurs</refpurpose>
+  <refpurpose>Crée une connexion persistante avec une paire de serveurs [déprécié]</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -16,6 +16,10 @@
    <methodparam choice="opt"><type>string</type><parameter>username</parameter><initializer>""</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>password</parameter><initializer>""</initializer></methodparam>
   </methodsynopsis>
+  <para>
+   Passez "mongodb://server1,server2" et <literal>array("persist" => $id)</literal>
+   au constructeur plutôt que d'utiliser cette méthode.
+  </para>
  </refsect1>
 
  <refsect1 role="parameters">
