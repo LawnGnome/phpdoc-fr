@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 295214 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: no -->
 
-<section xml:id="ps.installation" xmlns="http://docbook.org/ns/docbook">
+<section xml:id="ps.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
  <para>
-  Une courte note pour l'installation : tapez seulement
-  <screen>
-$ pecl install ps
-  </screen>
-  dans votre console.
+  &pecl.info;
+  <link xlink:href="&url.pecl.package;ps">&url.pecl.package;ps</link>.
+ </para>
+ <para>
+  &pecl.windows.download;
  </para>
 </section>
 
