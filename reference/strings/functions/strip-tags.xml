@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293483 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 295297 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strip-tags">
@@ -18,9 +18,9 @@
   </methodsynopsis>
   <para>
    <function>strip_tags</function> tente de retourner la chaîne <parameter>str</parameter>
-   après avoir supprimé toutes les balises PHP et HTML du code. Elle génère des
-   alertes si les balises sont incomplètes ou erronées. Elle utilise le même
-   moteur de recherche que <function>fgetss</function>.
+   après avoir supprimé tous les octets nuls, toutes les balises PHP et HTML du code.
+   Elle génère des alertes si les balises sont incomplètes ou erronées. Elle utilise
+   le même moteur de recherche que <function>fgetss</function>.
   </para>
  </refsect1>
 
