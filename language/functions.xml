@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293480 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 295456 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -723,7 +723,7 @@ class Panier
             };
         
         array_walk($this->products, $callback);
-        return round($total, 2);;
+        return round($total, 2);
     }
 }
 

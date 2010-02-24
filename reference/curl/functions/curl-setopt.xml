@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294566 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 295418 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
@@ -523,7 +523,7 @@
           <row>
            <entry><constant>CURLOPT_LOW_SPEED_TIME</constant></entry>
            <entry>
-            Le temps en secondes, qui, si la vitesse de
+            Le temps en secondes, pendant lequel si le
             transfert reste en dessous de <constant>CURLOPT_LOW_SPEED_LIMIT</constant>,
             PHP considérera que la connexion est trop lente, et l'annulera.
            </entry>

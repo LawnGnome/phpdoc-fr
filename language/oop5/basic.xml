@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294876 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 295468 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
  <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -194,6 +194,11 @@ object(SimpleClass)#1 (1) {
     ne sera pas surchargeable. Il est possible d'accéder à une
     méthode ou un membre statique avec l'opérateur
     <link linkend="language.oop5.paamayim-nekudotayim">parent::</link>
+   </para>
+   <para>
+    Lors de la surcharge de méthodes, la signature devrait rester la même sinon
+    PHP génèrera une erreur de niveau <constant>E_STRICT</constant>. Ceci ne s'applique pas
+    au constructeur, qui accepte la surcharge avec des paramètres différents.
    </para>
    <example>
     <title>Héritage d'une classe simple</title>

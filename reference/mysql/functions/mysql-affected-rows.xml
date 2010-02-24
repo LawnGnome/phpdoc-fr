@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 295471 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-affected-rows" xmlns="http://docbook.org/ns/docbook">
@@ -136,6 +136,14 @@ Lignes modifiées : 10
    <para>
     Pour obtenir le nombre de lignes retournées par un SELECT, il est possible
     d'utiliser <function>mysql_num_rows</function>.
+   </para>
+  </note>
+  <note>
+   <title>Clés étrangères en cascade</title>
+   <para>
+     <function>mysql_affected_rows</function> ne compte pas les enregistrement affectés
+     implicitement par un ON DELETE CASCADE et/ou un ON UPDATE CASCADE, concernant les
+     clés étrangères.
    </para>
   </note>
  </refsect1>

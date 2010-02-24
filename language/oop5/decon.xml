@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293992 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 295470 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
  <sect1 xml:id="language.oop5.decon" xmlns="http://docbook.org/ns/docbook">
@@ -61,6 +61,11 @@ $obj = new SubClass();
     un problème de compatibilité est celui où votre classe contiendrait une
     méthode nommée <literal>__construct()</literal> et que vous en ayez un
     autre usage.
+   </para>
+   <para>
+    A la différence des autres méthodes, PHP ne génèrera pas d'erreur de niveau
+    <constant>E_STRICT</constant> lorsque <function>__construct</function> est
+    surchargée avec des paramètres différents du constructeur parent.
    </para>
   </sect2>
 
