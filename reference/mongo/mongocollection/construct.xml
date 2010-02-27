@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291045 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 295518 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mongocollection.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -60,7 +60,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Emet une exception <classname>InvalidArgumentException</classname> si la connexion est invalide.
+   Emet l'exception par défaut si la connexion est invalide.
   </para>
  </refsect1>
 </refentry>

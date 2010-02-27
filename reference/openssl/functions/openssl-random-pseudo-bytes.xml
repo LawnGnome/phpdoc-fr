@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290987 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 295193 Maintainer: jpauli Status: ready -->
 <!--  Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-random-pseudo-bytes">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>string</type><methodname>openssl_random_pseudo_bytes</methodname>
    <methodparam><type>string</type><parameter>length</parameter></methodparam>
-   <methodparam><type>bool</type><parameter>strong</parameter></methodparam>
+   <methodparam><type>string</type><parameter>strong</parameter></methodparam>
   </methodsynopsis>
   <para>
    <function>openssl_random_pseudo_bytes</function> retourne une chaine de longueur
