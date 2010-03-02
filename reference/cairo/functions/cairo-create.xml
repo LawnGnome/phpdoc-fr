@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294366 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 295683 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.cairo-create" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>cairo_create</refname>
-  <refpurpose></refpurpose>
+  <refpurpose>Retourne un nouvel objet CairoContext pour la surface demandée</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>Cairo</type><methodname>cairo_create</methodname>
+   <type>CairoContext</type><methodname>cairo_create</methodname>
    <methodparam><type>CairoSurface</type><parameter>surface</parameter></methodparam>
   </methodsynopsis>
   <para>

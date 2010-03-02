@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 295702 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="arrayobject.getiteratorclass" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>ArrayObject::getIteratorClass</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>ArrayObject::getIteratorClass</methodname>
    <void/>
   </methodsynopsis>
   <para>
