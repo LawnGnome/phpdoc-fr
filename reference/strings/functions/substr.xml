@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290417 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 295733 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr">
@@ -173,6 +173,7 @@ var_dump(substr('a', 1)); // bool(false)
     <member><function>trim</function></member>
     <member><function>mb_substr</function></member>
     <member><function>wordwrap</function></member>
+    <member><link linkend="language.types.string.substr">Accès et modification d'une chaîne, par caractère</link></member>
    </simplelist>
   </para>
  </refsect1>
