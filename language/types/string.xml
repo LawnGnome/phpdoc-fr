@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295107 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 295733 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -722,7 +722,9 @@ echo "I'd like an {${beers::$ale}}\n";
     On peut accéder et modifier les caractères d'une &string; en spécifiant
     sa position (à partir de 0) en utilisant la même syntaxe que pour les tableaux,
     comme pour la variable <varname>$str[42]</varname>.
-    Il convient de voir une &string; comme un &array; dans ce cas.
+    Il convient de voir une &string; comme un &array; dans ce cas. Les fonctions
+    <function>substr</function> et <function>substr_replace</function>
+    peuvent être utilisées quand vous voulez extraire ou remplacer plus d'un caractère.
    </para>
 
    <note>
