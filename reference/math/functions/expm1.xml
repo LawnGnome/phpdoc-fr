@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 295992 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='function.expm1' xmlns="http://docbook.org/ns/docbook">
@@ -16,7 +16,6 @@
    <type>float</type><methodname>expm1</methodname>
    <methodparam><type>float</type><parameter>arg</parameter></methodparam>
   </methodsynopsis>
-  &warn.experimental.func;
   <para>
    <function>expm1</function> retourne l'équivalent de
    <literal>exp(arg) -  1</literal> calculé de telle sorte qu'il

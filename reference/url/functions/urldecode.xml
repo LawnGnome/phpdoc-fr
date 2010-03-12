@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 296092 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.urldecode" xmlns="http://docbook.org/ns/docbook">
@@ -17,7 +17,8 @@
   </methodsynopsis>
   <para>
    Décode toutes les séquences <literal>%<replaceable>##</replaceable></literal>
-   et les remplace par leur valeur.
+   et les remplace par leur valeur. Les caractères '<literal>+</literal>'
+   sont décodés en un caractère d'espacement.
   </para>
  </refsect1>
 
