@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 296206 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.money-format">
@@ -194,7 +194,7 @@
            <para>
             Le nombre est formaté en fonction du format monétaire national
             (e.g. pour la configuration <literal>de_DE</literal> :
-            <literal>DM1.234,56</literal>).
+            <literal>EU1.234,56</literal>).
            </para>
           </listitem>
          </varlistentry>
