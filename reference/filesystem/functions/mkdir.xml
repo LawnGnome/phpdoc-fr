@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295712 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 296582 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
@@ -150,7 +150,7 @@ $structure = './depth1/depth2/depth3/';
 
 if(!mkdir($structure, 0, true))
 {
- die('Echec lors de la création des répertoires...');
+    die('Echec lors de la création des répertoires...');
 }
 
 /* ... */
