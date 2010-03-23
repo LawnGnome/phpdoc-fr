@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295841 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 296471 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -4365,6 +4365,11 @@ auto_prepend_file=security.php
          <link linkend="ini.variables-order">variables_order</link> 
          est utilisé pour le contenu de <varname>$_REQUEST</varname>.
         </para>
+         <para>
+         Notez que les fichiers <filename>php.ini</filename> de la distribution
+         par défaut ne contiennent pas <literal>'C'</literal> pour les cookies,
+         ceci pour des raisons de sécurité.
+       </para>
        </listitem>
       </varlistentry>
 
