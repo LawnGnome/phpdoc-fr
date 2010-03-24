@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 296659 Maintainer: jsgoupil Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- Reviewed: no -->
@@ -112,7 +112,7 @@
        de données PostgreSQL :
        <programlisting>
 <![CDATA[
-pgsql:host=localhost port=5432 dbname=testdb user=bruce password=mypass
+pgsql:host=localhost;port=5432;dbname=testdb;user=bruce;password=mypass
 ]]>
        </programlisting>
       </para>
