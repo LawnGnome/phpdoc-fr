@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 296348 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.sha1">
@@ -92,7 +92,6 @@ $str = 'pomme';
 
 if (sha1($str) === '752c14ea195c460bac3c3b7896975ee9fd15eeb7') {
     echo "Voulez-vous une golden ou une spartan ?";
-    exit;
 }
 ?>
 ]]>
