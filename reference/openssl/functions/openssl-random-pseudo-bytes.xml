@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295193 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: jpauli Status: ready -->
 <!--  Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-random-pseudo-bytes">
