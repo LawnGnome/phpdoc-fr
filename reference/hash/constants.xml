@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
@@ -15,7 +15,7 @@
    <listitem>
     <simpara>
      Drapeau optionnel pour <function>hash_init</function>.
-     Indique que l'algorithme de clé HMAC doit être appliqué au contexte
+     Indique que l'algorithme de clÃ© HMAC doit Ãªtre appliquÃ© au contexte
      courant de hachage.
     </simpara>
    </listitem>
