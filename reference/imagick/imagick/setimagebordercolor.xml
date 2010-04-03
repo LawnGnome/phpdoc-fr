@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
@@ -66,8 +66,8 @@
       <row>
        <entry>2.1.0</entry>
        <entry>
-        Permet désormais l'utilisation d'une chaîne pour représenter la couleur.
-        Les versions précédentes ne permettaient que les objets
+        Permet dÃ©sormais l'utilisation d'une chaÃ®ne pour reprÃ©senter la couleur.
+        Les versions prÃ©cÃ©dentes ne permettaient que les objets
         <classname>ImagickPixel</classname>.
        </entry>
       </row>
