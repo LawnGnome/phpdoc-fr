@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
@@ -47,7 +47,7 @@
    </term>
    <listitem>
     <simpara>
-     Ajouté en PHP 5.1.
+     AjoutÃ© en PHP 5.1.
     </simpara>
    </listitem>
   </varlistentry>
