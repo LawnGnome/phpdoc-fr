@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
@@ -33,7 +33,7 @@
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
-   Si le conteneur est null, le premier conteneur de la pile est retourné.
+   Si le conteneur est null, le premier conteneur de la pile est retournÃ©.
   </para>
  </refsect1>
 </refentry>
