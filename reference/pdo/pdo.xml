@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
@@ -13,8 +13,8 @@
   <section xml:id="pdo.intro">
    &reftitle.intro;
    <para>
-    Représente une connexion entre PHP et un serveur de
-    base de données.
+    ReprÃ©sente une connexion entre PHP et un serveur de
+    base de donnÃ©es.
    </para>
   </section>
 <!-- }}} -->
