@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 297557 Maintainer: dams Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.types.type-juggling">
@@ -146,9 +146,11 @@ $bar = (boolean) $foo;   // $bar est un booléen
    <listitem>
     <simpara>(string) : modification en <type>string</type></simpara>
    </listitem>
+   <!-- FIXME PHP_6
    <listitem>
     <simpara>(binary) : modification en <type>string</type> binaire (PHP 6)</simpara>
    </listitem>
+   -->
    <listitem>
     <simpara>(array) : modification en <type>array</type></simpara>
    </listitem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 297502 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
@@ -141,19 +141,17 @@ mkdir("/path/to/my/dir", 0700);
     <programlisting role="php">
 <![CDATA[
 <?php
-/* Structure de répertoire désirée */
+// Structure de répertoire désirée
 $structure = './depth1/depth2/depth3/';
 
-/* Pour créer une stucture imbriquée, le paramètre $recursive 
- * doit être spécifié.
- */
+// Pour créer une stucture imbriquée, le paramètre $recursive 
+// doit être spécifié.
 
-if(!mkdir($structure, 0, true))
-{
+if (!mkdir($structure, 0, true)) {
     die('Echec lors de la création des répertoires...');
 }
 
-/* ... */
+// ...
 ?>
 ]]>
     </programlisting>

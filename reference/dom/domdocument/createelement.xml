@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 297518 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="domdocument.createelement" xmlns="http://docbook.org/ns/docbook">
@@ -78,7 +78,7 @@
 <![CDATA[
 <?php
 
-$dom = new DOMDocument('1.0', 'iso-8859-1');
+$dom = new DOMDocument('1.0', 'utf-8');
 
 $element = $dom->createElement('test', 'Ceci est l\'élément racine !');
 
