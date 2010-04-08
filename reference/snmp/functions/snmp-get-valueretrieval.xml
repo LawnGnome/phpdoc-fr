@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
@@ -7,7 +7,7 @@
  <refnamediv>
   <refname>snmp_get_valueretrieval</refname>
   <refpurpose>
-   Retourne la méthode avec laquelle les valeurs SNMP seront retournées
+   Retourne la mÃ©thode avec laquelle les valeurs SNMP seront retournÃ©es
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">

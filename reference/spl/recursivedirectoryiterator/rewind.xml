@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
@@ -6,7 +6,7 @@
 <refentry xml:id="recursivedirectoryiterator.rewind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveDirectoryIterator::rewind</refname>
-  <refpurpose>Revient à la position initiale dans le dossier</refpurpose>
+  <refpurpose>Revient Ã  la position initiale dans le dossier</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
