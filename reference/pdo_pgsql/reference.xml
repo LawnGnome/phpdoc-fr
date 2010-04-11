@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 297816 Maintainer: jsgoupil Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- Reviewed: no -->
@@ -39,7 +39,7 @@
     &reftitle.description;
     <para>
      Le Data Source Name (DSN) de PDO_PGSQL est composé des éléments suivants,
-     délimités par des espaces :
+     délimités par des espaces ou des points-virgules :
      <variablelist>
       <varlistentry>
        <term>Préfixe DSN</term>

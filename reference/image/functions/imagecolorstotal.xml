@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 297828 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagecolorstotal" xmlns="http://docbook.org/ns/docbook">
@@ -23,7 +23,15 @@
   &reftitle.parameters;
   <para>
    <variablelist>
-    &gd.image.description;
+    <varlistentry>
+     <term><parameter>image</parameter></term>
+     <listitem>
+      <para>
+       Une ressource représentant une image, retournée par une des fonctions
+       de création d'images, comme la fonction <function>imagecreatefromgif</function>.
+      </para>
+     </listitem>
+    </varlistentry>
    </variablelist>
   </para>
  </refsect1>
