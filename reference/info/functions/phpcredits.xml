@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 297890 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.phpcredits" xmlns="http://docbook.org/ns/docbook">
@@ -69,7 +69,7 @@
            <entry>CREDITS_GENERAL</entry>
            <entry>
             Crédits Généraux : conception et design du langage,
-            auteurs de PHP 4.0, module SAPI.
+            auteurs de PHP et du module SAPI.
            </entry>
           </row>
           <row>
@@ -125,7 +125,7 @@ phpcredits(CREDITS_GENERAL);
     <programlisting role="php">
 <![CDATA[
 <?php
-phpcredits(CREDITS_GROUP + CREDITS_DOCS + CREDITS_FULLPAGE);
+phpcredits(CREDITS_GROUP | CREDITS_DOCS | CREDITS_FULLPAGE);
 ?>
 ]]>
     </programlisting>
