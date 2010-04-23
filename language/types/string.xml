@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297557 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 298247 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -72,7 +72,7 @@
 
    <note>
     <simpara>
-     Contrairement aux 2 autres syntaxes, les
+     Contrairement aux 3 autres syntaxes, les
      <link linkend="language.variables">variables</link> et les séquences échappées
      des caractères spéciaux ne seront <emphasis>pas</emphasis> traitées lorsqu'elles
      seront dans une &string; entourée de simples guillemets.
