@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 298371 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.exit" xmlns="http://docbook.org/ns/docbook">
@@ -40,9 +40,10 @@
       </para>
       <para>
        Si le paramètre <parameter>status</parameter> est un &integer;, cette valeur
-       pourra être utilisée comme statut de sortie. Le statut de sortie peut être
-       dans l'intervalle 0-255, le statut de sortie 255 est réservé par PHP et ne doit
-       pas être utilisé. Le statut 0 est utilisé pour terminer le programme avec succès.
+       pourra être utilisée comme statut de sortie et ne sera pas affichée. Le statut
+       de sortie peut être dans l'intervalle 0-255, le statut de sortie 255 est réservé
+       par PHP et ne doit pas être utilisé. Le statut 0 est utilisé pour terminer le
+       programme avec succès.
       </para>
       <note>
        <simpara>
