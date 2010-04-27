@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 298615 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="arrayobject.offsetexists" xmlns="http://docbook.org/ns/docbook">
@@ -45,14 +45,14 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple avec <methodname>ArrayObject::offsetexists</methodname></title>
+    <title>Exemple avec <methodname>ArrayObject::offsetExists</methodname></title>
     <programlisting role="php">
 <![CDATA[
 <?php
 $arrayobj = new ArrayObject(array('zero', 'one', 'example'=>'e.g.'));
-var_dump($arrayobj->offsetexists(1));
-var_dump($arrayobj->offsetexists('example'));
-var_dump($arrayobj->offsetexists('notfound'));
+var_dump($arrayobj->offsetExists(1));
+var_dump($arrayobj->offsetExists('example'));
+var_dump($arrayobj->offsetExists('notfound'));
 ?>
 ]]>
     </programlisting>
