@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 298760 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <!ENTITY PHPManual           "Manuel PHP">
@@ -66,6 +66,7 @@
 <!ENTITY Changelog         "Historique">
 <!ENTITY Methods           "Méthodes">
 <!ENTITY InheritedMethods  "Méthodes héritées">
+<!ENTITY InheritedProperties "Propriétés héritées">
 <!ENTITY Properties        "Propriétés">
 <!ENTITY Constants         "Constantes">
 
