@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 298804 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.array-merge" xmlns="http://docbook.org/ns/docbook">
@@ -28,8 +28,9 @@
    les valeurs sont ajoutées en fin de tableau.
   </para>
   <para>
-   Si vous passez un seul tableau à cette fonction et qu'il a des index
-   numériques, les clés seront réindexées normalement.
+   Si tous les tableaux contiennent uniquement des clés numériques,
+   le tableau résultant contiendra des clés d'incrément, en commençant
+   par zéro.
   </para>
  </refsect1>
 
