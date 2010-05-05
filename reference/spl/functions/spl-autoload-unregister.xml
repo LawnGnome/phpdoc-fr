@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 298960 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.spl-autoload-unregister" xmlns="http://docbook.org/ns/docbook">
@@ -22,8 +22,8 @@
    alors elle sera désactivée.
   </para>
   <para>
-   Lorsque cette fonction active une pile autoload, une fonction
-   __autoload existante ne sera pas réactivée.
+   Lorsque cette fonction active une pile autoload,
+   toutes les fonctions __autoload existantes ne seront pas réactivées.
   </para>
  </refsect1>
 

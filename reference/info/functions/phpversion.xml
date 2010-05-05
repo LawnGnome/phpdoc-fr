@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 298957 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.phpversion" xmlns="http://docbook.org/ns/docbook">
@@ -120,6 +120,7 @@ if (PHP_VERSION_ID < 50207) {
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><link linkend="reserved.constants.core">les constantes PHP_VERSION</link></member>
     <member><function>version_compare</function></member>
     <member><function>phpinfo</function></member>
     <member><function>phpcredits</function></member>

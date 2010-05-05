@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298918 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 298954 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.finfo-open" xmlns="http://docbook.org/ns/docbook">
@@ -56,6 +56,10 @@
        <filename>/usr/share/misc/magic</filename> est utilisé. L'extension
        <literal>.mime</literal> et/ou <literal>.mgc</literal> est ajoutée si
        approprié.
+      </para>
+      <para>
+       Le fait de passer NULL ou une &string; vide équivaut à
+       utiliser la valeur par défaut.
       </para>
      </listitem>
     </varlistentry>
