@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 299169 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-num-rows">
  <refnamediv>
   <refname>maxdb_num_rows</refname>
+  <refname>maxdb->num_rows</refname>
   <refpurpose>Récupère le nombre de lignes dans un résultat</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>Style procédural :</para>
+  <para>&style.procedural;</para>
   <methodsynopsis>
    <type>int</type><methodname>maxdb_num_rows</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
   </methodsynopsis>
-  <para>Style orienté objet (propriété) :</para>
+  <para>&style.oop;</para>
   <classsynopsis>
    <ooclass><classname>maxdb</classname></ooclass>
    <fieldsynopsis><type>int</type><varname>num_rows</varname></fieldsynopsis>
