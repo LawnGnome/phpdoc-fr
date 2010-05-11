@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 299196 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli.character-set-name" xmlns="http://docbook.org/ns/docbook">
@@ -47,6 +47,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
+   <title>Exemple avec <methodname>mysqli::character_set_name</methodname></title>
    <para>&style.oop;</para>
    <programlisting role="php">
 <![CDATA[
