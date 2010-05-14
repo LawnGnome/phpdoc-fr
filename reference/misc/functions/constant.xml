@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 299326 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.constant" xmlns="http://docbook.org/ns/docbook">
@@ -50,6 +50,14 @@
   &reftitle.returnvalues;
   <para>
    Retourne la valeur de la constante, ou &null; si la constante n'est pas définie.
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   Une alerte de niveau <constant>E_WARNING</constant> sera générée
+   si la constante n'est pas définie.
   </para>
  </refsect1>
 
