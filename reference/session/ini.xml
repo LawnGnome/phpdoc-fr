@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297557 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 299469 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="session.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -161,8 +161,7 @@
      <entry>"1"</entry>
      <entry>PHP_INI_ALL</entry>
      <entry>
-      &php.version.added; 4.3.0. 
-      &php.version.retired; 6.0.0.
+      &php.version.added; 4.3.0. &removed.php.future;
      </entry>
     </row>
     <row>
