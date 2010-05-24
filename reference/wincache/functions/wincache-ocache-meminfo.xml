@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297997 Maintainer: pierrick Status: ready -->
+<!-- EN-Revision: 299503 Maintainer: pierrick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.wincache-ocache-meminfo" xmlns="http://docbook.org/ns/docbook">
@@ -102,6 +102,7 @@ Array
     <member><function>wincache_ucache_meminfo</function></member>
     <member><function>wincache_ucache_info</function></member>
     <member><function>wincache_scache_info</function></member>
+    <member><function>wincache_scache_meminfo</function></member>
    </simplelist>
   </para>
  </refsect1>
