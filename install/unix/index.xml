@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 299643 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
@@ -92,8 +92,6 @@
  &install.unix.apache1;
  &install.unix.apache2;
  &install.unix.lighttpd-14;
- &install.unix.caudium;
- &install.unix.fhttpd;
  &install.unix.sun;
  &install.unix.commandline;
  <!-- spécifiques aux systèmes -->
