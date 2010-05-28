@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299627 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 299859 Maintainer: yannick Status: ready -->
 
 <!--
 NOTE AUX TRADUCTEURS :
@@ -572,6 +572,9 @@ de détails.</para>'>
 
 <!ENTITY odbc.parameter.search 'Ce paramètre accepte les masques de recherche suivants :
 "&#x25;" pour chercher zéro ou plusieurs caractères, et "_" pour chercher un seul caractère.'>
+
+<!ENTITY oauth.callback.error 'Émet une erreur <constant xmlns="http://docbook.org/ns/docbook">E_ERROR</constant>
+si la fonction de rappel ne peut être appelée ou n&#39;a pas été spécifiée.'>
 
 <!-- Oracle -->
 <!ENTITY oci.db "<para xmlns='http://docbook.org/ns/docbook' xmlns:xlink='http://www.w3.org/1999/xlink'>
