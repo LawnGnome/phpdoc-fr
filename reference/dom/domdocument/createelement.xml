@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297518 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 300172 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="domdocument.createelement" xmlns="http://docbook.org/ns/docbook">
@@ -105,7 +105,7 @@ echo $dom->saveXML();
   <note>
    <para>
     La valeur <parameter>value</parameter> ne sera <emphasis>pas</emphasis>
-    échappée. Utilisez la méthode <methodname>DOMDocument::createTextElement</methodname>
+    échappée. Utilisez la méthode <methodname>DOMDocument::createTextNode</methodname>
     pour créer un nœud de texte avec le support de l'échappement.
    </para>
   </note>
