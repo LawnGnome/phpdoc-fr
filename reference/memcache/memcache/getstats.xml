@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 299490 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.memcache-getstats" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="memcache.getstats" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::getStats</refname>
   <refpurpose>Lit les statistiques du serveur</refpurpose>
@@ -25,6 +25,7 @@
    ces statistiques.
    Vous pouvez aussi utiliser la fonction <function>memcache_get_stats</function>.
   </para>
+
  </refsect1>
 
  <refsect1 role="parameters">

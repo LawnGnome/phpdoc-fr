@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297209 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 299490 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.memcache-increment" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="memcache.decrement" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Memcache::increment</refname>
-  <refpurpose>Incrément la valeur d'un élément</refpurpose>
+  <refname>Memcache::decrement</refname>
+  <refpurpose>Décrémente la valeur d'un élément</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>Memcache::increment</methodname>
+   <type>int</type><methodname>Memcache::decrement</methodname>
    <methodparam><type>string</type><parameter>key</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>value</parameter><initializer>1</initializer></methodparam>
   </methodsynopsis>
 
   <para>
-   <function>Memcache::increment</function> incrémente la valeur d'un élément
-   identifié par la clé <parameter>key</parameter> par la valeur
-   <parameter>value</parameter>. Si l'élément identifié par la clé 
-   <parameter>key</parameter> n'est pas de type numérique et ne peut
-   être converti en nombre, la valeur de cette élément sera défini à 
-   <parameter>value</parameter>.
-   <function>Memcache::increment</function> <emphasis>ne crée pas</emphasis>
-   un élément s'il n'existe pas.
+   <function>Memcache::decrement</function> décrémente la valeur de 
+   l'élément par <parameter>value</parameter>. De la même façon
+   que la fonction <function>memcache::increment</function>, la valeur courante
+   de l'élément est tout d'abord convertie en numérique et seulement ensuite,
+   on soustrait la valeur <parameter>value</parameter>.
    <note>
     <para>
-     N'utilisez pas <function>memcache::increment</function> avec les éléments
+     La nouvelle valeur de l'élément ne peut être inférieure à zéro.
+    </para>
+   </note>
+   <note>
+    <para>
+     N'utilisez pas la fonction <function>Memcache::decrement</function> avec les éléments
      stockés compressés. Dans ce cas, l'appel à la fonction
      <function>Memcache::get</function> échouera.
     </para>
    </note>
-   Vous pouvez également utiliser la fonction <function>memcache_increment</function>.
+   <function>Memcache::decrement</function> <emphasis>ne crée pas</emphasis>
+   d'élément s'il n'existe pas.
+   Vous pouvez également utiliser la fonction <function>memcache_decrement</function>.
   </para>
 
  </refsect1>
@@ -46,7 +50,7 @@
      <term><parameter>key</parameter></term>
      <listitem>
       <para>
-       Clé de l'élément à incrémenter.
+       Clé de l'élément à décrémenter.
       </para>
      </listitem>
     </varlistentry>
@@ -54,7 +58,7 @@
      <term><parameter>value</parameter></term>
      <listitem>
       <para>
-       Incrémente l'élément par <parameter>value</parameter>.
+       Décrémente l'élément par <parameter>value</parameter>.
       </para>
      </listitem>
     </varlistentry>
@@ -65,7 +69,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la valeur du nouvel élément en cas de succès &return.falseforfailure;.
+   Retourne la valeur du nouvel élément en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
 
@@ -73,26 +77,25 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple avec <function>Memcache::increment</function></title>
+    <title>Exemple avec <function>Memcache::decrement</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
 
-/* API procédurale */
+/* API proécédurale */
 $memcache_obj = memcache_connect('memcache_host', 11211);
-/* incrémentation du compteur de 2 */
-$current_value = memcache_increment($memcache_obj, 'counter', 2);
+/* décrémentation de l'élément par 2 */
+$new_value = memcache_decrement($memcache_obj, 'test_item', 2);
 
 /* API orientée objet */
 $memcache_obj = new Memcache;
 $memcache_obj->connect('memcache_host', 11211);
-/* incrémentation du compteur de 3 */
-$current_value = $memcache_obj->increment('counter', 3);
-
+/* décrémentation de l'élément par 3 */
+$new_value = $memcache_obj->decrement('test_item', 3);
 ?>
 ]]>
-    </programlisting>
-   </example>
+     </programlisting>
+    </example>
   </para>
  </refsect1>
 
@@ -100,7 +103,7 @@ $current_value = $memcache_obj->increment('counter', 3);
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>Memcache::decrement</function></member>
+    <member><function>Memcache::increment</function></member>
     <member><function>Memcache::replace</function></member>
    </simplelist>
   </para>

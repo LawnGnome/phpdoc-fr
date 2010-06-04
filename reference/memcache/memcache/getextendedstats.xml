@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 299490 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.memcache-getextendedstats" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="memcache.getextendedstats" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::getExtendedStats</refname>
   <refpurpose>Récupère des statistiques de tous les serveurs dans la liste</refpurpose>
@@ -26,11 +26,13 @@
    aura ses entrées correspondantes fixées à &false;.
    Vous pouvez également utiliser la fonction <function>memcache_get_extended_stats</function>.
   </para>
+  
   <note>
    <para>
     Cette fonction a été ajoutée à la version de Memcache 2.0.0.
    </para>
   </note>
+ 
  </refsect1>
 
  <refsect1 role="parameters">
@@ -91,7 +93,7 @@
     $memcache_obj = new Memcache;
     $memcache_obj->addServer('memcache_host', 11211);
     $memcache_obj->addServer('failed_host', 11211);
-
+    
     $stats = $memcache_obj->getExtendedStats();
     print_r($stats);
 ?>
