@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 300307 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mysqli-escape-string" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_escape_string</refname>
-  <refpurpose>Alias de <function>mysqli_real_escape_string</function></refpurpose>
+  <refpurpose>&Alias; <function>mysqli_real_escape_string</function></refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   <function>mysqli_escape_string</function> est un alias de la fonction
-   <function>mysqli_real_escape_string</function>.
+   &info.function.alias; <function>mysqli_real_escape_string</function>.
   </para>
  </refsect1>
-
- <refsect1 role="seealso">
-  &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><function>mysqli_real_escape_string</function></member>
-   </simplelist>
-  </para>
- </refsect1>
-
 </refentry>
 
 <!-- Keep this comment at the end of the file
