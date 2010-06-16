@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 300428 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.pg-last-notice" xmlns="http://docbook.org/ns/docbook">
@@ -109,7 +109,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple avec <function>pg_last_error</function></title>
+    <title>Exemple avec <function>pg_last_notice</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
