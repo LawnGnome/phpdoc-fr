@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296664 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 300509 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mysqlnd.stats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -796,7 +796,7 @@
      <entry>Connexion</entry>
      <entry>Nombre total de colonnes d'un certain type retournées à partir d'une commande préparée 
       (protocole binaire MySQL).</entry>
-     <entry>Pour la correspondance des types, regardez <literal>proto_text_*</literal> ci-dessus.</entry>
+     <entry>Pour la correspondance des types, regardez <literal>proto_text_*</literal> décrit ci-dessus.</entry>
     </row>
    </tbody>
   </tgroup>
