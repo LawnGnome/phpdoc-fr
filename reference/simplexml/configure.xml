@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="simplexml.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
-  L'extension SimpleXML est activé par défaut. Pour la désactiver, utilisez 
-  l'option de configuration <option role="configure">--disable-simplexml</option>.
+  &installation.enabled.disable;
+  <option role="configure">--disable-simplexml</option>
+ </para>
+ <para>
+  Note : Avant PHP 5.1.2, <option role="configure">--enable-simplexml</option>
+  est nécessaire pour activer cette extension.
  </para>
 </section>
 

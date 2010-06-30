@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 300860 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="wddx.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
   Après avoir installé Expat, compilez
-  PHP avec <option role="configure">--enable-wddx</option>.
+  PHP avec <option role="configure">--enable-wddx</option> et utilisez
+  <option role="configure">--with-libexpat-dir</option> pour Expat.
  </para>
  &windows.builtin;
 </section>
