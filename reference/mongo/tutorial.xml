@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296032 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 301119 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="mongo.tutorial" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -54,6 +54,7 @@ $db = $connection->mybiglongdbname;
 $db = $connection->mybiglongdbnme;
 // Maintenant, vous êtes connecté à une base de données différente !
 
+?>
 ]]>
    </programlisting>
   </para>
@@ -68,7 +69,7 @@ $db = $connection->mybiglongdbnme;
 <![CDATA[
 <?php
 
-$db = $connection->baz
+$db = $connection->baz;
 $collection = $db->foobar;
 
 // ou, plus succinctement

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 301112 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
@@ -41,7 +41,7 @@
     pour échapper les caractères, un peu comme le fait Sybase.
     Ajoutez à votre fichier &php.ini; la directive suivante :
     <informalexample>
-     <programlisting role="php">
+     <programlisting role="php.ini">
 <![CDATA[
 magic_quotes_sybase = On
 ]]>
