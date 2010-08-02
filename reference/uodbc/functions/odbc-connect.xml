@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 301718 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.odbc-connect" xmlns="http://docbook.org/ns/docbook">
@@ -114,7 +114,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Connexion sans DNS</title>
+    <title>Connexion sans DSN</title>
     <programlisting role="php">
 <![CDATA[
 <?php
