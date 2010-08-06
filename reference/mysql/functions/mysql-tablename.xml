@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300101 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 301806 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-tablename" xmlns="http://docbook.org/ns/docbook">
@@ -20,7 +20,7 @@
    Lit le nom de la table depuis le jeu de résultats <parameter>result</parameter>.
   </para>
   <para>
-   Cette fonction est dépréciée. Il est préférable d'utiliser la fonction
+   Cette fonction est obsolète. Il est préférable d'utiliser la fonction
    <function>mysql_query</function> avec une requête SQL <literal>SHOW TABLES 
     [FROM db_name] [LIKE 'pattern']</literal> à la place.
   </para>

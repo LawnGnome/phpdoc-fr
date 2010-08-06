@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301724 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 301784 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
@@ -35,7 +35,7 @@
 
   <para>
    Des morceaux du manuel MySQL ont été inclues dans la documentation PHP
-   avec la permission de Oracle Inc.
+   avec la permission de Oracle Corporation.
   </para>
 
   <section xml:id="mysqli.examples">
@@ -44,8 +44,7 @@
 
    <para>
     Tous les exemples de la documentation <literal>mysqli</literal> 
-    utilisent la base de données world de Oracle, Inc. 
-    Elle est disponible à l'adresse 
+    utilisent la base de données world. Celle-ci est disponible à l'adresse 
     <link xlink:href="&url.mysql.example;">&url.mysql.example;</link>
    </para>
 
