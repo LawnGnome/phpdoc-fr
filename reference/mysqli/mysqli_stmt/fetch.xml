@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 301933 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli-stmt.fetch" xmlns="http://docbook.org/ns/docbook">
@@ -83,7 +83,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <para>&style.oop;</para>
+   <title>&style.oop;</title>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -119,7 +119,9 @@ $mysqli->close();
 ?>
 ]]>
    </programlisting>
-   <para>&style.procedural;</para>
+  </example>
+  <example>
+   <title>&style.procedural;</title>
    <programlisting role="php">
 <![CDATA[
 <?php
