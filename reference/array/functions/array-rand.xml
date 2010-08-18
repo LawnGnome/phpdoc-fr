@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298761 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 302055 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-rand" xmlns="http://docbook.org/ns/docbook">
@@ -16,8 +16,7 @@
    <methodparam choice="opt"><type>int</type><parameter>num_req</parameter><initializer>1</initializer></methodparam>
   </methodsynopsis>
   <para>
-   <function>array_rand</function> est pratique lorsque vous voulez
-   sélectionner une ou plusieurs valeurs au hasard dans un tableau.
+   Sélectionne une ou plusieurs valeurs au hasard dans un tableau et retourne la ou les clés de ces valeurs.
   </para>
  </refsect1>
 

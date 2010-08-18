@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299628 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 302383 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-decode" xmlns="http://docbook.org/ns/docbook">
@@ -32,6 +32,9 @@
      <listitem>
       <para>
        La chaîne <parameter>json</parameter> à décoder.
+      </para>
+      <para>
+       Cette fonction ne traite qu'avec des données encodées avec UTF-8.
       </para>
      </listitem>
     </varlistentry>

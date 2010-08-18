@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301629 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 302054 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-last-error" xmlns="http://docbook.org/ns/docbook">
@@ -60,7 +60,7 @@
      </row>
      <row>
       <entry><constant>JSON_ERROR_STATE_MISMATCH</constant></entry>
-      <entry>Erreur d'état</entry>
+      <entry>JSON invalide ou mal formé</entry>
       <entry></entry>
      </row>
      <row>
