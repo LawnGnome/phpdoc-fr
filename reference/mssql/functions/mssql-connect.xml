@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 302468 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mssql-connect" xmlns="http://docbook.org/ns/docbook">
@@ -38,7 +38,8 @@
      <listitem>
       <para>
        Le serveur MS SQL. Il peut également contenir le numéro du port, . e.g.
-       <literal>hostname,port</literal>.
+       <literal>hostname:port</literal> (Linux), ou 
+       <literal>hostname,port</literal> (Windows).
       </para>
      </listitem>
     </varlistentry>
