@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 302813 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.bcpowmod" xmlns="http://docbook.org/ns/docbook">
@@ -72,8 +72,7 @@
   <note>
    <para>
     Comme cette méthode utilise les opérations de modulo, les nombres
-    non naturels risquent de donner des résultats inattendus. Un nombre
-    naturel est un entier positif non-nul.
+    non positifs risquent de donner des résultats inattendus.
    </para>
   </note>
  </refsect1>

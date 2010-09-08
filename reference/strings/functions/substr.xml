@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301608 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 302968 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr">
@@ -95,7 +95,7 @@ $rest = substr("abcdef", -3, 1); // retourne "d"
       </para>
       <para>
        Si <parameter>length</parameter> est omis, la sous chaine commençant
-       à partir de <function>start</function> jusqu'à la fin sera retournée.
+       à partir de <parameter>start</parameter> jusqu'à la fin sera retournée.
       </para>
       <example>
        <title>Utilisation d'une valeur négative pour <parameter>length</parameter></title>

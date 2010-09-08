@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 302986 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stat">
@@ -217,7 +217,7 @@ if (!$stat) {
 } else {
     /*
      * Nous voulons que la date et heure d'accès soit d'une
-     * semaine avant la date courante.
+     * semaine après la date courante.
      */
     $atime = $stat['atime'] + 604800;
 
