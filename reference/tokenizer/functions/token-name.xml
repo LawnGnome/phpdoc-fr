@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 303615 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.token-name" xmlns="http://docbook.org/ns/docbook">
@@ -38,7 +38,6 @@
   &reftitle.returnvalues;
   <para>
    Le nom symbolique du <parameter>token</parameter> donné.
-   Le nom retourné correspond au nom correspondant à la constante token
   </para>
  </refsect1>
  <refsect1 role="examples">

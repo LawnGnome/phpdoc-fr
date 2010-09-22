@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 303644 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.finfo-close" xmlns="http://docbook.org/ns/docbook">
@@ -10,10 +10,12 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
+  <para>Style procédural</para>
   <methodsynopsis>
    <type>bool</type><methodname>finfo_close</methodname>
    <methodparam><type>resource</type><parameter>finfo</parameter></methodparam>
   </methodsynopsis>
+  <para>Style orienté objet</para>
   <classsynopsis>
    <ooclass><classname>finfo</classname></ooclass>
    <destructorsynopsis>
