@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 303774 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fread">
@@ -33,7 +33,9 @@
     </listitem>
     <listitem>
      <simpara>
-      un paquet devient disponible (pour les flux réseaux)
+      un paquet devient disponible ou le temps
+      <link linkend="function.socket-set-timeout">
+      socket timeout</link> est passé (pour les flux réseau)
      </simpara>
     </listitem>
     <listitem>
