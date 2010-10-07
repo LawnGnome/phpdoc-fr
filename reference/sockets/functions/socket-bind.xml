@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304160 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.socket-bind" xmlns="http://docbook.org/ns/docbook">
@@ -58,8 +58,8 @@
      <listitem>
       <para>
        Le paramètre <parameter>port</parameter> est uniquement utilisé lors de la
-       connexion à une socket <constant>AF_INET</constant> et désigne le port
-       de l'hôte distant sur lequel la connexion doit être effectuée.
+       liaison à une socket <constant>AF_INET</constant> et désigne le port
+       sur lequel écouter pour une connexion.
       </para>
      </listitem>
     </varlistentry>

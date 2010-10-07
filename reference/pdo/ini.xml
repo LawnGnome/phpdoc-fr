@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 303741 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="pdo.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -28,7 +28,7 @@
     </tbody>
    </tgroup>
   </table>
-  &ini.php.constants;
+  <!-- Uncomment after adding a constant with PHP_INI_* mode: &ini.php.constants; -->
 </para>
 
 &ini.descriptions.title;

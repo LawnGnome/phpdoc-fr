@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304175 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdostatement.bindvalue" xmlns="http://docbook.org/ns/docbook">
@@ -20,7 +20,7 @@
   </methodsynopsis>
   <para>
    Associe une valeur à un nom correspondant ou à un point d'interrogation
-   (comme paramètre fictif) dans la requête SQL qui fut utilisée pour
+   (comme paramètre fictif) dans la requête SQL qui a été utilisé pour
    préparer la requête.
   </para>
  </refsect1>
