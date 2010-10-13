@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304345 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.sqlite-create-aggregate" xmlns="http://docbook.org/ns/docbook">
@@ -80,6 +80,7 @@
       <para>
        Fonction de procédure de rappel appelée pour chaque ligne du jeu de
        résultats.
+       Les paramètres de la fonction sont <literal>&amp;$context, $value, ...</literal>.
       </para>
      </listitem>
     </varlistentry>
@@ -89,6 +90,8 @@
       <para>
        Fonction de procédure de rappel pour le contexte d'agrégation des
        données de chaque ligne.
+       Le paramètre de la fonction est <literal>&amp;$context</literal> et la fonction
+       doit renvoyer le résultat final de l'agrégation.
       </para>
      </listitem>
     </varlistentry>
