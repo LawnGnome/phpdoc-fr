@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304133 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 304518 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -615,6 +615,9 @@ echo "This is ${great}";
 
 // Fonctionne
 echo "This square is {$square->width}00 centimeters broad."; 
+
+// Fonctionne, les clés entourées de quotes ne fonctionnent qu'avec la syntaxe à accolades
+echo "This works: {$arr['key']}";
 
 // Fonctionne
 echo "This works: {$arr[4][3]}";
