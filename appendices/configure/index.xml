@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304660 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="configure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -33,19 +33,19 @@
 
   <itemizedlist>
    <listitem>
-    <para>
+    <simpara>
      <link linkend="configure.options.misc">Divers</link>
-    </para>
+    </simpara>
    </listitem>
    <listitem>
-    <para>
+    <simpara>
      <link linkend="configure.options.php">Comportement de PHP</link>
-    </para>
+    </simpara>
    </listitem>
    <listitem>
-    <para>
+    <simpara>
      <link linkend="configure.options.servers">Serveur</link>
-    </para>
+    </simpara>
    </listitem>
   </itemizedlist>
 

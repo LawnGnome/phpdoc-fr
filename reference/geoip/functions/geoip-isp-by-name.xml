@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304601 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.geoip-isp-by-name" xmlns="http://docbook.org/ns/docbook">
@@ -62,7 +62,7 @@
 <?php
 $isp = geoip_isp_by_name('www.example.com');
 if ($isp) {
-    echo 'L\'IP de l\'hôte appartient à l\'ISP : ' . $isp;
+    echo 'L\'IP de l\'hôte provient de l\'ISP : ' . $isp;
 }
 ?>
 ]]>
@@ -70,7 +70,7 @@ if ($isp) {
     &example.outputs;
     <screen>
 <![CDATA[
-L'IP de l'hôte appartient à l'ISP : ICANN c/o Internet Assigned Numbers Authority
+L'IP de l'hôte provient de l'ISP : ICANN c/o Internet Assigned Numbers Authority
 ]]>
     </screen>
    </example>

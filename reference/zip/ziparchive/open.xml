@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 304623 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.ziparchive-open" xmlns="http://docbook.org/ns/docbook">
@@ -128,11 +128,6 @@
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
-    <para>
-     Cet exemple ouvre une archive ZIP, lit chaque fichier et affiche leurs
-     contenus. L'archive <filename>test2.zip</filename> de cet exemple
-     est une des archives contenue dans les sources de ZZIPlib.
-    </para>
     <example>
      <title>Ouverture et extraction</title>
      <programlisting role="php">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304521 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 304664 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
@@ -116,7 +116,9 @@
         <listitem>
          <simpara>
           <constant>CURLINFO_HEADER_OUT</constant> : la chaîne de requête envoyée.
-          Disponible depuis PHP 5.1.3
+          Pour que cela fonctionne, appelez <function>curl_setopt</function> avec
+          <constant>CURLINFO_HEADER_OUT</constant>.          
+          Disponible depuis PHP 5.1.3.
          </simpara>
         </listitem>
         <listitem>
@@ -265,6 +267,17 @@
     <listitem>
      <simpara>
       "redirect_time"
+     </simpara>
+    </listitem>
+    <listitem>
+     <simpara>
+      "certinfo"
+     </simpara>
+    </listitem>
+    <listitem>
+     <simpara>
+      "request_header" (Existe seulement si <constant>CURLINFO_HEADER_OUT</constant> 
+      est utilisé via un appel à <function>curl_setop</function>)
      </simpara>
     </listitem>
    </itemizedlist>
