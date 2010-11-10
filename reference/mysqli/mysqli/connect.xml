@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300509 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304709 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli.connect" xmlns="http://docbook.org/ns/docbook">
@@ -234,6 +234,7 @@ Succès... Localhost via UNIX socket
  
  <refsect1 role="notes">
   &reftitle.notes;
+  &mysqli.charset.note;
   <note>
    <para>
     Uniquement pour la syntaxe orientée objet : pour vérifier si la 

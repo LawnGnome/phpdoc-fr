@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 304878 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.disk-total-space">
@@ -53,12 +53,12 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// $df contient le nombre d'octets du dossier "/"
-$df = disk_total_space("/");
+// $ds contient le nombre d'octets du dossier "/"
+$ds = disk_total_space("/");
 
 // Sous Windows :
-disk_total_space("C:");
-disk_total_space("D:");
+$ds = disk_total_space("C:");
+$ds = disk_total_space("D:");
 ?>
 ]]>
     </programlisting>

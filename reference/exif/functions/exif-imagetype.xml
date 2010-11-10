@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 304944 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
  <refentry xml:id="function.exif-imagetype" xmlns="http://docbook.org/ns/docbook">
@@ -186,6 +186,7 @@ if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
    &reftitle.seealso;
    <para>
     <simplelist>
+     <member><function>image_type_to_mime_type</function></member>
      <member><function>getimagesize</function></member>
     </simplelist>
    </para>

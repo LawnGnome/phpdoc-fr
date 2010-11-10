@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304875 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.types.null">
@@ -18,7 +18,7 @@
  <itemizedlist>
   <listitem>
    <para>
-    elle s'est vu assigner la constante &null;.
+    elle s'est vue assigner la constante &null;.
    </para>
   </listitem>
   <listitem>

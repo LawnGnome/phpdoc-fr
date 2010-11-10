@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304664 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 304887 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
@@ -277,7 +277,7 @@
     <listitem>
      <simpara>
       "request_header" (Existe seulement si <constant>CURLINFO_HEADER_OUT</constant> 
-      est utilisé via un appel à <function>curl_setop</function>)
+      est utilisé via un appel à <function>curl_setopt</function>)
      </simpara>
     </listitem>
    </itemizedlist>
