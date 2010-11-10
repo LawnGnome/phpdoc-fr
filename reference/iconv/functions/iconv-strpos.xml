@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 304987 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.iconv-strpos" xmlns="http://docbook.org/ns/docbook">
@@ -16,7 +16,7 @@
    <methodparam><type>string</type><parameter>haystack</parameter></methodparam>
    <methodparam><type>string</type><parameter>needle</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>offset</parameter><initializer>0</initializer></methodparam>
-   <methodparam choice="opt"><type>string</type><parameter>charset</parameter><initializer>ini_set("iconv.internal_encoding")</initializer></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>charset</parameter><initializer>ini_get("iconv.internal_encoding")</initializer></methodparam>
   </methodsynopsis>
   <para>
    Trouve la position de la première occurrence de <parameter>needle</parameter> dans <parameter>haystack</parameter>.
