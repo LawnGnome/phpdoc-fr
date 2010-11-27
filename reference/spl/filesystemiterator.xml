@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303650 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 305730 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <phpdoc:classref xml:id="class.filesystemiterator" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -245,10 +245,6 @@
       <tbody>
        <row>
         <entry>5.3.1</entry>
-        <entry>Ajout de <constant>FilesystemIterator::FOLLOW_SYMLINKS</constant></entry>
-       </row>
-       <row>
-        <entry>5.2.11</entry>
         <entry>Ajout de <constant>FilesystemIterator::FOLLOW_SYMLINKS</constant></entry>
        </row>
       </tbody>

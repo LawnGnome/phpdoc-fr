@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 305305 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
@@ -150,7 +150,7 @@
         <listitem>
          <simpara>
           <constant>CURLINFO_CONTENT_TYPE</constant> : <literal>Content-Type:</literal>
-          du fichier téléchargé. &null; indique que le serveur
+          du document demandé. &null; indique que le serveur
           n'a pas envoyé d'en-tête <literal>Content-Type:</literal>
          </simpara>
         </listitem>
