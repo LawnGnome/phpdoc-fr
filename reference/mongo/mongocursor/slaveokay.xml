@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291045 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 305864 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="mongocursor.slaveOkay" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="mongocursor.slaveokay" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoCursor::slaveOkay</refname>
   <refpurpose>Définit si la requête peut être effectuée sur un serveur esclave</refpurpose>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303665 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 306029 Maintainer: yannick Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- Reviewed: yes -->
@@ -25,8 +25,7 @@
    <para>
     Sous Windows, vous devriez utiliser SqlSrv, un driver alternatif pour MS SQL
     disponible chez Microsoft : <link xlink:href="&url.sqlsrv;">&url.sqlsrv;
-    </link>. La documentation est disponible à l'adresse
-    <link xlink:href="&url.sqlsrv.doc;">&url.sqlsrv.doc;</link>
+    </link>.
    </para>
    <para>
     Si vous ne pouvez pas utiliser SqlSrv, vous pouvez utiliser le driver

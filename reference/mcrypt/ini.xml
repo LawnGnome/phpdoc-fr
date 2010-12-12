@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302053 Maintainer: didou Status: ready -->
+<!-- EN-Revision: 305993 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="mcrypt.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -48,7 +48,7 @@
     <listitem>
      <para>
       Le dossier contenant les algorithmes. Par défaut il s'agit du dossier indiqué à la
-      compilation de libcrypt, typiquement il s'agit de
+      compilation de libmcrypt, typiquement il s'agit de
       <emphasis>/usr/local/lib/libmcrypt</emphasis>. Voyez
       <function>mcrypt_list_algorithms</function> pour plus de détails.
      </para>
@@ -62,7 +62,7 @@
     <listitem>
      <para>
       Le dossier contenant les modes. Par défaut il s'agit du dossier indiqué à la
-      compilation de libcrypt, typiquement il s'agit de
+      compilation de libmcrypt, typiquement il s'agit de
       <emphasis>/usr/local/lib/libmcrypt</emphasis>. Voyez
       <function>mcrypt_list_modes</function> pour plus de détails.
      </para>

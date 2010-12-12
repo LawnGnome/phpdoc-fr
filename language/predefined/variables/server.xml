@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305447 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 306096 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <phpdoc:varentry xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="reserved.variables.server" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -19,7 +19,7 @@
     les serveurs les rempliront tous ; certains en oublieront quelques-unes
     et en rajouteront de nouvelles non mentionnées ici. Cependant, un grand
     nombre de ces variables fait partie des
-    <link xlink:href="&url.cgispec;">spécifications CGI 1.1</link>, et vous pouvez donc
+    <link xlink:href="&url.cgispec;">spécifications CGI/1.1</link>, et vous pouvez donc
     vous attendre à les retrouver.
    </para>
 
