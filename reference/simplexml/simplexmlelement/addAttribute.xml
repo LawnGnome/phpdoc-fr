@@ -3,7 +3,7 @@
 <!-- EN-Revision: 305704 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="simplexmlelement.addAttribute" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="simplexmlelement.addattribute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::addAttribute</refname>
   <refpurpose>
