@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 306484 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="phardata.copy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -81,7 +81,7 @@ try {
     $phar = new PharData('monphar.tar');
     $phar['a'] = 'salut';
     $phar->copy('a', 'b');
-    echo $phar['b']; // affiche "salut"
+    echo $phar['b']; // affiche "phar://myphar.tar/b"
 } catch (Exception $e) {
     // on traite les erreurs
 }
