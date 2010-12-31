@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 302791 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id="function.locale-get-default" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>locale_get_default</refname>
