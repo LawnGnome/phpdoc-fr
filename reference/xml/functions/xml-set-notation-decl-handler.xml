@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 306351 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook"
@@ -44,6 +44,8 @@
      <term><parameter>parser</parameter></term>
      <listitem>
       <para>
+       Une référence d'analyseur XML à définir comme fonction
+       de déclaration de notation.
       </para>
      </listitem>
     </varlistentry>
