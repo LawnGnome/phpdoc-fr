@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 307084 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.pg-fetch-assoc" xmlns="http://docbook.org/ns/docbook">
@@ -55,8 +55,9 @@
      <term><parameter>row</parameter></term>
      <listitem>
       <para>
-       Numéro de la ligne à récupérer. Les lignes sont numérotées de 0 en
-       montant. Si l'argument est omis, la ligne suivante est récupérée.
+       Numéro de la ligne à récupérer. Les lignes sont numérotées
+       en commençant à 0. Si l'argument est omis ou s'il vaut &null;,
+       la ligne suivante est récupérée.
       </para>
      </listitem>
     </varlistentry>
