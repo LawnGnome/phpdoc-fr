@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301351 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 307518 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -723,7 +723,7 @@ class Panier
     const PRICE_LAIT    = 3.00;
     const PRICE_OEUF    = 6.95;
 
-    protected   $products = array();
+    protected $products = array();
     
     public function add($product, $quantity)
     {
