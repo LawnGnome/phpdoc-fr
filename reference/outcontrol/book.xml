@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 307540 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: basic.php -->
 <!-- Membership: core -->
@@ -26,7 +26,7 @@
    <para>
     Lors de la mise à jour depuis PHP 4.1.x (et 4.2.x) vers 4.3.x, à cause
     d'un bogue dans les versions précédentes, vous devez vous assurer
-    que <literal>implict_flush</literal> vaut <literal>OFF</literal>
+    que <literal>implicit_flush</literal> vaut <literal>OFF</literal>
     dans votre &php.ini;, sinon, tout affichage avec la fonction
     <function>ob_start</function> sera caché.
    </para>
