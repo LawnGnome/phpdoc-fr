@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 307770 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb.reseterror" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,6 +15,27 @@
    <modifier>public</modifier> <type>array</type><methodname>MongoDB::resetError</methodname>
    <void/>
   </methodsynopsis>
+  <para>
+   Cette méthode n'est pas utilisée lors d'opérations normales.
+   Elle réinitialise le tracker d'erreur de base de données (qui
+   peut être incrémenté via la méthode
+   <function>MongoDB::forceError</function>, qui n'est également pas une méthode
+   normalement utilisée).
+  </para>
+  <para>
+   C'est un équivalent de :
+   <programlisting role="php">
+<![CDATA[
+<?php
+
+public function resetError() {
+    return $this->command(array('reseterror' => 1));
+}
+
+?>
+]]>
+   </programlisting>
+  </para>
  </refsect1>
 
  <refsect1 role="parameters">
