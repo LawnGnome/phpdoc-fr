@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297816 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 307771 Maintainer: jsgoupil Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 <!-- Reviewed: no -->
@@ -26,6 +26,8 @@
      par la fonction <function>PDO::pgsqlLOBOpen</function>.
     </para>
    </section>
+
+   &reference.pdo-pgsql.configure;
 
   </partintro>
 

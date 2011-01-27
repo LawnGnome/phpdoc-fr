@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 307771 Maintainer: yannick Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, pecl -->
 <!-- Reviewed: no -->
@@ -35,6 +35,9 @@
      </para>
     </note>
    </section>
+
+   &reference.pdo-sqlite.configure;
+
   </partintro>
 
   <refentry xml:id="ref.pdo-sqlite.connection">
