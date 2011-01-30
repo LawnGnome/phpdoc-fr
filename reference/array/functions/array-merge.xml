@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303390 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 307837 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.array-merge" xmlns="http://docbook.org/ns/docbook">
@@ -50,7 +50,7 @@
      <term><parameter>...</parameter></term>
      <listitem>
       <para>
-       Liste de tableaux à fusionner, récursivement.
+       Liste de tableaux à fusionner.
       </para>
      </listitem>
     </varlistentry>
