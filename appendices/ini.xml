@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306334 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 307893 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,6 +11,12 @@
   <para>
    Cette liste inclut les directives du &php.ini; que vous pouvez définir
    pour configurer votre installation de PHP.
+  </para>
+  <para>
+   La colonne "Modifiable" montre les modes déterminant quand et où une directive
+   peut être définie. Voir la section sur les
+   <link linkend="configuration.changes.modes">valeurs du mode modifiable</link>
+   pour leurs définitions.
   </para>
   <para>
    <table>
