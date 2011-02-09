@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 308159 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.array">
@@ -702,7 +702,7 @@ Aimez-vous la couleur jaune ?
   </para>
 
   <example xml:id="language.types.array.examples.changeloop">
-   <title>Collection</title>
+   <title>Modification d'un élément dans la boucle</title>
    <programlisting role="php">
 <![CDATA[
 <?php

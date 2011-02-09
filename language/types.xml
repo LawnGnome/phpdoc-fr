@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308160 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.types" xmlns="http://docbook.org/ns/docbook">
@@ -161,7 +161,7 @@ if (is_int($an_int)) {
     $an_int += 4;
 }
 
-// Si $bool est une chaîne de caractères, on l'affiche
+// Si $a_bool est une chaîne de caractères, on l'affiche
 if (is_string($a_bool)) {
     echo "String: $a_bool";
 }
