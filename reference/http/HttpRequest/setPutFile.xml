@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308225 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.httprequest-setputfile" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <modifier>public</modifier>
    <type>bool</type><methodname>HttpRequest::setPutFile</methodname>
-   <methodparam choice="opt"><type>string</type><parameter>file</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>file</parameter><initializer>""</initializer></methodparam>
   </methodsynopsis>
 
   <para>

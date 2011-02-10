@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308224 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.gupnp-root-device-new" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,6 +15,7 @@
    <type>resource</type><methodname>gupnp_root_device_new</methodname>
    <methodparam><type>resource</type><parameter>context</parameter></methodparam>
    <methodparam><type>string</type><parameter>location</parameter></methodparam>
+   <methodparam><type>string</type><parameter>description_dir</parameter></methodparam>
   </methodsynopsis>
   <para>
    Crée un nouveau périphérique racine, télécharge et analyse
