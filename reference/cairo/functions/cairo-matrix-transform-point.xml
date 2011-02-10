@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294366 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308220 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cairo-matrix-transform-point" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,8 +14,8 @@
   <methodsynopsis>
    <type>array</type><methodname>cairo_matrix_transform_point</methodname>
    <methodparam><type>CairoMatrix</type><parameter>matrix</parameter></methodparam>
-   <methodparam><type>string</type><parameter>dx</parameter></methodparam>
-   <methodparam><type>string</type><parameter>dy</parameter></methodparam>
+   <methodparam><type>float</type><parameter>dx</parameter></methodparam>
+   <methodparam><type>float</type><parameter>dy</parameter></methodparam>
   </methodsynopsis>
   <para>
   </para>

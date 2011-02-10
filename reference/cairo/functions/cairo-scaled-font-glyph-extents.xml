@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294366 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308220 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cairo-scaled-font-glyph-extents" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>array</type><methodname>cairo_scaled_font_glyph_extents</methodname>
    <methodparam><type>CairoScaledFont</type><parameter>scaledfont</parameter></methodparam>
-   <methodparam><type>string</type><parameter>glyphs</parameter></methodparam>
+   <methodparam><type>array</type><parameter>glyphs</parameter></methodparam>
   </methodsynopsis>
   <para>
   </para>

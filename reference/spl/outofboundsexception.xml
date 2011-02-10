@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 308184 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <phpdoc:exceptionref xml:id="class.outofboundsexception"
@@ -17,7 +17,9 @@
   <section xml:id="outofboundsexception.intro">
    &reftitle.intro;
    <para>
-    Exception émise quand une valeur n'est pas une clé valide
+    Exception émise quand une valeur n'est pas une clé valide.
+    Elle représente les erreurs qui ne peuvent pas être détectées
+    au moment de la compilation.
    </para>
   </section>
 <!-- }}} -->

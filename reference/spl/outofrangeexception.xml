@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 308184 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <phpdoc:exceptionref xml:id="class.outofrangeexception"
@@ -17,7 +17,9 @@
   <section xml:id="outofrangeexception.intro">
    &reftitle.intro;
    <para>
-    Exception émise lorsqu'une valeur est hors de son intervalle de validité.
+    Exception émise lorsqu'un index illégal est demandé.
+    Elle représente les erreurs qui devraient être détectées
+    au moment de la compilation.
    </para>
   </section>
 <!-- }}} -->

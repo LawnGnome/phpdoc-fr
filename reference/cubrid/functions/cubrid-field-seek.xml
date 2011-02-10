@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307573 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308222 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-field-seek" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>cubrid_field_seek</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
-   <methodparam><type>int</type><parameter>field_offset</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>field_offset</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    Cette fonction déplace le curseur du jeu de résultats à une

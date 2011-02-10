@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294366 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308220 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cairo-matrix-translate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,8 +14,8 @@
   <methodsynopsis>
    <type>void</type><methodname>cairo_matrix_translate</methodname>
    <methodparam><type>CairoMatrix</type><parameter>matrix</parameter></methodparam>
-   <methodparam><type>string</type><parameter>tx</parameter></methodparam>
-   <methodparam><type>string</type><parameter>ty</parameter></methodparam>
+   <methodparam><type>float</type><parameter>tx</parameter></methodparam>
+   <methodparam><type>float</type><parameter>ty</parameter></methodparam>
   </methodsynopsis>
   <para>
   </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308223 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="gmagick.cyclecolormapimage" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>Gmagick::cyclecolormapimage</methodname>
-   <methodparam><type>float</type><parameter>displace</parameter></methodparam>
+   <methodparam><type>int</type><parameter>displace</parameter></methodparam>
   </methodsynopsis>
   <para>
    Déplace la carte des couleurs d'une image d'un nombre de positions donné.
