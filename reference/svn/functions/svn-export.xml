@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291314 Maintainer: mikaelkael Status: ready -->
+<!-- EN-Revision: 308250 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.svn-export" xmlns="http://docbook.org/ns/docbook">
@@ -16,6 +16,7 @@
    <methodparam><type>string</type><parameter>frompath</parameter></methodparam>
    <methodparam><type>string</type><parameter>topath</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>working_copy</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>revision_no</parameter><initializer>-1</initializer></methodparam>
   </methodsynopsis>
   <para>
    Exporte le contenu soit d'une copie de travail, soit d'un référentiel
