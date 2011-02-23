@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306284 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 308547 Maintainer: jpauli Status: ready -->
+
 <chapter xml:id="datetime.formats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Formats supportés de temps et de dates</title>
 
