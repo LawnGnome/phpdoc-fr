@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 308580 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.spl-autoload" xmlns="http://docbook.org/ns/docbook">
@@ -34,6 +34,8 @@
      <term><parameter>class_name</parameter></term>
      <listitem>
       <para>
+       Le nom de la classe (et de l'espace de noms), en minuscule, à
+       instancier.
       </para>
      </listitem>
     </varlistentry>
