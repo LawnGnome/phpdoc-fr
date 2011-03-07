@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303358 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 308986 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-connect-with-url" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>cubrid_connect_with_url</refname>
-  <refpurpose>Prépare l'environnement pour la connexion au serveur</refpurpose>
+  <refpurpose>Établit l'environnement pour une connexion au serveur CUBRID</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
