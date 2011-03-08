@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307472 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 309014 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-lob-send" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>cubrid_lob_send</refname>
-  <refpurpose>Exporte les données BLOB/CLOB vers un fichier</refpurpose>
+  <refpurpose>Lit les données BLOB/CLOB et les envoye au navigateur</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
