@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 309064 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.strptime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -182,11 +182,11 @@ Array
    </para>
   </note>
   <note>
-    <para>
-     Avant PHP 5.2.0, cette fonction pouvait avoir un comportement imprévisible, notamment concernant
-     <literal>"tm_sec"</literal>, <literal>"tm_min"</literal> et <literal>"tm_hour"</literal> 
-     qui pouvaient retourner des valeurs non définies.
-    </para>
+   <para>
+    Avant PHP 5.2.0, cette fonction pouvait avoir un comportement imprévisible, notamment concernant
+    <literal>"tm_sec"</literal>, <literal>"tm_min"</literal> et <literal>"tm_hour"</literal> 
+    qui pouvaient retourner des valeurs non définies.
+   </para>
   </note>
  </refsect1>
  
@@ -194,6 +194,7 @@ Array
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>checkdate</function></member>
     <member><function>strftime</function></member>
    </simplelist>
   </para>
