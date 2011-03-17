@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 309323 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdostatement.rowcount" xmlns="http://docbook.org/ns/docbook">
@@ -66,6 +66,7 @@ print("Effacement de $count lignes.\n");
     &example.outputs;
     <screen>
  <![CDATA[
+Retourne le nombre de lignes effacées :
 Effacement de 9 lignes.
 ]]>
     </screen>
