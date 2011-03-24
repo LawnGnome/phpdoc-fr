@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309025 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 309629 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.namespaces" xmlns="http://docbook.org/ns/docbook"
@@ -1012,7 +1012,7 @@ D::foo();   // appelle la méthode "foo" de la classe "D" définie dans l'espace
 A\B::foo();   // appelle la méthode "foo" de la classe "B" de l'espace de noms "A\A"
               // si la classe "A\A\B" n'est pas trouvée, il essaie l'autoload sur la classe "A\A\B"
 
-\A\B::foo();  // appelle la méthode "foo" de la classe "B" de l'espace de noms "A\B"
+\A\B::foo();  // appelle la méthode "foo" de la classe "B" de l'espace de noms "A"
               // si la classe "A\B" n'est pas trouvée, il essaie l'autoload sur la classe "A\B"
 ?>
 ]]>

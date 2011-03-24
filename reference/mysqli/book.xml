@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301784 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 309644 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
@@ -58,6 +58,7 @@
  &reference.mysqli.setup;
  &reference.mysqli.persistconns;
  &reference.mysqli.constants;
+ &reference.mysqli.notes;
  &reference.mysqli.summary;
  &reference.mysqli.mysqli;
  &reference.mysqli.mysqli-stmt;
