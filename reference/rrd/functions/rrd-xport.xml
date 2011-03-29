@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308815 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 309799 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.rrd-xport" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -18,7 +18,7 @@
   <para>
    Exporte les informations d'un fichier de base de données RRD. Ces données
    peuvent être converties en fichier XML via un script PHP de l'espace
-   utilisateur puis, être utilisé pour restaurer le fichier de base de données
+   utilisateur puis, être utilisées pour restaurer le fichier de base de données
    RRD.
   </para>
  </refsect1>

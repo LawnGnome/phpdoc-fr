@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 309802 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.empty" xmlns="http://docbook.org/ns/docbook">
@@ -59,6 +59,7 @@
    <simplelist>
     <member><literal>"" (une chaîne vide)</literal></member>
     <member><literal>0 (0 en tant qu'entier)</literal></member>
+    <member><literal>0.0 (0 en tant que nombre à virgule flottante)</literal></member>
     <member><literal>"0" (0 en tant que chaîne de caractères)</literal></member>
     <member>&null;</member>
     <member>&false;</member>
