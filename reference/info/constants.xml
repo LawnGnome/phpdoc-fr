@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 309893 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="info.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -233,7 +233,7 @@
     <row>
      <entry><constant>PHP_WINDOWS_VERSION_MAJOR</constant></entry>
      <entry>
-      La version majeure de Windows, qui peut être <literal>4</literal> (NT4/ME/98/95), 
+      La version majeure de Windows, qui peut être <literal>4</literal> (NT4/Me/98/95), 
       <literal>5</literal> (XP/2003 R2/2003/2000) ou <literal>6</literal> (Vista/2008).
     </entry>
     </row>
