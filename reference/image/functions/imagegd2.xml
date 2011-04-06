@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 309972 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.imagegd2' xmlns="http://docbook.org/ns/docbook">
@@ -30,10 +30,7 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
-       Le chemin vers le fichier de sauvegarde. S'il n'est pas défini ou s'il vaut &null;,
-       le flux brut de l'image sera affiché directement.
-      </para>
+      <para>&gd.image.path;</para>
      </listitem>
     </varlistentry>
     <varlistentry>
