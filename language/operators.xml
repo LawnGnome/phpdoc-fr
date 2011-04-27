@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310451 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 310528 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -1642,6 +1642,8 @@ echo "Devrait valoir  4: " . $a . "<br />\n";
    est 91). Notez que les variables de caractères peuvent être incrémentées
    mais pas décrémentées, mais aussi que seuls les caractères ASCII pleins
    (a-z et A-Z) sont supportés.
+   L'incrémentation/décrémentation d'autres variables de caractères n'a
+   aucun effet, la chaîne original n'est pas modifiée.
    <example>
     <title>Opérations arithmétiques sur un caractère</title>
     <programlisting role="php">
