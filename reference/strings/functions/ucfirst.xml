@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ucfirst">
@@ -24,8 +24,7 @@
    Notez que la notion d'"alphabétique" est déterminée par la configuration
    de localisation. Cela signifie que pour la configuration par défaut
    "C", les caractères tels que les voyelles accentuées (comme
-   <literal>é</literal>, <literal>è</literal> ou <literal>à</literal>)
-   ne seront pas converties.
+   é, è ou à) ne seront pas converties.
   </para>
  </refsect1>
 
