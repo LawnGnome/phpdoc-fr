@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="ingres.examples" xmlns="http://docbook.org/ns/docbook">
  &reftitle.examples;
  <section xml:id="ingres.examples-basic">
+  <title>Utilisation simple</title>
   <para>
    L'exemple suivant montre comment se connecter à une base
    Ingres, exécuter une requête, afficher le résultat et 
