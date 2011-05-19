@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 311254 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-timefmt">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>ibase_timefmt</methodname>
    <methodparam><type>string</type><parameter>format</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>columntype</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>columntype</parameter><initializer>IBASE_TIMESTAMP</initializer></methodparam>
   </methodsynopsis>
   <para>
    Fixe le format de date pour les prochaines requêtes.

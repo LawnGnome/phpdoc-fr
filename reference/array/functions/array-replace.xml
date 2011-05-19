@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 311163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-replace" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,6 @@
    <type>array</type><methodname>array_replace</methodname>
    <methodparam><type>array</type><parameter role="reference">array</parameter></methodparam>
    <methodparam><type>array</type><parameter role="reference">array1</parameter></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter role="reference">array2</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter role="reference">...</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -48,6 +47,16 @@
      <listitem>
       <para>
        Les tableaux dont les valeurs finiront dans le premier tableau.
+      </para>
+     </listitem>
+    </varlistentry>
+    <varlistentry>
+     <term><parameter>...</parameter></term>
+     <listitem>
+      <para>
+       Plus de tableaux depuis lesquels les éléments peuvent
+       être extraits. Les valeurs des futurs tableaux
+       écraseront les valeurs précédentes.
       </para>
      </listitem>
     </varlistentry>

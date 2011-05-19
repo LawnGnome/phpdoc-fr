@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307084 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 311218 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.pg-fetch-array" xmlns="http://docbook.org/ns/docbook">
@@ -17,7 +17,7 @@
    <type>array</type><methodname>pg_fetch_array</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>row</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>result_type</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>result_type</parameter><initializer>PGSQL_BOTH</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>pg_fetch_array</function> retourne un tableau qui contient
