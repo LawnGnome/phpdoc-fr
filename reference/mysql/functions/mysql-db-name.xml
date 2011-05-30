@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 311568 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mysql-db-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_db_name</refname>
-  <refpurpose>Lit les noms des bases de données</refpurpose>
+  <refpurpose>Récupère le nom de base de données à l'appel de <function>mysql_list_dbs</function></refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
