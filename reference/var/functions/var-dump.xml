@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311159 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 311886 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.var-dump" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>void</type><methodname>var_dump</methodname>
    <methodparam><type>mixed</type><parameter>expression</parameter></methodparam>
-   <methodparam choice="opt"><parameter>...</parameter></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>...</parameter></methodparam>
   </methodsynopsis>
   <simpara>
    <function>var_dump</function> retourne les informations structurées d'une variable,
