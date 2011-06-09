@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 311978 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.pcntl-signal" xmlns="http://docbook.org/ns/docbook">
@@ -167,7 +167,7 @@ echo"Génération d'un signal SIGTERM à moi-même...\n";
 // envoi de SIGUSR1 à l'identifiant de processus courant
 posix_kill(posix_getpid(), SIGUSR1);
 
-echo "Fait\n"
+echo "Fait\n";
 
 ?>
 ]]>
