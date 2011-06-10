@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304634 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 311977 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
  <chapter xml:id="language.references" xmlns="http://docbook.org/ns/docbook">
@@ -449,6 +449,44 @@ echo $myValue;                // affiche la nouvelle valeur de $obj->value, i.e.
      Depuis PHP 4.4.0 et PHP 5.1.0, une alerte <constant>E_NOTICE</constant>
      est envoyée si le code tente de retourner une expression dynamique
      ou un résultat de l'opérateur <literal>new</literal>.
+    </simpara>
+   </note>
+   Pour utiliser la référence retournée, vous devez utiliser l'assignement
+   par référence :
+    <informalexample>
+     <programlisting role="php">
+<![CDATA[
+<?php
+function &collector() {
+  static $collection = array();
+  return $collection;
+}
+$collection = &collector();
+$collection[] = 'foo';
+?>
+]]>
+     </programlisting>
+    </informalexample>
+   Pour passer la référence retournée à une autre fonction attendant une référence,
+   vous pouvez utiliser la syntaxe suivante :
+    <informalexample>
+     <programlisting role="php">
+<![CDATA[
+<?php
+function &collector() {
+  static $collection = array();
+  return $collection;
+}
+array_push(collector(), 'foo');
+?>
+]]>
+     </programlisting>
+    </informalexample>
+   <note>
+    <simpara>
+     Notez que <literal>array_push(&amp;collector(), 'foo');</literal>
+     <emphasis>ne fonctionnera pas</emphasis>, et résultera en une erreur
+     fatale.
     </simpara>
    </note>
   </sect1>
