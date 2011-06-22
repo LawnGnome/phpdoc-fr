@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303615 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 312354 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.token-name" xmlns="http://docbook.org/ns/docbook">
@@ -48,8 +48,8 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// 260 est la valeur token pour le token T_REQUIRE
-echo token_name(260);        // -> "T_REQUIRE"
+// 260 est la valeur token pour le token T_EVAL
+echo token_name(260);        // -> "T_EVAL"
 
 // une constante token correspondant à son propre nom
 echo token_name(T_FUNCTION); // -> "T_FUNCTION"
