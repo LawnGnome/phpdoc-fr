@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304142 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 312438 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.get-defined-constants" xmlns="http://docbook.org/ns/docbook">

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303721 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: jsgoupil Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.finfo-file" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>finfo_file</refname>
+  <refname>finfo::file</refname>
   <refpurpose>Retourne des informations à propos d'un fichier</refpurpose>
  </refnamediv>
  <refsect1 role="description">

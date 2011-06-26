@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299461 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="datetime.setisodate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTime::setISODate</refname>
+  <refname>date_isodate_set</refname>
   <refpurpose>Configure une date ISO</refpurpose>
  </refnamediv>
  

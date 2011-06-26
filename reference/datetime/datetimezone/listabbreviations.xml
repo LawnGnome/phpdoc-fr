@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299350 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312463 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="datetimezone.listabbreviations" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTimeZone::listAbbreviations</refname>
+  <refname>timezone_abbreviations_list</refname>
   <refpurpose>Retourne un tableau associatif, décrivant un fuseau horaire</refpurpose>
  </refnamediv>
  <refsect1 role="description">
