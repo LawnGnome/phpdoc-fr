@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312676 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.curl-exec" xmlns="http://docbook.org/ns/docbook">
@@ -37,7 +37,8 @@
   &reftitle.returnvalues;
   <para>
    &return.success; Cependant, si l'option <constant>CURLOPT_RETURNTRANSFER</constant>
-   est définie, la fonction retournera le résultat en cas de succès, 
+   est <link linkend="function.curl-setopt">définie</link>, la fonction
+   retournera le résultat en cas de succès,
    et &false; si une erreur survient.
   </para>
  </refsect1>

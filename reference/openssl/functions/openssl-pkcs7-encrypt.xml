@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312693 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-pkcs7-encrypt">
@@ -83,7 +83,7 @@
      <term><parameter>cipherid</parameter></term>
      <listitem>
       <para>
-       Le chiffrement peut être sélectionné avec le paramètre <parameter>cipherid</parameter>.
+       Une des <link linkend="openssl.ciphers">constantes cipher</link>.
       </para>
      </listitem>
     </varlistentry>
