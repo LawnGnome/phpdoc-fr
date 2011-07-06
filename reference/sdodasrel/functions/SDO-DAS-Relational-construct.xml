@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.sdo-das-relational-construct" xmlns="http://docbook.org/ns/docbook">
@@ -107,7 +107,7 @@
   &reftitle.errors;
   <para>
    <function>SDO_DAS_Relational::__construct</function> jette une exception
-   SDO_DAS_Relational_Exception si des problèmes sont trouvés dans les
+   <classname>SDO_DAS_Relational_Exception</classname> si des problèmes sont trouvés dans les
    métadonnées.
   </para>
  </refsect1>
