@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="control-structures.if" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>if</literal></title>
+ <?phpdoc print-version-for="if"?>
  <para>
   L'instruction <literal>if</literal> est une des plus importantes
   instructions de tous les langages, PHP inclus. Elle permet

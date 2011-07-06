@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.httprequest-construct" xmlns="http://docbook.org/ns/docbook">
@@ -58,7 +58,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Lance une exception HttpException.
+   Lance une exception <classname>HttpException</classname>.
   </para>
  </refsect1>
 </refentry>

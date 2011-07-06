@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310698 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="control-structures.continue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>continue</literal></title>
+ <?phpdoc print-version-for="continue"?>
  <simpara>
   L'instruction <literal>continue</literal> est utilisée
   dans une boucle afin d'éluder les instructions de

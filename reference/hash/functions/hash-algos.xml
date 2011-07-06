@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312716 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312734 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.hash-algos" xmlns="http://docbook.org/ns/docbook">
@@ -36,6 +36,10 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.4.0</entry>
+       <entry>Ajout du support pour joaat, fnv132 et fnv164</entry>
+      </row>
       <row>
        <entry>5.3.0</entry>
        <entry>Ajout du support pour md2, ripemd256, ripemd320, salsa10,

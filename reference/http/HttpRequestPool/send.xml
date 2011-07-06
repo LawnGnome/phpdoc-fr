@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.httprequestpool-send" xmlns="http://docbook.org/ns/docbook">
@@ -35,8 +35,10 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Lance une exception HttpRequestPoolException (HttpSocketException,
-   HttpRequestException, HttpMalformedHeaderException).
+   Lance une exception <classname>HttpRequestPoolException</classname>
+   (<classname>HttpSocketException</classname>,
+   <classname>HttpRequestException</classname>,
+   <classname>HttpMalformedHeaderException</classname>).
   </para>
  </refsect1>
 </refentry>

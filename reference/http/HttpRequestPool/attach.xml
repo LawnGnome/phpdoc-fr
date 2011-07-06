@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.httprequestpool-attach" xmlns="http://docbook.org/ns/docbook">
@@ -51,8 +51,10 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Lance une exception HttpInvalidParamException, HttpRequestException,
-   HttpRequestPoolException, HttpEncodingException.
+   Lance une exception <classname>HttpInvalidParamException</classname>,
+   <classname>HttpRequestException</classname>,
+   <classname>HttpRequestPoolException</classname>,
+   <classname>HttpEncodingException</classname>.
   </para>
  </refsect1>
 </refentry>

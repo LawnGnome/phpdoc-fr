@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="function.return" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>return</title>
+ <?phpdoc print-version-for="return"?>
  <simpara>
   Si appelée depuis une fonction, la commande <function>return</function>
   termine immédiatement la fonction, et retourne l'argument qui lui est passé.

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312947 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="control-structures.elseif" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>elseif</literal>/<literal>else if</literal></title>
+ <?phpdoc print-version-for="elseif"?>
  <para>
   <literal>elseif</literal>, comme son nom l'indique, est une combinaison
   de <literal>if</literal> et de <literal>else</literal>. Comme l'expression
