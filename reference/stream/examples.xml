@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312607 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="stream.examples">
@@ -188,8 +188,20 @@ class VariableStream {
                 return false;
         }
     }
-}
 
+    function stream_metadata($path, $option, $var) 
+    {
+  if($option == STREAM_META_TOUCH) {
+   $url = parse_url($path);
+         $varname = $url["host"];
+   if(!isset($GLOBALS[$varname])) {
+          $GLOBALS[$varname] = '';
+   }
+   return true;
+  }
+  return false;
+    }
+}
 stream_wrapper_register("var", "VariableStream")
     or die("Failed to register protocol");
 
