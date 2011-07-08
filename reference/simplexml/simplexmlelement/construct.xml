@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312634 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312824 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="simplexmlelement.construct" xmlns="http://docbook.org/ns/docbook">
@@ -63,6 +63,7 @@
      <term><parameter>ns</parameter></term>
      <listitem>
       <para>
+       Préfixe d'espace de noms ou URI.
       </para>
      </listitem>
     </varlistentry>
@@ -70,6 +71,8 @@
      <term><parameter>is_prefix</parameter></term>
      <listitem>
       <para>
+       &true; si <parameter>ns</parameter> est un préfix, &false; sinon.
+       Valeur par défaut : &false;.
       </para>
      </listitem>
     </varlistentry>

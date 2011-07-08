@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301447 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 313048 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
  <chapter xml:id="language.exceptions" xmlns="http://docbook.org/ns/docbook">
@@ -47,7 +47,7 @@
   <tip>
    <para>
     La <link linkend="intro.spl">bibliothèque standard PHP (SPL)</link> fournit
-    un bon nombre d'exceptions en dur.
+    un bon nombre <link linkend="spl.exceptions">d'exceptions additionnelles</link>.
    </para>
   </tip>
    <example>
