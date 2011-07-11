@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299196 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mysqli.connect-error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli->connect_error</refname>
+  <refname>mysqli::connect_error</refname>
   <refname>mysqli_connect_error</refname>
   <refpurpose>Retourne le message d'erreur de connexion MySQL</refpurpose>
  </refnamediv>
