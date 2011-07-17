@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296349 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 313300 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="com.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <table>
-  <title>XML constants</title>
+  <title>Constantes COM</title>
   <tgroup cols="3">
    <thead>
     <row>
-     <entry>Constant</entry>
-     <entry>Value</entry>
+     <entry>Constante</entry>
+     <entry>Valeur</entry>
      <entry>Description</entry>
      <entry>Notes</entry>
     </row>
