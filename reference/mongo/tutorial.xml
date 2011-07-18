@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307180 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 312738 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="mongo.tutorial" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -197,6 +197,8 @@ $collection->insert( $doc );
 ?>
 ]]>
     </programlisting>
+   </para>
+   <para>
    </para>
    <section>
     <title>Voir aussi</title>
