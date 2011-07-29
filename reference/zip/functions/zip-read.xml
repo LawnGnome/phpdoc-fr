@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 313913 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.zip-read" xmlns="http://docbook.org/ns/docbook">
@@ -43,7 +43,7 @@
    Retourne une ressource de dossier d'archive,
    à utiliser plus tard avec les autres fonctions de la bibliothèque,
    &false; s'il n'y a plus d'entrées à lire dans l'archive ZIP ou le numéro
-   de l'erreur dans le cas d'une autre erreur.
+   de l'erreur si une erreur survient.
   </para>
  </refsect1>
  <refsect1 role="seealso">
