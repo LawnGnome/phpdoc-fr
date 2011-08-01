@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 313913 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli-result.num-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_result->num_rows</refname>
+  <refname>mysqli_result::num_rows</refname>
   <refname>mysqli_num_rows</refname>
   <refpurpose>Retourne le nombre de lignes dans un résultat</refpurpose>
  </refnamediv>
@@ -26,8 +26,8 @@
    Retourne le nombre de lignes dans un jeu de résultats.
   </para>
   <para>
-   L'utilisation de <function>mysqli_num_rows</function> dépend de l'utilisation de
-   jeux de résultats bufferisés ou non. Dans le cas où vous utilisez des jeux de résultats
+   Le comportement de <function>mysqli_num_rows</function> dépend de l'utilisation de
+   jeux de résultats bufferisés ou non. Pour les jeux de résultats
    non bufferisés, <function>mysqli_num_rows</function> ne retournera pas le
    nombre correct de lignes tant que toutes les lignes du jeu de résultats ne sont pas retournées.
   </para>
@@ -49,7 +49,7 @@
   </para>
   <note>
    <para>
-    Si le nombre de résultats est plus grand que la valeur maximale d'un entier, le nombre
+    Si le nombre de résultats est plus grand que <constant>MAXINT</constant>, le nombre
     sera retourné sous la forme d'une chaîne de caractères.
    </para>
   </note>
