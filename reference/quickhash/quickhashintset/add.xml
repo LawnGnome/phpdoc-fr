@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313920 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 314459 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="quickhashintset.add" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>QuickHashIntSet::add</refname>
-  <refpurpose>Ajoute une nouvelle entrée à l'ensemble.</refpurpose>
+  <refpurpose>Ajoute une nouvelle entrée à l'ensemble</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
