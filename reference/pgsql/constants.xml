@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311198 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 314242 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="pgsql.constants" xmlns="http://docbook.org/ns/docbook">
@@ -538,7 +538,7 @@
   </varlistentry>
   <varlistentry>
    <term>
-    <constant>PGSQL_CONV_IGNORE_DEFAULT</constant> 
+    <constant>PGSQL_CONV_IGNORE_NOT_NULL</constant> 
     (&integer;)
    </term>
    <listitem>
