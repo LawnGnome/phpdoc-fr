@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 314890 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.virtual" xmlns="http://docbook.org/ns/docbook">
@@ -71,6 +71,12 @@
      </thead>
      <tbody>
       <row>
+       <entry>4.3.3</entry>
+       <entry>
+        &note.apache.nsapi-module;
+       </entry>
+      </row>
+      <row>
        <entry>4.0.6</entry>
        <entry>
         Cette fonction peut être utilisée sur des fichiers PHP. Toutefois,
@@ -109,7 +115,6 @@
     visibles dans le fichier appelant.
    </para>
   </note>
-  &note.apache.nsapi-module;
  </refsect1>
 
  <refsect1 role="seealso">
