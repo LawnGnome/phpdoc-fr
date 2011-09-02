@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301421 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 315183 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.strval" xmlns="http://docbook.org/ns/docbook">
@@ -63,7 +63,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple pour <function>strval</function> utilisant la méthode magique
+    <title>Exemple pour <function>strval</function> utilisant la méthode magique PHP 5
      <link linkend="language.oop5.magic.tostring">__toString</link>.</title>
     <programlisting role="php">
 <![CDATA[

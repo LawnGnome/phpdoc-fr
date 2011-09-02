@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311886 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 315550 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.var-dump" xmlns="http://docbook.org/ns/docbook">
@@ -36,7 +36,7 @@
      <term><parameter>expression</parameter></term>
      <listitem>
       <para>
-       La variable que vous voulez exporter.
+       La variable que vous voulez afficher.
       </para>
      </listitem>
     </varlistentry>

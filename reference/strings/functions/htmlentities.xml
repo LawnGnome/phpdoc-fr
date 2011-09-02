@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306404 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 316016 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlentities">
@@ -97,6 +97,9 @@
        troisième argument optionnel <parameter>charset</parameter> qui définit
        le jeu de caractères utilisé durant la conversion. Actuellement, le jeu
        de caractères ISO-8859-1 est utilisé par défaut.
+       Cependant, ce comportement par défaut est appelé à changer dans les
+       futures versions de PHP ; le développeur est vivement encouragé
+       à spécifier une valeur.
       </para>
       &reference.strings.charsets;
      </listitem>
