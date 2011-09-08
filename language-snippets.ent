@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 314909 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 316054 Maintainer: yannick Status: ready -->
 
 <!--
 NOTE AUX TRADUCTEURS :
@@ -1557,6 +1557,19 @@ l&#39;export plutôt que l&#39;émission. Le définir à &false; (par défaut) f
 <para xmlns="http://docbook.org/ns/docbook">
  Reportez-vous à la section sur les exemples pour plus de détails.
 </para>
+'>
+<!ENTITY snmp.methods.exceptions_enable.refsect '<refsect1 role="errors" xmlns="http://docbook.org/ns/docbook">
+&reftitle.errors;
+<para>
+ Cette méthode ne lance aucune exception par défaut.
+ Pour activer l&#39;émission d'exceptions SNMPException lorsque
+ des erreurs de la bibliothèque surviennent, l&#39;utilisateur doit définir
+ le paramètre de la classe SNMP <parameter>exceptions_enabled</parameter>
+ à la valeur correspondante. Voir les <link linkend="snmp.props.exceptions_enabled">
+ explications sur <parameter>SNMP->exceptions_enabled</parameter></link>
+ pour plus de détails.
+</para>
+</refsect1>
 '>
 <!--
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 316314 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.spl-autoload-register" xmlns="http://docbook.org/ns/docbook">
@@ -59,7 +59,8 @@
       <para>
        Ce paramètre spécifie si
        <function>spl_autoload_register</function> doit lancer
-       des exceptions en cas d'erreur.
+       des exceptions lorsque le paramètre <parameter>autoload_function</parameter>
+       n'a pu être enregistré.
       </para>
      </listitem>
     </varlistentry>

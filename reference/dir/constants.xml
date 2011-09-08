@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 315465 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="dir.constants" xmlns="http://docbook.org/ns/docbook">
@@ -25,7 +25,8 @@
    </term>
    <listitem>
     <simpara>
-     Disponible depuis PHP 4.3.0.
+     Disponible depuis PHP 4.3.0. Un point-virgule sous Windows,
+     deux points (:) sinon.
     </simpara>
    </listitem>
   </varlistentry>
