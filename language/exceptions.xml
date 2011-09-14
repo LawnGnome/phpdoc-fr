@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313048 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 316587 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
  <chapter xml:id="language.exceptions" xmlns="http://docbook.org/ns/docbook">
@@ -79,7 +79,7 @@ echo 'Bonjour le monde !';
 <![CDATA[
 0.2
 Exception reçue : Division par zéro.
-Hello World
+Bonjour le monde !
 ]]>
     </screen>
    </example>
