@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308207 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 316678 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -779,7 +779,7 @@ echo "$a $bonjour";
   
   <para>
    <example>
-    <title>Exemple de fonction variable</title>
+    <title>Exemple de propriété variable</title>
     <programlisting role="php">
 <![CDATA[
 <?php
