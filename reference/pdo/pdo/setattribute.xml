@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 316472 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdo.setattribute" xmlns="http://docbook.org/ns/docbook">
@@ -99,6 +99,11 @@
     <listitem><para><literal>PDO::MYSQL_ATTR_USE_BUFFERED_QUERY</literal>
     (disponible en MySQL) :
     utilisation des requêtes bufferisées.
+    </para></listitem>
+    <listitem><para><literal>PDO::ATTR_DEFAULT_FETCH_MODE</literal> :
+     Défini le mode de récupération par défaut. Les différentes descriptions
+     des modes sont disponibles dans la documentation de la méthode
+     <function>PDOStatement::fetch</function>.
     </para></listitem>
    </itemizedlist>
   </para>

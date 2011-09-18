@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313027 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 316652 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.header-register-callback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -61,7 +61,7 @@ header('X-Test: foo');
 
 function foo() {
  foreach (headers_list() as $header) {
-   if (strpos($header, 'X-Powered') !== false) {
+   if (strpos($header, 'X-Powered-By:') !== false) {
      header_remove('X-Powered-By');
    }
    header_remove('X-Test');
