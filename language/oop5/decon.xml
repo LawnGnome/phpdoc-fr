@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301474 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 316991 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
  <sect1 xml:id="language.oop5.decon" xmlns="http://docbook.org/ns/docbook">
@@ -100,8 +100,8 @@ class Bar {
    <para>
     PHP 5 introduit un concept de destructeur similaire aux autres langages
     orientés objet, comme le <literal>C++</literal>. La méthode destructeur est appelée
-    aussitôt que toutes les références à un objet particulier sont effacées ou lorsque
-    l'objet est explicitement détruit ou dans n'importe quel ordre de la séquence d'arrêt.
+    dès qu'il n'y a plus d'autres références sur des objets, ou dans n'importe quel
+    ordre de la séquence d'arrêt.
    </para>
    <example>
     <title>Exemple avec un Destructeur</title>
