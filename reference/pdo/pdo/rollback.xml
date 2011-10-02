@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 317502 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdo.rollback" xmlns="http://docbook.org/ns/docbook">
