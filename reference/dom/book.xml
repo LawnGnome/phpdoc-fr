@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 317683 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Membership: bundled, external -->
 
@@ -30,6 +30,7 @@
  &reference.dom.setup;
  &reference.dom.constants;
  &reference.dom.domattr;
+ &reference.dom.domcdatasection;
  &reference.dom.domcharacterdata;
  &reference.dom.domcomment;
  &reference.dom.domdocument;
