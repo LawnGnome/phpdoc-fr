@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294364 Maintainer: pierrick Status: ready -->
+<!-- EN-Revision: 317663 Maintainer: pierrick Status: ready -->
+<!-- Reviewed: no -->
 
 <chapter xml:id="stomp.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
