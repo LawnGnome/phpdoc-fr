@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 317827 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="stream.examples">
@@ -96,7 +96,7 @@ fclose($fp);
    </programlisting>
   </example>
  </para>
-
+ 
  <section xml:id="stream.streamwrapper.example-1">
   <title>Exemple de classe enregistrée comme gestionnaire de flux</title>
   <para>
