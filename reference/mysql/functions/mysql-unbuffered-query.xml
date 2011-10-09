@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 317924 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
@@ -80,7 +80,7 @@
     ressource retournée par <function>mysql_unbuffered_query</function>. 
     Vous devez aussi lire tous les résultats d'une première requête exécutée
     avec <function>mysql_unbuffered_query</function>, avant de pouvoir en
-    exécuter une autre.
+    exécuter une autre en utilisant le même <parameter>link_identifier</parameter>.
    </para>
   </note>
  </refsect1>
