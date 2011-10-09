@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302986 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 317928 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stat">
@@ -135,6 +135,7 @@
   <para>
    En cas d'erreur, <function>stat</function> retourne &false;.
   </para>
+  &fs.file.32bit;
  </refsect1>
 
  <refsect1 role="errors">

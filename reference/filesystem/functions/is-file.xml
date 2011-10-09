@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306338 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 317928 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.is-file">
@@ -42,6 +42,7 @@
    Retourne &true; si le nom de fichier existe et que c'est un fichier régulier, &false;
    sinon.
   </para>
+  &fs.file.32bit;
  </refsect1>
 
  <refsect1 role="examples">
