@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315517 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 318138 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.namespaces" xmlns="http://docbook.org/ns/docbook"
@@ -76,6 +76,14 @@ echo constant($d); // Voyez "Espaces de noms et fonctionnalités dynamiques"
     ]]>
    </programlisting>
   </example>
+  <note>
+   <para>
+    Les espaces de noms <literal>PHP</literal> et <literal>php</literal>,
+    mais aussi les noms composés commençant par ces noms (comme <literal>PHP\Classes</literal>)
+    sont réservés pour l'utilisation interne du langage, et ne doivent pas être utilisés
+    dans le code de l'espace utilisateur.
+   </para>
+  </note>
  </sect1>
 
  <sect1 xml:id="language.namespaces.definition">
