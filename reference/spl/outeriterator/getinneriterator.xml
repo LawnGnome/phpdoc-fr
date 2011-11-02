@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 318710 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="outeriterator.getchildren" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="outeriterator.getinneriterator" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>OuterIterator::getInnerIterator</refname>
   <refpurpose>Retourne l'itérateur interne pour l'entrée courante</refpurpose>

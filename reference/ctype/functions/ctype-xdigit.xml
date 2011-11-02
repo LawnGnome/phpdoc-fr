@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300785 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 318662 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.ctype-xdigit" xmlns="http://docbook.org/ns/docbook">
@@ -78,6 +78,11 @@ La chaîne ab12bc99 ne contient que des chiffres hexadécimaux.
     </screen>
    </example>
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  &note.ctype.parameter.integer;
  </refsect1>
 
  <refsect1 role="seealso">
