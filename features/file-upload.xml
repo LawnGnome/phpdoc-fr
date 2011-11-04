@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315771 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 318789 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="features.file-upload" xmlns="http://docbook.org/ns/docbook">
@@ -331,7 +331,7 @@ foreach ($_FILES["pictures"]["error"] as $key => $error) {
      <listitem>
       <para>
        Valeur : 8. Une extension PHP a arrété l'envoi de fichier. PHP ne propose aucun
-       moyen de déterminer quelle extension est en cause. L'examen du phpinfo() peut aider.
+       moyen de déterminer quelle extension est en cause. L'examen du <function>phpinfo</function> peut aider.
        Introduit en PHP 5.2.0.
       </para>
      </listitem>
