@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318663 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 318985 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -2275,7 +2275,7 @@
       </row>
       <row>
        <entry><link linkend="ini.pcre.backtrack-limit">pcre.backtrack_limit</link></entry>
-       <entry>"100000"</entry>
+       <entry>"1000000"</entry>
        <entry>PHP_INI_ALL</entry>
        <entry>&php.version.added; 5.2.0.</entry>
       </row>
