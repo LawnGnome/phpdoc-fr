@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 318950 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.libxml-use-internal-errors" xmlns="http://docbook.org/ns/docbook">
@@ -31,7 +31,9 @@
      <term><parameter>use_errors</parameter></term>
       <listitem>
        <para>
-        Active ou désactive le rapport d'erreur.
+        Active (&true;) le gestionnaire d'erreurs utilisateur
+        ou le désactive (&false;). La désactivation effacera aussi
+        toutes les erreurs libxml existantes.
        </para>
       </listitem>
      </varlistentry>
