@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 319056 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="intldateformatter.getlocale" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -77,8 +77,8 @@
 $fmt = datefmt_create( "en_US" ,IntlDateFormatter::FULL,IntlDateFormatter::FULL,'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
 echo "La locale du formateur est : ".datefmt_get_locale($fmt);
 echo "Le premier format utilisé est ".datefmt_format( $fmt , 0);
-echo "La locale du formateur est : ".datefmt_get_locale($fmt);
 $fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL,IntlDateFormatter::FULL,'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
+echo "La locale du formateur est : ".datefmt_get_locale($fmt);
 echo "Le second format utilisé est  ".datefmt_format( $fmt , 0);
 
 ?>
