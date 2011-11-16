@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 319265 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id='xmlreader.getparserproperty' xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="xmlreader.getparserproperty" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>XMLReader::getParserProperty</refname>
   <refpurpose>Indique si la propriété spécifiée a été fixée</refpurpose>
