@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312179 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320324 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mysqli-stmt.get-result" xmlns="http://docbook.org/ns/docbook">
@@ -40,6 +40,13 @@
   &reftitle.returnvalues;
   <para>
    Retourne un jeu de résultats &return.falseforfailure;.
+  </para>
+ </refsect1>
+ 
+ <refsect1 role="mysqlnd">
+  &reftitle.mysqlnd;
+  <para>
+   &mysqli.available.mysqlnd;
   </para>
  </refsect1>
  
