@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-minifyimage">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::minifyImage</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Cette fonction est un raccourci pratique pour mettre 
    à l'échelle une image proportionnellement pour la réduire 

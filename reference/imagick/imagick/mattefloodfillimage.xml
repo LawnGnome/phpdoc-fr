@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-mattefloodfillimage">
@@ -19,7 +19,6 @@
    <methodparam><type>int</type><parameter>x</parameter></methodparam>
    <methodparam><type>int</type><parameter>y</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Change la transparence d'un pixel cible, et ses voisins immédiats.
    Si la méthode <constant>FillToBorderMethod</constant> est spécifiée,

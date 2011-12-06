@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-modulateimage">
@@ -17,7 +17,6 @@
    <methodparam><type>float</type><parameter>saturation</parameter></methodparam>
    <methodparam><type>float</type><parameter>hue</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Contrôle l'intensité, la saturation et la teinte d'une image.
    La couleur est le pourcentage de rotation absolue depuis la 

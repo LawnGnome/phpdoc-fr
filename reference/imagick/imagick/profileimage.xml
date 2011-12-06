@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-profileimage">
@@ -16,7 +16,6 @@
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam><type>string</type><parameter>profile</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Ajoute ou retire un profil ICC, IPTC ou générique d'une image.
    Si le profil est &null; il est retiré de l'image, et sinon,

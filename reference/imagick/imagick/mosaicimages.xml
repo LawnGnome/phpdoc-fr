@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-mosaicimages">
@@ -15,7 +15,6 @@
    <type>Imagick</type><methodname>Imagick::mosaicImages</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Aligne les images d'une séquence pour former une seule image 
    cohérente. La fonction retourne une baguette avec chaque 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-morphimages">
@@ -15,7 +15,6 @@
    <type>Imagick</type><methodname>Imagick::morphImages</methodname>
    <methodparam><type>int</type><parameter>number_frames</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Réalise un morphing d'images. La taille et la couleur des
    pixels sont linéairement interpolés pour donner l'apparence
