@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageredprimary">
@@ -15,7 +15,6 @@
    <type>array</type><methodname>Imagick::getImageRedPrimary</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Retourne la chromacité du point rouge sous la forme d'un tableau
    avec les clés "x" et "y".

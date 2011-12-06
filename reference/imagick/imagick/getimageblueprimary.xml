@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308226 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageblueprimary">
@@ -15,7 +15,6 @@
    <type>array</type><methodname>Imagick::getImageBluePrimary</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Retourne la chromacité de la couleur bleue. 
    Retourne un tableau avec les clés "x" et "y".

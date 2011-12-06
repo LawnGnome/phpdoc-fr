@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagechanneldistortion">
@@ -17,7 +17,6 @@
    <methodparam><type>int</type><parameter>channel</parameter></methodparam>
    <methodparam><type>int</type><parameter>metric</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Compare un ou plusieurs canaux d'une image reconstituée et 
    retourne la métrique de déformation demandée.

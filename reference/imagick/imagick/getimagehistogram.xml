@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagehistogram">
@@ -15,7 +15,6 @@
    <type>array</type><methodname>Imagick::getImageHistogram</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Retourne l'histogramme de l'image, sous forme d'un
    tableau d'objets <classname>ImagickPixel</classname>.
@@ -27,6 +26,13 @@
   <para>
    Retourne un tableau d'objets ImagickPixel.
    &imagick.imagickexception.throw;
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   &imagick.imagick.throws;
   </para>
  </refsect1>
 
