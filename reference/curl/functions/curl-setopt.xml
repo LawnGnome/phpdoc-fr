@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316499 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 320297 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
@@ -818,6 +818,8 @@
             données de cookie. Le fichier de cookie peut être au
             format Netscape, ou simplement des en-têtes HTTP écrits
             dans un fichier.
+            Si le nom est une chaîne de caractère vide, aucun cookie
+            n'est chargé, mais le gestionnaire est toujours actif.
            </entry>
            <entry valign="top">
            </entry>

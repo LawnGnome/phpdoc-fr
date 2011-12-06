@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-blurimage">
@@ -17,7 +17,6 @@
    <methodparam><type>float</type><parameter>sigma</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Ajoute un filtre de flou à une image. Le troisième paramètre 
    <parameter>channel</parameter>, optionnel, 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-combineimages">
@@ -15,7 +15,6 @@
    <type>Imagick</type><methodname>Imagick::combineImages</methodname>
    <methodparam><type>int</type><parameter>channelType</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Combine une ou plusieurs images en une seule. Les niveaux de gris
    des pixels de chaque images en séquence sont assignés en ordre à 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-drawimage">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::drawImage</methodname>
    <methodparam><type>ImagickDraw</type><parameter>draw</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Affiche un objet ImagickDraw dans l'image courante.
   </para>

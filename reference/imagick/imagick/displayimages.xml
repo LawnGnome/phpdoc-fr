@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-displayimages">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::displayImages</methodname>
    <methodparam><type>string</type><parameter>servername</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Affiche une image ou une séquence sur un serveur X.
   </para>
