@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-writeimage">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::writeImage</methodname>
    <methodparam choice="opt"><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Écrit une image dans un fichier spécifié. Si le paramètre
    <parameter>filename</parameter> vaut &null;, l'image sera écrite dans le fichier

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setimagecolormapcolor">
@@ -16,7 +16,6 @@
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
    <methodparam><type>ImagickPixel</type><parameter>color</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Configure une couleur de la carte de couleurs de l'image.
   </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-valid">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::valid</methodname>
    <void/>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Vérifie si l'élément courant est valide.
   </para>

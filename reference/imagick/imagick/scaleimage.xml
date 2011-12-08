@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-scaleimage">
@@ -17,7 +17,6 @@
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>bestfit</parameter><initializer>false</initializer></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Met à l'échelle la taille de l'image, aux dimensions voulues. Les
    autres paramètres seront calculés si 0 est pas dans l'un d'entre eux.

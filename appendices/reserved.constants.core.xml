@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313710 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320582 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect2 xml:id="reserved.constants.core" xmlns="http://docbook.org/ns/docbook">
@@ -251,6 +251,18 @@
     <simpara>
      Spécifie l'endroit où on été installé
      les binaires.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry>
+   <term>
+    <constant>PHP_BINARY</constant> 
+    (<type>string</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Spécifie le chemin vers le binaire PHP lors de l'exécution
+     du script. Disponible depuis PHP 5.4.
     </simpara>
    </listitem>
   </varlistentry>

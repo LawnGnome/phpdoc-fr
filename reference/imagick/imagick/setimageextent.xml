@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setimageextent">
@@ -16,7 +16,6 @@
    <methodparam><type>int</type><parameter>columns</parameter></methodparam>
    <methodparam><type>int</type><parameter>rows</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Configure la taille d'une image (le nombre de colonnes et de lignes).
   </para>

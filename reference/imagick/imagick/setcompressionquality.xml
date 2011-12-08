@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setcompressionquality">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::setCompressionQuality</methodname>
    <methodparam><type>int</type><parameter>quality</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Configure la compression par défaut de l'objet.
   </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320312 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 320399 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-decode" xmlns="http://docbook.org/ns/docbook">
@@ -304,7 +304,7 @@ string(20) "12345678901234567890"
       <row>
        <entry>5.2.1</entry>
        <entry>
-        Ajout du support de l'encodage JSON des types basiques.
+        Ajout du support du décodage JSON des types basiques.
        </entry>
       </row>
      </tbody>

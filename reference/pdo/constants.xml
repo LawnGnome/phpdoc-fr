@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320468 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="pdo.constants" xmlns="http://docbook.org/ns/docbook">
@@ -282,8 +282,8 @@
    </term>
    <listitem>
     <simpara>
-     Récupération dans un tableau lorsque la première colonne est une clé et
-     tous les autres colonnes sont les valeurs. Disponible depuis PHP 5.2.3.
+     Récupère un résultat sur deux colonnes dans un tableau où la première colonne
+     est la clé, et la seconde colonne est la valeur. Disponible depuis PHP 5.2.3.
     </simpara>
    </listitem>
   </varlistentry>

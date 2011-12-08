@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-stereoimage">
@@ -15,7 +15,6 @@
    <type>bool</type><methodname>Imagick::stereoImage</methodname>
    <methodparam><type>Imagick</type><parameter>offset_wand</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Fusionne 2 images et produit une seule image représentant la fusion
    de l'image de gauche et de droite d'une paire stéréo.

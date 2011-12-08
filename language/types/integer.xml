@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318142 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320469 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.types.integer">
@@ -8,7 +8,7 @@
 
  <simpara>
   Un &integer; est un nombre appartenant à la classe
-  ℤ = {..., -2, -1, 0, 1, 2, ...}.
+  &#8484; = {..., -2, -1, 0, 1, 2, ...}.
  </simpara>
 
  <para>

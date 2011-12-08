@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-setresourcelimit">
@@ -16,7 +16,6 @@
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
    <methodparam><type>int</type><parameter>limit</parameter></methodparam>
   </methodsynopsis>
-  &warn.undocumented.func;
   <para>
    Configure la taille limite d'une ressource, en megaoctets.
   </para>
