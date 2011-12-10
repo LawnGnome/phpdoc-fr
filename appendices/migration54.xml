@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 320713 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="migration54" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -423,6 +423,12 @@
    Modification du comportement des extensions et nouveautés :
   </simpara>
   <itemizedlist>
+   <listitem>
+    <simpara>
+     <classname>MySQLi_Result</classname> now implements
+     <classname>Traversable</classname>.
+    </simpara>
+   </listitem>
    <listitem>
     <simpara>
      <!-- Placeholder for "Changes in extension behaviour, and new features". -->
