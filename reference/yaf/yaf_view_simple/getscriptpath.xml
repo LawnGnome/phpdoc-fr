@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 320077 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-view-simple.getscriptpath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_View_Simple::getScriptPath</refname>
-  <refpurpose>Le but de getScriptPath</refpurpose>
+  <refpurpose>Récupère le dossier de base contenant les templates</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>Yaf_View_Simple::getScriptPath</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>Yaf_View_Simple::getScriptPath</methodname>
    <void />
   </methodsynopsis>
   <para>
