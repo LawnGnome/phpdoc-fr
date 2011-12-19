@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318884 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 321092 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -176,7 +176,8 @@ recursion(3);
   <simpara>
    Des informations peuvent être passées à
    une fonction en utilisant une liste d'arguments, dont chaque
-   expression est séparée par une virgule.
+   expression est séparée par une virgule. Les arguments seront
+   évalués depuis la gauche vers la droite.
   </simpara>
   <para>
    PHP supporte le passage d'arguments par valeur (comportement par défaut), <link

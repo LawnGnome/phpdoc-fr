@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312693 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321140 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="openssl.constants" xmlns="http://docbook.org/ns/docbook">
@@ -90,7 +90,7 @@
  </section>
  
  <section xml:id="openssl.padding">
-  <title>Options de remplissage (<literal>Padding</literal>)</title>
+  <title>Options de remplissage (<literal>Padding</literal>) pour le cryptage asymétrique</title>
   <variablelist>
    
    <varlistentry>
