@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 312448 Maintainer: yannick Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes Maintainer: mikaelkael -->
 
 <chapter xml:id="install.cloud" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Installation sur des plateformes de Cloud Computing</title>
