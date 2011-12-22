@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306693 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 321294 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
  <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -54,7 +54,7 @@ class SimpleClass
     contexte d'un autre objet).
    </para>
    <para>
-    <example>
+    <example xml:id="language.oop5.basic.class.this">
      <title>Quelques exemples de la pseudo-variable <varname>$this</varname></title>
      <programlisting role="php">
 <![CDATA[
