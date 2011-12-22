@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307444 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321296 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mb-strrpos" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -110,7 +110,6 @@
     est obsolète et peut être supprimé prochainement.
    </simpara>
   </note>
-  &note.mbstring.encoding.internal;
  </refsect1>
 
  <refsect1 role="seealso">
