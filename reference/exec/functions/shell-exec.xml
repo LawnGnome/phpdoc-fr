@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 321440 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='function.shell-exec' xmlns="http://docbook.org/ns/docbook">
@@ -42,7 +42,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   La sortie de l'exécution de la commande.
+   La sortie de l'exécution de la commande ou &null; si une erreur survient.
   </para>
  </refsect1>
 
