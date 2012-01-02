@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298219 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 321552 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.deleteindex" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,7 +49,8 @@ public function deleteIndexes($keys) {
    <literal>deleteIndexes</literal> de la base de données.
   </para>
   <para>
-   Ainsi, si vous avez appelé un index "superfast query", vous pouvez le supprimer avec:
+   Ainsi, si vous avez appelé un index "superfast query", vous ne pouvez le supprimer qu'avec
+   le driver PHP en exécutant :
   </para>
   <programlisting role="php">
 <![CDATA[
@@ -88,7 +89,7 @@ $db->command(array("deleteIndexes" => $collection->getName(), "index" => "superf
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la réponse de la base de données.
+   Retourne le nom de la clé générée en cas de succès, &null; sinon.
   </para>
  </refsect1>
 
