@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ --> 
-<!-- EN-Revision: 317434 Maintainer: yannick Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 321157 Maintainer: yannick Status: ready -->
+<!-- Reviewed: yes Maintainer: yannick -->
 
 <section xml:id="mysqlnd-ms.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
- 
- <note>
-  <para>
-   La réplication et le plugin de balance de charge mysqlnd sont
-   dans un statut alpha.
-  </para>
- </note>
  
  <para>
   &pecl.moved;
