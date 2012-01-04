@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318169 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 320209 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.types.string">
@@ -148,7 +148,11 @@ echo 'Les variables ne seront pas $traitees $ici';
       </row>
       <row>
        <entry><literal>\v</literal></entry>
-       <entry>Tabulation verticale (VT or 0x0B (11) en ASCII) (depuis PHP 5.2.5)</entry>
+       <entry>Tabulation verticale (VT ou 0x0B (11) en ASCII) (depuis PHP 5.2.5)</entry>
+      </row>
+      <row>
+       <entry><literal>\e</literal></entry>
+       <entry>échappement (ESC or 0x1B (27) en ASCII) (depuis PHP 5.4.0)</entry>
       </row>
       <row>
        <entry><literal>\f</literal></entry>
