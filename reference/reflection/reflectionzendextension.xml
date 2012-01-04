@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321705 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:classref xml:id="class.reflectionzendextension" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -59,7 +59,11 @@
     <varlistentry xml:id="reflectionzendextension.props.name">
      <term><varname>name</varname></term>
      <listitem>
-      <para></para>
+      <para>
+       Nom de l'extension. En lecture seule, émets une exception
+       de type <classname>ReflectionException</classname> si l'on tente
+       d'y écrire.
+      </para>
      </listitem>
     </varlistentry>
    </variablelist>
