@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312851 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321903 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.httpmessage-construct" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier>
-   <type>void</type><methodname>HttpMessage::__construct</methodname>
+   <methodname>HttpMessage::__construct</methodname>
    <methodparam choice="opt"><type>string</type><parameter>message</parameter></methodparam>
   </methodsynopsis>
 

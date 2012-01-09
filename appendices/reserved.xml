@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318236 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321886 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
  <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -318,7 +318,7 @@
       <term><classname>Directory</classname></term>
       <listitem>
        <simpara>
-        La classe qui permet d'instancier <link linkend="class.dir">dir</link>.
+        Créé par la fonction <function>dir</function>.
        </simpara>
       </listitem>
      </varlistentry>
