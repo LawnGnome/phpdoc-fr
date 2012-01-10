@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321918 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.httpresponse-getthrottledelay" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>static</modifier>
-   <type>double</type><methodname>HttpResponse::getThrottleDelay</methodname>
+   <type>float</type><methodname>HttpResponse::getThrottleDelay</methodname>
    <void/>
   </methodsynopsis>
 
