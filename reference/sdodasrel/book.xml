@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321874 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: pecl -->
 <!-- State: experimental -->
@@ -128,7 +128,7 @@
    écrire à la base de données sans effectuer d'appel préliminaire à
    <function>executeQuery</function>,
    par exemple. Ce scénario et les autres sont explorés dans les
-   <link linkend="sdo.das.rel.examples">exemples</link> de la section plus
+   <link linkend="sdodasrel.examples">exemples</link> de la section plus
    bas.
   </para>
  </preface>

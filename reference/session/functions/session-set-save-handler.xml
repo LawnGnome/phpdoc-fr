@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321128 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321915 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-set-save-handler">
@@ -23,7 +23,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>session_set_save_handler</methodname>
    <methodparam><type>SessionHandler</type><parameter>sessionhandler</parameter></methodparam>
-   <methodparam choice="opt"><type>boolean</type><parameter>register_shutdown</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>register_shutdown</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>session_set_save_handler</function> configure les fonctions

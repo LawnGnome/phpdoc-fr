@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dams Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 321901 Maintainer: yannick Status: ready -->
+<!-- Reviewed: no Maintainer: yannick -->
 
 <refentry xml:id="soapclient.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>SoapClient::SoapClient</methodname>
+   <modifier>public</modifier> <methodname>SoapClient::SoapClient</methodname>
    <methodparam><type>mixed</type><parameter>wsdl</parameter></methodparam>
    <methodparam choice="opt"><type>array</type><parameter>options</parameter></methodparam>
   </methodsynopsis>

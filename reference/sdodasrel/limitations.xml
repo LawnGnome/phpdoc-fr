@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321874 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<chapter xml:id="sdo.das.rel.limitations" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<chapter xml:id="sdodasrel.limitations" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Limitations</title>
  <para>
   Il y a les limitations suivantes dans la version courante de DAS
