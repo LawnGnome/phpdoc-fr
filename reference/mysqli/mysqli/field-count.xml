@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322008 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli.field-count" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli::field_count</refname>
+  <refname>mysqli::$field_count</refname>
   <refname>mysqli_field_count</refname>
   <refpurpose>Retourne le nombre de colonnes pour la dernière requête</refpurpose>
  </refnamediv>
@@ -13,10 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>&style.oop;</para>
-  <classsynopsis>
-   <ooclass><classname>mysqli_result</classname></ooclass>
-   <fieldsynopsis><type>int</type><varname>field_count</varname></fieldsynopsis>
-  </classsynopsis>
+  <fieldsynopsis><type>int</type><varname linkend="mysqli.field-count">mysqli->field_count</varname></fieldsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>
    <type>int</type><methodname>mysqli_field_count</methodname>
