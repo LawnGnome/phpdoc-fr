@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317256 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="curl.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -12,10 +12,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Nom</entry>
-      <entry>Défaut</entry>
-      <entry>Modifiable</entry>
-      <entry>Changelog</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
