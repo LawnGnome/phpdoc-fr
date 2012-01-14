@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.harudoc-usecntfonts" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="harudoc.usecntfonts" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruDoc::useCNTFonts</refname>
   <refpurpose>Active les polices chinoises traditionnelles internes</refpurpose>
