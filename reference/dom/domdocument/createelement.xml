@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300172 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="domdocument.createelement" xmlns="http://docbook.org/ns/docbook">
@@ -39,7 +39,7 @@
       <para>
        La valeur de l'élément. Par défaut, un élément vide sera créé.
        La valeur peut également être définie plus tard avec la fonction 
-       <literal>DOMElement->nodeValue</literal>.
+       <link linkend="domnode.props.nodevalue">DOMElement::$nodeValue</link>.
       </para>
      </listitem>
     </varlistentry>

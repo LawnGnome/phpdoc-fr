@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='domelement.construct' xmlns="http://docbook.org/ns/docbook">
@@ -12,15 +12,12 @@
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>DOMElement</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <methodparam><type>string</type><parameter>name</parameter></methodparam>
-    <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
-    <methodparam choice="opt"><type>string</type><parameter>namespaceURI</parameter></methodparam>
-   </methodsynopsis> 
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>DOMElement::__construct</methodname>
+   <methodparam><type>string</type><parameter>name</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
+   <methodparam choice="opt"><type>string</type><parameter>namespaceURI</parameter></methodparam>
+  </methodsynopsis> 
   <para>
    Crée un nouvel objet <classname>DOMElement</classname>.
    Cet objet est en lecture seule. Il peut être ajouté à un document, mais les

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305261 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322237 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="domdocument.loadhtmlfile" xmlns="http://docbook.org/ns/docbook">
@@ -55,6 +55,7 @@
    d'erreur de libxml</link>.
   </para>
   &dom.allowstatic;
+  &dom.malformederror;
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
