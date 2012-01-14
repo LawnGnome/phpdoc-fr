@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322134 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="userlandnaming" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -94,7 +94,7 @@
      Exemple :
     </para>
     <itemizedlist>
-     <listitem><para><function>__get</function></para></listitem>
+     <listitem><para><link linkend="object.get">__get()</link></para></listitem>
      <listitem><para><function>__autoload</function></para></listitem>
     </itemizedlist>
    </listitem>
