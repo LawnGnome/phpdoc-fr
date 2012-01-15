@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.httpinflatestream-factory" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="httpinflatestream.factory" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpInflateStream::factory</refname>
   <refpurpose>Classe HttpInflateStream</refpurpose>
@@ -21,7 +21,7 @@
    Crée une nouvelle instance de l'objet HttpInflateStream.
   </para>
   <para>
-   Voir le <link linkend="http.HttpInflateStream.constants">tableau des constantes
+   Voir le <link linkend="http.httpinflatestream.constants">tableau des constantes
     de décompression</link> pour les valeurs possibles de <parameter>flags</parameter>.
   </para>
  </refsect1>

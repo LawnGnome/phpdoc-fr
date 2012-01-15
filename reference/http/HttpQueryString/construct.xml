@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.httpquerystring-construct" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="httpquerystring.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpQueryString::__construct</refname>
   <refpurpose>Constructeur de la classe HttpQueryString</refpurpose>
@@ -18,12 +18,13 @@
   </methodsynopsis>
 
   <para>
-   Crée une nouvelle instance de l'objet HttpQueryString.
+   Crée une nouvelle instance de l'objet
+   <classname>HttpQueryString</classname>.
   </para>
   <para>
    Opère sur et modifie <varname>$_GET</varname> et
    <varname>$_SERVER['QUERY_STRING']</varname> si le paramètre
-   <parameter>global = TRUE</parameter> vaut &true;.
+   <parameter>global</parameter> vaut &true;.
   </para>
 
  </refsect1>

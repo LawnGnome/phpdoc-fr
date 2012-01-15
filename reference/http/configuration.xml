@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="http.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -13,10 +13,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Nom</entry>
-      <entry>Défaut</entry>
-      <entry>Modifiable</entry>
-      <entry>Description</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Description;</entry>
      </row>
     </thead>
     <tbody>
