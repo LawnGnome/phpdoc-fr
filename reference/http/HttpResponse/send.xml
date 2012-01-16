@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312851 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.httpresponse-send" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="httpresponse.send" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HttpResponse::send</refname>
   <refpurpose>Envoie la réponse</refpurpose>

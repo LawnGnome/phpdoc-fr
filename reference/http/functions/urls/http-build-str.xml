@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308225 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322045 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.http-build-str" xmlns="http://docbook.org/ns/docbook">
@@ -46,8 +46,9 @@
      <term><parameter>arg_separator</parameter></term>
      <listitem>
       <para>
-       séparateur à utiliser (par défaut, ce sera le contenu de la variable de configuration  INI arg_separator.output)
-       ou &quot;&amp;&quot; si rien n'est défini
+       séparateur à utiliser (par défaut, ce sera le contenu de la
+       variable de configuration  INI arg_separator.output)
+       ou "&amp;" si rien n'est défini
       </para>
      </listitem>
     </varlistentry>
