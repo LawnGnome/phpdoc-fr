@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagegeometry">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagegeometry">
  <refnamediv>
   <refname>Imagick::getImageGeometry</refname>
   <refpurpose>Lit les dimensions de l'image dans un tableau</refpurpose>

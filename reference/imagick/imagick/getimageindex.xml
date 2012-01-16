@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageindex">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimageindex">
  <refnamediv>
   <refname>Imagick::getImageIndex</refname>
   <refpurpose>Lit l'index de l'image courante</refpurpose>
@@ -17,8 +17,8 @@
   </methodsynopsis>
   <para>
    Retourne l'index de l'image courante dans la séquence Imagick.
-   Cette méthode est obsolète. Voyez <link
-   linkend="function.imagick-getiteratorindex">Imagick::getIteratorIndex</link>
+   Cette méthode est obsolète.
+   Reportez-vous à la fonction <function>Imagick::getIteratorIndex</function>.
   </para>
  </refsect1>
 

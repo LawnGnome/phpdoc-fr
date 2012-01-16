@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagedispose">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagedispose">
  <refnamediv>
   <refname>Imagick::getImageDispose</refname>
   <refpurpose>Lit la méthode de récupération</refpurpose>

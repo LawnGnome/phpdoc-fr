@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294112 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-distortimage">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.distortimage">
  <refnamediv>
   <refname>Imagick::distortImage</refname>
   <refpurpose>Déforme une image avec différentes méthodes</refpurpose>

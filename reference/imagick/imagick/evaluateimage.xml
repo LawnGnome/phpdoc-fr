@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311814 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-evaluateimage">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.evaluateimage">
  <refnamediv>
   <refname>Imagick::evaluateImage</refname>
   <refpurpose>Applique une expression à une image</refpurpose>
