@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getquantumrange">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getquantumrange">
  <refnamediv>
   <refname>Imagick::getQuantumRange</refname>
   <refpurpose>Retourne l'intervalle quantique de Imagick</refpurpose>

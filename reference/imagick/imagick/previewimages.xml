@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-previewimages">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.previewimages">
  <refnamediv>
   <refname>Imagick::previewImages</refname>
   <refpurpose>Teste rapidement différents paramètres pour un traitement d'images</refpurpose>

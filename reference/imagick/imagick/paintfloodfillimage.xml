@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-paintfloodfillimage">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.paintfloodfillimage">
  <refnamediv>
   <refname>Imagick::colorFloodfillImage</refname>
   <refpurpose>Change les pixels qui sont d'une couleur</refpurpose>

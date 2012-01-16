@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagerenderingintent">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagerenderingintent">
  <refnamediv>
   <refname>Imagick::getImageRenderingIntent</refname>
   <refpurpose>Lit la méthode de rendu de l'image</refpurpose>
