@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-getstrokelinejoin">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.getstrokelinejoin">
  <refnamediv>
   <refname>ImagickDraw::getStrokeLineJoin</refname>
   <refpurpose>Retourne la forme à utiliser pour dessiner les coins d'un chemin</refpurpose>

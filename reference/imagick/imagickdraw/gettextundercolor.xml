@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-gettextundercolor">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.gettextundercolor">
  <refnamediv>
   <refname>ImagickDraw::getTextUnderColor</refname>
   <refpurpose>Retourne la couleur sous le texte</refpurpose>

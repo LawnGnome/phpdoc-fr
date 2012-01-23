@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321894 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="id3v2tag.addFrame" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="id3v2tag.addframe" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_ID3v2_Tag::addFrame</refname>
   <refpurpose>Ajoute une frame à un tag ID3v2</refpurpose>

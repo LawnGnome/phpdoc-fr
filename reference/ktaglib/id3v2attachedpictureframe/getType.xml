@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321894 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="id3v2attachedpictureframe.getType" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="id3v2attachedpictureframe.gettype" xmlns="http://docbook.org/ns/docbook">
   <refnamediv>
     <refname>KTaglib_ID3v2_AttachedPictureFrame::getType</refname>
     <refpurpose>Retourne le type d'une image</refpurpose>
