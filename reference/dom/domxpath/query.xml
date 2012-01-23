@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308253 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322382 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="domxpath.query" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>DOMNodeList</type><methodname>DOMXPath::query</methodname>
+   <modifier>public</modifier> <type>DOMNodeList</type><methodname>DOMXPath::query</methodname>
    <methodparam><type>string</type><parameter>expression</parameter></methodparam>
    <methodparam choice="opt"><type>DOMNode</type><parameter>contextnode</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>registerNodeNS</parameter><initializer>true</initializer></methodparam>

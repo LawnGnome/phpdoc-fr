@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-shaveimage">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.shaveimage">
  <refnamediv>
   <refname>Imagick::shaveImage</refname>
   <refpurpose>Supprime les pixels du bord de l'image</refpurpose>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322382 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='domnode.issamenode' xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DOMNode::isSameNode</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>DOMNode::isSameNode</methodname>
    <methodparam><type>DOMNode</type><parameter>node</parameter></methodparam>
   </methodsynopsis>
   <para>
