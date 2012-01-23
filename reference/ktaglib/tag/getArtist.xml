@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="tag.getArtist" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="tag.getartist" xmlns="http://docbook.org/ns/docbook">
   <refnamediv>
     <refname>KTaglib_Tag::getArtist</refname>
     <refpurpose>Retourne le nom de l'artiste d'un tag ID3</refpurpose>

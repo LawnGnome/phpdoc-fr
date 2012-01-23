@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-setclipunits">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setclipunits">
  <refnamediv>
   <refname>ImagickDraw::setClipUnits</refname>
   <refpurpose>Configure le mode d'interprétation des unités de chemin</refpurpose>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="mpegfile.getID3v1Tag" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="mpegfile.getid3v1tag" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_File::getID3v1Tag</refname>
   <refpurpose>Retourne un objet représentant un tag ID3v1</refpurpose>

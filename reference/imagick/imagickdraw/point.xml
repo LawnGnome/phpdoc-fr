@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-point">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.point">
  <refnamediv>
   <refname>ImagickDraw::point</refname>
   <refpurpose>Dessine un point</refpurpose>

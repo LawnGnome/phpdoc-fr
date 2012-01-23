@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-setstrokewidth">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.setstrokewidth">
  <refnamediv>
   <refname>ImagickDraw::setStrokeWidth</refname>
   <refpurpose>Configure la largeur du trait pour dessiner les contours</refpurpose>

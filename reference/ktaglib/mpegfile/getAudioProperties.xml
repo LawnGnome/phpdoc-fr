@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321875 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="mpegfile.getAudioProperties" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="mpegfile.getaudioproperties" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_File::getAudioProperties</refname>
   <refpurpose>Retourne un objet qui permet l'accès aux propriétés audio</refpurpose>
