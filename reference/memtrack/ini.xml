@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322131 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="memtrack.ini" xmlns="http://docbook.org/ns/docbook">
@@ -19,7 +19,7 @@
     </thead>
     <tbody>
      <row>
-      <entry>memtrack.enabled</entry>
+      <entry><link linkend="ini.memtrack.enabled">memtrack.enabled</link></entry>
       <entry>"0"</entry>
       <entry>PHP_INI_SYSTEM</entry>
      </row>
@@ -66,7 +66,7 @@
    </listitem>
   </varlistentry>
   
-  <varlistentry xml:id="ini.memtrack.soft_limit">
+  <varlistentry xml:id="ini.memtrack.soft-limit">
    <term>
     <parameter>memtrack.soft_limit</parameter>
     <type>int</type>
@@ -89,7 +89,7 @@
    </listitem>
   </varlistentry>
   
-  <varlistentry xml:id="ini.memtrack.hard_limit">
+  <varlistentry xml:id="ini.memtrack.hard-limit">
    <term>
     <parameter>memtrack.hard_limit</parameter>
     <type>int</type>
@@ -110,7 +110,7 @@
    </listitem>
   </varlistentry>
   
-  <varlistentry xml:id="ini.memtrack.vm_limit">
+  <varlistentry xml:id="ini.memtrack.vm-limit">
    <term>
     <parameter>memtrack.vm_limit</parameter>
     <type>int</type>
@@ -131,7 +131,7 @@
    </listitem>
   </varlistentry>
   
-  <varlistentry xml:id="ini.memtrack.ignore_functions">
+  <varlistentry xml:id="ini.memtrack.ignore-functions">
    <term>
     <parameter>memtrack.ignore_functions</parameter>
     <type>string</type>

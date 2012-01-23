@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295815 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322197 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="mysqli.get-cache-stats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="function.mysqli-get-cache-stats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli_get_cache_stats</refname>
   <refpurpose>Retourne les statistiques sur le cache du client Zval</refpurpose>

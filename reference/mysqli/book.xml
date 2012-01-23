@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322148 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Membership: bundled, external -->
 
@@ -54,6 +54,7 @@
 <!-- }}} -->
  
  &reference.mysqli.overview;
+ &reference.mysqli.quickstart;
  &reference.mysqli.setup;
  &reference.mysqli.persistconns;
  &reference.mysqli.constants;

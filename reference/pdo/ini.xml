@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303741 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322086 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="pdo.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -20,7 +20,7 @@
     </thead>
     <tbody>
      <row>
-      <entry>pdo.dsn.*</entry>
+      <entry><link linkend="ini.pdo.dsn">pdo.dsn.*</link></entry>
       <entry></entry>
       <entry>&php.ini; seulement</entry>
       <entry></entry>
