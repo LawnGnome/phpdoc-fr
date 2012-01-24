@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.swfmovie.construct" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="swfmovie.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SWFMovie->__construct</refname>
+  <refname>SWFMovie::__construct</refname>
   <refpurpose>Crée un nouvel objet vidéo, représentant une vidéo SWF version 4</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SWFMovie</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <methodparam choice="opt"><type>int</type><parameter>version</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>SWFMovie::__construct</methodname>
+   <methodparam choice="opt"><type>int</type><parameter>version</parameter></methodparam>
+  </methodsynopsis>
    &warn.experimental.func;
   <para>
    Crée un nouvel objet vidéo, représentant une vidéo SWF.

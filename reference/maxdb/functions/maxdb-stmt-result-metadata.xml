@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.maxdb-stmt-result-metadata">
@@ -75,7 +75,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Style orienté objet</title>
+    <title>&style.oop;</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -107,7 +107,7 @@ $maxdb->close();
     </programlisting>
    </example>
    <example>
-    <title>Style procédural</title>
+    <title>&style.procedural;</title>
     <programlisting role="php">
 <![CDATA[
 <?php
