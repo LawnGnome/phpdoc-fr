@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: yannick -->
 
-<refentry xml:id="function.swfsprite.construct" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="swfsprite.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SWFSprite->__construct</refname>
+  <refname>SWFSprite::__construct</refname>
   <refpurpose>Crée un clip vidéo (un sprite)</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SWFSprite</classname></ooclass>
-   <methodsynopsis>
-    <methodname>__construct</methodname>
-    <void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <methodname>SWFSprite::__construct</methodname>
+   <void/>
+  </methodsynopsis>
   &warn.experimental.func;
   <para>
    Crée un nouvel objet <classname>SWFSprite</classname>.
