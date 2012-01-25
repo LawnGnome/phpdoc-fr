@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdostatement.errorcode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->errorCode</refname>
+  <refname>PDOStatement::errorCode</refname>
   <refpurpose>
-   Récupère le SQLSTATE associé lors de la dernière opération sur la requête
+   Récupère les informations sur l'erreur associée lors de la dernière opération sur la requête
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">

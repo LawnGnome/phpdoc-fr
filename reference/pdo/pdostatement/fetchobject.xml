@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdostatement.fetchobject" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->fetchObject</refname>
+  <refname>PDOStatement::fetchObject</refname>
   <refpurpose>Récupère la prochaine ligne et la retourne en tant qu'objet</refpurpose>
  </refnamediv>
  <refsect1 role="description">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303356 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdostatement.nextrowset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->nextRowset</refname>
+  <refname>PDOStatement::nextRowset</refname>
   <refpurpose>
    Avance à la prochaine ligne de résultats d'un gestionnaire de lignes de résultats multiples
   </refpurpose>

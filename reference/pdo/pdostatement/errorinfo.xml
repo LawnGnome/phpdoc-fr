@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdostatement.errorinfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->errorInfo</refname>
+  <refname>PDOStatement::errorInfo</refname>
   <refpurpose>
    Récupère les informations sur l'erreur associée lors de la dernière opération sur la requête
   </refpurpose>

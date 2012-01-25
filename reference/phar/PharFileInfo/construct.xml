@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 322134 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="pharfileinfo.construct">
@@ -44,7 +44,7 @@
   &reftitle.errors;
   <para>
    Soulève une exception <classname>BadMethodCallException</classname> si
-   <function>__construct</function> est appelé deux fois.
+   <link linkend="object.construct">__construct()</link> est appelé deux fois.
    Soulève une exception <classname>UnexpectedValueException</classname> si
    l'URL du phar demandé est mal formée, si le phar ne peut pas être ouvert ou
    si le fichier ne peut pas être trouvé au sein du phar.

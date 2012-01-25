@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 322194 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="phar.hasmetadata" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Phar::hasMetaData</refname>
+  <refname>Phar::hasMetadata</refname>
   <refpurpose>Détermine si le phar a ou non des méta-données</refpurpose>
  </refnamediv>
 
@@ -37,7 +37,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Un exemple avec <function>Phar::hasMetaData</function></title>
+    <title>Un exemple avec <function>Phar::hasMetadata</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php

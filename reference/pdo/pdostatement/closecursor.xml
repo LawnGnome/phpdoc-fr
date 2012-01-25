@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdostatement.closecursor" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->closeCursor</refname>
+  <refname>PDOStatement::closeCursor</refname>
   <refpurpose>
    Ferme le curseur, permettant à la requête d'être de nouveau exécutée
   </refpurpose>

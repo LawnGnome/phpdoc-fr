@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316472 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdostatement.fetchall" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->fetchAll</refname>
+  <refname>PDOStatement::fetchAll</refname>
   <refpurpose>
    Retourne un tableau contenant toutes les lignes du jeu d'enregistrements
   </refpurpose>

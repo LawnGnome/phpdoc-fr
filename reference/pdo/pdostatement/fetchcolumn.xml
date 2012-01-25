@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322104 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdostatement.fetchcolumn" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->fetchColumn</refname>
+  <refname>PDOStatement::fetchColumn</refname>
   <refpurpose>
    Retourne une colonne depuis la ligne suivante d'un jeu de résultats
   </refpurpose>
