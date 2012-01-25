@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.domnode-node-name" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='function.domnode-node-name' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DomNode->node_name</refname>
+  <refname>DomNode::node_name</refname>
   <refpurpose>
    Retourne le nom du noeud
   </refpurpose>
  </refnamediv>
- 
- <refsect1 role="description">
+ <refsect1>
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>DomNode->node_name</methodname>
+   <type>string</type><methodname>DomNode::node_name</methodname>
    <void/>
   </methodsynopsis>
   <para>
-   <function>DomNode->node_name</function> retourne le nom du noeud. Le nom a 
-   différentes signification suivant
-   le type de noeud, tel que présenté ci-dessous : 
+   Retourne le nom du noeud. Le nom a différentes significations
+   suivant le type de noeud, tel que présenté ci-dessous :
    <table>
-    <title>Signification de la valeur</title>
+    <title>Meaning of value</title>
     <tgroup cols="2">
      <thead>
       <row>
@@ -73,7 +71,7 @@
       </row>
       <row>
        <entry>DomProcessingInstruction</entry>
-       <entry>target</entry>
+       <entry>La cible</entry>
       </row>
       <row>
        <entry>DomText</entry>

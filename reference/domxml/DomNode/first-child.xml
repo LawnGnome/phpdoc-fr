@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.domnode-has-attributes" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='function.domnode-first-child' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DomNode->has_attributes</refname>
+  <refname>DomNode::first_child</refname>
   <refpurpose>
-   Vérifie si un noeud a des attributs
+   Retourne le premier fils du noeud
   </refpurpose>
  </refnamediv>
- 
- <refsect1 role="description">
+ <refsect1>
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DomNode->has_attributes</methodname>
+   <type>domelement</type><methodname>DomNode::first_child</methodname>
    <void/>
   </methodsynopsis>
   <para>
-   <function>DomNode->has_attributes</function> vérifie si un noeud
-   a des attributs.
+   Retourne le premier fils du noeud.
+  </para>
+  <para>
+   (PHP &gt;= 4.3 uniquement) Si aucun noeud fils n'est trouvé,
+   &null; est retourné.
   </para>
   <para>
    Voir aussi 
-   <function>domnode_has_child_nodes</function>.
+   <function>domnode_last_child</function>,
+   <function>domnode_next_sibling</function> et
+   <function>domnode_previous_sibling</function>.
   </para>
  </refsect1>
 </refentry>

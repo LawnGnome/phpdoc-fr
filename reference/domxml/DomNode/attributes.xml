@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.domnode-set-content" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='function.domnode-attributes' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DomNode->set_content</refname>
+  <refname>DomNode::attributes</refname>
   <refpurpose>
-   Modifie le contenu d'un noeud
+   Retourne la liste des attributs
   </refpurpose>
  </refnamediv>
- 
- <refsect1 role="description">
+ <refsect1>
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DomNode->set_content</methodname>
-   <methodparam><type>string</type><parameter>content</parameter></methodparam>
+   <type>array</type><methodname>DomNode::attributes</methodname>
+   <void/>
   </methodsynopsis>
   <para>
-   &warn.undocumented.func;
+   Cette fonction retourne un tableau avec les attributs
+   du noeud si le noeud est de type <constant>XML_ELEMENT_NODE</constant>.
+  </para>
+  <para>
+   (PHP &gt;= 4.3 uniquement) Si aucun attribut n'est trouvé, &null; est retourné.
   </para>
  </refsect1>
 </refentry>

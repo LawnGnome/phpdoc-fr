@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.domnode-is-blank-node" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='function.domnode-set-content' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DomNode->is_blank_node</refname>
+  <refname>DomNode::set_content</refname>
   <refpurpose>
-   Vérifie si un noeud est blanc
+   Modifie le contenu d'un noeud
   </refpurpose>
  </refnamediv>
- 
- <refsect1 role="description">
+ <refsect1>
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DomNode->is_blank_node</methodname>
-   <void/>
+   <type>bool</type><methodname>DomNode::set_content</methodname>
+   <methodparam><type>string</type><parameter>content</parameter></methodparam>
   </methodsynopsis>
   <para>
    &warn.undocumented.func;

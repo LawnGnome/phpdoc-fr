@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.domnode-node-value" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='function.domnode-node-value' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DomNode->node_value</refname>
+  <refname>DomNode::node_value</refname>
   <refpurpose>
    Retourne la valeur d'un noeud
   </refpurpose>
  </refnamediv>
- 
- <refsect1 role="description">
+ <refsect1>
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>DomNode->node_value</methodname>
+   <type>string</type><methodname>DomNode::node_value</methodname>
    <void/>
   </methodsynopsis>
   <para>
-   <function>DomNode->node_value</function> retourne la valeur d'un noeud. La valeur
-   a différente signification suivant le type de noeud, tel que présenté
-   ci-dessous :
+   Retourne la valeur d'un noeud. La valeur a différente signification
+   suivant le type de noeud, tel que présenté ci-dessous :
    <table>
     <title>Signification de la valeur</title>
     <tgroup cols="2">
@@ -49,27 +47,27 @@
       </row>
       <row>
        <entry>DomDocument</entry>
-       <entry>&null;</entry>
+       <entry>null</entry>
       </row>
       <row>
        <entry>DomDocumentType</entry>
-       <entry>&null;</entry>
+       <entry>null</entry>
       </row>
       <row>
        <entry>DomElement</entry>
-       <entry>&null;</entry>
+       <entry>null</entry>
       </row>
       <row>
        <entry>DomEntity</entry>
-       <entry>&null;</entry>
+       <entry>null</entry>
       </row>
       <row>
        <entry>DomEntityReference</entry>
-       <entry>&null;</entry>
+       <entry>null</entry>
       </row>
       <row>
        <entry>DomNotation</entry>
-       <entry>&null;</entry>
+       <entry>null</entry>
       </row>
       <row>
        <entry>DomProcessingInstruction</entry>
