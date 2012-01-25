@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318216 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.oci-lob-truncate" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="oci-lob.read" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->truncate</refname>
-  <refpurpose>Tronque un LOB Oracle</refpurpose>
+  <refname>OCI-Lob::read</refname>
+  <refpurpose>Lit une partie d'un LOB Oracle</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>truncate</methodname>
-    <methodparam choice="opt"><type>int</type><parameter>length</parameter><initializer>0</initializer></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>string</type><methodname>OCI-Lob::read</methodname>
+   <methodparam><type>int</type><parameter>length</parameter></methodparam>
+  </methodsynopsis>
   <para>
-   Tronque un LOB Oracle.
+   Lit <parameter>length</parameter> octets
+   à partir de la position courante du LOB.
+  </para>
+  <para>
+   La lecture stoppe lorsque <parameter>length</parameter> ont été lus,
+   ou que la fin du LOB a été atteinte. Le pointeur de LOB sera déplacé par cette lecture.
   </para>
  </refsect1>
 
@@ -31,10 +33,7 @@
      <term><parameter>length</parameter></term>
      <listitem>
       <para>
-       Si <parameter>length</parameter> est fourni,
-       <function>OCI-Lob->truncate</function> tronque le LOB à
-       <parameter>length</parameter> octets. Sinon,
-       <function>OCI-Lob->truncate</function> va purger complètement le LOB.
+       La taille des données à lire, en octets.
       </para>
      </listitem>
     </varlistentry>
@@ -45,7 +44,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;
+   Retourne le contenu, sous la forme d'une &string; &return.falseforfailure;.
   </para>
  </refsect1>
 
@@ -53,7 +52,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-lob-erase" /></member>
+    <member><xref linkend="oci-lob.load" /></member> 
+    <member><xref linkend="oci-lob.write" /></member> 
    </simplelist>
   </para>
  </refsect1>
@@ -80,3 +80,4 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
+

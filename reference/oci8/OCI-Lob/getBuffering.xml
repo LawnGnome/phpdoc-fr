@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.oci-lob-size" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="oci-lob.getbuffering" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->size</refname>
-  <refpurpose>Retourne la taille d'un LOB Oracle</refpurpose>
+  <refname>OCI-Lob::getBuffering</refname>
+  <refpurpose>Retourne l'état de bufferisation LOB d'Oracle</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>int</type><methodname>size</methodname>
-    <void />
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>OCI-Lob::getBuffering</methodname>
+   <void/>
+  </methodsynopsis>
   <para>
-   Retourne la taille d'un LOB Oracle.
+   Retourne l'état de bufferisation LOB d'Oracle.
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la taille du LOB &return.falseforfailure;.
-   Les objets vides ont une taille de 0.
+   Retourne &false; si la bufferisation des LOB est désactivée, et &true;
+   si elle l'est.
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><xref linkend="oci-lob.setbuffering" /></member> 
+   </simplelist>
   </para>
  </refsect1>
 

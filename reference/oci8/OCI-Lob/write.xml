@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.oci-lob-save" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="oci-lob.write" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->save</refname>
-  <refpurpose>Sauvegarde des données dans un LOB Oracle</refpurpose>
+  <refname>OCI-Lob::write</refname>
+  <refpurpose>Écrit des données dans un LOB Oracle</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>save</methodname>
-    <methodparam><type>string</type><parameter>data</parameter></methodparam>
-    <methodparam choice="opt"><type>int</type><parameter>offset</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>int</type><methodname>OCI-Lob::write</methodname>
+   <methodparam><type>string</type><parameter>data</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>length</parameter></methodparam>
+  </methodsynopsis>
   <para>
-   Sauvegarde des données dans un LOB Oracle.
+   Écrit les données de la variable <parameter>data</parameter>
+   à la position courante du LOB.
   </para>
  </refsect1>
 
@@ -32,15 +30,17 @@
      <term><parameter>data</parameter></term>
      <listitem>
       <para>
-       Les données à sauvegarder.
+       Les données à écrire dans le LOB.
       </para>
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>offset</parameter></term>
+     <term><parameter>length</parameter></term>
      <listitem>
       <para>
-       Peut être utilisé pour indiquer la position depuis le début du LOB.
+       Si ce paramètre est fourni, l'écriture s'arrêtera
+       après <parameter>length</parameter> octets, ou à la fin de la variable
+       <parameter>data</parameter>.
       </para>
      </listitem>
     </varlistentry>
@@ -51,7 +51,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;
+   Retourne le nombre d'octets écrits &return.falseforfailure;.
   </para>
  </refsect1>
 
@@ -59,8 +59,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.oci-lob-write" /></member>
-    <member><xref linkend="function.oci-lob-import" /></member>
+    <member><xref linkend="oci-lob.read" /></member> 
    </simplelist>
   </para>
  </refsect1>

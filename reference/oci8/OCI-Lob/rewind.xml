@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="function.oci-lob-free" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="oci-lob.rewind" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>OCI-Lob->free</refname>
-  <refpurpose>Détruit un pointeur de LOB Oracle</refpurpose>
+  <refname>OCI-Lob::rewind</refname>
+  <refpurpose>Ramène le pointeur interne d'un LOB Oracle au début</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>OCI-Lob</classname></ooclass>
-   <methodsynopsis>
-    <type>bool</type><methodname>free</methodname>
-    <void />
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>bool</type><methodname>OCI-Lob::rewind</methodname>
+   <void />
+  </methodsynopsis>
   <para>
-   Libère les ressources associées avec la ressource, précédemment alloué avec
-   <function>oci_new_descriptor</function>.
+   Ramène le pointeur interne d'un LOB Oracle au début.
   </para>
  </refsect1>
 
@@ -28,6 +24,16 @@
   &reftitle.returnvalues;
   <para>
    &return.success;
+  </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><xref linkend="oci-lob.seek" /></member> 
+    <member><xref linkend="oci-lob.tell" /></member> 
+   </simplelist>
   </para>
  </refsect1>
 
