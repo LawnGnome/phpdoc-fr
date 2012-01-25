@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301626 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-unchangearchive" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.unchangearchive" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::unchangeArchive</refname>
   <refpurpose>Annule toutes les modifications globales faites sur l'archive</refpurpose>

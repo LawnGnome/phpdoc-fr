@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316915 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321823 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.get-headers" xmlns="http://docbook.org/ns/docbook">
@@ -148,6 +148,15 @@ $headers = get_headers('http://example.com');
 ]]>
     </programlisting>
    </example>
+  </para>
+ </refsect1>
+ 
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><function>apache_request_headers</function></member>
+   </simplelist>
   </para>
  </refsect1>
 

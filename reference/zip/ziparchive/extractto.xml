@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304623 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-extractto" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.extractto" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::extractTo</refname>
   <refpurpose>Extrait le contenu de l'archive</refpurpose>

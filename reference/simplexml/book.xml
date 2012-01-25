@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322180 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: bundled, external -->
 
@@ -22,6 +22,7 @@
  &reference.simplexml.constants;
  &reference.simplexml.examples;
  &reference.simplexml.simplexmlelement;
+ &reference.simplexml.simplexmliterator;
  &reference.simplexml.reference;
 
 </book>

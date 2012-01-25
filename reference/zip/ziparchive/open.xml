@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320331 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-open" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::open</refname>
   <refpurpose>Ouvre une archive ZIP</refpurpose>
