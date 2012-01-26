@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
-<!-- Reviewed: yes -->
-<refentry xml:id="function.swish-getmetalist" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: yannick Status: ready -->
+<!-- Reviewed: no -->
+
+<refentry xml:id="swishresults.getremovedstopwords" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Swish-&gt;getMetaList</refname>
-  <refpurpose>Récupère la liste de méta-données de l'index</refpurpose>
+  <refname>SwishResults::getRemovedStopwords</refname>
+  <refpurpose>Récupère un tableau de mots non significatifs supprimés de la requête</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>Swish-&gt;getMetaList</methodname>
+   <type>array</type><methodname>SwishResults::getRemovedStopwords</methodname>
    <methodparam><type>string</type><parameter>index_name</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
@@ -23,7 +24,7 @@
      <term><parameter>index_name</parameter></term>
      <listitem>
       <para>
-       Le nom du fichier d'index.
+       Le nom de l'index utilisé pour initialiser l'objet <classname>Swish</classname>.
       </para>
      </listitem>
     </varlistentry>
@@ -33,47 +34,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un tableau de méta-données pour un index donné.
-  </para>
- </refsect1>
- <refsect1 role="examples">
-  &reftitle.examples;
-  <para>
-   <example>
-    <title>Exemple simple avec <function>Swish-&gt;getMetaList</function></title>
-    <programlisting role="php">
-<![CDATA[
-<?php
-
-try {
-
-    $swish = new Swish("index.swish-e");
-    var_dump($swish->getMetaList("index.swish-e"));
-
-} catch (SwishException $e) {
-    echo $e->getMessage(), "\n";
-}
-
-?>
-]]>
-    </programlisting>
-    &example.outputs.similar;
-    <screen>
-<![CDATA[
-array(1) {
-  [0]=>
-  array(3) {
-    ["Name"]=>
-    string(12) "swishdefault"
-    ["Type"]=>
-    int(0)
-    ["ID"]=>
-    int(1)
-  }
-}
-]]>
-    </screen>
-   </example>
+   Retourne un tableau de mots non significatifs supprimés de la requête.
   </para>
  </refsect1>
 

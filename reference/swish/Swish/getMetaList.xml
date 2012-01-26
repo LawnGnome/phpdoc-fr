@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
-<!-- Reviewed: yes -->
-<refentry xml:id="function.swishresults-getparsedwords" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: yannick Status: ready -->
+<!-- Reviewed: no -->
+
+<refentry xml:id="swish.getmetalist" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SwishResults-&gt;getParsedWords</refname>
-  <refpurpose>Récupère un tableau de mots analysés</refpurpose>
+  <refname>Swish::getMetaList</refname>
+  <refpurpose>Récupère la liste de méta-données de l'index</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>SwishResults-&gt;getParsedWords</methodname>
+   <type>array</type><methodname>Swish::getMetaList</methodname>
    <methodparam><type>string</type><parameter>index_name</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
@@ -20,10 +21,10 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>indexi_name</parameter></term>
+     <term><parameter>index_name</parameter></term>
      <listitem>
       <para>
-       Le nom de l'index utilisé pour initialiser l'objet <classname>Swish</classname>.
+       Le nom du fichier d'index.
       </para>
      </listitem>
     </varlistentry>
@@ -33,15 +34,14 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un tableau de mots analysés avec les mots non significatifs supprimés. La liste des mots
-   analysés peut être utile pour mettre en évidence les termes de recherche dans les résultats.
+   Retourne un tableau de méta-données pour un index donné.
   </para>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple simple avec <function>SwishResults-&gt;getParsedWords</function></title>
+    <title>Exemple simple avec <function>Swish-&gt;getMetaList</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -49,13 +49,10 @@
 try {
 
     $swish = new Swish("index.swish-e");
-    $results = $swish->query("'some characters' and numbers");
-
-    var_dump($results->getParsedWords("index.swish-e"));
-    var_dump($results->indexes[0]['parsed_words']); // même résultat de manière différente
+    var_dump($swish->getMetaList("index.swish-e"));
 
 } catch (SwishException $e) {
-    echo "Erreur : ", $e->getMessage(), "\n";
+    echo $e->getMessage(), "\n";
 }
 
 ?>
@@ -64,25 +61,16 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-array(4) {
+array(1) {
   [0]=>
-  string(4) "some"
-  [1]=>
-  string(10) "characters"
-  [2]=>
-  string(3) "and"
-  [3]=>
-  string(7) "numbers"
-}
-array(4) {
-  [0]=>
-  string(4) "some"
-  [1]=>
-  string(10) "characters"
-  [2]=>
-  string(3) "and"
-  [3]=>
-  string(7) "numbers"
+  array(3) {
+    ["Name"]=>
+    string(12) "swishdefault"
+    ["Type"]=>
+    int(0)
+    ["ID"]=>
+    int(1)
+  }
 }
 ]]>
     </screen>

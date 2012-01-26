@@ -1,73 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
-<!-- Reviewed: yes -->
-<refentry xml:id="function.swish-prepare" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: yannick Status: ready -->
+<!-- Reviewed: no -->
+
+<refentry xml:id="swish.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Swish-&gt;prepare</refname>
-  <refpurpose>Prépare une requête de recherche</refpurpose>
+  <refname>Swish::__construct</refname>
+  <refpurpose>Construit un objet Swish</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>Swish-&gt;prepare</methodname>
-   <methodparam choice="opt"><type>string</type><parameter>query</parameter></methodparam>
+   <type>void</type><methodname>Swish::__construct</methodname>
+   <methodparam><type>string</type><parameter>index_names</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
-  <para>
-   Prépare et retourne un objet de recherche que vous pouvez utiliser pour un nombre
-   illimité de requêtes.
-  </para>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>query</parameter></term>
+     <term><parameter>index_names</parameter></term>
      <listitem>
       <para>
-       Chaîne de requête optionnelle. La requête peut être aussi spécifiée en utilisant la méthode <link
-        linkend="function.swishsearch-execute"><function>SwishSearch-&gt;execute</function></link>.
+       La liste de fichiers d'index séparés par des espaces.
       </para>
      </listitem>
     </varlistentry>
    </variablelist>
   </para>
  </refsect1>
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un objet <classname>SwishSearch</classname>.
+   &return.void;
   </para>
  </refsect1>
+
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-    Lance une <classname>SwishException</classname> en cas d'erreur.
+   Lance une <classname>SwishException</classname> en cas d'erreur.
   </para>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple simple avec <function>Swish-&gt;prepare</function></title>
+    <title>Exemple avec <function>Swish::__construct</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
 
 try {
-
-    $swish = new Swish("index.swish-e");
-    $search = $swish->prepare("search query");
-    $results = $search->execute();
-    echo "Trouvé : ", $results->hits, " résultats\n";
-
-    $results = $search->execute("new search");
-
-    echo "Trouvé : ", $results->hits, " résultats\n";
+    $swish = new Swish("index1 index2");
 } catch (SwishException $e) {
     echo $e->getMessage(), "\n";
+}
+
+foreach ($swish->indexes as $index) {
+    var_dump($index["name"]);
+    var_dump($index["headers"]["Total Words"]);
 }
 
 ?>
@@ -76,8 +71,10 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-Trouvé : 2 résultats
-Trouvé : 5 résultats
+string(6) "index1"
+int(1888)
+string(6) "index2"
+int(2429)
 ]]>
     </screen>
    </example>

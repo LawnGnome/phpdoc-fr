@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
-<!-- Reviewed: yes -->
-<refentry xml:id="function.swish-getpropertylist" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322142 Maintainer: yannick Status: ready -->
+<!-- Reviewed: no -->
+
+<refentry xml:id="swish.query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>Swish-&gt;getPropertyList</refname>
-  <refpurpose>Récupère la liste de propriétés pour un index</refpurpose>
+  <refname>Swish::query</refname>
+  <refpurpose>Exécute une requête et retourne un objet de résultats</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>Swish-&gt;getPropertyList</methodname>
-   <methodparam><type>string</type><parameter>index_name</parameter></methodparam>
+   <type>object</type><methodname>Swish::query</methodname>
+   <methodparam><type>string</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
   &warn.experimental.func;
+  <para>
+   Une méthode rapide pour exécuter une requête avec les paramètres par défaut.
+  </para>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>index_name</parameter></term>
+     <term><parameter>query</parameter></term>
      <listitem>
       <para>
-       Le nom du fichier d'index.
+       Chaîne de recherche.
       </para>
      </listitem>
     </varlistentry>
@@ -33,14 +37,20 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un tableau de propriétés pour un index donné.
+   Retourne un objet <classname>SwishResults</classname>.
+  </para>
+ </refsect1>
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   Lance une <classname>SwishException</classname> en cas d'erreur.
   </para>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple simple avec <function>Swish-&gt;getPropertyList</function></title>
+    <title>Exemple simple avec <function>Swish-&gt;query</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -48,10 +58,9 @@
 try {
 
     $swish = new Swish("index.swish-e");
-    $properties = $swish->getPropertyList("index.swish-e");
-    foreach ($properties as $prop) {
-        echo $prop["Name"],"\n";
-    }
+    $results = $swish->query("test query");
+
+    echo "Trouvé : ", $results->hits, " hits\n";
 
 } catch (SwishException $e) {
     echo $e->getMessage(), "\n";
@@ -63,14 +72,7 @@ try {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-swishreccount
-swishrank
-swishfilenum
-swishdbfile
-swishdocpath
-swishtitle
-swishdocsize
-swishlastmodified
+Found: 1 hits
 ]]>
     </screen>
    </example>
