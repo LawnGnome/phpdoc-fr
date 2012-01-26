@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="arrayobject.offsetexists" xmlns="http://docbook.org/ns/docbook">
@@ -11,11 +11,9 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>ArrayObject::offsetExists</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>ArrayObject::offsetExists</methodname>
    <methodparam><type>mixed</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
-
-   &warn.undocumented.func;
  </refsect1>
 
  <refsect1 role="parameters">
