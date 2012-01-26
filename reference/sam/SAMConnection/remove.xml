@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id='function.samconnection-remove' xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id='samconnection.remove' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SAMConnection->remove</refname>
-  <refpurpose>Efface un message depuis la file d'attente</refpurpose>
+  <refname>SAMConnection::remove</refname>
+  <refpurpose>
+   Efface un message depuis la file d'attente
+  </refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SAMConnection</classname></ooclass>
-   <methodsynopsis>
-    <type>SAMMessage</type><methodname>remove</methodname>
-    <methodparam><type>string</type><parameter>target</parameter></methodparam>
-    <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>SAMMessage</type><methodname>SAMConnection::remove</methodname>
+   <methodparam><type>string</type><parameter>target</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>properties</parameter></methodparam>
+  </methodsynopsis>
   <para>
    Efface un message depuis la file d'attente.
   </para>
  </refsect1>
- 
+
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
@@ -59,7 +58,7 @@
           <row>
            <entry>SAM_MESSAGEID</entry>
            <entry>C'est l'identifiant du message à effacer.</entry>
-          </row>
+          </row>        
          </tbody>
         </tgroup>
        </informaltable>
