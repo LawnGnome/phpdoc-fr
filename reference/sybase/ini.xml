@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297557 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="sybase.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -175,10 +175,10 @@
   <tgroup cols="4">
    <thead>
     <row>
-     <entry>Nom</entry>
-     <entry>Par défaut</entry>
-     <entry>Modifiable</entry>
-     <entry>Historique</entry>
+     <entry>&Name;</entry>
+     <entry>&Default;</entry>
+     <entry>&Changeable;</entry>
+     <entry>&Changelog;</entry>
     </row>
    </thead>
    <tbody>

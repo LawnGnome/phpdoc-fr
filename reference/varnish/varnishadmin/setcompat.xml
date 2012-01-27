@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317868 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 321913 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="varnishadmin.setcompat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>VarnishAdmin::setCompat</methodname>
-   <methodparam><type>integer</type><parameter>compat</parameter></methodparam>
+   <methodparam><type>int</type><parameter>compat</parameter></methodparam>
   </methodsynopsis>
   <para>
 
