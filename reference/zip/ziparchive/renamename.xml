@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-renamename" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.renamename" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::renameName</refname>
   <refpurpose>Renomme une entrée définie par son nom</refpurpose>

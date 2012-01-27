@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-setCommentName" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.setcommentname" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::setCommentName</refname>
   <refpurpose>Définit le commentaire d'une entrée spécifiée par son nom</refpurpose>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-addemptydir" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.addemptydir" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::addEmptyDir</refname>
   <refpurpose>Ajoute un nouveau dossier à une archive Zip</refpurpose>

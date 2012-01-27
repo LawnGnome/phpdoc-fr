@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320405 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-getnameindex" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.getnameindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::getNameIndex</refname>
   <refpurpose>Retourne le nom d'une entrée en utilisant son index</refpurpose>

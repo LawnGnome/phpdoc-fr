@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: dams Status: ready -->
 <!-- Reviewed: yes -->
 
-<refentry xml:id="function.ziparchive-addfromstring" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="ziparchive.addfromstring" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::addFromString</refname>
   <refpurpose>Ajoute un fichier à une archive ZIP en utilisant son contenu</refpurpose>
