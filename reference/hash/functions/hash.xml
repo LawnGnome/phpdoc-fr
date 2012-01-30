@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322885 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.hash" xmlns="http://docbook.org/ns/docbook">
@@ -60,6 +60,29 @@
    en chiffre hexadécimal minuscule à moins que
    <parameter>raw_output</parameter> soit fixé à &true;. Dans ce cas, la
    représentation brute binaire de l'empreinte numérique est retournée.
+  </para>
+ </refsect1>
+ 
+  <refsect1 role="changelog">
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>5.4.0</entry>
+       <entry>L'algorithme tiger utilise désormais l'ordre des octets
+        big-endian.</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
   </para>
  </refsect1>
 

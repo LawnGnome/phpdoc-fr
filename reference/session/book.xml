@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321993 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 322879 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Membership: core -->
 
@@ -87,6 +87,7 @@
  &reference.session.security;
  &reference.session.reference;
  &reference.session.sessionhandler;
+ &reference.session.sessionhandlerinterface;
 
 </book>
 
