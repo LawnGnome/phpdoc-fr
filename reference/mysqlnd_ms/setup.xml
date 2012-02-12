@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ --> 
-<!-- EN-Revision: 318496 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 322163 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
-
-
-    <!-- Ce fichier n'a pas été mis à jour "normalement".
-         Seulement ajout des IDs pour permettre à la documentation
-         de compiler.
-    -->
-    
 
 <chapter xml:id="mysqlnd-ms.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;

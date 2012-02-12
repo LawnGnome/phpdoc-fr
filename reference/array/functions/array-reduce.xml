@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323061 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323153 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-reduce" xmlns="http://docbook.org/ns/docbook">
@@ -42,8 +42,8 @@
        La fonction de rappel.
       </para>
       <methodsynopsis>
-       <type>void</type><methodname><replaceable>callback</replaceable></methodname>
-       <methodparam><type>array</type><parameter role="reference">result</parameter></methodparam>
+       <type>mixed</type><methodname><replaceable>callback</replaceable></methodname>
+       <methodparam><type>mixed</type><parameter role="reference">result</parameter></methodparam>
        <methodparam><type>mixed</type><parameter>item</parameter></methodparam>
       </methodsynopsis>
      </listitem>
