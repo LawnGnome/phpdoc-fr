@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322841 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323193 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.get-parent-class" xmlns="http://docbook.org/ns/docbook">
@@ -41,8 +41,8 @@
   </para>
   <note>
    <para>
-    Si l'objet n'a pas de parent ou si un nom de classe
-    inéxistant est fourni, &false; sera retourné.
+    Si l'objet n'a pas de parent ou si la classe fournie
+    n'existe pas, &false; sera retourné.
    </para>
   </note>
   <para>
