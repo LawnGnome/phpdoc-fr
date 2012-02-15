@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321865 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323218 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stristr">
@@ -19,8 +19,8 @@
   </methodsynopsis>
   <para>
    Retourne une sous-chaîne de <parameter>haystack</parameter>,
-   allant de la première occurrence de <parameter>needle</parameter> jusqu'à la fin
-   de la chaîne.
+   allant de la première occurrence de <parameter>needle</parameter>
+   (incluse) jusqu'à la fin de la chaîne.
   </para>
  </refsect1>
 
@@ -52,7 +52,8 @@
       <para>
        Si vaut &true;, <function>stristr</function>
        retourne la partie de <parameter>haystack</parameter> avant la première
-       occurrence de <parameter>needle</parameter>.
+       occurrence de <parameter>needle</parameter> (<parameter>needle</parameter>
+       exclus).
       </para>
      </listitem>
     </varlistentry>
