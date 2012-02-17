@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 323235 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-info" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>string</type><methodname>mysql_info</methodname>
-   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter></methodparam>
+   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Lit des informations à propos de la dernière requête MySQL.
