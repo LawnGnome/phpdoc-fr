@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322906 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 323269 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlspecialchars-decode">
@@ -147,7 +147,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$str = '<p>this -&gt; &quot;</p>';
+$str = "<p>this -&gt; &quot;</p>\n";
 
 echo htmlspecialchars_decode($str);
 
