@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 323397 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="filter.filters" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -279,6 +279,23 @@
      </tgroup>
     </table>
    </para>
+  <warning>
+     <para>
+       Lorsque vous utilisez ces filtres comme filtres par défaut, le drapeau par
+      défaut est réglé sur <constant>FILTER_FLAG_NO_ENCODE_QUOTES</constant>. Vous devez
+      mettre filter.default_flags à 0 explicitement pour que les quotes soient encodées
+      par défaut. Comme ceci:
+       <example>
+         <title>Configurer le filtre par défaut pour agir comme htmlspecialchars</title>
+         <programlisting role="php">
+<![CDATA[
+filter.default = full_special_chars
+filter.default_flags = 0
+]]>
+         </programlisting>
+       </example>
+     </para>
+   </warning>
  </section>
  <!--}}}-->
 

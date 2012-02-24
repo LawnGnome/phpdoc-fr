@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323264 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323401 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="sessionhandler.write" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,8 +13,8 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>SessionHandler::write</methodname>
-   <methodparam><type>string</type><parameter>sessionid</parameter></methodparam>
-   <methodparam><type>string</type><parameter>sessiondata</parameter></methodparam>
+   <methodparam><type>string</type><parameter>session_id</parameter></methodparam>
+   <methodparam><type>string</type><parameter>session_data</parameter></methodparam>
   </methodsynopsis>
   <para>
    Écrit les données de session depuis son lieu de stockage.
@@ -29,7 +29,7 @@
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>sessionid</parameter></term>
+    <term><parameter>session_id</parameter></term>
     <listitem>
      <para>
       L'ID de session.
@@ -37,7 +37,7 @@
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><parameter>sessiondata</parameter></term>
+    <term><parameter>session_data</parameter></term>
     <listitem>
      <para>
       Les données de session encodées avec la fonction

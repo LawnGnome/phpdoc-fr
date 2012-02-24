@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323371 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="filter.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -147,6 +147,17 @@ Avant : (bogus@example.org)
 Après :  bogus@example.org
 ]]>
     </screen>
+   </example>
+  </para>
+  <para>
+   <example>
+    <title>Configurer le filtre par défaut</title>
+    <programlisting role="php" xml:id="filter.examples.sanitization.default_filter">
+<![CDATA[
+filter.default = full_special_chars
+filter.default_flags = 0
+]]>
+    </programlisting>
    </example>
   </para>
  </section>
