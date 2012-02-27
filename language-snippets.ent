@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323264 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323438 Maintainer: yannick Status: ready -->
 
 <!--
 NOTE AUX TRADUCTEURS :
@@ -270,6 +270,9 @@ pas documentée et seule la liste des arguments est disponible.
 </simpara></warning>'>
 
 <!-- Misc -->
+
+<!ENTITY version.exists.asof 'Existe depuis PHP '>
+
 <!ENTITY version.trunk.after.53 '<emphasis xmlns="http://docbook.org/ns/docbook">Cette modification
 existe dans la <link linkend="about.phpversions">version de développement</link> de PHP, et existera
 probablement après la version 5.3.</emphasis>'>

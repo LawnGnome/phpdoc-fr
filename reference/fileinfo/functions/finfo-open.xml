@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323458 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.finfo-open" xmlns="http://docbook.org/ns/docbook">
@@ -67,6 +67,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
+   (Uniquement en mode procédural)
    Retourne une ressource de base de données magique en cas de succès&return.falseforfailure;.
   </para>
  </refsect1>
@@ -79,11 +80,6 @@
 <![CDATA[
 <?php
 $finfo = new finfo(FILEINFO_MIME, "/usr/share/misc/magic"); // Retourne le type mime
-
-if (!$finfo) {
-    echo "Échec de l'ouverture de la base de données fileinfo";
-    exit();
-}
 
 /* Récupère le mime-type d'un fichier spécifique */
 $filename = "/usr/local/something.txt";
