@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323403 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 323466 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="sessionhandlerinterface.read" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -31,7 +31,7 @@
    Les données retournées par cette méthode seront décodées en interne par PHP en utilisant le
    mécanisme de désérialisation spécifié dans
    <link linkend="ini.session.serialize-handler">session.serialize_handler</link>. Les données
-   résultantes seront utilisées pour peupler $_SESSION.
+   résultantes seront utilisées pour peupler <varname>$_SESSION</varname>.
   </para>
   <para>
    Notez que l'algorithme de sérialisation peut être différent de <function>unserialize</function>
