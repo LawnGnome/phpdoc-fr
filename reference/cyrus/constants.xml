@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="cyrus.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
-  <varlistentry>
+  <varlistentry xml:id="constant.cyrus-conn-nonsyncliteral">
    <term>
     <constant>CYRUS_CONN_NONSYNCLITERAL</constant> 
     (&integer;)
@@ -18,7 +18,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.cyrus-conn-initialresponse">
    <term>
     <constant>CYRUS_CONN_INITIALRESPONSE</constant> 
     (&integer;)
@@ -29,7 +29,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.cyrus-callback-numbered">
    <term>
     <constant>CYRUS_CALLBACK_NUMBERED</constant> 
     (&integer;)
@@ -40,7 +40,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.cyrus-callback-noliteral">
    <term>
     <constant>CYRUS_CALLBACK_NOLITERAL</constant> 
     (&integer;)

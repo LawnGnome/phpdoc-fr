@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322061 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323638 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="crack.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -22,8 +22,8 @@
     <row>
      <entry>crack.default_dictionary</entry>
      <entry>NULL</entry>
-     <entry>PHP_INI_PERDIR</entry>
-     <entry>PHP_INI_SYSTEM en crack &lt;= 0.2.
+     <entry>INI_PERDIR</entry>
+     <entry>INI_SYSTEM en crack &lt;= 0.2.
       Disponible depuis PHP 4.0.5. Supprimé depuis
       PHP 5.0.0.</entry>
     </row>
