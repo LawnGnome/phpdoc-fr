@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="gmp.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
-  <varlistentry>
+  <varlistentry xml:id="constant.gmp-round-zero">
    <term>
     <constant>GMP_ROUND_ZERO</constant>
     (&integer;)
@@ -18,7 +18,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.gmp-round-plusinf">
    <term>
     <constant>GMP_ROUND_PLUSINF</constant>
     (&integer;)
@@ -29,7 +29,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.gmp-round-minusinf">
    <term>
     <constant>GMP_ROUND_MINUSINF</constant>
     (&integer;)
@@ -40,7 +40,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.gmp-version">
    <term>
     <constant>GMP_VERSION</constant>
     (<type>string</type>)
