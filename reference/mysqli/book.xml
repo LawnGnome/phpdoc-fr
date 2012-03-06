@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322148 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323734 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Membership: bundled, external -->
 
@@ -65,6 +65,7 @@
  &reference.mysqli.mysqli-result;
  &reference.mysqli.mysqli-driver;
  &reference.mysqli.mysqli-warning;
+ &reference.mysqli.mysqli-sql-exception;
  &reference.mysqli.reference;
 
 </book>
