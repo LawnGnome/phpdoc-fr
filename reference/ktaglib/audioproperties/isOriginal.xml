@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323667 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="audioproperties.isoriginal" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_AudioProperties::isOriginal</refname>
-  <refpurpose>Retourne true si le fichier MPEG est marqué comme original</refpurpose>
+  <refpurpose>Vérifie si le fichier MPEG est marqué comme un fichier original</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
