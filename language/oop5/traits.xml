@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323806 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 323957 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.oop5.traits" xmlns="http://docbook.org/ns/docbook">
@@ -156,7 +156,7 @@ class MyHelloWorld {
 $o = new MyHelloWorld();
 $o->sayHello();
 $o->sayWorld();
-$o->sayExclamationMark();>
+$o->sayExclamationMark();
 ?>
 ]]>
    </programlisting>
