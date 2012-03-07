@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322140 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323651 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: bundled, external, pecl -->
 
@@ -185,7 +185,7 @@ fpassthru($result[0]);
       </listitem>
      </varlistentry>
      <varlistentry>
-      <term><constant>host</constant></term>
+      <term><literal>host</literal></term>
       <listitem>
        <para>
         Le nom d'hôte sur lequel se trouve le serveur de base de données.
@@ -193,7 +193,7 @@ fpassthru($result[0]);
       </listitem>
      </varlistentry>
      <varlistentry>
-      <term><constant>port</constant></term>
+      <term><literal>port</literal></term>
       <listitem>
        <para>
         Le port sur lequel le serveur de base de données fonctionne.
@@ -201,7 +201,7 @@ fpassthru($result[0]);
       </listitem>
      </varlistentry>
      <varlistentry>
-      <term><constant>dbname</constant></term>
+      <term><literal>dbname</literal></term>
       <listitem>
        <para>
         Le nom de la base de données.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320418 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323956 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <article xml:id="reference.pcre.pattern.modifiers" xmlns="http://docbook.org/ns/docbook">
@@ -210,7 +210,7 @@
       </listitem>
      </varlistentry>
      <varlistentry>
-      <term><emphasis>u</emphasis> (<literal>PCRE8</literal>)</term>
+      <term><emphasis>u</emphasis> (<literal>PCRE_UTF8</literal>)</term>
       <listitem>
        <simpara>
         Cette option désactive les fonctionnalités additionnelles de
