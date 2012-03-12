@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322879 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323467 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Membership: core -->
 
@@ -47,8 +47,10 @@
   </caution>
   <para>
    La variable <varname>$_SESSION</varname> (et toutes les variables
-   enregistrées) sont linéarisées après l'exécution du
-   script PHP. Les variables qui sont indéfinies sont marquées
+   enregistrées) sont linéarisées en interne par PHP en utilisant le
+   gestionnaire de linéarisation spécifié par l'option de configuration
+   <link linkend="ini.session.serialize-handler">session.serialize_handler</link>,
+   après l'exécution du script PHP. Les variables qui sont indéfinies sont marquées
    comme telles. Lors des accès ultérieurs, elles ne seront pas
    définies, jusqu'à ce que l'utilisateur le fasse.
   </para>
