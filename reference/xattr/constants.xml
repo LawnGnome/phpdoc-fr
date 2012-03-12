@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="xattr.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
-  <varlistentry>
+  <varlistentry xml:id="constant.xattr-root">
    <term>
     <constant>XATTR_ROOT</constant>
     (&integer;)
@@ -18,7 +18,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.xattr-dontfollow">
    <term>
     <constant>XATTR_DONTFOLLOW</constant>
     (&integer;)
@@ -29,7 +29,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.xattr-create">
    <term>
     <constant>XATTR_CREATE</constant>
     (&integer;)
@@ -40,7 +40,7 @@
     </simpara>
    </listitem>
   </varlistentry>
-  <varlistentry>
+  <varlistentry xml:id="constant.xattr-replace">
    <term>
     <constant>XATTR_REPLACE</constant>
     (&integer;)
