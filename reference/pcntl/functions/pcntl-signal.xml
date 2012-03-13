@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311978 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.pcntl-signal" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>pcntl_signal</methodname>
    <methodparam><type>int</type><parameter>signo</parameter></methodparam>
-   <methodparam><type>callback</type><parameter>handler</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>handler</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>restart_syscalls</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
   <para>

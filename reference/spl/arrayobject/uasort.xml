@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322381 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="arrayobject.uasort" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>void</type><methodname>ArrayObject::uasort</methodname>
-   <methodparam><type>callback</type><parameter>cmp_function</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>cmp_function</parameter></methodparam>
   </methodsynopsis>
   <para>
    Cette fonction trie les éléments tout en conservant leur

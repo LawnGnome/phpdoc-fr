@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323397 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="filter.filters" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -319,7 +319,7 @@ filter.default_flags = 0
        <row>
         <entry><constant>FILTER_CALLBACK</constant></entry>
         <entry><literal>"callback"</literal></entry>
-        <entry>Fonction ou méthode de rappel (type &callback;)</entry>
+        <entry>Fonction ou méthode de rappel (type <type>callable</type>)</entry>
         <entry></entry>
         <entry>Appelle une fonction utilisateur pour filtrer les données.</entry>
        </row>
