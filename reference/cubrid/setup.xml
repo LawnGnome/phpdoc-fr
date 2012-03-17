@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322131 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324293 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="cubrid.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,9 +35,11 @@
   <section xml:id="cubrid.resources.connection-identifier">
    <title>Identifiant de connexion</title>
    <para>
-    Un identifiant de connexion retourné par la fonction
-    <function>cubrid_connect</function> et par la fonction
-    <function>cubrid_connect_with_url</function>.
+    Un identifiant de connexion retourné par les fonctions
+    <function>cubrid_connect</function>,
+    <function>cubrid_connect_with_url</function>,
+    <function>cubrid_pconnect</function> et
+    <function>cubrid_pconnect_with_url</function>.
    </para>
   </section>
   <section xml:id="cubrid.resources.request-identifier">
