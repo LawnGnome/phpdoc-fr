@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323906 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324345 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-encode" xmlns="http://docbook.org/ns/docbook">
@@ -62,7 +62,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne une chaîne encodé JSON.
+   Retourne une chaîne encodé JSON &return.falseforfailure;.
   </para>
  </refsect1>
 
