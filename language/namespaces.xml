@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318138 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324461 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.namespaces" xmlns="http://docbook.org/ns/docbook"
@@ -819,7 +819,7 @@ function strlen($str)
 echo E_ERROR, "\n"; // affiche "45"
 echo INI_ALL, "\n"; // affiche "7" : accès dans l'espace de noms global INI_ALL
 
-echo strlen('hi'), "\n"; // affiche "1"
+echo strlen('hi'), "\n"; // affiche "2"
 if (is_array('hi')) { // affiche "n'est pas un tableau"
     echo "est un tableau\n";
 } else {
