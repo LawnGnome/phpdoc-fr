@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324509 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="audioproperties.isprotectionenabled" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_AudioProperties::isProtectionEnabled</refname>
-  <refpurpose>Retourne true si une protection est active</refpurpose>
+  <refpurpose>Vérifie si un mécanisme de protection d'un fichier MPEG est actif</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;

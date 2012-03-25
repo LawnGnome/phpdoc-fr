@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324296 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324476 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="mysqlnd-qc.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -134,7 +134,7 @@ MYSQLND_QC_TTL_SWITCH: qc_ttl=
    </varlistentry>
   </variablelist>
  </para>
-
+ 
  <para>
   En relation avec <emphasis role="bold"><function>mysqlnd_qc_set_cache_condition</function></emphasis>
  </para>

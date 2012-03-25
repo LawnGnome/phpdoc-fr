@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324509 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="audioproperties.iscopyrighted" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>KTaglib_MPEG_AudioProperties::isCopyrighted</refname>
-  <refpurpose>Retourne true si le fichier MPEG est sous copyright</refpurpose>
+  <refpurpose>Retourne le statut du copyright d'un fichier MPEG</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
