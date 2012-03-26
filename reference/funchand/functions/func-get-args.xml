@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321890 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.func-get-args" xmlns="http://docbook.org/ns/docbook">
@@ -55,7 +55,8 @@
        <entry>5.3.0</entry>
        <entry>
         Si cette fonction est appelée dans un fichier inclus avec
-        <function>include</function> ou <function>require</function>
+        <link linkend="function.include"><literal>include</literal></link> ou
+        <link linkend="function.require"><literal>require</literal></link>
         logé dans une fonction, elle génèrera une alerte et retournera &false;.
        </entry>
       </row>
