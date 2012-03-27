@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303248 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="aliases" xmlns="http://docbook.org/ns/docbook">
@@ -129,7 +129,7 @@
      </row>
      <row>
       <entry>die</entry>
-      <entry><function>exit</function></entry>
+      <entry><link linkend="function.exit"><literal>exit</literal></link></entry>
       <entry><link linkend="ref.misc">Miscellaneous functions</link></entry>
      </row>
      <row>

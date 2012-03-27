@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323370 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -1505,9 +1505,9 @@ $mon_fichier = @file ('non_persistent_file') or
     générale de fonctionnement est la suivante : si vous pouvez prendre
     la valeur de quelque chose, vous pouvez le préfixer avec @. Par exemple,
     vous pouvez ajouter @ aux variables, fonctions, à
-    <function>include</function>, aux constantes, etc. Vous ne pourrez
-    pas le faire avec des éléments de langage tels que les classes,
-    <literal>if</literal> et &foreach;, etc.
+    <link linkend="function.include"><literal>include</literal></link>,
+    aux constantes, etc. Vous ne pourrez pas le faire avec des éléments de
+    langage tels que les classes, <literal>if</literal> et &foreach;, etc.
    </simpara>
   </note>
   <simpara>
