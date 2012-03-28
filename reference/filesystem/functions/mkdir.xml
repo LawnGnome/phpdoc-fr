@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297502 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324585 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mkdir">
@@ -61,7 +61,7 @@
      <listitem>
       <para>
        Permet la création de répertoires imbriqués spécifiés dans le 
-       <parameter>pathname</parameter>. Par défaut, vaut &false;.
+       <parameter>pathname</parameter>.
       </para>
      </listitem>
     </varlistentry>
