@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322047 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324663 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.is-a" xmlns="http://docbook.org/ns/docbook">
@@ -46,8 +46,9 @@
      <term><parameter>allow_string</parameter></term>
      <listitem>
       <para>
-       Si l'on doit ou non appeler l'autoloader si la classe
-       n'existe pas.
+       Si ce paramètre vaut &false;, le nom de la classe sous forme de chaîne de caractères
+       dans le paramètre <parameter>object</parameter> n'est pas autorisé. Ceci permet
+       d'éviter l'appel de l'autoloader si la classe n'existe pas.
       </para>
      </listitem>
     </varlistentry>

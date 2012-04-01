@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 324674 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="phar.construct">
@@ -70,7 +70,7 @@
 <![CDATA[
 <?php
 try {
-    $p = new Phar('/chemon/vers/mon.phar', CURRENT_AS_FILEINFO | KEY_AS_FILENAME,
+    $p = new Phar('/path/to/my.phar', FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME,
                   'mon.phar');
 } catch (UnexpectedValueException $e) {
     die('Ne peut pas ouvrir mon.phar');
