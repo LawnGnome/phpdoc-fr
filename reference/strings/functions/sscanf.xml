@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291079 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324696 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sscanf" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -88,11 +88,17 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Si seuls deux paramètres sont fournis, les valeurs trouvées
-   seront retournées sous forme de tableau. Sinon, les valeurs seront
-   placées dans un tableau. Si l'argument optionnel est passé,
-   la fonction retournera le nombre de valeurs assignées. Le paramètre optionnel
-   doit être passé par référence.
+   Si seulement deux paramètres sont fournis, les valeurs trouvées
+   seront retournées sous forme de tableau. Sinon, si le paramètre
+   optionnel sont fourni, la fonction retournera le nombre de
+   valeurs assignées. Le paramètre optionnel doit être passé par
+   référence.
+  </para>
+  <para>
+   S'il y a plus de sous-chaînes attendus dans le paramètre
+   <parameter>format</parameter>, alors elles seront disponibles
+   dans <parameter>str</parameter>, et <literal>-1</literal> sera
+   retourné.
   </para>
  </refsect1>
 
