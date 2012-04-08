@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324927 Maintainer: itanea Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.get-declared-interfaces" xmlns="http://docbook.org/ns/docbook">
@@ -59,6 +59,7 @@ Array
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>interface_exists</function></member>
     <member><function>get_declared_classes</function></member>
     <member><function>class_implements</function></member>
    </simplelist>
