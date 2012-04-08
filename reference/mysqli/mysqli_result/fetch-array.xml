@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 324948 Maintainer: itanea Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli-result.fetch-array" xmlns="http://docbook.org/ns/docbook">
@@ -111,7 +111,7 @@ $row = $result->fetch_array(MYSQLI_BOTH);
 printf ("%s (%s)\n", $row[0], $row["CountryCode"]);
 
 /* Libération des résultats */
-$result->close();
+$result->free();
 
 /* Fermeture de la connexion */
 $mysqli->close();
