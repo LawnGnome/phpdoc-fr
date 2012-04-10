@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321135 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 324990 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.hex2bin" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>hex2bin</refname>
-  <refpurpose>Convertit un hexadécimale en binaire</refpurpose>
+  <refpurpose>Convertit une représentation hexadécimale d'une donnée en binaire</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -39,7 +39,15 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne la représentation binaire de la donnée.
+   Retourne la représentation binaire de la donnée &return.falseforfailure;.
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   Si la chaîne d'entrée en héxadécimale est d'une longueur incorrecte,
+   une alerte de niveau <constant>E_WARNING</constant> sera émise.
   </para>
  </refsect1>
 
