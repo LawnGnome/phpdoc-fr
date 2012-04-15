@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324522 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 325166 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.basic-syntax" xmlns="http://docbook.org/ns/docbook">
@@ -169,7 +169,8 @@ echo "Dernière instruction";
      En PHP 5.2 et antérieures, l'analyseur n'autorisait pas
      un tag ouvrant <literal>&lt;?php</literal> comme seul
      élément d'une page. Ceci est permis à compter de la version
-     5.3 de PHP.
+     5.3 de PHP lorsqu'il y a un ou plusieurs espaces après
+     la balise ouvrante.
     </para>
    </note>
    <note>
