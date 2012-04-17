@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324485 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 325237 Maintainer: itanea Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="install.fpm.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,9 +66,9 @@
     </term>
     <listitem>
      <para>
-      Interval de temps utilisé par emergency_restart_interval pour determine lorsqu'un
+      Interval de temps utilisé par emergency_restart_interval pour determiner lorsqu'un
       redémarrage doux doit être lancé. Ceci peut être utile pour contourner des corruptions
-      accidentelles dans la méémoire partagée d'un acccelérateur. Unités disponibles:
+      accidentelles dans la mémoire partagée d'un acccelérateur. Unités disponibles:
       s(econdes), m(inutes), h(eures), ou d(ays).
       Unité par défaut: secondes. Valeur par défaut: 0 (Off).
      </para> 
