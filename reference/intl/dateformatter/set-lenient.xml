@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 325509 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="intldateformatter.setlenient" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,8 +51,8 @@
      <term><parameter>lenient</parameter></term>
      <listitem>
       <para>
-       &true; si l'analyseur est souple, &false; si l'analyseur est strict. 
-       Par défaut, l'analyseur est strict.  
+       Si l'analyseur est souple ou non, par
+       défaut, vaut &true; (souple).
       </para>
      </listitem>
     </varlistentry>

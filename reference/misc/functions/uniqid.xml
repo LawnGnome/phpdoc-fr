@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325524 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 325534 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.uniqid" xmlns="http://docbook.org/ns/docbook">
@@ -134,7 +134,7 @@ printf("uniqid('', true): %s\r\n", uniqid('', true));
     est légèrement différente de celle retournée par la fonction
     <function>microtime</function>. Si vous devez générer des jetons
     cryptographiques de sécurité, utilisez la fonction
-    <function>openssl_random_psuedo_bytes</function>.
+    <function>openssl_random_pseudo_bytes</function>.
    </para>
   </caution>
   <note>
