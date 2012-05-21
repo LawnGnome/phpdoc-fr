@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325020 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 325751 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='function.ldap-control-paged-result'
@@ -87,6 +87,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
      <![CDATA[
      <?php
      // $ds est un identifiant de lien valide (voir ldap_connect)
+     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
 
      $dn        = 'ou=example,dc=org';
      $filter    = '(|(sn=Doe*)(givenname=John*))';
@@ -113,6 +114,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
      <![CDATA[
      <?php
      // $ds est un identifiant de lien valide (voir ldap_connect)
+     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
 
      $dn        = 'ou=example,dc=org';
      $filter    = '(|(sn=Doe*)(givenname=John*))';
@@ -139,6 +141,15 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
     </programlisting>
    </example>
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    Le contrôle de la pagination est une fonctionalité du protocole LDAPv3.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="seealso">
