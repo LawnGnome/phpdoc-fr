@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312148 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 325888 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="reference.pcre.pattern.syntax" xmlns="http://docbook.org/ns/docbook">
@@ -128,7 +128,8 @@
      <term><emphasis>$</emphasis> Dollar</term>
      <listitem>
       <simpara>
-       La fin de la chaîne sujet (ou de ligne, en mode multilignes)
+       La fin de la chaîne sujet ou avant la fin d'une nouvelle ligne
+       (ou fin de ligne, en mode multilignes)
       </simpara>
      </listitem>
     </varlistentry>
