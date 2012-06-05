@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324661 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 325967 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="migration54" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -90,6 +90,8 @@
      et <link linkend="control-structures.continue">continue</link>
      n'acceptent plus des paramètres variables (exemple: <literal>break 1 + foo() * $bar;</literal>).
      Les arguments statiques fonctionnent toujours, par exemple <literal>break 2;</literal>.
+     Un effet de bord de cette modification est que <literal>break 0;</literal>
+     et <literal>continue 0;</literal> ne sont plus autorisés.
     </simpara>
    </listitem>
    <listitem>
