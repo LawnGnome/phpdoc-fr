@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 325981 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mysql-field-len" xmlns="http://docbook.org/ns/docbook">
@@ -8,6 +8,16 @@
   <refname>mysql_field_len</refname>
   <refpurpose>Retourne la taille d'un champ de résultat MySQL</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mysql.alternative.note;
+   <simplelist role="alternatives">
+    <member><function>mysqli_fetch_field_direct</function> [length]</member>
+    <member><methodname>PDOStatement::getColumnMeta</methodname> [len]</member>
+   </simplelist>
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;
