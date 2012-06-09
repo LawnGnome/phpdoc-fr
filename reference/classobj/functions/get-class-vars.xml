@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323193 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326068 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.get-class-vars" xmlns="http://docbook.org/ns/docbook">
@@ -79,10 +79,10 @@
        </entry>
       </row>
       <row>
-       <entry>Avant la version 4.2.0</entry>
+       <entry>4.2.0</entry>
        <entry>
-        Les variables de classe non initialisées n'étaient pas
-        rapportées par <function>get_class_vars</function>.
+        Les variables de classe non initialisées sont maintenant
+        aussi rapportées par la fonction <function>get_class_vars</function>.
        </entry>
       </row>
      </tbody>
