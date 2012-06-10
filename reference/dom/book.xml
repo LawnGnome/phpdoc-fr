@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317683 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 <!-- Membership: bundled, external -->
 
 <book xml:id="book.dom" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Model Objet d'un document</title>
  <titleabbrev>DOM</titleabbrev>
 

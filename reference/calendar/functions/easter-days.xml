@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298915 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.easter-days" xmlns="http://docbook.org/ns/docbook">
@@ -91,14 +91,14 @@
      </thead>
      <tbody>
       <row>
-       <entry>Depuis la version 4.3.0</entry>
+       <entry>4.3.0</entry>
        <entry>
         Le paramètre <parameter>year</parameter> est optionnel et vaut par défaut,
         l'année courante du temps local.
        </entry>
       </row>
       <row>
-       <entry>Depuis la version 4.3.0</entry>
+       <entry>4.3.0</entry>
        <entry>
         Le paramètre <parameter>method</parameter> a été introduit.
        </entry>
