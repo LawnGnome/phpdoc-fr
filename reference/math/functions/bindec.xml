@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 326063 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.bindec" xmlns="http://docbook.org/ns/docbook">
@@ -70,7 +70,7 @@
      </thead>
      <tbody>
       <row>
-       <entry>Depuis la version 4.1.0</entry>
+       <entry>4.1.0</entry>
        <entry>
         Cette fonction peut maintenant convertir des nombres trop
         grand pour être contenu dans le type &integer; de la plate-forme ;
