@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324190 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: jpauli Status: ready -->
 <!--  Reviewed: no -->
 <!-- Membership: pecl, bundled -->
 
 <book xml:id="book.yaml" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundled" ?>
  <title>Sérialisation de données YAML</title>
  <titleabbrev>Yaml</titleabbrev>
 
