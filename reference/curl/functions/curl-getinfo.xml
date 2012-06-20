@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315058 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326231 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
@@ -77,6 +77,11 @@
          <simpara>
           <constant>CURLINFO_STARTTRANSFER_TIME</constant> : durée en secondes
           jusqu'à ce que le premier octet soit sur le point d'être transféré
+         </simpara>
+        </listitem>
+        <listitem>
+         <simpara>
+          <constant>CURLINFO_REDIRECT_COUNT</constant> : Nombre de redirections
          </simpara>
         </listitem>
         <listitem>
