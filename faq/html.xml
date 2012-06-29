@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306780 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 326363 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
  <chapter xml:id="faq.html" xmlns="http://docbook.org/ns/docbook">
@@ -53,7 +53,7 @@
         <programlisting role="php">
 <![CDATA[
 <?php
-echo '<input type="hidden" value="' . htmlspecialchars($data) . '" />';
+    echo '<input type="hidden" value="' . htmlspecialchars($data) . '" />'."\n";
 ?>
 ]]>
         </programlisting>
@@ -100,8 +100,8 @@ echo '</textarea>';
         <programlisting role="php">
 <![CDATA[
 <?php
-echo "<a href=\"" . htmlspecialchars("/nextpage.php?stage=23&data=" .
-        urlencode($data)) . "\">\n";
+    echo '<a href="' . htmlspecialchars("/nextpage.php?stage=23&data=" .
+        urlencode($data)) . '">'."\n";
 ?>
 ]]>
         </programlisting>
