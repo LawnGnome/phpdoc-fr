@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326385 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.header">
@@ -346,6 +346,7 @@ exit;
    <simplelist>
     <member><function>headers_sent</function></member>
     <member><function>setcookie</function></member>
+    <member><function>http_response_code</function></member>
     <member>
      La section sur l'<link linkend="features.http-auth">identification
       HTTP</link>
