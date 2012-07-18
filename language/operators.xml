@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326293 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326667 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -76,17 +76,10 @@
        <entry><function>array</function></entry>
       </row>
       <row>
-       <entry>non-associatif</entry>
-       <entry>++ --</entry>
-       <entry>
-        <link linkend="language.operators.increment">incrémentation/décrémentation</link>
-       </entry>
-      </row>
-      <row>
        <entry>droite</entry>
-       <entry>~ - (int) (float) (string) (array) (object) (bool) @</entry>
+       <entry>++ -- ~ (int) (float) (string) (array) (object) (bool) @</entry>
        <entry>
-        <link linkend="language.types">types</link>
+        <link linkend="language.types">types</link> et <link linkend="language.operators.increment">incrément/décrément</link>
        </entry>
       </row>
       <row>
