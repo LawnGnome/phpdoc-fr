@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308302 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326897 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file-get-contents">
@@ -172,8 +172,8 @@
   <para>
    Émets une alerte de type <constant>E_WARNING</constant> si, soit le
    paramètre <parameter>maxlength</parameter> est plus petit que zéro,
-   soit le paramètre <parameter>offset</parameter> est supérieur à la longueur
-   du flux.
+   soit le déplacement à la position <parameter>offset</parameter>
+   spécifié dans le flux échoue.
   </para>
  </refsect1>
 
