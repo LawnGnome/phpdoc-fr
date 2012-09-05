@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312779 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 327173 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
@@ -60,7 +60,7 @@
  </para>
  
  <para>
-    Lors de la compilation depuis SVN directement, ou après une modification des
+    Lors de la compilation depuis Git directement, ou après une modification des
     sources personnalisée, vous pourriez avoir aussi besoin de :
     <itemizedlist>
      <listitem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326074 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 327173 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -93,8 +93,8 @@
    dans le manuel. Pour une liste complète des directives disponibles dans votre version de PHP,
    merci de lire les commentaires de votre propre fichier &php.ini;. 
    Vous pouvez également trouver la 
-   <link xlink:href="&url.php.svn.phpini;">dernière version du &php.ini;</link>
-   sur SVN.
+   <link xlink:href="&url.php.git.phpini;">dernière version du &php.ini;</link>
+   sur Git.
   </para>
   <para>
    <example>
