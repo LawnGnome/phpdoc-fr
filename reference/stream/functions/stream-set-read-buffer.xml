@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300073 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 326988 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.stream-set-read-buffer" xmlns="http://docbook.org/ns/docbook">
