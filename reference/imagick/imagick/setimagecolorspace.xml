@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327196 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.setimagecolorspace">
@@ -28,6 +28,7 @@
      <term><parameter>colorspace</parameter></term>
      <listitem>
       <para>
+       Une des <link linkend="imagick.constants.colorspace">constantes COLORSPACE</link>
       </para>
      </listitem>
     </varlistentry>

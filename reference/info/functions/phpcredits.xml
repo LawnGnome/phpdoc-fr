@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297890 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 327254 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.phpcredits" xmlns="http://docbook.org/ns/docbook">
@@ -152,6 +152,16 @@ phpcredits(CREDITS_ALL - CREDITS_FULLPAGE);
     </programlisting>
    </example>
   </para>
+ </refsect1>
+
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <para>
+    La fonction <function>phpcredits</function> affiche du texte plein
+    au lieu du HTML lorsqu'elle est utilisée en mode CLI.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="seealso">
