@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323626 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 327574 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="sessionhandlerinterface.open" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <modifier>abstract</modifier> <modifier>public</modifier> <type>bool</type><methodname>SessionHandlerInterface::open</methodname>
    <methodparam><type>string</type><parameter>save_path</parameter></methodparam>
-   <methodparam><type>string</type><parameter>session_id</parameter></methodparam>
+   <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <para>
    Ré-initialise une session existante ou en crée une nouvelle. Appelé lorsqu'une session est
@@ -35,10 +35,10 @@
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><parameter>session_id</parameter></term>
+    <term><parameter>name</parameter></term>
     <listitem>
      <para>
-      L'identifiant de session.
+      Le nom de la session.
      </para>
     </listitem>
    </varlistentry>
@@ -56,6 +56,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>session_name</function></member>
     <member>
      La directive de configuration
      <link linkend="ini.session.auto-start">session.auto-start</link>

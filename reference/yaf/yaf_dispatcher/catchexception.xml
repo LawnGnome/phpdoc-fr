@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 319950 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327525 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-dispatcher.catchexception" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -27,9 +27,6 @@
    toutes les exceptions non-capturées le seront par
    la méthode ErrorController::error si vous en avez définie une.
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
