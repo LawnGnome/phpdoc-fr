@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297556 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 327263 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.clearstatcache">
@@ -82,8 +82,9 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       Nettoie le cache réel d'un fichier spécifique. Ne peut être utilisé
-       que si le paramètre <parameter>clear_realpath_cache</parameter> vaut &true;.
+       Nettoie le cache réel ainsi que le cache stat d'un fichier spécifique.
+       Ne peut être utilisé que si le paramètre
+       <parameter>clear_realpath_cache</parameter> vaut &true;.
       </para>
      </listitem>
     </varlistentry>
