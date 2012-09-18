@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320077 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327672 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-view-simple.setscriptpath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_View_Simple::setScriptPath</refname>
-  <refpurpose>Définit le dossier de base contenant les templates</refpurpose>
+  <refpurpose>Définit le dossier contenant les templates</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -18,9 +18,6 @@
   <para>
 
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">

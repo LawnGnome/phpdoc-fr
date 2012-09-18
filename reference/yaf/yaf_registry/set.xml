@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327529 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327673 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-registry.set" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Registry::set</refname>
-  <refpurpose>Le but de set</refpurpose>
+  <refpurpose>Ajoute un élément au registre</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -17,11 +17,8 @@
    <methodparam><type>string</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   <para>
-
+   Ajoute un élément au registre.
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
