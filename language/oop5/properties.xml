@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327106 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.oop5.properties" xmlns="http://docbook.org/ns/docbook">
@@ -44,7 +44,8 @@
  <para>
   Au sein des méthodes de classes, les propriétés, constantes, et méthodes peuvent
   être appelées en utilisant la syntaxe <varname>$this-&gt;property</varname>
-  (où <literal>property</literal> est le nom de la propriété), à moins que
+  (où <literal>property</literal> est le nom de la propriété ; voir aussi les
+  <link linkend="language.variables.variable">noms de propriété variables</link>), à moins que
   l'appel ne se fasse sur une propriété statique, dans le contexte d'une méthode statique,
   auquel cas l'accès se fait en utilisant la syntaxe <varname>self::$property</varname>.
   Voir <link linkend="language.oop5.static">Statique</link> pour plus d'informations.

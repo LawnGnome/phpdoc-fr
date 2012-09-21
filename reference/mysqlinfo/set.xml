@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325320 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327344 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <set xml:id="set.mysqlinfo">
@@ -512,4 +512,5 @@ $ ./configure --with-mysqli=/path/to/mysql_config --with-pdo-mysql=/path/to/mysq
  &reference.mysqlnd-ms.book;
  &reference.mysqlnd-qc.book;
  &reference.mysqlnd-uh.book;
+ &reference.mysqlnd-mux.book;
 </set>
