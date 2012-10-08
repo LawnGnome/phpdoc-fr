@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300101 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 327883 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: mikaelkael -->
 
 <refentry xml:id="function.oci-set-client-info" xmlns="http://docbook.org/ns/docbook">
@@ -38,13 +38,13 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter></parameter></term>
+     <term><parameter>connection</parameter></term>
      <listitem>
       &oci.parameter.connection;
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter></parameter></term>
+     <term><parameter>client_info</parameter></term>
      <listitem>
       <para>
        Chaîne utilisateur jusqu'à 64 octets de long.
