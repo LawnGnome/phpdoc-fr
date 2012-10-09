@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 319248 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 327889 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb.command" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -98,7 +98,7 @@ public function command($data) {
        <entry>1.2.0</entry>
        <entry>
         Ajout du paramètre <literal>options</literal> avec une
-        seule option : <literal>timeout</literal>.
+        seule option : <literal>"timeout"</literal>.
        </entry>
       </row>
      </tbody>
