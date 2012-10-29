@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="importedthread.notify" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="stackable.getcreatorid" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>ImportedThread::notify</refname>
-  <refpurpose>Notifie tous les threads en attente pour le thread référencé</refpurpose>
+  <refname>Stackable::getCreatorId</refname>
+  <refpurpose>Identification</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>ImportedThread::notify</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>long</type><methodname>Stackable::getCreatorId</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Notifie tous les threads en attente pour le thread référencé, faisant que les
-   threads en attente puissent continuer leur exécution. Un appel à la notification
-   lorsqu'aucun thread n'est en attente de résultats produit un blocage tant qu'un
-   autre contexte appelle la méthode Thread::wait sur le thread référencé.
+   Retourne l'identité du Thread qui a créé le Stackable référencé.
   </para>
  </refsect1>
- 
+
  <refsect1 role="parameters">
   &reftitle.parameters;
   &no.function.parameters;
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le succès ou non de l'opération.
+   Une valeur numérique représentant l'identité du contexte créé.
   </para>
  </refsect1>
- 
+
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="thread.isbusy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="worker.iswaiting" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Thread::isBusy</refname>
-  <refpurpose>Indique si un Thread est en cours d'exécution</refpurpose>
+  <refname>Worker::isWaiting</refname>
+  <refpurpose>Détection de statut</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Thread::isBusy</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Worker::isWaiting</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Indique si le Thread référencé est en cours d'exécution.
-   Un appel à la méthode <function>Thread::join</function> sur un
-   Thread en cours d'exécution peut entraîner un blocage important.
-   Un Thread utilisé comme worker apparaîtra toujours comme en cours
-   d'exécution tant qu'une appel à la méthode <function>Thread::join</function>
-   sur le worker n'a pas eu lieu.
+   Indique si le Worker référencé est en attente d'une notification.
   </para>
  </refsect1>
 
@@ -33,9 +28,10 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le statut de l'opération.
+   Un booléen indiquant le statut.
   </para>
  </refsect1>
+
 
 </refentry>
 

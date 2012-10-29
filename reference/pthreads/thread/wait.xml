@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328161 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="thread.wait" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Thread::wait</refname>
-  <refpurpose>Attent une notification depuis le Thread référencé</refpurpose>
+  <refpurpose>Synchronisation</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Thread::wait</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>int</type><methodname>Thread::wait</methodname>
    <methodparam choice="opt"><type>long</type><parameter>timeout</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Fait que le thread appelé se bloque et attente un appel de la méthode
-   <function>Thread::notify</function> sur le Thread référencé.
-   Si le délai d'attente maximal est atteint, ce sera considéré comme un échec.
-   Un appel à la méthode <function>Thread::wait</function> résultera toujours
-   en un blocage. Le programmeur doit utiliser les méthodes de détection de
-   statut pour éviter les erreurs de programmation lors de l'utilisation des
-   méthodes de synchronisation, comme <function>Thread::wait</function> et
-   <function>Thread::notify</function>.
+   Fait attendre le Thread appelant d'une notification depuis le Thread
+   référencé.
   </para>
  </refsect1>
 
@@ -45,7 +39,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le succès de l'opération.
+   Une indication intégrale du succès de l'opération.
   </para>
  </refsect1>
 

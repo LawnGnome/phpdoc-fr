@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="importedthread.isjoined" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="worker.run" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>ImportedThread::isJoined</refname>
-  <refpurpose>Indique si le Thread référencé a été rejoins</refpurpose>
+  <refname>Worker::run</refname>
+  <refpurpose>Exécution</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>void</type><methodname>ImportedThread::isJoined</methodname>
+   <modifier>abstract</modifier> <modifier>public</modifier> <type>mixed</type><methodname>Worker::run</methodname>
    <void />
   </methodsynopsis>
   <para>
-
+   La méthode run d'un Worker est exécutée avant tout Stackable,
+   sachant que le contexte et les workers doivent être définis via leurs
+   paramètres afin de préparer leurs arrivées.
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">

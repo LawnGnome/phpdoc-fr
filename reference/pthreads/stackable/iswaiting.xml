@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="importedthread.isrunning" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="stackable.iswaiting" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>ImportedThread::isRunning</refname>
-  <refpurpose>Indique si le Thread référencé fonctionne</refpurpose>
+  <refname>Stackable::isWaiting</refname>
+  <refpurpose>Détection de statut</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>ImportedThread::isRunning</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Stackable::isWaiting</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Retournera &true; si le Thread référencé a bien été démarré, et pas encore joins
-   par un autre contexte.
+   Indique si le Stackable référencé est en attente d'une notification.
   </para>
  </refsect1>
- 
+
  <refsect1 role="parameters">
   &reftitle.parameters;
   &no.function.parameters;
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le statut de l'opération.
+   Un booléen indiquant le statut.
   </para>
  </refsect1>
- 
+
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

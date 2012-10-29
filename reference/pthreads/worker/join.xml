@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328161 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="thread.join" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="worker.join" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Thread::join</refname>
+  <refname>Worker::join</refname>
   <refpurpose>Synchronisation</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>mixed</type><methodname>Thread::join</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>mixed</type><methodname>Worker::join</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Fait attente le contexte appelant que le Thread référencé ait terminé
-   son exécution.
+   Fait que le contexte appelant attendra que le Worker référencé
+   termine l'exécution de tous les Stackables précédemment mis en file
+   d'attente.
   </para>
  </refsect1>
 
@@ -29,7 +30,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
- 
+  
   </para>
  </refsect1>
 

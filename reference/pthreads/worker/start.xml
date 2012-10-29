@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328161 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="thread.start" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="worker.start" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Thread::start</refname>
+  <refname>Worker::start</refname>
   <refpurpose>Exécution</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Thread::start</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Worker::start</methodname>
    <methodparam choice="opt"><type>boolean</type><parameter>synchronized</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Démarre l'exécution de cette implémentation de la méthode run
-   dans un Thread séparé.
+   Démarre un nouveau Thread, en exécutant tout d'abord
+   Worker::run, puis, en attendant des Stackables pouvant s'exécuter.
   </para>
  </refsect1>
 
@@ -28,9 +28,8 @@
     <term><parameter>synchronized</parameter></term>
     <listitem>
      <para>
-      Si vaut &true;, cela fera que le contexte appelant attendra
-      une notification depuis le Thread avant de retourner, depuis
-      l'appel à Thread::start.
+      Lorsque vaut &true;, le contexte appelant attendra une notification
+      du Worker avant de retourner depuis l'appel à Worker::start.
      </para>
     </listitem>
    </varlistentry>
@@ -43,6 +42,7 @@
    Un booléen indiquant le succès de l'opération.
   </para>
  </refsect1>
+
 
 </refentry>
 

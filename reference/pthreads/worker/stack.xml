@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="importedthread.join" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="worker.stack" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>ImportedThread::join</refname>
-  <refpurpose>Rejoint le thread référencé</refpurpose>
+  <refname>Worker::stack</refname>
+  <refpurpose>Mise en pile d'attente</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>mixed</type><methodname>ImportedThread::join</methodname>
-   <void />
+   <modifier>final</modifier> <modifier>public</modifier> <type>int</type><methodname>Worker::stack</methodname>
+   <methodparam><type>Stackable</type><parameter>work</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Rejoint le thread référencé, et, suivant l'implémentation, retourne à l'appelant
-   la valeur retournée par la méthode Thread::run.
-   Un thread peut seulement être rejoint par un seul contexte, le programmeur
-   doit utiliser les détections de statut pour éviter les erreurs de programmation.
+   Ajoute le Stackable référencé à la pile d'attente du Worker référencé.
   </para>
  </refsect1>
- 
+
  <refsect1 role="parameters">
   &reftitle.parameters;
-  &no.function.parameters;
+  <variablelist>
+   <varlistentry>
+    <term><parameter>work</parameter></term>
+    <listitem>
+     <para>
+      Un objet de type Stackable à exécuter par le Worker référencé.
+     </para>
+    </listitem>
+   </varlistentry>
+  </variablelist>
  </refsect1>
- 
+
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   
+   La nouvelle longueur de la pile d'attente.
   </para>
  </refsect1>
- 
- 
+
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

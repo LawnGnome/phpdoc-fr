@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328015 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="importedthread.isstarted" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="worker.isjoined" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>ImportedThread::isStarted</refname>
-  <refpurpose>Le but de isStarted</refpurpose>
+  <refname>Worker::isJoined</refname>
+  <refpurpose>Détection de statut</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>ImportedThread::isStarted</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Worker::isJoined</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Un thread ne commence pas son exécution tant qu'un appel à la méthode
-   <function>Thread::start</function> n'a pas eu lieu.
-   Un thread ne peut commencer deux fois avec un appel à la méthode
-   <function>Thread::start</function>. Le programmeur doit s'assurer de ne pas commettre
-   des erreurs de programmation en appelant les méthodes de détection de statut
-   avant de tenter une synchronisation avec un autre thread.
+   Indique si le Worker référencé a été joint par un autre contexte.
   </para>
  </refsect1>
 
@@ -33,9 +28,10 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le statut de l'opération.
+   Un booléen indiquant le statut.
   </para>
  </refsect1>
+
 
 </refentry>
 
