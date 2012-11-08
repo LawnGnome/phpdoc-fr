@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322136 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328244 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
@@ -158,6 +158,18 @@ function mycallback($classname)
       possible d'intercepter ce cas spécial en comparant
       <parameter>str</parameter> avec <literal>serialize(false)</literal>
       ou en attrapant l'erreur <constant>E_NOTICE</constant> émise.
+   </para>
+  </warning>
+  <warning>
+   <para>
+    Ne passer pas d'entrée utilisateur non fiable à la fonction
+    <function>unserialize</function>. La délinéarisation peut résulter
+    en une exécution de code chargé et exécuté lors de l'instanciation
+    et l'auto-chargement d'objet, et ainsi, un utilisateur mal intentionné
+    peut être capable d'exploiter ce comportement. Utilisez un standard d'échange
+    sûr, comme JSON (via les fonctions <function>json_decode</function> 
+    et <function>json_encode</function>) si vous devez passer des données linéarisées
+    à l'utilisateur.
    </para>
   </warning>
  </refsect1>
