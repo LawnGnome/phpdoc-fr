@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328278 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mcrypt-get-iv-size" xmlns="http://docbook.org/ns/docbook">
@@ -34,20 +34,14 @@
     <varlistentry>
      <term><parameter>cipher</parameter></term>
      <listitem>
-      <para>
-       Une des constantes <constant>MCRYPT_ciphername</constant>, qui contient
-       le nom de l'algorithme sous forme de &string;.
-      </para>
+      &mcrypt.parameter.cipher;
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
+      &mcrypt.parameter.mode;
       <para>
-       Une des constantes <constant>MCRYPT_MODE_modename</constant>
-       ou bien une des chaînes suivantes : <literal>"ecb"</literal>, <literal>"cbc"</literal>,
-       <literal>"cfb"</literal>, <literal>"ofb"</literal>,
-       <literal>"nofb"</literal> ou <literal>"stream"</literal>.
        IV est ignoré en mode ECB sachant que ce mode ne le demande pas.
        Vous devez avoir le même IV (point de départ) lors du chiffrement
        et du déchiffrement, sinon, votre chiffrage échouera.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328278 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mcrypt-get-block-size" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,7 @@
   <methodsynopsis>
    <type>int</type><methodname>mcrypt_get_block_size</methodname>
    <methodparam><type>string</type><parameter>cipher</parameter></methodparam>
-   <methodparam><type>string</type><parameter>module</parameter></methodparam>
+   <methodparam><type>string</type><parameter>mode</parameter></methodparam>
   </methodsynopsis>
   <para>
    Le premier prototype sert lorsque PHP est compilé avec la bibliothèque
@@ -45,18 +45,13 @@
     <varlistentry>
      <term><parameter>cipher</parameter></term>
      <listitem>
-      <para>
-       Une des constantes <literal>MCRYPT_ciphername</literal>, 
-       représentant le nom d'un algorithme sous forme de &string;.
-      </para>
+      &mcrypt.parameter.cipher;
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>module</parameter></term>
+     <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       Le module.
-      </para>
+      &mcrypt.parameter.mode;
      </listitem>
     </varlistentry>
    </variablelist>

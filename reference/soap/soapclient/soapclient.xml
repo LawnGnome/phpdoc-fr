@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321902 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328320 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="soapclient.soapclient" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -154,6 +154,19 @@
      </listitem>
     </varlistentry>
    </variablelist>
+  </para>
+ </refsect1>
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   <methodname>SoapClient::SoapClient</methodname> génèrera une erreur de type
+   <constant>E_ERROR</constant> si les options <literal>location</literal> et
+   <literal>uri</literal> ne sont pas fournies en mode non-WSDL.
+  </para>
+  <para>
+   Une exception de type <classname>SoapFault</classname> sera lancée si l'URI
+   <parameter>wsdl</parameter> ne peut être chargée.
   </para>
  </refsect1>
 

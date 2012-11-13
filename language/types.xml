@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328219 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.types" xmlns="http://docbook.org/ns/docbook">
@@ -66,7 +66,7 @@
   </itemizedlist>
 
   <para>
-   Et finalement, 3 types spéciaux :
+   Et finalement, 2 types spéciaux :
   </para>
 
   <itemizedlist>
@@ -80,12 +80,6 @@
    <listitem>
     <simpara>
      <type>NULL</type>
-    </simpara>
-   </listitem>
-
-   <listitem>
-    <simpara>
-     <type>callable</type>
     </simpara>
    </listitem>
 
