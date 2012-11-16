@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328175 Maintainer: itanea Status: ready -->
+<!-- EN-Revision: 328380 Maintainer: itanea Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mysqlinfo.concepts" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -170,7 +170,7 @@ $mysqli->query("SET NAMES utf8");
 $mysqli->query("SET CHARACTER SET utf8");
 
 // Mais, ceci va affecter $mysqli->real_escape_string();
-$mysqli->set_charset('utf8')) {
+$mysqli->set_charset('utf8');
 
 ?>
 ]]>
