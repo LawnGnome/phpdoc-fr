@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328328 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: pmartin -->
 <!-- Membership: core -->
 
@@ -19,6 +19,12 @@
    ces fonctions, vous pouvez retrouver non seulement la classe
    d'un objet, mais aussi son héritage (autrement dit, quelle classe est
    étendue par la classe de l'objet).
+  </para>
+  <para>
+   Veuillez vous reporter à la section sur les
+   <link linkend="language.types.object">objets</link> du manuel
+   pour avoir des explications détaillées sur la façon dont sont implémentés
+   les classes et les objets en PHP.
   </para>
  </preface>
 
