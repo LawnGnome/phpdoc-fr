@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312463 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328424 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="datetime.diff" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -45,7 +45,7 @@
     <term><parameter>absolute</parameter></term>
     <listitem>
      <para>
-      Retourner la différence absolue ou non.
+      Est-ce que l'intervalle doit être forcé à un nombre positif ?
      </para>
     </listitem>
    </varlistentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328359 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.array">
@@ -328,6 +328,10 @@ string(3) "foo"
     Depuis PHP 5.4, il est possible de faire référence à un tableau résultant
     d'une fonction ou d'une méthode directement. Avant, cela n'était possible
     qu'en utilisant une variable temporaire.
+   </para>
+   
+   <para>
+    Depuis PHP 5.5, il est possible de déférencer un tableau littéral.
    </para>
    
    <example>

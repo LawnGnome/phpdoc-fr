@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 314891 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328399 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.http-response-code" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -60,7 +60,7 @@ http_response_code(404);
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemples avec <function>headers_list</function></title>
+    <title>Exemples avec <function>http_response_code</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php

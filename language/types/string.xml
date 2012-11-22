@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328351 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -870,6 +870,14 @@ bool(false)
      Accèder à des variables d'autres types (pas des tableaux
      ni des objets implémentant les interfaces appropriées) en utilisant <literal>[]</literal> ou
      <literal>{}</literal> retournera silencieusement &null;.
+    </para>
+   </note>
+
+   <note>
+    <para>
+     PHP 5.5 ajout le support pour l'accès aux caractères dans une chaîne
+     de caractères littérales en utilisant la syntaxe <literal>[]</literal>
+     ou <literal>{}</literal>.
     </para>
    </note>
    
