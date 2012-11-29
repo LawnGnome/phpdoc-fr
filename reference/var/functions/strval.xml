@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322136 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328469 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.strval" xmlns="http://docbook.org/ns/docbook">
@@ -89,6 +89,7 @@ echo strval(new StrValTest);
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>boolval</function></member>
     <member><function>floatval</function></member>
     <member><function>intval</function></member>
     <member><function>settype</function></member>

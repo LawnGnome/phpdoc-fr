@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327731 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.setreadpreference" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -37,12 +37,12 @@
 <![CDATA[
 <?php
 
-$m = new Mongo();
+$m = new MongoClient();
 $c = $m->test->users;
 
 // Préfère le serveur le plus proche du centre de données "east", également utilisé pour les rapports
 // mais utilise un serveur du centre de données "west" en cas d'échec
-$c->setReadPreference(Mongo::RP_NEAREST, array(
+$c->setReadPreference(MongoClient::RP_NEAREST, array(
     array('dc' => 'east', 'use' => 'reporting'),
     array('dc' => 'west'),
 ));

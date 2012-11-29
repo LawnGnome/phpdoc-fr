@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321552 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.deleteindex" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -103,7 +103,7 @@ $db->command(array("deleteIndexes" => $collection->getName(), "index" => "superf
    <programlisting role="php">
 <![CDATA[
 <?php
-$m = new Mongo();
+$m = new MongoClient();
 $c = $m->example->indices;
 
 // crée un index
