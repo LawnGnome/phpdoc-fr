@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328365 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328469 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.floatval" xmlns="http://docbook.org/ns/docbook">
@@ -76,6 +76,7 @@ echo $float_value_of_var; // 122.34343
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>boolval</function></member>
     <member><function>intval</function></member>
     <member><function>strval</function></member>
     <member><function>settype</function></member>
