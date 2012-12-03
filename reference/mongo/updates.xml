@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322202 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328517 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<section xml:id="mongo.updates" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<chapter xml:id="mongo.updates" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Mises à jour</title>
 
  <para>
@@ -139,7 +139,7 @@ $blog->update(
 ]]>
   </programlisting>
  </section>
-</section>
+</chapter>
 
 <!-- Keep this comment at the end of the file
 Local variables:

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323642 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328602 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="ibm-db2.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,7 @@
       <entry>&Changelog;</entry>
      </row>
     </thead>
-    <tbody>
+    <tbody xml:id="ibm-db2.configuration.list">
      <row>
       <entry><link linkend="ini.ibm-db2.binmode">ibm_db2.binmode</link></entry>
       <entry>"1"</entry>

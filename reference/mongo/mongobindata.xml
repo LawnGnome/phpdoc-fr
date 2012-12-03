@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326495 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328555 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <phpdoc:classref xml:id="class.mongobindata" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -28,7 +28,8 @@
    <para>
     Par exemple, pour insérer une image dans un document :
    </para>
-   <programlisting role="php">
+   <example xml:id="mongobindata.intro-example">
+    <programlisting role="php">
 <![CDATA[
 <?php
 
@@ -39,7 +40,8 @@ $users->save($profile);
 
 ?>
 ]]>
-   </programlisting>
+    </programlisting>
+   </example>
    <para>
     Cette classe contient un champ <varname>type</varname>, qui ne donne actuellement
     aucune information supplémentaires au driver, ni à la base de données.
