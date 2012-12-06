@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328357 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 328651 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-reverse" xmlns="http://docbook.org/ns/docbook">
@@ -93,9 +93,7 @@ print_r($preserved);
 ?>
 ]]>
     </programlisting>
-    <para>
-     L'affichage de cet exemple sera :
-    </para>
+    &example.outputs;
     <screen role="php">
 <![CDATA[
 Array
