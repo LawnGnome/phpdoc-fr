@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328669 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
  <sect1 xml:id="language.oop5.magic" xmlns="http://docbook.org/ns/docbook">
@@ -139,6 +139,13 @@ class Connection
     retourner une chaîne, sinon une erreur <constant>E_RECOVERABLE_ERROR</constant>
     sera levée.
    </para>
+   <warning>
+    <simpara>
+     Vous ne pouvez pas lancer d'exception depuis la méthode
+     <link linkend="object.tostring">__toString()</link>. Si vous le tentez,
+     une erreur fatale en résultera.
+    </simpara>
+   </warning>
    <example>
     <title>Exemple simple</title>
     <programlisting role="php">
