@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328365 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328838 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
@@ -269,6 +269,7 @@
             cURL.
            </entry>
            <entry valign="top">
+            Supprimé en cURL 7.15.5 (Vous pouvez utiliser CURLOPT_RETURNTRANSFER à la place)
            </entry>
           </row>
           <row>
