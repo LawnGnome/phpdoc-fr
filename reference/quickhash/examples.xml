@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 328942 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="quickhash.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -110,7 +110,7 @@ $hash = new QuickHashIntStringHash( 64 );
 
 // Ajout d'entrées
 $hash[1] = "one million four hundred fifteen thousand nine hundred twenty six";
-$hash->add( 2, "one more" );1415926;
+$hash->add( 2, "one more" );
 
 foreach( $hash as $key => $value )
 {
