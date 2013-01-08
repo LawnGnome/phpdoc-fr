@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328318 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 329007 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.namespaces" xmlns="http://docbook.org/ns/docbook"
@@ -1352,7 +1352,7 @@ function mon() {}
 function foo() {}
 function sort(&$a)
 {
-    sort($a);
+    \sort($a); // Appel de la fonction globale "sort"
     $a = array_flip($a);
     return $a;
 }
