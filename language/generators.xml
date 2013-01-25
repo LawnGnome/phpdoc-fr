@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328433 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329285 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="language.generators" xmlns="http://docbook.org/ns/docbook">
@@ -428,6 +428,7 @@ class Generator implements Iterator {
                                        // de l'expression et reprend
                                        // l'exécution du générateur.
 }
+?>
 ]]>
    </programlisting>
   </example>
