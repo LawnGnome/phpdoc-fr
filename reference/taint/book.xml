@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324194 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329303 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <book xml:id="book.taint" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -39,6 +39,7 @@ print $$var;
 include($file_name);
 
 mysql_query($sql);
+?>
 ]]>
    </programlisting>
    &example.outputs.similar;

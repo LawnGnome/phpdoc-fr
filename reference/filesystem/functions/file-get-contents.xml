@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329280 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329305 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file-get-contents">
@@ -171,9 +171,10 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Émets une alerte de type <constant>E_WARNING</constant> si, soit le
+   Émets une alerte de type <constant>E_WARNING</constant> si,
+   <parameter>filename</parameter> ne peut être trouvé, si le
    paramètre <parameter>maxlength</parameter> est plus petit que zéro,
-   soit le déplacement à la position <parameter>offset</parameter>
+   ou si le déplacement à la position <parameter>offset</parameter>
    spécifié dans le flux échoue.
   </para>
  </refsect1>
