@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328426 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329315 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongoclient.selectcollection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -56,7 +56,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Emet une exception <classname>InvalidArgumentException</classname> si la base de données
+   Emet une <classname>Exception</classname> si la base de données
    ou la collection est invalide.
   </para>
  </refsect1>
