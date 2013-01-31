@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307084 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.pg-fetch-assoc" xmlns="http://docbook.org/ns/docbook">
