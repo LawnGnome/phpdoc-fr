@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303931 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 329430 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strtr" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -101,7 +101,10 @@
   </para>
   <para>
    Si <parameter>replace_pairs</parameter> contient une clé vide
-   (<literal>""</literal>), &false; sera retourné.
+   (<literal>""</literal>), &false; sera retourné. Si le paramètre
+   <parameter>str</parameter> n'est pas un scalaire, alors il ne sera
+   pas transtypé en une chaîne de caractères, une alerte sera émise,
+   et la valeur &null; sera retournée.
   </para>
  </refsect1>
 
