@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329318 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329540 Maintainer: yannick Status: ready -->
 
 <!--
 NOTE AUX TRADUCTEURS :
@@ -381,7 +381,7 @@ différentes versions de PHP'>
 
 <!ENTITY foreach '<link xmlns="http://docbook.org/ns/docbook" linkend="control-structures.foreach">foreach</link>'>
 
-<!ENTITY yield '<link xmlns="http://docbook.org/ns/docbook" linkend="language.generators.syntax.yield">yield</link>'>
+<!ENTITY yield '<link xmlns="http://docbook.org/ns/docbook" linkend="control-structures.yield">yield</link>'>
 
 <!ENTITY parameter.context 'Reportez-vous à la section <link xmlns="http://docbook.org/ns/docbook" linkend="context">contexte</link>
 de ce manuel pour une description des <literal xmlns="http://docbook.org/ns/docbook">contextes</literal>.'>
