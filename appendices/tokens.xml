@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327705 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 329590 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -664,7 +664,7 @@
     </row>
     <row>
      <entry><constant>T_STRING</constant></entry>
-     <entry>"parent"</entry>
+     <entry>parent, true etc.</entry>
      <entry>identifiants, e.g. <link linkend="language.types.string.parsing">strings</link>,
       mots-clés du modèle objet comme <literal>parent</literal> et <literal>self</literal>,
       fonctions, classes et autres, correspondent.</entry>
