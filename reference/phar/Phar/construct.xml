@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324674 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 329753 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="phar.construct">
@@ -26,7 +26,8 @@
      <term><parameter>fname</parameter></term>
      <listitem>
       <para>
-       Le chemin vers une archive Phar existante ou à créer
+       Le chemin vers une archive Phar existante ou à créer.
+       Le nom du fichier doit contenir l'extension .phar.
       </para>
      </listitem>
     </varlistentry>
