@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 329924 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: bundled, external -->
 
@@ -17,7 +17,7 @@
   &reftitle.intro;
   <para>
    Le driver natf MySQL est un remplacement pour la bibliothèque cliente
-   MySQL (libmysql). Le driver natif MySQL fait parti des sources
+   MySQL (libmysqlclient). Le driver natif MySQL fait parti des sources
    officielles PHP depuis la version 5.3.0.
   </para>
   <para>
