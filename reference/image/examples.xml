@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310851 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329881 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="image.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -106,7 +106,7 @@ $marge_bottom = 10;
 $sx = imagesx($stamp);
 $sy = imagesy($stamp);
 
-// Fusionne le cachet dans notre photo avec une opacité (transparence) de 50%
+// Fusionne le cachet dans notre photo avec une opacité de 50%
 imagecopymerge($im, $stamp, imagesx($im) - $sx - $marge_right, imagesy($im) - $sy - $marge_bottom, 0, 0, imagesx($stamp), imagesy($stamp), 50);
 
 // Sauvegarde l'image dans un fichier et libère la mémoire
