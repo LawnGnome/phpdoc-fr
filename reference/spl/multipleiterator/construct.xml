@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313229 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330156 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="multipleiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -145,7 +145,7 @@ Array
     [role] => Project Owner
 )]]>
     </screen>
-    <para xml:id="multipleiterator.examples.basic.4">Affichage avec <literal>$flags = MIT_NEED_ANY|MIT_KEYS_NUMERIC</literal></para>
+    <para xml:id="multipleiterator.examples.basic.4">Affichage avec <literal>$flags = MIT_NEED_ANY|MIT_KEYS_ASSOC</literal></para>
     <screen>
 <![CDATA[
 Array

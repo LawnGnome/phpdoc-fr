@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329924 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 330159 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: bundled, external -->
 
@@ -45,6 +45,7 @@
 &reference.mysqlnd.overview;
 &reference.mysqlnd.install;
 &reference.mysqlnd.config;
+&reference.mysqlnd.incompatibilities;
 &reference.mysqlnd.persist;
 &reference.mysqlnd.stats;
 &reference.mysqlnd.notes;
