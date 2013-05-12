@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330183 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.ldap-add" xmlns="http://docbook.org/ns/docbook">
@@ -93,7 +93,6 @@ if ($ds) {
     // Prépare les données
     $info["cn"] = "John Jones";
     $info["sn"] = "Jones";
-    $info["mail"] = "jonj@example.com";
     $info["objectclass"] = "person";
 
     // Ajoute les données au dossier

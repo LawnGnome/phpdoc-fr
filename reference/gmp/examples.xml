@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330181 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="gmp.examples">
@@ -14,7 +14,7 @@
 function fact($x) 
 {
     $return = 1;
-    for ($i=2; $i < $x; $i++) {
+    for ($i=2; $i <= $x; $i++) {
         $return = gmp_mul($return, $i);
     }
     return $return;
