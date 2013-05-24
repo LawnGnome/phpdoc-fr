@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330269 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: itanea -->
 
 <section xml:id="curl.installation" xmlns="http://docbook.org/ns/docbook">
@@ -18,6 +18,8 @@
   À partir de PHP 4.3.0, vous pouvez aussi configurer PHP pour qu'il
   utilise cURL comme gestionnaire d'URL avec l'option
   <option role="configure">--with-curlwrappers</option>.
+  Cette fonctionalité a été déplacée en PECL depuis PHP 5.5.0.
+  
  </para>
  <note>
   <title>Note aux utilisateurs Win32</title>

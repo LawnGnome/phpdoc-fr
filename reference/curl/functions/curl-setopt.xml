@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329914 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330234 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
@@ -980,6 +980,11 @@
              Depuis PHP 5.2.0, <parameter>value</parameter> doit être un tableau si les
              fichiers sont passés à cette option avec le préfixe
              <literal>@</literal>.
+            </simpara>
+            <simpara>
+             Depuis PHP 5.5.0, le préfixe <literal>@</literal> est obsolète
+             et les fichiers peuvent être envoyés en utilisant
+             <classname>CURLFile</classname>.
             </simpara>
            </entry>
            <entry valign="top">

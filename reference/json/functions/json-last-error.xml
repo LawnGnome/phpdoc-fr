@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312208 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 330249 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-last-error" xmlns="http://docbook.org/ns/docbook">
@@ -166,6 +166,7 @@ bool(true)
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>json_last_error_msg</function></member>
     <member><function>json_decode</function></member>
     <member><function>json_encode</function></member>
    </simplelist>

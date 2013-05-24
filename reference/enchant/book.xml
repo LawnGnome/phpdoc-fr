@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324459 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
-<!-- Membership: pecl, external -->
 
 <book xml:id="book.enchant" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Bibliothèque d'orthographe Enchant</title>
  <titleabbrev>Enchant</titleabbrev>
 

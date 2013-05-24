@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324537 Maintainer: blanchonvincent Status: ready -->
+<!-- EN-Revision: 330295 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mb-ereg-replace-callback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -29,9 +29,6 @@
     à part le fait que le paramètre
     <parameter>replacement</parameter>, doit spécifier une fonction de retour  
     <parameter>callback</parameter>.
-  </para>
-  <para>
-    Cette fonction est disponible en PHP 5.4.1 ou supérieur.
   </para>
  </refsect1>
 
