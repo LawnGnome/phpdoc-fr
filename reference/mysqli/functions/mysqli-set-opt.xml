@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330226 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mysqli-set-opt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
+  <refname>mysqli::set_opt</refname>
   <refname>mysqli_set_opt</refname>
   <refpurpose>Alias de <function>mysqli_options</function></refpurpose>
  </refnamediv>
