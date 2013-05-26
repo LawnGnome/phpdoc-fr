@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322138 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 330315 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="ziparchive.setcommentname" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>ZipArchive::setCommentName</methodname>
+   <type>bool</type><methodname>ZipArchive::setCommentName</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
    <methodparam><type>string</type><parameter>comment</parameter></methodparam>
   </methodsynopsis>

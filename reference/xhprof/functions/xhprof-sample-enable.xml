@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311175 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330232 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: pmartin -->
 
 <refentry xml:id="function.xhprof-sample-enable" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>xhprof_sample_enable</refname>
-  <refpurpose>Description</refpurpose>
+  <refpurpose>Démarre le profilage en mode échantillonnage</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -24,8 +24,6 @@
    et surveiller les performances sans pour autant consommer trop de
    ressources.
   </para>
-
-  &warn.undocumented.func;
 
  </refsect1>
 

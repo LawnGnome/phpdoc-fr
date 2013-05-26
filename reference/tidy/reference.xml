@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
-<!-- Membership: pecl, bundled, external -->
 
 <reference xml:id="ref.tidy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>&Functions; Tidy</title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324588 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330308 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="sybase.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -39,7 +39,7 @@
      <entry>PHP_INI_ALL en PHP &lt;= 4.0.2. PHP_INI_SYSTEM en PHP &lt;= 4.0.3.</entry>
     </row>
     <row>
-     <entry>sybase.interface_file </entry>
+     <entry>sybase.interface_file</entry>
      <entry>"/usr/sybase/interfaces"</entry>
      <entry>PHP_INI_SYSTEM</entry>
      <entry></entry>
