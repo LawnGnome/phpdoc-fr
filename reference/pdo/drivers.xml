@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317827 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
-<!-- Purpose: database.abstract -->
-<!-- Membership: pecl, bundled -->
 
 <part xml:id="pdo.drivers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Pilotes PDO</title>
