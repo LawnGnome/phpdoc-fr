@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="recursivecachingiterator.getchildren" xmlns="http://docbook.org/ns/docbook">
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>RecursiveCachingIterator</type><methodname>RecursiveCachingIterator::getChildren</methodname>
+   <modifier>public</modifier> <type>RecursiveCachingIterator</type><methodname>RecursiveCachingIterator::getChildren</methodname>
    <void/>
   </methodsynopsis>
 
