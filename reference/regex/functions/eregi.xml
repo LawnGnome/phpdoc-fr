@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329092 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330654 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.eregi">
@@ -122,6 +122,7 @@ if (eregi('z', $string)) {
     <member><function>preg_match</function></member>
     <member><function>stripos</function></member>
     <member><function>stristr</function></member>
+    <member><function>quotemeta</function></member>
    </simplelist>
   </para>
  </refsect1>
