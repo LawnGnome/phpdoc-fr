@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322197 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
+
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.getmetadata">
  <refnamediv>
   <refname>Phar::getMetadata</refname>
@@ -10,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>Phar::getMetadata</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>Phar::getMetadata</methodname>
    <void/>
   </methodsynopsis>
 
