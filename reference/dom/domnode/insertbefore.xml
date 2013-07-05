@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322382 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330442 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='domnode.insertbefore' xmlns="http://docbook.org/ns/docbook">
@@ -96,6 +96,16 @@
    </variablelist>
   </para>
  </refsect1>
+ 
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><methodname>DOMNode::appendChild</methodname></member>
+   </simplelist>
+  </para>
+ </refsect1>
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file

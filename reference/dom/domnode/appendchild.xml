@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322382 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330442 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='domnode.appendchild' xmlns="http://docbook.org/ns/docbook">
@@ -106,6 +106,7 @@ echo $doc->saveXML();
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><methodname>DOMNode::insertBefore</methodname></member>
     <member><methodname>DOMNode::removeChild</methodname></member>
     <member><methodname>DOMNode::replaceChild</methodname></member>
    </simplelist>
