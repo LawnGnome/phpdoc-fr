@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317827 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 330467 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-column-types" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -82,8 +82,8 @@ host_year                      integer                        11
 event_code                     integer                        11             
 athlete_code                   integer                        11             
 stadium_code                   integer                        11             
-nation_code                    char(3)                        3              
-medal                          char(1)                        1              
+nation_code                    char                           3              
+medal                          char                           1              
 game_date                      date                           10             
 ]]>
    </screen>
