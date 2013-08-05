@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321919 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331031 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: mikaelkael -->
 
 <section xml:id="oci8.test">
@@ -24,7 +24,7 @@
    pas des permissions équivalentes à ce compte.
   </para>
   <para>
-   Si la file d'attente de connexion de la base de données Oracle 11g
+   Si la file d'attente de connexion de la base de données Oracle
    est testée, définissez la variable $test_drcp à &true; et assurez-vous
    que la chaîne de connexion utilise un serveur de file d'attente DRCP
    approprié.
