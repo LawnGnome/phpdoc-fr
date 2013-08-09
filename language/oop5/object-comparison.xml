@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331094 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
   <sect1 xml:id="language.oop5.object-comparison" xmlns="http://docbook.org/ns/docbook">
@@ -106,7 +106,7 @@ o1 !== o2 : TRUE
    <note>
     <para>
      Les extensions peuvent définir leurs propres règles pour leurs
-     comparaisons d'objets.
+     comparaisons d'objets (<literal>==</literal>).
     </para>
    </note>
   </sect1>
