@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329305 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file-get-contents">
@@ -59,8 +59,8 @@
      <listitem>
       <note>
        <para>
-        Depuis PHP 5, la constante <constant>FILE_USE_INCLUDE_PATH</constant> peut être utilisée
-        pour déclencher la recherche dans le
+        Depuis PHP 5, la constante <constant>FILE_USE_INCLUDE_PATH</constant>
+        peut être utilisée pour déclencher la recherche dans le
         <link linkend="ini.include-path">chemin d'inclusion</link>.
        </para>
       </note>
