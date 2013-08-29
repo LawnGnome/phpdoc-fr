@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297890 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331212 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.phpinfo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -157,6 +157,15 @@
      </thead>
      <tbody>
       <row>
+       <entry>5.5.0</entry>
+       <entry>
+        Le logo GUIDs a été remplacé par son URI ; aussi, la désactivation
+        de expose_php n'a pas d'effet sur le résultat de la fonction phpinfo().
+        Les crédits sont également maintenant inclus dans l'affichage au lieu
+        d'être simplement liés.
+       </entry>
+      </row>
+      <row>
        <entry>5.2.2</entry>
        <entry>
         L'information "Loaded Configuration File" a été ajoutée, alors qu'avant,
@@ -196,10 +205,11 @@ phpinfo(INFO_MODULES);
   &reftitle.notes;
   <note>
    <para>
-    Une partie des informations affichées sont désactivées si
-    la directive <link linkend="ini.expose-php">expose_php</link> est
-    configurée avec la valeur <literal>off</literal>. Cela inclut les
-    logos PHP et Zend, ainsi que les crédits.
+    Dans les versions antérieures à PHP 5.5, une partie des informations
+    affichées sont désactivées si la directive
+    <link linkend="ini.expose-php">expose_php</link> est configurée avec
+    la valeur <literal>off</literal>. Cela inclut les logos PHP et Zend,
+    ainsi que les crédits.
    </para>
   </note>
   <note>
