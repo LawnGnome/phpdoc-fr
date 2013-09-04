@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308193 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331271 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.link">
@@ -52,17 +52,6 @@
   </para>
  </refsect1>
 
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <simpara>
-    Windows uniquement : cette fonction requiert un niveau
-    de fonctionnement avec des droits élevés, ou bien la
-    désactivation de UAC.
-   </simpara>
-  </note>
- </refsect1>
-
  <refsect1 role="changelog">
   &reftitle.changelog;
   <para>
@@ -111,6 +100,13 @@ link($target, $link);
  <refsect1 role="notes">
   &reftitle.notes;
   &note.no-remote;
+  <note>
+   <simpara>
+    Windows uniquement : cette fonction requiert un niveau
+    de fonctionnement avec des droits élevés, ou bien la
+    désactivation de UAC.
+   </simpara>
+  </note>
  </refsect1>
 
  <refsect1 role="seealso">
