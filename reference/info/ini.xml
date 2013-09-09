@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327827 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331320 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="info.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -274,9 +274,7 @@
       utilisant des collisions de hashages. S'il y a plusieurs de variables
       en entrée que le nombre spécifié par cette directive, une
       alerte de type <constant>E_WARNING</constant> sera émise, et les
-      variables en trop seront supprimées de la requête. Cette limite
-      ne s'applique qu'à chacun des niveaux imbriqués d'un tableau multi-dimensionnel
-      en entrée.
+      variables en trop seront supprimées de la requête.
      </para>
     </listitem>
    </varlistentry>
