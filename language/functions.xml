@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327189 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 331339 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -363,7 +363,8 @@ Préparer un bol de acidophilus framboise.
    
    <note>
     <simpara>
-     Les valeurs par défaut peuvent être passées par référence.
+     Depuis PHP 5, les arguments passés par référence doivent avoir
+     une valeur par défaut.
     </simpara>
    </note>
    
