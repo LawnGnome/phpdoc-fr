@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330249 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331384 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-encode" xmlns="http://docbook.org/ns/docbook">
@@ -34,8 +34,9 @@
        La valeur à encoder. Peut être de n'importe quel type, excepté une &resource;.
       </para>
       <para>
-       Cette fonction ne fonctionne qu'avec des données encodées UTF-8.
+       Toutes les chaînes doivent être encodées UTF-8.
       </para>
+      &json.implementation.superset;
      </listitem>
     </varlistentry>
     <varlistentry>
