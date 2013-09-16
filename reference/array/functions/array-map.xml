@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 331407 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-map">
@@ -214,7 +214,8 @@ Array
    Généralement, lors de l'utilisation de plusieurs tableaux, ils doivent
    être d'égale longueur, car la fonction de rappel est appliquée de manière
    similaire à tous les tableaux. Si les tableaux sont de tailles inégales,
-   les plus petits seront complétés avec des éléments vides.
+   les plus petits seront complétés avec des éléments vides pour atteindre
+   la taille du plus grand.
   </para>
   <para>
    Une utilisation intéressante de cette fonction est la construction
