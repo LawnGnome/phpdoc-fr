@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321326 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 331467 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fsockopen">
@@ -59,7 +59,9 @@
      <term><parameter>port</parameter></term>
      <listitem>
       <para>
-       Le numéro du port.
+       Le numéro du port. Ce paramètre peut être omis et ignoré
+       en utilisant la valeur <literal>-1</literal> pour les transports
+       qui n'utilisent pas les ports, comme <literal>unix://</literal>.
       </para>
      </listitem>
     </varlistentry>
