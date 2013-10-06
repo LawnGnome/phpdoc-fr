@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309214 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331556 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes --> 
 
 <refentry xml:id="function.create-function" xmlns="http://docbook.org/ns/docbook">
@@ -20,6 +20,20 @@
    <function>create_function</function> crée une fonction anonyme, 
    à partir des paramètres passés, et retourne un nom de fonction unique.
   </para>
+  <caution>
+   <para>
+    Cette fonction, en interne, utilise la fonction
+    <function>eval</function> et à donc, les exigences en terme
+    de sécurité sont identiques à  celles de la fonction <function>eval</function>.
+    De plus, les performances ne sont pas au rendez-vous et l'usage mémoire
+    est significatif.
+   </para>
+   <para>
+    Si vous utilisez PHP 5.3.0 ou supérieur, une
+    <link linkend="functions.anonymous">fonction anonyme</link> native doit être
+    utilisée à la place.
+   </para>
+  </caution>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
