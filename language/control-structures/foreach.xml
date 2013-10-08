@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328430 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 331596 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="control-structures.foreach" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
