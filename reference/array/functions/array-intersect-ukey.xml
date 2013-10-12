@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-intersect-ukey">
@@ -46,7 +46,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>array</parameter></term>
+     <term><parameter>...</parameter></term>
      <listitem>
       <para>
        Liste variable de tableaux à comparer.
