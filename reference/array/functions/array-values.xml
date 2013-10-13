@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328372 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-values" xmlns="http://docbook.org/ns/docbook">
@@ -12,11 +12,11 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>array_values</methodname>
-   <methodparam><type>array</type><parameter>input</parameter></methodparam>
+   <methodparam><type>array</type><parameter>array</parameter></methodparam>
   </methodsynopsis>
   <para>
    <function>array_values</function> retourne les valeurs du tableau
-   <parameter>input</parameter> ainsi que l'indexe numérique.
+   <parameter>array</parameter> ainsi que l'indexe numérique.
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -24,7 +24,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>input</parameter></term>
+     <term><parameter>array</parameter></term>
      <listitem>
       <para>
        Le tableau.
