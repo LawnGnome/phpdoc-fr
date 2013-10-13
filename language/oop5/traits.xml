@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328079 Maintainer: itanea Status: ready -->
+<!-- EN-Revision: 331806 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: itanea -->
 
 <sect1 xml:id="language.oop5.traits" xmlns="http://docbook.org/ns/docbook">
@@ -355,9 +355,8 @@ class MyHelloWorld {
  <sect2 xml:id="language.oop5.traits.static">
   <title>Attributs statiques dans les Traits</title>
   <para>
-   Des variables statiques peuvent être utilisées dans les méthodes d'un
-   trait, mais ne peuvent être définies dans le trait. Les traits peuvent
-   par contre déclarer des méthodes statiques pour la classe sous-jacente.
+   Traits peut définir à la fois des membres statiques, et
+   des méthodes statiques.
   </para>
   <example xml:id="language.oop5.traits.static.ex1">
    
