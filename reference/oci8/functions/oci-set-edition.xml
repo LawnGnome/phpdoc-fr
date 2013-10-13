@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328558 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331735 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: mikaelkael -->
 
 <refentry xml:id="function.oci-set-edition" xmlns="http://docbook.org/ns/docbook">
@@ -63,7 +63,7 @@
   <note>
    <title>Exigence de la version Oracle</title>
    <para>
-    Cette fonction est disponible pour Oracle 11gR2 et suivants.
+    Cette fonction est disponible pour Oracle 11<emphasis>g</emphasis>R2 et suivants.
    </para>
   </note>
   <caution>

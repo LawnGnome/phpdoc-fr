@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328312 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331738 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sprintf">
@@ -261,6 +261,12 @@ The tree contains 0005 monkeys
         <function>sprintf</function> génèrera une alerte.
        </para>
       </note>
+      <warning>
+       <para>
+        Le spécificateur <literal>c</literal> ignore l'alignement et
+        la taille.
+       </para>
+      </warning>
      </listitem>
     </varlistentry>
     <varlistentry>
