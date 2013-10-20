@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331860 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.setcolorvalue">
@@ -32,7 +32,8 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       Une constante de couleur de canal Imagick.
+       Une constante de couleur Imagick, i.e. \Imagick::COLOR_GREEN ou
+       \Imagick::COLOR_ALPHA.
       </para>
      </listitem>
     </varlistentry>

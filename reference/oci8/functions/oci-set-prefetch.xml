@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331735 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331842 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.oci-set-prefetch">
@@ -259,17 +259,6 @@ oci_execute($stid);
     </programlisting>
    </example>
   </para>
- </refsect1>
- 
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    Dans les versions de PHP antérieures à la version 5.0.0,
-    vous devez utiliser la fonction <function>ocisetprefetch</function>.
-    &oci.name.compat.note;
-   </para>
-  </note>
  </refsect1>
  
  <refsect1 role="seealso">
