@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330569 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332018 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
  <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,7 @@
     <link linkend="reserved">mot réservé</link> en PHP. Un nom de classe valide commence
     par une lettre ou un underscore, suivi de n'importe quel nombre de chiffres, ou de lettres, ou
     d'underscores. Si on devait l'exprimer sous forme d'une expression rationnelle, il s'agirait de
-    <literal>[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*</literal>.
+    <literal>^[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*$</literal>.
    </para>
    <para>
     Une classe peut contenir ses propres <link linkend="language.oop5.constants">constantes</link>,
