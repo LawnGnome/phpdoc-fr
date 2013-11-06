@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331999 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdo.construct" xmlns="http://docbook.org/ns/docbook">
@@ -210,6 +210,13 @@ try {
     </programlisting>
    </example>
   </para>
+  <note>
+   <para>
+    Avant PHP 5.3, une classe qui étendait PDO et implémentait
+    la méthode magique <literal>__call</literal> recevait toujours
+    le paramètre <parameter>$method</parameter> en minuscule.
+   </para>
+  </note>
  </refsect1>
 </refentry>
 

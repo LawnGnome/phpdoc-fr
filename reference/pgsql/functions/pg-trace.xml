@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 331938 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.pg-trace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,7 +49,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>pathname</parameter></term>
+     <term><parameter>mode</parameter></term>
      <listitem>
       <para>
        Le mode d'accès optionnel, comme <function>fopen</function>.
