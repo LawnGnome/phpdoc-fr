@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331668 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 332084 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -19,7 +19,7 @@
  
  <note>
   <simpara>
-   Une &string; peut être d'une taille allant jusqu'à 2Go.
+   Une &string; peut être d'une taille allant jusqu'à plus de 2Go (2147483647 octets maximum).
   </simpara>
  </note>
  

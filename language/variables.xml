@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328330 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 332027 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -563,13 +563,6 @@ function foo(){
     <para>
      Les déclarations statiques sont résolues au moment de la
      compilation.
-    </para>
-   </note>
-   <note>
-    <para>
-     L'utilisation du mot clé <literal>global</literal> à l'extérieur
-     d'une fonction n'est pas une erreur. Il peut être utilisé si le fichier
-     est inclus depuis l'intérieur d'une fonction.
     </para>
    </note>
   </sect2>

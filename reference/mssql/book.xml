@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332155 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <book xml:id="book.mssql" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -18,7 +18,7 @@
    Cette extension n'est plus disponible sous Windows avec PHP 5.3 et suivant.
   </para>
   <para>
-   SQLSRV, un pilote de remplacement pour MS SQL est disponible 
+   SQLSRV, une extension alternative pour la connectivité MS SQL est disponible 
    chez Microsoft : 
    <link xlink:href="&url.sqlsrv;">&url.sqlsrv;</link>.
   </para>
