@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331919 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.deleteimageartifact">
@@ -31,7 +31,7 @@
      <term><parameter>artifact</parameter></term>
      <listitem>
       <para>
-       Le nom de l'artefact.
+       Le nom de l'artefact à supprimer.
       </para>
      </listitem>
     </varlistentry>

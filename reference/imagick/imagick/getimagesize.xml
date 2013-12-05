@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331921 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagesize">
@@ -17,6 +17,8 @@
   </methodsynopsis>
   <para>
    Retourne la taille de l'image en octets.
+   Cette méthode est obsolète en faveur de la méthode
+   <link linkend="imagick.getimagelength">Imagick::getImageLength()</link>
   </para>
  </refsect1>
 
