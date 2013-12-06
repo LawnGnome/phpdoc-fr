@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332199 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.convert-uudecode">
@@ -40,7 +40,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne les données décodées, sous la forme d'une &string;.
+   Retourne les données décodées, sous la forme d'une &string; &return.falseforfailure;.
   </para>
  </refsect1>
 
