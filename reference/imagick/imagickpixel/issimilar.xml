@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331921 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.issimilar">
@@ -22,6 +22,8 @@
    et celle de l'objet fourni, en plaçant leurs valeurs RGB sur le cube
    de couleur. Si la distance entre les 2 points est inférieure à la valeur
    du paramètre <parameter>fuzz</parameter>, la couleur est similaire.
+   Obsolète en faveur de la méthode
+   <link linkend="imagickpixel.ispixelsimilar">ImagickPixel::isPixelSimilar()</link>.
   </para>
  </refsect1>
 

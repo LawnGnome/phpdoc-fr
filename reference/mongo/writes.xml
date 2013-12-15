@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328528 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332338 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mongo.writes" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -61,8 +61,8 @@ $blog->update($criteria, array('$set' => array("comments.1" => array("author" =>
 <?php
 
 $blog->update(
-    array("comments.author" => "John"),
-    array('$set' => array('comments.$.author' => "Jim")));
+    array('comments.author' => 'John'), 
+    array('$set' => array('comments.$.author' => 'Jim')));
 
 ?>
 ]]>
