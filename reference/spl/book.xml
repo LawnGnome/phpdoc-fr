@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330788 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332263 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <book xml:id="book.spl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,12 +14,6 @@
    La bibliothèque standard PHP (SPL) est une collection d'interfaces et de classes
    qui ont été créées afin de résoudre les problèmes communs.
   </para>
-  <note>
-   <para>
-    La documentation historique au format "doxygen" est disponible
-    <link xlink:href="&url.spl.doxygen;">ici</link>.
-   </para>
-  </note>
  </preface>
 
  &reference.spl.setup;

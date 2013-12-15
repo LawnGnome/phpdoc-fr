@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331339 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 331902 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
@@ -703,8 +703,8 @@ $greet('PHP');
   
   <simpara>
    Les fonctions anonymes peuvent hériter des variables du contexte de leur
-   parent. Ces variables doivent alors être déclarées dans la signature
-   de la fonction. L'héritage du contexte parent 
+   parent. Ces variables doivent alors être passées dans la construction
+   de langage <literal>use</literal>. L'héritage du contexte parent 
    <emphasis>n'est pas</emphasis> la même chose que les variables
    de l'environnement global. Les variables globales existent dans le
    contexte global, qui est le même, quelle que que soit la fonction qui 
