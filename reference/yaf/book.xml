@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331201 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332258 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <book xml:id="book.yaf" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Yaf</title>
+ <title>Yaf (i.e. Yet Another Framework)</title>
  <titleabbrev>Yaf</titleabbrev>
  
  <preface xml:id="intro.yaf">

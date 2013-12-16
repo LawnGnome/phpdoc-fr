@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332328 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.snmp-set-oid-numeric-print" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>snmp_set_oid_numeric_print</refname>
   <refpurpose>
-   Retourne tous les objets y compris leur identifiant d'objet dans celui spécifié
+   Définit le format de sortie de l'OID
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">
