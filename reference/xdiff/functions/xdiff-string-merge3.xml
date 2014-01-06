@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332522 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.xdiff-string-merge3" xmlns="http://docbook.org/ns/docbook">
@@ -21,7 +21,7 @@
   <para>
    Fusionne 3 chaînes en une et retourne le résultat.
    Le paramètre <parameter>old_data</parameter> est la version originale des données
-   tandis que <parameter>new_file1</parameter> et <parameter>new_file2</parameter>
+   tandis que <parameter>new_data1</parameter> et <parameter>new_data2</parameter>
    sont les versions modifiées de l'original. Le paramètre optionnel
    <parameter>error</parameter> est utilisé pour stocker toutes les parties
    rejetées lors de la fusion.
