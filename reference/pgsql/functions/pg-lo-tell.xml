@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 332713 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.pg-lo-tell" xmlns="http://docbook.org/ns/docbook">
@@ -81,6 +81,33 @@ Position du pointeur est : 50000
 ]]>
     </screen>
    </example> 
+  </para>
+ </refsect1>
+ 
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>5.6.0</entry>
+       <entry>
+        Ajoute le support des objetslarges 64 bit en PostgreSQL 9.3.
+        À la fois le client et le serveur doivent supporter PostgreSQL 9.3
+        et PHP doit avoir été compilé en 64 bit pour utiliser les objets
+        larges 64 bit.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
   </para>
  </refsect1>
  
