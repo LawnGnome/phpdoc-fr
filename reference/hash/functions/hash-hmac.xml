@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 332977 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.hash-hmac" xmlns="http://docbook.org/ns/docbook">
@@ -72,6 +72,8 @@
    en chiffre hexadécimal minuscule à moins que
    <parameter>raw_output</parameter> soit fixé à &true;. Dans ce cas, la
    représentation brute binaire de l'empreinte numérique est retournée.
+   Retourne &false; lorsque le paramètre <parameter>algo</parameter> n'est pas
+   une valeur valide.
   </para>
  </refsect1>
 

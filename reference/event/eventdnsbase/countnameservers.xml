@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329774 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332853 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="eventdnsbase.countnameservers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier>
-   <type>void</type>
+   <type>int</type>
    <methodname>EventDnsBase::countNameservers</methodname>
    <void />
   </methodsynopsis>
