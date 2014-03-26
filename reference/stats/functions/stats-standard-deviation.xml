@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332885 Maintainer: jsgoupil Status: ready -->
+<!-- EN-Revision: 333067 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.stats-standard-deviation" xmlns="http://docbook.org/ns/docbook">
@@ -34,7 +34,7 @@
      <term><parameter>sample</parameter></term>
      <listitem>
       <para>
-       Indique if <parameter>a</parameter> est un échantillon. Par défaut : &false;.
+       Indique si <parameter>a</parameter> est un échantillon. Par défaut : &false;.
       </para>
      </listitem>
     </varlistentry>
