@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331754 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333175 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.set-exception-handler" xmlns="http://docbook.org/ns/docbook">
@@ -34,10 +34,8 @@
      <listitem>
       <para>
        Nom de la fonction à appeler lorsqu'une exception qui n'a pu être
-       attrapée survient. Cette fonction doit être définie avant l'appel
-       de la fonction <function>set_exception_handler</function>. 
-       Ce gestionnaire doit accepter un paramètre qui sera l'objet
-       représentant l'exception qui vient d'être lancée.
+       attrapée survient. Ce gestionnaire doit accepter un paramètre qui
+       sera l'objet représentant l'exception qui vient d'être lancée.
        C'est le gestionnaire de signature :
       </para>
       <para>

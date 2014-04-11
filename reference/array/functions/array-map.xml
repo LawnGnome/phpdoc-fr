@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331556 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333185 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-map">
@@ -50,7 +50,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>array</parameter></term>
+     <term><parameter>...</parameter></term>
      <listitem>
       <para>
        Liste des tableaux à exécuter via la fonction de

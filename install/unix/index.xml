@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327173 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 333100 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
@@ -118,6 +118,7 @@
  <!-- spécifiques aux serveurs web -->
  &install.unix.apache1;
  &install.unix.apache2;
+ &install.unix.nginx;
  &install.unix.lighttpd-14;
  &install.unix.sun;
  &install.unix.commandline;
