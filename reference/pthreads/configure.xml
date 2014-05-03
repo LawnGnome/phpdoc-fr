@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328274 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332961 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: yannick -->
 
 <section xml:id="pthreads.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
  <para>
-  &pecl.info;
-  <link xlink:href="&url.pecl.package;pthreads">&url.pecl.package;pthreads</link>
+  Utiliser <option role="configure">--enable-maintainer-zts</option> lors de la 
+  compilation de PHP.
  </para>
 
+ <para>
+  Les utilisateurs Windows doivent inclure <filename>php_pthreads.dll</filename> 
+  dans le  &php.ini;
+ </para>
+ 
+ <note>
+  <para>
+    Les utilisateurs Windows doivent aussi inclure <filename>pthreadVC2.dll</filename>
+    dans le PATH (inclut dans la distribution).
+  </para>
+ </note>
  
 </section>
 
