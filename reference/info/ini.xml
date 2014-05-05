@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331320 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332879 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="info.configuration" xmlns="http://docbook.org/ns/docbook">
@@ -239,9 +239,8 @@
      <para>
       Cette option spécifie la durée maximale pour analyser
       les données d'entrée, via POST et GET.
-      Cette durée est mesurée depuis le moment où
-      toutes les données sont reçues du serveur jusqu'à
-      début de l'exécution du script.
+      Cette durée est mesurée depuis le moment où PHP est invoqué sur le 
+      serveur jusqu'au début de l'exécution du script.
      </para>
     </listitem>
    </varlistentry>
