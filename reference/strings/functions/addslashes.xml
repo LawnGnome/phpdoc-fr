@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332298 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333487 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.addslashes">
@@ -39,7 +39,7 @@
    d'échappement différents pour les identifiants (i.e. Nom de
    table, nom de champ) et pour les paramètres. Quelques DBMS, comme
    PostgreSQL, fournissent des fonctions d'échapement pour les
-   identifiants, <function>pg_escape_indentifier</function>, mais
+   identifiants, <function>pg_escape_identifier</function>, mais
    ce n'est pas le cas pour tous les DBMS. Si c'est le cas, référez-vous
    au manuel système de votre base de données pour utiliser les
    bonnes méthodes d'échappement.
