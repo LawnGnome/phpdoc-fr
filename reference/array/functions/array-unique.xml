@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313672 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 333355 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-unique" xmlns="http://docbook.org/ns/docbook">
@@ -31,11 +31,8 @@
   <note>
    <simpara>
     Deux éléments sont considérés comme égaux si et seulement si
-    <literal>(string) $elem1 === (string) $elem2</literal>. En clair :
+    <literal>(string) $elem1 === (string) $elem2</literal>, i.e.
     lorsque la représentation en chaîne de caractères est identique.
-   </simpara>
-   <simpara>
-    Le premier élément sera utilisé
    </simpara>
   </note>
  </refsect1>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333272 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.rotateimage">
@@ -39,7 +39,9 @@
      <term><parameter>degrees</parameter></term>
      <listitem>
       <para>
-       Les degrés de rotation
+       Angle de rotation, en degrés. L'angle de rotation est interprété
+       comme le nombre de dégrés pour la rotation dans le sens des aiguilles
+       d'une montre.
       </para>
      </listitem>
     </varlistentry>
