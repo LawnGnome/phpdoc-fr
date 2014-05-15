@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333518 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <book xml:id="book.htscanner" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
   <para>
    L'extension htscanner donne la possibilité d'accéder à des fichiers au format
    .htaccess pour configurer PHP, dossier par dossier, comme c'est possible avec
-   Apache. Cela est particulièrement utile avec fastcgi (ISS5/6/7, lighttpd, etc.).
+   Apache. Cela est particulièrement utile avec fastcgi (IIS5/6/7, lighttpd, etc.).
   </para>
  </preface>
  
