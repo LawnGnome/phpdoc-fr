@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332135 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333388 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="mysqli.commit" xmlns="http://docbook.org/ns/docbook">

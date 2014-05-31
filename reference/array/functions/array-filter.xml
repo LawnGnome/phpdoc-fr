@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333258 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333626 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-filter" xmlns="http://docbook.org/ns/docbook">
@@ -13,8 +13,8 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>array_filter</methodname>
-   <methodparam><type>array</type><parameter>array</parameter><initializer>array()</initializer></methodparam>
-   <methodparam choice="opt"><type>callable</type><parameter>callback</parameter><initializer>Function()</initializer></methodparam>
+   <methodparam><type>array</type><parameter>array</parameter></methodparam>
+   <methodparam choice="opt"><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
   <para>
    Évalue chaque valeur du tableau <parameter>array</parameter> en les passant
