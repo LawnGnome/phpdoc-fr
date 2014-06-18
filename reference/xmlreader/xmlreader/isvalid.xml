@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333737 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="xmlreader.isvalid" xmlns="http://docbook.org/ns/docbook">
@@ -35,7 +35,8 @@
 <?php
 $xml = XMLReader::open('test.xml');
 
-// Vous devez faire ceci pour l'utiliser
+// L'option de validation de l'analyseur doit être
+// active pour que cette méthode fonctionne correctement
 $xml->setParserProperty(XMLReader::VALIDATE, true);
 
 var_dump($xml->isValid());
@@ -45,6 +46,16 @@ var_dump($xml->isValid());
    </example>
   </para>
  </refsect1>
+ 
+ <refsect1 role="notes">
+  &reftitle.notes;
+  <note>
+   <simpara>
+    Cette méthode vérifie le noeud courant, et non le document complet.
+   </simpara>
+  </note>
+ </refsect1>
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
