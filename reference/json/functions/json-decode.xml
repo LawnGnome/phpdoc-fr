@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331384 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333677 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.json-decode" xmlns="http://docbook.org/ns/docbook">
@@ -76,7 +76,7 @@
   <para>
    Retourne la valeur encodée dans le paramètre <parameter>json</parameter>
    dans le type PHP approprié. Les valeurs <literal>true</literal>,
-   <literal>false</literal> et <literal>null</literal> (insensible à la casse)
+   <literal>false</literal> et <literal>null</literal>
    sont retournées respectivement comme &true;, &false; et &null;.
    &null; est retourné si le paramètre <parameter>json</parameter> n'a pu
    être décodé ou si les données encodées sont plus profondes que la limite
@@ -293,6 +293,15 @@ object(stdClass)#1 (1) {
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.6.0</entry>
+       <entry>
+        Les variantes invalides qui ne sont pas en minuscule de
+        <literal>true</literal>, <literal>false</literal> et
+        <literal>null</literal> ne sont plus acceptées comme entrées
+        valides, et vont générer des alertes.
+       </entry>
+      </row>
       <row>
        <entry>5.4.0</entry>
        <entry>
