@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312018 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 333046 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.oci-server-version" xmlns="http://docbook.org/ns/docbook">
@@ -52,12 +52,12 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$conn = oci_connect("scott", "tiger");
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
 echo "Version du serveur : " . oci_server_version($conn);
 
-    // Affiche :
-    // Version du serveur : Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
-    // With the Partitioning, OLAP, Data Mining and Real Application Testing option
+// Affiche :
+// Version du serveur : Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+// With the Partitioning, OLAP, Data Mining and Real Application Testing option
 
 oci_close($conn);
 ?>
