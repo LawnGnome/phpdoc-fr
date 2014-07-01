@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334063 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.array-column" xmlns="http://docbook.org/ns/docbook">
@@ -150,6 +150,19 @@ Array
    </example>
   </para>
  </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member>
+     <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.arraycolumn.compat;">Implémentation
+      dans l'espace utilisateur recommandée pour PHP inférieur à 5.5</link>
+    </member>
+   </simplelist>
+  </para>
+ </refsect1> 
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
