@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332046 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329926 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="stackable.shift" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="pool.shutdown" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Stackable::shift</refname>
-  <refpurpose>Manipulation</refpurpose>
+  <refname>Pool::shutdown</refname>
+  <refpurpose>Arrête tous les Workers</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Stackable::shift</methodname>
-   <void />
+   <modifier>public</modifier> <type>void</type><methodname>Pool::shutdown</methodname>
+   <void/>
   </methodsynopsis>
   <para>
-   Décale un élément de la table des propriétés de l'objet.
+   Arrête tous les Workers de ce Pool.
   </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Le premier élément de la table des propriétés de l'objet.
+  void
   </para>
  </refsect1>
 </refentry>

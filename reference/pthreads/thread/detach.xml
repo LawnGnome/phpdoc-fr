@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328274 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 0 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="stackable.run" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="thread.detach" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Stackable::run</refname>
+  <refname>Thread::detach</refname>
   <refpurpose>Exécution</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <type>void</type><methodname>Stackable::run</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>Thread::detach</methodname>
    <void />
   </methodsynopsis>
   <para>
-   La méthode run d'un stackable est exécutée par le Thread Worker.
+   Détache le thread référencé depuis le contexte appelant ; très dangereux !
   </para>
+  <warning>
+  <para>
+   Cette méthode peut conduire à un comportement indéfini et non sécurisé.
+   Elle ne doit pas être utilisée normalement, et n'existe que pour des
+   cas avancés bien spécifiques.
+  </para>
+  </warning>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,7 +35,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   La valeur de retour de la méthode, si utilisée, sera ignorée.
+   
   </para>
  </refsect1>
 

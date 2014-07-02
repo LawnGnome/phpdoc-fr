@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328967 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 0 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="thread.iswaiting" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="thread.kill" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Thread::isWaiting</refname>
-  <refpurpose>Détection de statut</refpurpose>
+  <refname>Thread::kill</refname>
+  <refpurpose>Exécution</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Thread::isWaiting</methodname>
+   <modifier>public</modifier> <type>void</type><methodname>Thread::kill</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Indique si le Thread référencé est en attente ou non d'une notification.
+   Force le thread référencé à se terminer
   </para>
+  <warning>
+   <para>
+    Le développeur ne devrait pas avoir à forcer le thread à se terminer.
+   </para>
+  </warning>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,31 +33,31 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le statut de l'opération.
+   Un booléen indiquant le succès
   </para>
  </refsect1>
-
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
-    <title>Détecte le statut du Thread référencé</title>
+    <title>Termine le thread référencé</title>
     <programlisting role="php">
 <![CDATA[
 <?php
-class My extends Thread {
+class T extends Thread {
     public function run() {
-        $this->synchronized(function($thread){
-            $thread->wait();
-        }, $this);
+        $stdin = fopen("php://stdin", "r");
+        while(($line = fgets($stdin))) {
+            echo $line;
+        }
     }
 }
-$my = new My();
-$my->start();
-$my->synchronized(function($thread){
-    var_dump($thread->isWaiting());
-    $thread->notify();
-}, $my);
+
+$t = new T();
+$t->start();
+
+var_dump($t->kill());
 ?>
 ]]>
     </programlisting>
@@ -65,6 +70,7 @@ bool(true)
    </example>
   </para>
  </refsect1>
+
 
 </refentry>
 

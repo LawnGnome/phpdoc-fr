@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328967 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 332961 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="worker.getthreadid" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="thread.globally" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Worker::getThreadId</refname>
-  <refpurpose>Identification</refpurpose>
+  <refname>Thread::globally</refname>
+  <refpurpose>Exécution</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>long</type><methodname>Worker::getThreadId</methodname>
+   <modifier>public</modifier> <modifier>static</modifier> <type>mixed</type><methodname>Thread::globally</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Retourne l'identité du Worker référencé.
+   Exécute une fonction de rappel dans le scope global
   </para>
  </refsect1>
 
@@ -28,7 +28,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Une identité numérique.
+   La valeur retournée par la fonction de rappel
   </para>
  </refsect1>
 
@@ -36,13 +36,19 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Retourne l'identité du Worker référencé</title>
+    <title>Exécution dans le scope global</title>
     <programlisting role="php">
 <![CDATA[
 <?php
-class My extends Worker {
+class My extends Thread {
     public function run() {
-        printf("%s is Worker #%lu\n", __CLASS__, $this->getThreadId());
+        global $std;
+        
+        Thread::globally(function(){
+            $std = new stdClass;
+        });
+        
+        var_dump($std);
     }
 }
 $my = new My();
@@ -53,13 +59,14 @@ $my->start();
     &example.outputs;
     <screen>
 <![CDATA[
-My is Worker #123456778899
+object(stdClass)#3 (0) {
+}
 ]]>
     </screen>
    </example>
   </para>
  </refsect1>
- 
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

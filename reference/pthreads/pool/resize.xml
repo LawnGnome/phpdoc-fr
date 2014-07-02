@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331306 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 329926 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<refentry xml:id="worker.merge" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="pool.resize" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Worker::merge</refname>
-  <refpurpose>Manipulation</refpurpose>
+  <refname>Pool::resize</refname>
+  <refpurpose>Redimensionne le Pool</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>boolean</type><methodname>Worker::merge</methodname>
-   <methodparam><type>mixed</type><parameter>from</parameter></methodparam>
-   <methodparam choice="opt"><type>mixed</type><parameter>overwrite</parameter></methodparam>
+   <modifier>public</modifier> <type>void</type><methodname>Pool::resize</methodname>
+   <methodparam><type>integer</type><parameter>size</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Fusionne des données dans l'objet courant.
+   Redimensionne le Pool.
   </para>
  </refsect1>
 
@@ -25,18 +24,10 @@
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>from</parameter></term>
+    <term><parameter>size</parameter></term>
     <listitem>
      <para>
-      Les données à fusionner
-     </para>
-    </listitem>
-   </varlistentry>
-   <varlistentry>
-    <term><parameter>overwrite</parameter></term>
-    <listitem>
-     <para>
-      Ecrase les drapeaux existants des clés ; par défaut, vaut &true;.
+      Le nombre maximal de Workers que ce Pool peut créer
      </para>
     </listitem>
    </varlistentry>
@@ -46,7 +37,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un booléen indiquant le succès de l'opération.
+  void
   </para>
  </refsect1>
 </refentry>
