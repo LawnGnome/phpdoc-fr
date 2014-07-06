@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334133 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mb-encode-numericentity" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mb_encode_numericentity</refname>
-  <refpurpose>Encode des entités HTML</refpurpose>
+  <refpurpose>Encode les caractères en référence numérique HTML</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -19,8 +19,8 @@
    <methodparam choice="opt"><type>bool</type><parameter>is_hex</parameter><initializer>FALSE</initializer></methodparam>
   </methodsynopsis>
   <para>
-   Convertit la chaîne <parameter>str</parameter> depuis l'encodage interne
-   en codes numériques HTML
+   Convertit les codes des caractères spécifiés de la chaîne <parameter>str</parameter>
+   en référence numérique HTML.
   </para>
  </refsect1>
 
