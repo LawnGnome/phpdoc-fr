@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334161 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334181 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="syncsemaphore.lock" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SyncSemaphore::lock</refname>
-  <refpurpose>Description</refpurpose>
+  <refpurpose>Décrémente le compteur de l'objet SyncSemaphore ou attend</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ReturnType</type><methodname>SyncSemaphore::lock</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>SyncSemaphore::lock</methodname>
    <methodparam choice="opt"><type>integer</type><parameter>wait</parameter></methodparam>
   </methodsynopsis>
   <para>

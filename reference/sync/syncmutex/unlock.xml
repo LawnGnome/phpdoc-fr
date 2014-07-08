@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334161 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334181 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="syncmutex.unlock" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SyncMutex::unlock</refname>
-  <refpurpose>Description</refpurpose>
+  <refpurpose>Déverouille le mutex</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ReturnType</type><methodname>SyncMutex::unlock</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>SyncMutex::unlock</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>all</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Décroit le compteur interne d'un objet SyncMutex.
+   Décrémente le compteur interne d'un objet SyncMutex.
    Lorsque le compteur interne atteint zéro, le verrou actuel
    de l'objet est libéré.
   </para>
