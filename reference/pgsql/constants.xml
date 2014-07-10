@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332864 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334209 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="pgsql.constants" xmlns="http://docbook.org/ns/docbook">
@@ -8,6 +8,29 @@
  &extension.constants;
 
  <variablelist>
+  <varlistentry xml:id="constant.pgsql-libpq-version">
+   <term>
+    <constant>PGSQL_LIBPQ_VERSION</constant> 
+    (<type>string</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Version courte de libpq qui ne contient que des
+     nombres et des points.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.pgsql-libpq-version-str">
+   <term>
+    <constant>PGSQL_LIBPQ_VERSION_STR</constant> 
+    (<type>string</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Version longue de libpq qui inclue les informations du compilateur.
+    </simpara>
+   </listitem>
+  </varlistentry>
   <varlistentry xml:id="constant.pgsql-assoc">
    <term>
     <constant>PGSQL_ASSOC</constant> 
