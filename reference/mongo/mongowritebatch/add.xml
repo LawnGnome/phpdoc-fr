@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333942 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334275 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongowritebatch.add" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -50,8 +50,21 @@
         <row>
          <entry>MongoWriteBatch::COMMAND_UPDATE</entry>
          <entry>
-          <simpara>Opération brute de mise à jour. Les clés requises sont : array("q" => <link linkend="mongocollection.update.criteria">array("critère")</link>, "u" => array("nouvelle donnée"))</simpara>
-          <simpara>Optionnellement, les clés "multi" et "upsert" avec comme valeurs des booléens</simpara>
+          <para>
+           Opération brute de mise à jour. Les clés requises
+           sont : array("q" => <link linkend="mongocollection.update.criteria">array("critère")</link>,
+           "u" => array("nouvelle donnée"))
+          </para>
+          <para>
+           Optionnellement, les clés "multi" et "upsert" avec comme
+           valeurs des booléens
+          </para>
+          <para>
+           "upsert" : Si vaut &true;, crée un nouveau document lorsqu'aucun document ne
+           correspond aux critères de la requête. La valeur par défaut est
+           &false; ; aucun nouveau document ne sera créé lorsqu'aucune correspondance
+           n'est trouvée.
+          </para>
          </entry>
         </row>
         <row>
