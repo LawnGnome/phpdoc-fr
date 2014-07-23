@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333265 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334360 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.aggregate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -63,7 +63,9 @@
       <listitem>
        <para><literal>"cursor"</literal></para>
        <para>
-        Options controllant la créatun d'un objet curseur. Si vous avez besoin
+        Options controllant la créatun d'un objet curseur. Cette option
+        fait que la commande va retourner un document prêt pour construire
+        un <classname>MongoCommandCursor</classname>. Si vous avez besoin
         d'utiliser cette option, vous devriez considérer l'utilisation
         de la méthode <methodname>MongoCollection::aggregateCursor</methodname>.
        </para>
