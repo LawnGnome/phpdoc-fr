@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333299 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334374 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="control-structures.declare" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -187,11 +187,6 @@ declare(encoding='ISO-8859-1');
    Voir aussi
    <link linkend="ini.zend.script-encoding">zend.script_encoding</link>.
   </para>
-   <!-- FIXME PHP_6    
-   En PHP 6.0, la directive <literal>encoding</literal>
-   sera utilisée pour dire au scanner dans quel encodage le fichier a été créé. Les valeurs
-   valables sont des noms d'encodage tels que <literal>UTF-8</literal>.
-   -->
  </sect2>
 </sect1>
 
