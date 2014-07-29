@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333609 Maintainer: jeanseb Status: ready -->
+<!-- EN-Revision: 334403 Maintainer: jeanseb Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration56.new-functions">
@@ -30,6 +30,21 @@
    <listitem>
     <simpara>
      <function>ldap_escape</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>ldap_modify_batch</function>
+    </simpara>
+   </listitem>
+  </itemizedlist>
+ </sect2>
+ 
+ <sect2 xml:id="migration56.new-functions.mysqli">
+   <itemizedlist>
+   <listitem>
+    <simpara>
+     <function>mysqli_get_links_stats</function>
     </simpara>
    </listitem>
   </itemizedlist>
