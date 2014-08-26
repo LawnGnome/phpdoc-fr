@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333317 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334592 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlentities" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -210,18 +210,6 @@
        <entry>5.2.3</entry>
        <entry>
         Ajout du paramètre <parameter>double_encode</parameter>.
-       </entry>
-      </row>
-      <row>
-       <entry>4.1.0</entry>
-       <entry>
-        Ajout du paramètre <parameter>encoding</parameter>.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.3</entry>
-       <entry>
-        Ajout du paramètre <parameter>flags</parameter>.
        </entry>
       </row>
      </tbody>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333178 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334592 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.explode">
@@ -112,12 +112,6 @@
        <entry>5.1.0</entry>
        <entry>
         Le paramètre <parameter>limit</parameter> peut désormais être négatif
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.1</entry>
-       <entry>
-        Le paramètre <parameter>limit</parameter> a été ajouté
        </entry>
       </row>
      </tbody>

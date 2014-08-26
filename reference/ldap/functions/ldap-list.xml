@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311157 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334592 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.ldap-list" xmlns="http://docbook.org/ns/docbook">
@@ -190,14 +190,6 @@
        <entry>
         Les recherches parallèles ont été ajoutées. Voir la fonction
         <function>ldap_search</function> pour plus de détails.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.2</entry>
-       <entry>
-        Les paramètres <parameter>attrsonly</parameter>, <parameter>sizelimit</parameter>,
-        <parameter>timelimit</parameter> et <parameter>deref</parameter> ont été
-        ajoutés.
        </entry>
       </row>
      </tbody>
