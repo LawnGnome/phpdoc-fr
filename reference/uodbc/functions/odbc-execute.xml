@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.odbc-execute" xmlns="http://docbook.org/ns/docbook">
@@ -121,14 +121,6 @@ $success = odbc_execute($stmt, array($a, $b, $c));
         et aux restrictions
         <link linkend="ini.open-basedir">open-basedir</link> dans le
         paramètre <parameter>parameters_array</parameter>.
-       </entry>
-      </row>
-      <row>
-       <entry>4.1.1</entry>
-       <entry>
-        <link linkend="features.remote-files">Les fichiers distants</link>
-        ne sont plus supportés dans le paramètre
-        <parameter>parameters_array</parameter>.
        </entry>
       </row>
      </tbody>

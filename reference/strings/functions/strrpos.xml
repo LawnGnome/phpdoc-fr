@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321865 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strrpos">
@@ -90,12 +90,6 @@
        <entry>
         Le paramètre <parameter>needle</parameter> peut maintenant
         être une &string; composée de plus d'un caractère.
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        Le paramètre <parameter>offset</parameter> a été introduit.
        </entry>
       </row>
      </tbody>
