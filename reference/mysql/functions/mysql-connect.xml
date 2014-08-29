@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328734 Maintainer: itanea Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mysql-connect" xmlns="http://docbook.org/ns/docbook">
@@ -136,18 +136,6 @@
        <entry>
         Cette fonction va générer une alerte de niveau
         <constant>E_DEPRECATED</constant>.
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.0</entry>
-       <entry>
-        Ajout du paramètre <parameter>client_flags</parameter>.
-       </entry>
-      </row>
-      <row>
-       <entry>4.2.0</entry>
-       <entry>
-        Ajout du paramètre <parameter>new_link</parameter>.
        </entry>
       </row>
      </tbody>

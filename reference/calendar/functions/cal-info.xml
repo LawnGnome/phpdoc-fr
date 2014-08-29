@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311057 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.cal-info' xmlns="http://docbook.org/ns/docbook">
@@ -76,31 +76,6 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-  </para>
- </refsect1>
-
- <refsect1 role="changelog">
-  &reftitle.changelog;
-  <para>
-   <informaltable>
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>&Version;</entry>
-       <entry>&Description;</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>5.0</entry>
-       <entry>
-        Le paramètre <parameter>calendar</parameter> devient optionnel et vaut
-        par défaut "tous calendriers" s'il n'est pas spécifié.
-       </entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </informaltable>
   </para>
  </refsect1>
 

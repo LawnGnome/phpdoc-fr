@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308194 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 334592 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.dirname">
@@ -70,12 +70,6 @@
        <entry>5.0.0</entry>
        <entry>
         <function>dirname</function> gère maintenant les données binaires.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.3</entry>
-       <entry>
-        <function>dirname</function> respecte désormais la norme POSIX.
        </entry>
       </row>
      </tbody>

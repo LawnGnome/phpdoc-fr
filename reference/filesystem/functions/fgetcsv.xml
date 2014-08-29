@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333317 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fgetcsv">
@@ -130,12 +130,6 @@
        <entry>4.3.5</entry>
        <entry>
         <function>fgetcsv</function> gère désormais les données binaires.
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.0</entry>
-       <entry>
-        Le paramètre <parameter>enclosure</parameter> a été ajouté.
        </entry>
       </row>
      </tbody>
