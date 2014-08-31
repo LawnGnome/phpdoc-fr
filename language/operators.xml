@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333679 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334668 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -96,7 +96,7 @@
        <entry><function>array</function></entry>
       </row>
       <row>
-       <entry>gauche</entry>
+       <entry>droite</entry>
        <entry><literal>**</literal></entry>
        <entry><link linkend="language.operators.arithmetic">arithmétique</link></entry>
       </row>
@@ -237,7 +237,8 @@
         <literal>=</literal> 
         <literal>+=</literal> 
         <literal>-=</literal> 
-        <literal>*=</literal> 
+        <literal>*=</literal>
+        <literal>**=</literal> 
         <literal>/=</literal> 
         <literal>.=</literal> 
         <literal>%=</literal> 

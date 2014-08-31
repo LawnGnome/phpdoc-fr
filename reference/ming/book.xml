@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334662 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- State: experimental -->
 
@@ -30,8 +30,7 @@
    utilisée.
   </para>
   <para>
-   Ming propose de nombreux avantages par rapport à l'extension
-   Swf.
+   Ming propose de nombreux avantages par rapport au module PHP/libswf.
    Vous pouvez utiliser Ming sur tous les OS où vous pouvez compiler
    le code, tandis que swf est limité à Windows. Ming vous évite
    la déconcertante complexité du format SWF, en transformant les
