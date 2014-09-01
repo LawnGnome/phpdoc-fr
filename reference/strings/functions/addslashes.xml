@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333487 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334702 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.addslashes">
@@ -25,7 +25,7 @@
   <para>
    Un exemple d'utilisation d'<function>addslashes</function> est lorsque
    vous entrez des données dans une chaîne de caractères à évaluer par PHP.
-   Par exemple, pour insérer le nom <literal>O'reilly</literal> dans la
+   Par exemple, pour insérer le nom <literal>O'Reilly</literal> dans la
    chaîne de caractères $str, vous aurez besoin de protéger
    $str. (i.e. eval("echo '".addslashes($str)."';"); )
   </para>

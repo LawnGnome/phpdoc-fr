@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333612 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334704 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="zmqsocket.disconnect" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ZMQSocket</type><methodname>ZMQSocket::connect</methodname>
+   <modifier>public</modifier> <type>ZMQSocket</type><methodname>ZMQSocket::disconnect</methodname>
    <methodparam><type>string</type><parameter>dsn</parameter></methodparam>
   </methodsynopsis>
   <para>
