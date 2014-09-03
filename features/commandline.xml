@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333364 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334726 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="features.commandline" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
   <title>Introduction</title>
   
   <para>
-   PHP supporte le &cli.sapi; depuis PHP 4.3.0. Le but premier de ce <acronym>SAPI</acronym> est le développement
+   Le but premier de &cli.sapi; est le développement
    d'applications shell avec PHP. Les différences entre le &cli.sapi;
    et les autres <acronym>SAPI</acronym> sont
    expliqués dans ce chapitre. Il est important de mentionner que &cli;
