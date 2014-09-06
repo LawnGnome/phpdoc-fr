@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330269 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: itanea -->
 
 <section xml:id="curl.installation" xmlns="http://docbook.org/ns/docbook">
@@ -26,7 +26,7 @@
   <simpara>
    Afin d'activer ce module dans l'environnement Windows, 
    <filename>libeay32.dll</filename> et <filename>ssleay32.dll</filename>
-   doivent être présents dans votre PATH.
+   doivent être présents dans votre <envar>PATH</envar>.
   </simpara>
   <simpara>
    Vous n'avez pas besoin de <filename>libcurl.dll</filename> du site cURL.

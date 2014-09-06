@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332975 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: yannick -->
 
 <chapter xml:id="pthreads.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -40,7 +40,7 @@
   <caution>
    <para>
     Les utilisateurs Windows doivent également ajouter pthreadVC2.dll (distribué 
-    avec Windows) à leur PATH
+    avec Windows) à leur <envar>PATH</envar>.
    </para>
   </caution>
  </section>

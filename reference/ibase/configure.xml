@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327216 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="ibase.installation" xmlns="http://docbook.org/ns/docbook">
@@ -23,7 +23,7 @@
    celle faisant fonctionner PHP, vous devrez déjà avoir cette
    bibliothèque ainsi que <filename>fbclient.dll,gds32.dll</filename>
    (gds32.dll est généré depuis l'installeur)
-   qui devrait déjà être dans votre <literal>PATH</literal>.
+   qui devrait déjà être dans votre <envar>PATH</envar>.
   </para>
   </note>
 </section>

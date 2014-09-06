@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331735 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <section xml:id="oci8.installation">
@@ -353,7 +353,7 @@ extension=oci8.so
   </para>
   <para>
    Si vous utilisez le client Oracle Instant, définissez la variable
-   d'environnement <literal>PATH</literal> du système au dossier contenant les
+   d'environnement <envar>PATH</envar> du système au dossier contenant les
    bibliothèques Oracle.
   </para>
  </section>
