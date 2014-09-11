@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332338 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 334826 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mongo.writes" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
    Supposez que vous souhaitez modifier le nom de l'auteur de ce commentaire,
    dans ce document :
 
-   <programlisting>
+   <programlisting role="javascript">
 <![CDATA[
 {
     "_id" : ObjectId("4b06c282edb87a281e09dad9"),
