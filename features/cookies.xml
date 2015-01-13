@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 335235 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
  <chapter xml:id="features.cookies" xmlns="http://docbook.org/ns/docbook">
@@ -33,9 +33,6 @@
    des variables PHP peuvent être créées à partir des cookies. Cependant, il n'est
    pas recommandé de se fier à elles, puisque cette fonctionnalité est
    souvent désactivée pour des raisons de sécurité.
-   <varname>$HTTP_COOKIE_VARS</varname> est aussi prédéfinie dans
-   les versions de PHP plus anciennes, lorsque la directive
-   <link linkend="ini.track-vars">track_vars</link> est activée.
   </para>
 
   <para>
