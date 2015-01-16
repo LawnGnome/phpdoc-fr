@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326363 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335667 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
  <chapter xml:id="faq.html" xmlns="http://docbook.org/ns/docbook">
@@ -277,7 +277,7 @@ var=option3
       Utilisez plutôt l'indice numérique de l'élément dans ce cas, ou bien utilisez les simples 
       guillemets pour entourer cet élément, comme :
       <programlisting>
-variable = documents.forms[0].elements['var[]'];
+variable = document.forms[0].elements['var[]']; 
       </programlisting>
      </para>
     </answer>
