@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331556 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 335289 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.callable">
- <title>Fonctions de rappel</title>
+ <title>Fonctions de rappel / Types Callable</title>
  
  <para>
   Les fonctions de rappel peuvent être identifiées via le type <type>callable</type>

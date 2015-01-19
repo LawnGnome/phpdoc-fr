@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334374 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335758 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="language.types.string">
@@ -149,7 +149,7 @@ echo 'Les variables ne seront pas $traitees $ici';
       </row>
       <row>
        <entry><literal>\e</literal></entry>
-       <entry>échappement (ESC or 0x1B (27) en ASCII) (depuis PHP 5.4.0)</entry>
+       <entry>échappement (ESC or 0x1B (27) en ASCII) (depuis PHP 5.4.4)</entry>
       </row>
       <row>
        <entry><literal>\f</literal></entry>
