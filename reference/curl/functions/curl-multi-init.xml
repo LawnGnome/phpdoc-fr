@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312660 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335160 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.curl-multi-init" xmlns="http://docbook.org/ns/docbook">
@@ -16,7 +16,7 @@
    <void />
   </methodsynopsis>
   <para>
-   Autorise l'exécution de multiples gestionnaires cURL en parallèle.
+   Autorise l'exécution de multiples gestionnaires cURL de façon asynchrone.
   </para>
  </refsect1>
 
@@ -40,7 +40,7 @@
     <title>Exemple avec <function>curl_multi_init</function></title>
     <para>
      Cet exemple crée deux gestionnaires cURL, les ajoute à un gestionnaire
-     multiple, et les exécute en parallèle.
+     multiple, et les exécute de façon asynchrone.
     </para>
     <programlisting role="php">
 <![CDATA[
