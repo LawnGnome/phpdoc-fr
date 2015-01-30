@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="event.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -776,7 +776,7 @@ HTTP/1.0 200 OK
 Content-Type: text/html; charset=ISO-8859-1
 Connection: close
 ]]>
-   </screen>
+  </screen>
  </example>
  <example>
   <title>Serveur HTTPS simple</title>
@@ -1020,7 +1020,7 @@ Corps :
 PHP, date:
 2013-03-13T20:27:52+05:00
 ]]>
-   </screen>
+  </screen>
  </example>
  <example>
   <title>Ecoute d'une connexion en se basant sur un socket de domaine Unix</title>
