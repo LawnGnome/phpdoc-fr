@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307896 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335127 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.filter-input" xmlns="http://docbook.org/ns/docbook">
@@ -40,15 +40,7 @@
       </para>
      </listitem>
     </varlistentry>
-    <varlistentry>
-     <term><parameter>filter</parameter></term>
-     <listitem>
-      <para>
-       L'ID du filtre à appliquer. La <xref linkend="filter.filters" />
-       page du manuel liste tous les filtres disponibles.
-      </para>
-     </listitem>
-    </varlistentry>
+    &filter.param.filter;    
     <varlistentry>
      <term><parameter>options</parameter></term>
      <listitem>
