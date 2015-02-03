@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308472 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 335554 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fread">
@@ -149,9 +149,14 @@ fclose($handle);
 <![CDATA[
 <?php
 $handle = fopen("http://www.example.com/", "rb");
+if (FALSE === $handle) {
+    exit("Echec lors de l'ouverture du flux vers l'URL");
+}
+
 $contents = '';
+
 while (!feof($handle)) {
-  $contents .= fread($handle, 8192);
+    $contents .= fread($handle, 8192);
 }
 fclose($handle);
 ?>
