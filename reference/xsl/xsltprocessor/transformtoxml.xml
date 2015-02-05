@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335452 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="xsltprocessor.transformtoxml" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>string</type>
    <methodname>XSLTProcessor::transformToXML</methodname>
-   <methodparam><type>DOMDocument</type><parameter>doc</parameter></methodparam>
+   <methodparam><type>object</type><parameter>doc</parameter></methodparam> 
   </methodsynopsis>
   <para>
    Transforme le noeud source en une chaîne en y appliquant une feuille de style donnée
@@ -28,7 +28,8 @@
      <term><parameter>doc</parameter></term>
      <listitem>
       <para>
-       Le document transformé.
+       L'objet <type>DOMDocument</type> ou <type>SimpleXMLElement</type> a 
+       transformer.
       </para>
      </listitem>
     </varlistentry>
