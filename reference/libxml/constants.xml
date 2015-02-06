@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335780 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="libxml.constants" xmlns="http://docbook.org/ns/docbook">
@@ -232,7 +232,7 @@
    <listitem>
     <simpara>
      Défini le drapeau XML_PARSE_PEDANTIC, qui active le rapport d'erreur
-     pedentic.
+     pedantic.
     </simpara>
     <note>
      <para>
