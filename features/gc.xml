@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335125 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335897 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: pmartin -->
 
  <chapter xml:id="features.gc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -532,7 +532,7 @@ for ( $i = 0; $i <= 100000; $i++ )
 <?php
 class Foo
 {
-    public $var = '3.141592654';
+    public $var = '3.14159265359';
 }
 
 for ( $i = 0; $i <= 1000000; $i++ )
