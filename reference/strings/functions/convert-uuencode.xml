@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335376 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.convert-uuencode">
@@ -34,7 +34,7 @@
      <term><parameter>data</parameter></term>
      <listitem>
       <para>
-       Les données à encoder &return.falseforfailure;.
+       Les données à encoder.
       </para>
      </listitem>
     </varlistentry>
@@ -45,7 +45,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne les données, au format uuencode.
+   Retourne les données, au format uuencode &return.falseforfailure;.
   </para>
  </refsect1>
 
