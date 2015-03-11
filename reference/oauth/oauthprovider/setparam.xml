@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299860 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335181 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="oauthprovider.setparam" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -40,6 +40,10 @@
     <listitem>
      <para>
       La valeur du paramètre ; optionnelle.
+     </para>
+     <para>
+      Pour exclure un paramètre de la vérification de signature, définir cette 
+      valeur à &null;.
      </para>
     </listitem>
    </varlistentry>
