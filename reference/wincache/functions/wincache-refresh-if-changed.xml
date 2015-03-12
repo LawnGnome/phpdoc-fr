@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: pierrick Status: ready -->
+<!-- EN-Revision: 335911 Maintainer: pierrick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.wincache-refresh-if-changed" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>wincache_refresh_if_changed</methodname>
-   <methodparam choice="opt"><type>array</type><parameter>files</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>files</parameter><initializer>NULL</initializer></methodparam>
   </methodsynopsis>
   <para>
    Actualise les entrées du cache pour les fichiers dont les noms ont été passés dans les
