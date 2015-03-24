@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327505 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336176 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-encode">
@@ -41,7 +41,7 @@
   <warning>
    <para>
     Vous devez appeler la fonction <function>session_start</function>
-    avant d'utiliser la fonction <function>session_decode</function>.
+    avant d'utiliser la fonction <function>session_encode</function>.
    </para>
   </warning>
  </refsect1> 
