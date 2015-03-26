@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335996 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <book xml:id="book.mysqli" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,7 +8,7 @@
 
  <title>Extension mysqli</title>
 
- <titleabbrev>mysqli</titleabbrev>
+ <titleabbrev>MySQLi</titleabbrev>
 
 <!-- {{{ preface -->
 
