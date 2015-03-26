@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333942 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335168 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongowritebatch.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoWriteBatch::__construct</refname>
-  <refpurpose>Description</refpurpose>
+  <refpurpose>Crée un nouveau lot d'opérations d'écriture</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
