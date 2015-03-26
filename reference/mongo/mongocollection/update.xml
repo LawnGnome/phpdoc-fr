@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333379 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335169 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocollection.update" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -33,7 +33,7 @@
       </para>
      </listitem>
     </varlistentry>   
-    <varlistentry>
+    <varlistentry xml:id="mongocollection.update.new_object">
      <term>
       <parameter>new_object</parameter>
      </term>
@@ -54,7 +54,7 @@
        Un tableau d'options pour l'opération de mise à jour. Les options
        actuellement disponibles sont :
        <itemizedlist>
-        <listitem>
+        <listitem xml:id="mongocollection.update.upsert">
          <para>
           <literal>"upsert"</literal>
          </para>
@@ -72,7 +72,7 @@
           d'informations.
          </para>
         </listitem>
-        <listitem>
+        <listitem xml:id="mongocollection.update.multiple">
          <para>
           <literal>"multiple"</literal>
          </para>
