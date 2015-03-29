@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336223 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- State: experimental -->
 
@@ -18,13 +18,13 @@
 <!-- {{{ About Imagick -->
   <section xml:id="imagick.aboutimagemagick">
    <para>
-    ImageMagick (marque déposée) est une suite de logiciels permettant la création,
+    ImageMagick est une suite de logiciels permettant la création,
     l'édition et la composition d'images bitmap. Elle peut lire, convertir
     et écrire les images dans divers formats (une centaine) dont
     DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript, SVG et TIFF.
    </para>
    <para>
-    Copyright 1999-2007 ImageMagick Studio LLC, une organisation à but 
+    ImageMagick Studio LLC, une organisation à but 
     non-lucratif dont le but est de rendre la création de logiciel relatif 
     à la manipulation d'images librement disponible.
    </para>
