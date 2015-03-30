@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335444 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocommandcursor.current" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -17,7 +17,7 @@
   </methodsynopsis>
   <para>
    Cette méthode retourne &null; tant que la méthode
-   <function>MongoCommandCursor::next</function> est appelée.
+   <function>MongoCommandCursor::rewind</function> est appelée.
   </para>
  </refsect1>
 
@@ -29,8 +29,16 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;  
   <para>
-   Le résultat courant sous la forme d'un tableau associatif.
+   Le document courant, sous la forme d'un tableau associatif. &null;
+   sera retourné s'il n'y a aucun résultat.
   </para>
+ </refsect1>
+
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <simplelist>
+   <member><methodname>Iterator::current</methodname></member>
+  </simplelist>
  </refsect1>
 </refentry>
 

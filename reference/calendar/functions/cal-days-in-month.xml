@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335457 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336260 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.cal-days-in-month" xmlns="http://docbook.org/ns/docbook"> 
@@ -72,7 +72,7 @@
 <![CDATA[
 <?php
 $number = cal_days_in_month(CAL_GREGORIAN, 8, 2003); // 31
-echo "There was {$number} days in August 2003";
+echo "There were {$number} days in August 2003";
 ?>
 ]]>
     </programlisting>
