@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334482 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 335760 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocursor.timeout" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -113,6 +113,7 @@ while ($cursor->hasNext()) {
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
+   <member><methodname>MongoCursorInterface::timeout</methodname></member>
    <member>L'option <literal>socketTimeoutMS</literal> pour
     <function>MongoClient::__construct</function></member>
   </simplelist>
