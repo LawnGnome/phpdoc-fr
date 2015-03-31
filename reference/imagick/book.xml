@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336223 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336301 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- State: experimental -->
 
@@ -42,6 +42,7 @@
  &reference.imagick.imagickdraw;
  &reference.imagick.imagickpixel;
  &reference.imagick.imagickpixeliterator;
+ &reference.imagick.imagickkernel;
 <!---
  -->
 </book>
