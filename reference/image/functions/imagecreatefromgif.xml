@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329882 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336340 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagecreatefromgif" xmlns="http://docbook.org/ns/docbook">
@@ -103,7 +103,6 @@ imagedestroy($img);
     est retournée au pointeur de ressource de l'image.
    </para>
   </note>
-  &warn.no-win32-fopen-wrapper;
  </refsect1>
 </refentry>
 

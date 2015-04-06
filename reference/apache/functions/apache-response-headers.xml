@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332490 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336339 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.apache-response-headers" xmlns="http://docbook.org/ns/docbook">
@@ -49,14 +49,9 @@
        <entry>5.4.0</entry>
        <entry>
         Cette fonction devient disponible pour FastCGI. Précédemment,
-        elle n'était disponible que lorsque PHP était installé comme
-        module Apache.
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.3</entry>
-       <entry>
-        &note.apache.nsapi-module;
+        elle était disponible lorsque PHP était installé comme
+        module Apache ou par le <link linkend="book.nsapi">module serveur
+        NSAPI</link> des serveurs Web Netscape/iPlanet/SunONE.
        </entry>
       </row>
      </tbody>

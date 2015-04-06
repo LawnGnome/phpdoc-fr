@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336355 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.udm-hash32">
  <refnamediv>
   <refname>udm_hash32</refname>
-  <refpurpose>Retourne une somme de contrôle Hash32</refpurpose>
+  <refpurpose>Retourne la somme de contrôle Hash32 d'une chaîne donnée</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
