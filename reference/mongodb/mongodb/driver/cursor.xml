@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336263 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336451 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:classref xml:id="class.mongodb-driver-cursor" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -13,6 +13,13 @@
 <!-- {{{ MongoDB\Driver\Cursor intro -->
   <section xml:id="mongodb-driver-cursor.intro">
    &reftitle.intro;
+   <para>
+    La classe <classname>MongoDB\Driver\Cursor</classname>
+    encapsule le résultat d'une commande ou d'une requête MongoDB,
+    pouvant être retournée par, respectivement,
+    <methodname>MongoDB\Driver\Manager::executeCommand</methodname> ou
+    <methodname>MongoDB\Driver\Manager::executeQuery</methodname>.
+   </para>
    <para>
 
    </para>
@@ -33,7 +40,7 @@
      </ooclass>
      
      <oointerface>
-      <interfacename>Iterator</interfacename>
+      <interfacename>Traversable</interfacename>
      </oointerface>
     </classsynopsisinfo>
 <!-- }}} -->

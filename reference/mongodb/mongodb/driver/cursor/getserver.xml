@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336263 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336451 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb-driver-cursor.getserver" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB\Driver\Cursor::getServer</refname>
-  <refpurpose>Description</refpurpose>
+  <refpurpose>Retourne l'objet Server sur lequel le curseur est attaché</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ReturnType</type><methodname>MongoDB\Driver\Cursor::getServer</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <type>MongoDB\Driver\Server</type><methodname>MongoDB\Driver\Cursor::getServer</methodname>
    <void />
   </methodsynopsis>
   <para>
