@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328192 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336599 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.symlink">
@@ -104,8 +104,8 @@ echo readlink($link);
    <simpara>
     Les utilisateurs de Windows doivent garder à l'esprit que
     cette fonction n'est disponible que pour Windows Vista/Windows
-    Server 2008 ou supérieur. Pour les versions antérieures, cette
-    fonction ne supporte pas les liens symboliques.
+    Server 2008 ou supérieur. Pour les versions antérieures de Windows,
+    cette fonction ne supporte pas les liens symboliques.
    </simpara>
   </note>
  </refsect1>

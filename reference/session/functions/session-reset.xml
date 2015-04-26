@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323403 Maintainer: jeanseb Status: ready -->
+<!-- EN-Revision: 336604 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-reset">
@@ -25,8 +25,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Cette fonction retourne &true; si la session a été réinitialisée avec succès.
-   Sinon &false;.
+   &return.void;
   </para>
  </refsect1>
 

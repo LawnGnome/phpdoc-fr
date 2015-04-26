@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322382 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336566 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='domnode.replacechild' xmlns="http://docbook.org/ns/docbook">
@@ -19,7 +19,7 @@
   </methodsynopsis>
   <para>
    Cette fonction remplace le fils <parameter>oldnode</parameter> 
-   par le nouveau noeud spécifié. SI le nouveau noeud est déjà un fils, il ne
+   par le nouveau noeud spécifié. Si <parameter>newnode</parameter> est déjà un fils, il ne
    sera pas ajouté une seconde fois. Si le remplacement réussi, l'ancien noeud
    sera retourné.
   </para>

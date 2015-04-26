@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334683 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336599 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.max" xmlns="http://docbook.org/ns/docbook">
@@ -129,7 +129,6 @@ $val = max('string', array(2, 5, 7), 42);   // array(2, 5, 7)
 // Si un argument vaut NULL ou est un booléen, il sera comparé avec les autres
 // valeurs en utilisant la règle FALSE < TRUE suivant les autres types concernés
 // Dans l'exemple ci-dessous, -10 est traité comme valant TRUE dans la comparaison
-$val = max(-10, FALSE); // -10
 $val = max(-10, FALSE); // -10
 
 // D'un autre côté, 0 est traité comme valant FALSE, aussi, il est "plus petit que" TRUE
