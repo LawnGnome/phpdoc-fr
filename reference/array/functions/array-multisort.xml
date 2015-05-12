@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336741 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.array-multisort" xmlns="http://docbook.org/ns/docbook">
@@ -107,7 +107,8 @@
      <listitem>
       <para>
        Plus d'arguments, optionnellement suivis par des façons de trier et des
-       drapeaux.
+       drapeaux. Seuls les éléments équivalents dans les tableaux précédents
+       sont comparés. En d'autres termes, le tri est lexicographique.
       </para>
      </listitem>
     </varlistentry>
