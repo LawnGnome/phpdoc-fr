@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336614 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336762 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.wordwrap">
@@ -59,7 +59,7 @@
        la chaîne sera toujours à la taille <parameter>width</parameter> ou avant.
        Si vous avez un mot qui est plus long que la taille de césure, il sera
        coupé en morceaux : voir le second exemple. Lorsque vaut &false;,
-       la fonction ne va pas couper le mot avant sa fin, même si le paramètre
+       la fonction ne va pas couper le mot, même si le paramètre
        <parameter>width</parameter> est plus petit que la taille du mot.
       </para>
      </listitem>

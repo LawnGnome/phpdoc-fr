@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334626 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336771 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.func-get-arg" xmlns="http://docbook.org/ns/docbook">
@@ -104,16 +104,23 @@
 function foo()
 {
      $numargs = func_num_args();
-     echo "Nombre d'arguments : $numargs<br />\n";
+     echo "Nombre d'arguments : $numargs\n";
      if ($numargs >= 2) {
-         echo "Le second argument est : " . func_get_arg(1) . "<br />\n";
+         echo "Le second argument est : " . func_get_arg(1) . "\n";
      }
 }
 
-foo (1, 2, 3);
+foo(1, 2, 3);
 ?>
 ]]>
     </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+Nombre d'arguments : 3
+Le second argument est : 2
+]]>
+    </screen>
    </example>
   </para>
   <para>
