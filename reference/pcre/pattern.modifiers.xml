@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333668 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336806 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <article xml:id="reference.pcre.pattern.modifiers" xmlns="http://docbook.org/ns/docbook">
@@ -87,7 +87,7 @@
      <varlistentry xml:id="reference.pcre.pattern.modifiers.eval">
       <term><emphasis>e</emphasis> (<literal>PREG_REPLACE_EVAL</literal>)</term>
       <listitem>
-       &warn.deprecated.feature-5-5-0;
+       &warn.deprecated.feature-5-5-0.removed-7-0-0;
        <simpara>
         Avec cette option obsolète, <function>preg_replace</function> effectue la
         substitution normale des références arrières dans la

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328365 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336807 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: yannick -->
 
 <refentry xml:id="function.gmmktime" xmlns="http://docbook.org/ns/docbook">
@@ -113,6 +113,11 @@
        Les paramètres représentent toujours une date GMT donc, le paramètre 
        <parameter>is_dst</parameter> n'influence pas le résultat.
       </para>
+      <note>
+       <para>
+        Ce paramètre a été supprimé en PHP 7.0.0.
+       </para>
+      </note>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -138,6 +143,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>7.0.0</entry>
+       <entry>
+        Le paramètre <parameter>is_dst</parameter> a été supprimé.
+       </entry>
+      </row>
       <row>
        <entry>5.1.0</entry>
        <entry>
