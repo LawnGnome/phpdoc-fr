@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336889 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.gregoriantojd" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>GregorianToJD</refname>
+  <refname>gregoriantojd</refname>
   <refpurpose>Convertit une date grégorienne en nombre de jours du calendrier Julien</refpurpose>
  </refnamediv>
 
