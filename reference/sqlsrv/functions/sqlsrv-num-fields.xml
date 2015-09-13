@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 337791 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.sqlsrv-num-fields" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -72,10 +72,9 @@ $numFields = sqlsrv_num_fields( $stmt );
 while( sqlsrv_fetch( $stmt )) {
    // Itération sur les champs de chaque ligne.
    for($i = 0; $i < $numFields; $i++) { 
-   {
       echo sqlsrv_get_field($stmt, $i)." ";
-     }
-     echo "<br />";
+   }
+   echo "<br />";
 }
 ?>
 ]]>
