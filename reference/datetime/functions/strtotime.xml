@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 337698 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: yannick -->
 
 <refentry xml:id="function.strtotime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -213,7 +213,9 @@ if (($timestamp = strtotime($str)) === false) {
     si le séparateur est un slash (<literal>/</literal>), alors le format américain
     <literal>m/d/y</literal> est supposé ; si le séparateur est un tiret
     (<literal>-</literal>) ou un point (<literal>.</literal>), alors le format
-    Européen <literal>d-m-y</literal> sera supposé.
+    Européen <literal>d-m-y</literal> sera supposé. Si toutefois l'année est fournie
+    sur deux digits, et que le séparateur est un tiret (<literal>-</literal>),
+    la date sera analysée comme étant au format <literal>y-m-d</literal>.
    </para>
    <para>
     Pour éviter des ambiguïtés éventuelles, le mieux est d'utiliser le format ISO 8601
