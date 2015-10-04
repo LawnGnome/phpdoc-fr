@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320551 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336942 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='function.simplexml-load-file' xmlns="http://docbook.org/ns/docbook">
@@ -94,6 +94,7 @@
    Retourne un &object; de la classe <type>SimpleXMLElement</type>
    dont les propriétés contiennent les données du document XML, &return.falseforfailure;.
   </para>
+  &return.falseproblem;
  </refsect1>
  
  <refsect1 role="errors"><!-- {{{ -->
