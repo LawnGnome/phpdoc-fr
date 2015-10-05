@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301626 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 337556 Maintainer: gui Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phardata.decompress">
@@ -78,10 +78,8 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$p = new PharData('/chemin/vers/mon.tar', 0, 'mon.tar.gz');
-$p['monfichier.txt'] = 'salut';
-$p['monfichier2.txt'] = 'salut';
-$p3 = $p2->decompress(); // crée /chemin/vers/mon.tar
+$p = new PharData('/path/to/my.tar.gz');
+$p->decompress(); // crée /path/to/my.tar
 ?>
 ]]>
     </programlisting>

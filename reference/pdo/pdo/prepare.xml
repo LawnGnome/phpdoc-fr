@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 337261 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdo.prepare" xmlns="http://docbook.org/ns/docbook">
@@ -68,7 +68,7 @@
      <term><parameter>statement</parameter></term>
      <listitem>
       <para>
-       Doit être une requête SQL valide pour le serveur de base de données cible.
+       Doit être une template de requête SQL valide pour le serveur de base de données cible.
       </para>
      </listitem>
     </varlistentry>
