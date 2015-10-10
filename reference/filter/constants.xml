@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336648 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336878 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="filter.constants" xmlns="http://docbook.org/ns/docbook">
@@ -237,7 +237,7 @@
    </term>
    <listitem>
     <simpara>
-     ID du filtre par défaut ("string").
+     ID du filtre par défaut ("unsafe_raw").
      Ceci est équivalent à la constante 
      <constant>FILTER_UNSAFE_RAW</constant>.
     </simpara>
