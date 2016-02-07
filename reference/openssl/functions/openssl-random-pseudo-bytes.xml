@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308253 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 336957 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no Maintainer: anonymous #53575 -->
 <!--  Reviewed: no -->
 
@@ -118,6 +118,7 @@ bool(true)
  <refsect1 role="seealso">
   &reftitle.seealso;
   <simplelist>
+   <member><function>random_bytes</function></member>
    <member><function>bin2hex</function></member>
    <member><function>crypt</function></member>
    <member><function>mt_rand</function></member>
