@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331789 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 339490 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.uasort" xmlns="http://docbook.org/ns/docbook">
@@ -26,12 +26,7 @@
    Utilisé habituellement lors du tri de tableaux associatifs où
    l'ordre actuel des éléments est significatif.
   </para>
-  <note>
-   <para>
-    Si deux membres sont égaux lors de la comparaison, leur ordre
-    relatif dans le tableau trié sera indéfini.
-   </para>
-  </note>
+  &note.sort-unstable;
  </refsect1>
 
  <refsect1 role="parameters">

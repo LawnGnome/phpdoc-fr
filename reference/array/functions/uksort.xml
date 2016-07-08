@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 339490 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.uksort" xmlns="http://docbook.org/ns/docbook">
@@ -21,6 +21,7 @@
    Si un tableau doit être trié avec un critère complexe, il est préférable
    d'utiliser cette fonction.
   </para>
+  &note.sort-unstable;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

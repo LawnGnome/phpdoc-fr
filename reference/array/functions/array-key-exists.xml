@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 338334 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-key-exists">
@@ -98,12 +98,6 @@ array_key_exists('first', $search_array);
  
  <refsect1 role="notes">
   &reftitle.notes;
-  <note>
-   <para>
-    &info.deprecated.alias;
-    <function>key_exists</function>
-   </para>
-  </note>
   <note>
    <para>
     En raison de compatibilité ascendante, la fonction

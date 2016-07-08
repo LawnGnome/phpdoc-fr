@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338914 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-intersect-assoc">
@@ -21,7 +21,7 @@
    <function>array_intersect_assoc</function> retourne un tableau contenant
    toutes les valeurs de <parameter>array1</parameter> qui sont aussi
    présentes dans tous les autres arguments <parameter>array2</parameter>,
-   <parameter>...</parameter>, etc. Notez que les clés sont utilisées
+   <parameter>...</parameter>, etc. Notez que les clés sont aussi utilisées
    durant la comparaison, contrairement à <function>array_intersect</function>.
   </simpara>
  </refsect1>
