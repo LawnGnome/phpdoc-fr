@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongotimestamp.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,6 +8,15 @@
   <refname>MongoTimestamp::__toString</refname>
   <refpurpose>Retourne une représentation sous la forme d'une chaîne de caractères d'un timestamp</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.alternative.method.note;
+   <simplelist role="alternatives">
+    <member><methodname>MongoDB\BSON\Timestamp::__toString</methodname></member>
+   </simplelist>
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;
