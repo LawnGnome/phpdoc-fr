@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333393 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338152 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <part xml:id="mongo.manual" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Manuel</title>
  <partintro xml:id="mongo.manual.intro">
+  
+  <warning>
+   &mongo.deprecated.note;
+  </warning>
   
   <para>
    Ce manuel vous fournira quelques détails sur la façon d'utiliser MongoDB,
