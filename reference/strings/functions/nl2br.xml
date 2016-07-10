@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336339 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 339241 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.nl2br">
@@ -18,7 +18,7 @@
   </methodsynopsis>
   <para>
    Retourne <parameter>string</parameter> après avoir inséré
-   <literal>"&lt;br /&gt;"</literal> ou <literal>'&lt;br&gt;'</literal>
+   <code>&lt;br /&gt;</code> ou <code>&lt;br&gt;</code>
    devant toutes les nouvelles lignes (<literal>\r\n</literal>,
    <literal>\n\r</literal>, <literal>\n</literal> et <literal>\r</literal>).
   </para>
