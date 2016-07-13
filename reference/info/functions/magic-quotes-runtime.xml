@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dams Status: ready -->
+<!-- EN-Revision: 338431 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.magic-quotes-runtime" xmlns="http://docbook.org/ns/docbook">
@@ -8,6 +8,10 @@
   <refname>magic_quotes_runtime</refname>
   <refpurpose>&Alias; <function>set_magic_quotes_runtime</function></refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv>
+  &warn.deprecated.alias-5-3-0.removed-7-0-0;
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

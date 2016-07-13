@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335489 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338211 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.getopt" xmlns="http://docbook.org/ns/docbook">
@@ -88,8 +88,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Cette fonction retourne un tableau d'options/arguments, ou &false;
-   si une erreur survient.
+   Cette fonction retourne un tableau d'options/arguments,&return.falseforfailure;.
   </para>
   <note>
    <para>
