@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 339877 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imageconvolution" xmlns="http://docbook.org/ns/docbook">
@@ -122,7 +122,9 @@ imagepng($image, null, 9);
 
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.bundled.gd;
+  <para>
+   Cette fonction requière GD 2.1.0 ou supérieur.
+  </para>
  </refsect1>
 
  <refsect1 role="seealso">
