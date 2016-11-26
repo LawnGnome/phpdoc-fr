@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341003 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.jpeg2wbmp" xmlns="http://docbook.org/ns/docbook">
@@ -8,6 +8,17 @@
   <refname>jpeg2wbmp</refname>
   <refpurpose>Convertit une image JPEG en image WBMP</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv>
+  <warning>
+   <para>
+    <function>jpeg2wbmp</function> est devenu obsolète depuis PHP 7.2.0,
+    et sera supprimé en PHP 8.0.0. Utilisez la fonction <function>imagecreatefromjpeg</function>
+    et la fonction <function>imagewbmp</function> à la place.
+   </para>
+  </warning>
+ </refsynopsisdiv>
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -98,12 +109,6 @@ jpeg2wbmp($path, './test.wbmp', $image[1], $image[0], 5);
     </programlisting>
    </example>
   </para>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  &note.config.wbmp;
-  &note.config.jpeg;
  </refsect1>
 
  <refsect1 role="seealso">
