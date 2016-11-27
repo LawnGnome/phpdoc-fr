@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333598 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 340010 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="ziparchive.addfile" xmlns="http://docbook.org/ns/docbook">
@@ -20,6 +20,7 @@
   <para>
    Ajoute un fichier à une archive ZIP depuis le chemin fourni.
   </para>
+  &zip.filename.separator;
  </refsect1>
 
  <refsect1 role="parameters">
