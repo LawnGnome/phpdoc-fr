@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 340045 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sybase-fetch-row">
@@ -8,6 +8,10 @@
   <refname>sybase_fetch_row</refname>
   <refpurpose>Retourne une ligne Sybase sous la forme d'un tableau numérique</refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+   &warn.removed.function-7-0-0;
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

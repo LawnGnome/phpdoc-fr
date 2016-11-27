@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334605 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 339765 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.rtrim">
@@ -18,7 +18,7 @@
   </methodsynopsis>
   <para>
    Retourne la chaîne <parameter>str</parameter>, après avoir supprimé tous
-   les caractères blancs de fin de chaîne.
+   les caractères blancs (ou autres caractères) de fin de chaîne.
   </para>
   <para>
    Appelée sans le second paramètre, <function>rtrim</function> supprimera

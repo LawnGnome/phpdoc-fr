@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338293 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 340344 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.explode">
@@ -155,8 +155,10 @@ echo $pass; // *
    contenant qu'un seul élément représentant la chaîne originale */
 $input1 = "hello";
 $input2 = "hello,there";
+$input3 = ',';
 var_dump( explode( ',', $input1 ) );
 var_dump( explode( ',', $input2 ) );
+var_dump( explode( ',', $input3 ) );
 
 ?>
 ]]>
@@ -172,6 +174,11 @@ array(2)
 (
     [0] => string(5) "hello"
     [1] => string(5) "there"
+)
+array(2)
+(
+    [0] => string(0) ""
+    [1] => string(0) ""
 )
 ]]>
     </screen>
