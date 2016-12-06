@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312676 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338332 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: Jean Desravines -->
 <!-- Reviewed: no -->
 
@@ -42,6 +42,7 @@
    retournera le résultat en cas de succès,
    et &false; si une erreur survient.
   </para>
+  &return.falseproblem;
  </refsect1>
 
  <refsect1 role="examples">
