@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="tokenizer.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
-  À partir de PHP 4.3.0, ces fonctions sont activées par défaut.
-  Pour les anciennes versions, vous devez compiler PHP avec
-  l'option <option role="configure">--enable-tokenizer</option>. Vous
+  Ces fonctions sont actives par défaut. Vous
   pouvez désactiver le support de l'extension tokenizer avec
   l'option <option role="configure">--disable-tokenizer</option>.
  </para>

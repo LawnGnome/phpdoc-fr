@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340014 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes --> 
 
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
@@ -203,7 +203,6 @@ if (!odbc_execute($stmt, $sqldata) || !odbc_fetch_into($stmt, $tmp)) {
 <?php
 $serialized_object='O:1:"a":1:{s:5:"value";s:3:"100";}';
 
-// directive unserialize_callback_func disponible depuis PHP 4.2.0
 ini_set('unserialize_callback_func', 'mycallback');
 
 function mycallback($classname) 
