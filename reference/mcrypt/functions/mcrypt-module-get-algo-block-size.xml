@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mcrypt-module-get-algo-block-size" xmlns="http://docbook.org/ns/docbook">
@@ -8,6 +8,9 @@
   <refname>mcrypt_module_get_algo_block_size</refname>
   <refpurpose>Retourne la taille de blocs d'un algorithme</refpurpose>
  </refnamediv>
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

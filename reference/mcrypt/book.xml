@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <book xml:id="book.mcrypt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -10,6 +10,12 @@
  <!-- {{{ preface -->
  <preface xml:id="intro.mcrypt">
   &reftitle.intro;
+  <warning>
+   <simpara>
+    Cette extension est obsolète depuis PHP 7.1.0
+    est déplacée dans PECL depuis PHP 7.2.0.
+   </simpara>
+  </warning>
   <para>
    Ces fonctions permettent d'accéder à la bibliothèque
    mcrypt, qui dispose d'une grande variété d'algorithmes
