@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342063 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr-replace">
@@ -59,7 +59,7 @@
      <term><parameter>start</parameter></term>
      <listitem>
       <para>
-       Si <parameter>start</parameter> est positif, le remplacement
+       Si <parameter>start</parameter> n'est pas négatif, le remplacement
        se fera à partir du caractère numéro <parameter>start</parameter>
        dans <parameter>string</parameter>.
       </para>

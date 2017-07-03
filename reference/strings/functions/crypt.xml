@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336939 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342072 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.crypt">
@@ -23,7 +23,7 @@
   </para>
   <para>
    Le paramètre <parameter>salt</parameter> est optionnel.
-   Cependant, <function>crypt</function> crée un mot de passe faible
+   Cependant, <function>crypt</function> crée un hash faible
    sans paramètre <parameter>salt</parameter>. PHP 5.6 et suivants lancent
    une alerte de niveau E_NOTICE sans ce paramètre.
    Assurez-vous de spécifier un salt assez solide pour une meilleure sécurité.

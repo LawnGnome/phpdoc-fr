@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339895 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342214 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.print">
@@ -24,8 +24,8 @@
    pas obligé d'utiliser des parenthèses.
   </para>
   <para>
-   La seule différence avec <literal>echo</literal> est que
-   <literal>print</literal> n'accepte qu'un seul argument.
+   La plus grosse différence avec <literal>echo</literal> est que
+   <literal>print</literal> n'accepte qu'un seul argument et retourne toujours 1.
   </para>
  </refsect1>
 
