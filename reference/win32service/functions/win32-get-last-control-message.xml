@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304596 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342956 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.win32-get-last-control-message" xmlns="http://docbook.org/ns/docbook">
@@ -19,6 +19,14 @@
    service. Lorsqu'il fonctionne en tant que service, vous devriez vérifier
    périodiquement pour déterminer si le service doit être arrêté.
   </para>
+  
+  <caution>
+   <para>
+    Depuis la version 0.2.0, cette fonction fonctionne uniquement en ligne de 
+    commande. Elle est désactivé dans les autres cas.
+   </para>
+  </caution>
+  
  </refsect1>
 
  <refsect1 role="returnvalues">

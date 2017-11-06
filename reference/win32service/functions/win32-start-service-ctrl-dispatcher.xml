@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305206 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342956 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.win32-start-service-ctrl-dispatcher" xmlns="http://docbook.org/ns/docbook">
@@ -35,6 +35,13 @@
    à appeler, périodiquement, la fonction <function>win32_get_last_control_message</function>
    et à traiter le code retourné.
   </para>
+  
+  <caution>
+   <para>
+    Depuis la version 0.2.0, cette fonction fonctionne uniquement en ligne de 
+    commande. Elle est désactivé dans les autres cas.
+   </para>
+  </caution>
  </refsect1>
 
  <refsect1 role="parameters">
