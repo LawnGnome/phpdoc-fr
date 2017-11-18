@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336602 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343347 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -771,6 +771,11 @@
      <entry><constant>T_YIELD</constant></entry>
      <entry>yield</entry>
      <entry><link linkend="control-structures.yield">générateurs</link> (disponible depuis PHP 5.5.0)</entry>
+    </row>
+    <row>
+     <entry><constant>T_YIELD_FROM</constant></entry>
+     <entry>yield from</entry>
+     <entry><link linkend="control-structures.yield.from">générateurs</link> (disponible depuis PHP 7.0.0)</entry>
     </row>
    </tbody>
   </tgroup>

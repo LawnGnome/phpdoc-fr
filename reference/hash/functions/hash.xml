@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336947 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342107 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.hash" xmlns="http://docbook.org/ns/docbook">
@@ -107,7 +107,7 @@ cdb8426cb020896cea1d040e62a0f8cf9f5b4226
    </example>
   </para>
   <para>
-   <example>
+   <example xml:id="function.hash.tiger-bc">
     <title>Exemple avec PHP-5.4 et supérieur</title>
     <programlisting role="php">
 <![CDATA[
