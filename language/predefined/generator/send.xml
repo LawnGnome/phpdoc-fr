@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337857 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 340503 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="generator.send" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -59,6 +59,7 @@
 <![CDATA[
 <?php
 function printer() {
+    echo "I'm printer!".PHP_EOL;
     while (true) {
         $string = yield;
         echo $string;
@@ -74,6 +75,7 @@ $printer->send('Bye world!');
     &example.outputs;
     <screen>
 <![CDATA[
+I'm printer!
 Hello world!
 Bye world!
 ]]>
