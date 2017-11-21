@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338392 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 340256 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="exception.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -52,6 +52,13 @@
     </varlistentry>
   </variablelist>
   </para>
+  <note>
+   <simpara>
+    L'appel du constructeur de l'exception de classe à partir d'une sous-classe 
+    ignore les arguments par défaut, si les propriétés $code et $message sont 
+    déjà définies.
+   </simpara>
+  </note>
  </refsect1>
 
  

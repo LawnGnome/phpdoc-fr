@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341756 Maintainer: yannick Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 342988 Maintainer: jbnahan Status: ready -->
+<!-- Reviewed: no -->
 
-<refentry xml:id="exception.getfile" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="generator.getreturn" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Exception::getFile</refname>
-  <refpurpose>Récupère le fichier dans lequel l'exception a été créée</refpurpose>
+  <refname>Generator::getReturn</refname>
+  <refpurpose>Obtenir la valeur de retour d'un générateur</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname>Exception::getFile</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>Generator::getReturn</methodname>
    <void />
   </methodsynopsis>
-  <para>
-   Récupère le nom du fichier dans lequel l'exception a été créée.
-  </para>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -28,45 +25,44 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne le nom du fichier dans lequel l'exception a été créée.
+   Retourne la valeur de retour du générateur une fois qu'il a terminé l'exécution.
   </para>
  </refsect1>
 
- <refsect1 role="examples">
+<refsect1 role="examples">
   &reftitle.examples;
   <para>
    <example>
-    <title>Exemple avec <function>Exception::getFile</function></title>
+    <title><methodname>Generator::getReturn</methodname> exemple</title>
     <programlisting role="php">
 <![CDATA[
 <?php
-try {
-    throw new Exception;
-} catch(Exception $e) {
-    echo $e->getFile();
+
+$gen = (function() {
+    yield 1;
+    yield 2;
+
+    return 3;
+})();
+
+foreach ($gen as $val) {
+    echo $val, PHP_EOL;
 }
-?>
+
+echo $gen->getReturn(), PHP_EOL;
 ]]>
     </programlisting>
-    &example.outputs.similar;
+    &example.outputs;
     <screen>
 <![CDATA[
-/home/bjori/tmp/ex.php
+1
+2
+3
 ]]>
     </screen>
    </example>
   </para>
  </refsect1>
-
- <refsect1 role="seealso">
-  &reftitle.seealso;
-  <para>
-   <simplelist>
-    <member><methodname>Throwable::getFile</methodname></member>
-   </simplelist>
-  </para>
- </refsect1>
- 
 </refentry>
 
 <!-- Keep this comment at the end of the file
