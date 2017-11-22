@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335011 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338303 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-export">
@@ -71,7 +71,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$number = gmp_init(6565);
+$number = gmp_init(16705);
 echo gmp_export($number) . "\n";
 ?>
 ]]>

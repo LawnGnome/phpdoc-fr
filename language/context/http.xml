@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326722 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 338185 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="context.http" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -39,7 +39,7 @@
     <varlistentry xml:id="context.http.header">
      <term>
       <parameter>header</parameter>
-      <type>&string;</type>
+      <type>array</type> ou <type>string</type>
      </term>
      <listitem>
       <para>

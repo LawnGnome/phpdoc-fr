@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328913 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341804 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="evperiodic.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -169,7 +169,7 @@ Ev::run();
 <?php
 $hourly = EvPeriodic(0, 3600, NULL, function () {
  echo "une fois par heure\n";
-};
+});
 ?>
 ]]>
    </programlisting>

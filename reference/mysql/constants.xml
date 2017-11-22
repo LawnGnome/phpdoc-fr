@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323628 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="mysql.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <para>
-  Depuis PHP 4.3.0, il est possible de spécifier des options de client
+  Il est possible de spécifier des options de client
   supplémentaires pour les fonctions <function>mysql_connect</function> et
   <function>mysql_pconnect</function>. Ces constantes sont les suivantes : 
   <table xml:id="mysql.client-flags">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335011 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 340028 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-import">
@@ -82,7 +82,7 @@ echo gmp_strval($number) . "\n";
     <screen>
 <![CDATA[
 0
-528
+258
 ]]>
     </screen>
    </example>

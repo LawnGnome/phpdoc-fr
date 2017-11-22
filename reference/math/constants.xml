@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323628 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338283 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <appendix xml:id="math.constants" xmlns="http://docbook.org/ns/docbook">
@@ -163,7 +163,7 @@
  </para>
  <para>
   Toutes les constantes dont la version PHP de disponibilité n'est
-  pas renseignée sont disponibles depuis au moins PHP 4.0.0.
+  pas renseignée sont disponibles depuis au moins PHP 5.0.0.
  </para>
 </appendix>
 
