@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331477 Maintainer: yannick Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 340325 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA. -->
 
 <refentry xml:id="function.array-unshift" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
