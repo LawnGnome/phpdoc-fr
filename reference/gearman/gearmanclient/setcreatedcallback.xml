@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343117 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="gearmanclient.setcreatedcallback" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -18,7 +18,7 @@
   <para>
    Définit une fonction de rappel à appeler lorsqu'une tâche est placée dans la file d'attente
    du serveur de travaux gearman. La fonction de rappel doit accepter un seul argument,
-   un objet <classname>GearmanClient</classname>.
+   un objet <classname>GearmanTask</classname>.
   </para>
  </refsect1>
 

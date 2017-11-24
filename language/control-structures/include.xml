@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336340 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 337282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="function.include" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -213,13 +213,13 @@ include 'file.php';  // Ok.
    <programlisting role="php">
 <![CDATA[
 <?php
-// Ne fonctionne pas, évalué comme include(('vars.php') == 'OK'), i.e. include('')
-if (include('vars.php') == 'OK') {
+// Ne fonctionne pas, évalué comme include(('vars.php') == TRUE), i.e. include('')
+if (include('vars.php') == TRUE) {
     echo 'OK';
 }
 
 // Fonctionne
-if ((include 'vars.php') == 'OK') {
+if ((include 'vars.php') == TRUE) {
     echo 'OK';
 }
 ?>

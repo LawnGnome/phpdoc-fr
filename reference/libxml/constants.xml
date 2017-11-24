@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335780 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336953 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="libxml.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
  <variablelist>
+  <varlistentry xml:id="constant.libxml-biglines">
+   <term>
+    <constant>LIBXML_BIGLINES</constant>
+     (&integer;)
+   </term>
+   <listitem>
+    <simpara>
+     Permet de signaler correctement les numéros de ligne supérieurs à 65535.
+    </simpara>
+    <note>
+     <para>
+      Uniquement disponible dans PHP 7.0.0 avec Libxml &gt;= 2.9.0
+     </para>
+    </note>
+   </listitem>
+  </varlistentry>
   <varlistentry xml:id="constant.libxml-compact">
    <term>
     <constant>LIBXML_COMPACT</constant>

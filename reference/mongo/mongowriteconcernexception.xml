@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333942 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341774 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:classref xml:id="class.mongowriteconcernexception" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -19,8 +19,7 @@
     configurer le seuil de l'échec.
    </para>
    <para>
-    Avant MongoDB 2.6.0 
-    <link xlink:href="&url.mongodb.dochub.getlasterror;"><acronym>GLE</acronym></link>
+    Avant MongoDB 2.6.0 la commande <link xlink:href="&url.mongodb.docs.command;getLastError">getLastError</link>
     déterminait si un échec d'écriture avait lieu.
    </para>
   </section>

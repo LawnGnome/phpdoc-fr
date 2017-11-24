@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342939 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-connect">
@@ -310,6 +310,7 @@ if (!$connection) die('Échec de la connexion');
     <member><function>ssh2_auth_none</function></member>
     <member><function>ssh2_auth_password</function></member>
     <member><function>ssh2_auth_pubkey_file</function></member>
+    <member><function>ssh2_disconnect</function></member>
    </simplelist>
   </para>
  </refsect1>

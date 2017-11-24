@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334662 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 <!-- State: experimental -->
 
@@ -38,9 +38,6 @@
    en cours de développement et surveillé par son auteur : si vous
    souhaitez une nouvelle fonctionnalité, dites-le nous :
    <link xlink:href="&url.ming;">&url.ming;</link>.
-  </para>
-  <para>
-   Ming et tous les objets cités ont été ajoutés en PHP 4.0.5.
   </para>
   &warn.experimental;
 
