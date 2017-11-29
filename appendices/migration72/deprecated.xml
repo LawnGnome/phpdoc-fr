@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343247 Maintainer: jbnahan Status: ready -->
+<!-- EN-Revision: 343459 Maintainer: jbnahan Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration72.deprecated">
@@ -172,6 +172,15 @@ string(11) "NONEXISTENT"
    maintenant devenu obsolète (avec un avis de désapprobation doux dans le 
    manuel). Un débogueur approprié doit servir à la place pour récupérer des 
    informations sur les variables locales à l’emplacement de l’erreur.
+  </para>
+ </sect2>
+
+ <sect2 xml:id="migration72.deprecated.read_exif_data-function">
+  <title>Fonction <function>read_exif_data</function></title>
+
+  <para>
+   L'alias <function>read_exif_data</function> a été déconseillé en faveur 
+   de la fonction <function>exif_read_data</function>.
   </para>
  </sect2>
 </sect1>

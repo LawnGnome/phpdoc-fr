@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342647 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="exif.constants" xmlns="http://docbook.org/ns/docbook">
@@ -15,7 +15,9 @@
     </term>
     <listitem>
      <simpara>
-
+      Cette constante a la valeur <literal>1</literal> si       
+      <link linkend="ref.mbstring">mbstring</link> est activé, sinon sa 
+      valeur est <literal>0</literal>.
      </simpara>
     </listitem>
    </varlistentry>
