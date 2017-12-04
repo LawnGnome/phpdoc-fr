@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 339764 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagesetstyle" xmlns="http://docbook.org/ns/docbook">
@@ -35,6 +35,7 @@
        Un tableau de couleurs de pixels. Vous pouvez utiliser la constante
        <constant>IMG_COLOR_TRANSPARENT</constant> pour ajouter
        un pixel transparent.
+       Notez que <parameter>style</parameter> ne doit pas être un tableau <type>array</type> vide.
       </para>
      </listitem>
     </varlistentry>
