@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332091 Maintainer: yannick Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA -->
 
 <book xml:id="book.dom" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundledexternal" ?>
@@ -12,10 +12,7 @@
   &reftitle.intro;
   <para>
    L'extension DOM vous permet d'utiliser des documents XML via l'API DOM
-   de PHP 5.
-  </para>
-  <para>
-   Pour PHP 4, utilisez l'extension <literal>DOM XML</literal>.
+   de PHP.
   </para>
   <note>
    <para>

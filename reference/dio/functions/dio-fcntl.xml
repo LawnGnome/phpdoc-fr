@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330487 Maintainer: yannick Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 341347 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA -->
 
 <refentry xml:id="function.dio-fcntl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -61,7 +61,7 @@
         <listitem>
          <para>
           <constant>F_GETLK</constant> : <function>dio_fcntl</function> retourne
-          un tableau associatif (comme décrit ci-dessus) si un autre utilisateur
+          un tableau associatif (comme décrit ci-dessous) si un autre utilisateur
           empêche la poste d'un verrou. S'il n'y a aucun empêchement,
           l'entrée "type" prendra la valeur <constant>F_UNLCK</constant>.
          </para>

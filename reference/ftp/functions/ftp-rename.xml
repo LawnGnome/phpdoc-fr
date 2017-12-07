@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 341745 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA -->
 
 <refentry xml:id="function.ftp-rename" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -56,7 +56,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.success;
+   &return.success; En cas d'échec (comme tenter de renommer un fichier
+   inexistant), une erreur <literal>E_WARNING</literal> sera émise.
   </para>
  </refsect1>
  <refsect1 role="examples">

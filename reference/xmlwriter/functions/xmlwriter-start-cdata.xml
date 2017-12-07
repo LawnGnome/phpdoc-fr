@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: yannick Status: ready -->
-<!-- Reviewed: yes Maintainer: yannick -->
+<!-- EN-Revision: 343350 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA -->
 
 <refentry xml:id="function.xmlwriter-start-cdata" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>XMLWriter::startCData</refname>
+  <refname>XMLWriter::startCdata</refname>
   <refname>xmlwriter_start_cdata</refname>
   <refpurpose>Crée une balise CDATA</refpurpose>
  </refnamediv>
@@ -13,7 +13,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis>
-   <type>bool</type><methodname>XMLWriter::startCData</methodname>
+   <type>bool</type><methodname>XMLWriter::startCdata</methodname>
    <void/>
   </methodsynopsis>
   <para>&style.procedural;</para>
@@ -45,8 +45,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>XMLWriter::endCData</methodname></member>
-    <member><methodname>XMLWriter::writeCData</methodname></member>
+    <member><methodname>XMLWriter::endCdata</methodname></member>
+    <member><methodname>XMLWriter::writeCdata</methodname></member>
    </simplelist>
   </para>
  </refsect1>

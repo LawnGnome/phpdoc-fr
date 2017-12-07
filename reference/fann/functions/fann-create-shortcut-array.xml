@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331220 Maintainer: yannick Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 340802 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA -->
 
 <refentry xml:id="function.fann-create-shortcut-array" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -22,9 +22,6 @@
    qui n'est pas totalement connecté, et a des connexions raccourcies
    en utilisant un tableau de tailles de couches.
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
