@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330266 Maintainer: yannick Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 342522 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DavidA -->
 
 <refentry xml:id="datetimeimmutable.createfromformat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTimeImmutable::createFromFormat</refname>
   <refname>date_create_immutable_from_format</refname>
-  <refpurpose>Retourne le nouvel objet DateTimeImmutable formatté suivant le format spécifié</refpurpose>
+  <refpurpose>Analyse une heure au format texte selon le format spécifié.
+  </refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
