@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308219 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.apc-compile-file" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>mixed</type><methodname>apc_compile_file</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>atomic</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>atomic</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Stocke un fichier dans le cache, en évitant tous les filtres.

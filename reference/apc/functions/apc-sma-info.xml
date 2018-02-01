@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.apc-sma-info" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>apc_sma_info</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>limited</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>limited</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Récupère les informations d'allocation mémoire partagée d'APC.

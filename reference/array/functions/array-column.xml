@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338286 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 <!-- CREDITS: DavidA. -->
 
@@ -15,7 +15,7 @@
    <type>array</type><methodname>array_column</methodname>
    <methodparam><type>array</type><parameter>input</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>column_key</parameter></methodparam>
-   <methodparam choice="opt"><type>mixed</type><parameter>index_key</parameter><initializer>null</initializer></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>index_key</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>array_column</function> retourne les valeurs d'une colonne de <parameter>input</parameter>, identifiée par la clé
