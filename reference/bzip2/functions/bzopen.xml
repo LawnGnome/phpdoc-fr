@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336328 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 336899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.bzopen" xmlns="http://docbook.org/ns/docbook">
@@ -36,9 +36,8 @@
      <term><parameter>mode</parameter></term>
      <listitem>
       <para>
-       Similaire à la fonction <function>fopen</function>,
-       seules les options 'r' (pour lecture), et 'w' (pour écriture)
-       sont supportées. Toute autre option fera que la fonction
+       Les modes 'r' (pour lecture), et 'w' (pour écriture)
+       sont supportées. Toute autre option fera que la fonction <function>bzopen</function>
        retournera &false;.
       </para>
      </listitem>
