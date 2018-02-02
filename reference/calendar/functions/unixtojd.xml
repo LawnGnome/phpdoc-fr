@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342998 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.unixtojd" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,8 @@
   <para>
    Retourne le jour Julien du timestamp UNIX <parameter>timestamp</parameter>
    (nombre de secondes depuis le 1/1/1970), ou pour le jour courant si
-   <parameter>timestamp</parameter> est omis.
+   <parameter>timestamp</parameter> est omis. De toute façon, l'heure est 
+   considérée comme l'heure locale (pas UTC).
   </para>
  </refsect1>
 
