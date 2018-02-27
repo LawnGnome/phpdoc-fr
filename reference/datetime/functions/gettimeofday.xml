@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311166 Maintainer: yannick Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DAnnebicque -->
 
 <refentry xml:id="function.gettimeofday" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>mixed</type><methodname>gettimeofday</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>return_float</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>return_float</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    C'est une interface avec gettimeofday(2). Elle retourne un tableau

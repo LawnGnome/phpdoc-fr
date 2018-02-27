@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
+<!-- CREDITS: DAnnebicque -->
 
 <refentry xml:id="function.microtime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>mixed</type><methodname>microtime</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>get_as_float</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>get_as_float</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>microtime</function> retourne le timestamp Unix, avec 
