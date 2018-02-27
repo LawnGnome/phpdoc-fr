@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342601 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343500 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.pack" xmlns="http://docbook.org/ns/docbook">
@@ -214,6 +214,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>7.2.0</entry>
+       <entry>
+        Les types <type>float</type> et <type>double</type> prennent en charge Big Endian et Little Endian.
+       </entry>
+      </row>
       <row>
        <entry>7.0.15,7.1.1</entry>
        <entry>

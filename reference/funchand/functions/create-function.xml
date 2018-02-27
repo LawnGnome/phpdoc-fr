@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331556 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342126 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes --> 
 
 <refentry xml:id="function.create-function" xmlns="http://docbook.org/ns/docbook">
@@ -8,6 +8,10 @@
   <refname>create_function</refname>
   <refpurpose>Crée une fonction anonyme</refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-2-0;
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;
