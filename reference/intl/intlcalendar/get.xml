@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332615 Maintainer: jeanseb Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 342525 Maintainer: jeanseb Status: ready -->
+<!-- CREDITS: DAnnebicque -->
 
 <refentry xml:id="intlcalendar.get" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -23,7 +23,7 @@
   </para>
   <methodsynopsis>
    <type>int</type><methodname>intlcal_get</methodname>
-   <methodparam><type>IntlCalendar></type><parameter>cal</parameter></methodparam>
+   <methodparam><type>IntlCalendar</type><parameter>cal</parameter></methodparam>
    <methodparam><type>int</type><parameter>field</parameter></methodparam>
   </methodsynopsis>
   <para>
