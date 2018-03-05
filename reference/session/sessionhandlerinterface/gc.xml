@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337488 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="sessionhandlerinterface.gc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,14 +12,14 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <type>bool</type><methodname>SessionHandlerInterface::gc</methodname>
+   <modifier>abstract</modifier> <modifier>public</modifier> <type>int</type><methodname>SessionHandlerInterface::gc</methodname>
    <methodparam><type>int</type><parameter>maxlifetime</parameter></methodparam>
   </methodsynopsis>
   <para>
    Nettoie les vieilles sessions expirées. Appelée par <function>session_start</function>,
    en fonction de <link linkend="ini.session.gc-divisor">session.gc_divisor</link>,
    <link linkend="ini.session.gc-probability">session.gc_probability</link> et
-   <link linkend="ini.session.gc-maxlifetime">session.gc_lifetime</link>.
+   <link linkend="ini.session.gc-maxlifetime">session.gc_maxlifetime</link>.
   </para>
  </refsect1>
 
