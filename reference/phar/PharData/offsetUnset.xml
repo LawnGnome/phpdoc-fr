@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: gui Status: ready -->
+<!-- EN-Revision: 343887 Maintainer: gui Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phardata.offsetunset">
  <refnamediv>
   <refname>PharData::offsetUnset</refname>
-  <refpurpose>efface un fichier d'une archive tar/zip</refpurpose>
+  <refpurpose>Efface un fichier d'une archive tar/zip</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;

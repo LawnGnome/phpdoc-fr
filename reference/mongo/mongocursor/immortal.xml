@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330128 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongocursor.immortal" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>MongoCursor</type><methodname>MongoCursor::immortal</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>liveForever</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>liveForever</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Après un certain délai sur le serveur, le curseur, par défaut, "meurt".
