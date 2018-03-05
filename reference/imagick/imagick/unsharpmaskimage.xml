@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336315 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344121 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.unsharpmaskimage">
@@ -17,7 +17,7 @@
    <methodparam><type>float</type><parameter>sigma</parameter></methodparam>
    <methodparam><type>float</type><parameter>amount</parameter></methodparam>
    <methodparam><type>float</type><parameter>threshold</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_ALL</initializer></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
   <para>
    Rend une image plus nette. Nous traitons l'image avec un opérateur Gaussien

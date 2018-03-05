@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344121 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.contraststretchimage">
@@ -15,7 +15,7 @@
    <type>bool</type><methodname>Imagick::contrastStretchImage</methodname>
    <methodparam><type>float</type><parameter>black_point</parameter></methodparam>
    <methodparam><type>float</type><parameter>white_point</parameter></methodparam>
-   <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_ALL</initializer></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
   <para>
    Améliore le contraste d'une image en ajustant les couleurs des 

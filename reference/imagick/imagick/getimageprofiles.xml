@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341871 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimageprofiles">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>array</type><methodname>Imagick::getImageProfiles</methodname>
    <methodparam choice="opt"><type>string</type><parameter>pattern</parameter><initializer>"*"</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>include_values</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>include_values</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Retourne les profils de l'image qui correspondent à un modèle.

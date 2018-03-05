@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336315 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344121 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.tintimage">
@@ -15,6 +15,7 @@
    <type>bool</type><methodname>Imagick::tintImage</methodname>
    <methodparam><type>mixed</type><parameter>tint</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>opacity</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>legacy</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Applique un vecteur de couleur à chaque pixel de l'image. La longueur
