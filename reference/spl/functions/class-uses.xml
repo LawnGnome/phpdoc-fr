@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.class-uses" xmlns="http://docbook.org/ns/docbook">
@@ -15,7 +15,7 @@
   <methodsynopsis>
    <type>array</type><methodname>class_uses</methodname>
    <methodparam><type>mixed</type><parameter>class</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Cette fonction retourne un tableau représentant les noms des traits que la classe donnée

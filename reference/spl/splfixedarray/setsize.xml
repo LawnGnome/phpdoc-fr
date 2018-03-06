@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="splfixedarray.setsize" xmlns="http://docbook.org/ns/docbook">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>int</type><methodname>SplFixedArray::setSize</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>SplFixedArray::setSize</methodname>
    <methodparam><type>int</type><parameter>size</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -44,7 +44,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   &return.success;
   </para>
  </refsect1>
   
