@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343892 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.trader-get-unstable-period" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>integer</type><methodname>trader_get_unstable_period</methodname>
-   <methodparam><type>integer</type><parameter>functionId</parameter></methodparam>
+   <methodparam><type>int</type><parameter>functionId</parameter></methodparam>
   </methodsynopsis>
   <para>
    Récupère le facteur d'instabilité de la période pour une fonction

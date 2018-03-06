@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-sftp-mkdir">
@@ -16,7 +16,7 @@
    <methodparam><type>resource</type><parameter>sftp</parameter></methodparam>
    <methodparam><type>string</type><parameter>dirname</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>0777</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>recursive</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>recursive</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Crée un dossier sur le système de fichiers distant.

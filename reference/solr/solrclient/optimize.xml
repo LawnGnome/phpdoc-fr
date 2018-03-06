@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="solrclient.optimize" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,8 +14,8 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::optimize</methodname>
    <methodparam choice="opt"><type>int</type><parameter>maxSegments</parameter><initializer>1</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>softCommit</parameter><initializer>true</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>waitSearcher</parameter><initializer>true</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>softCommit</parameter><initializer>&true;</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>waitSearcher</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Défragmente l'index afin de rendre la recherche plus

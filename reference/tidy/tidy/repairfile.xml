@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: jpauli Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="tidy.repairfile" xmlns="http://docbook.org/ns/docbook">
@@ -19,7 +19,7 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>config</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>encoding</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>use_include_path</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>use_include_path</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>
@@ -27,7 +27,7 @@
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>config</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>encoding</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>use_include_path</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>use_include_path</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Répare le fichier fourni et le renvoie sous la forme d'une chaîne.

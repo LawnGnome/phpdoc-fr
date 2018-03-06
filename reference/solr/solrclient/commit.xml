@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="solrclient.commit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,9 +13,9 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>SolrUpdateResponse</type><methodname>SolrClient::commit</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>softCommit</parameter><initializer>false</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>waitSearcher</parameter><initializer>true</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>expungeDeletes</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>softCommit</parameter><initializer>&false;</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>waitSearcher</parameter><initializer>&true;</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>expungeDeletes</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Commit tous les ajouts/modifications effectués sur l'index.
