@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343886 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="intlbreakiterator.createsentenceinstance" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,8 +12,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <modifier>static</modifier> <type>ReturnType</type><methodname>IntlBreakIterator::createSentenceInstance</methodname>
-   <methodparam choice="opt"><type>string</type><parameter>"locale"</parameter></methodparam>
+   <modifier>public</modifier> <modifier>static</modifier> <type>IntlBreakIterator</type><methodname>IntlBreakIterator::createSentenceInstance</methodname>
+   <methodparam choice="opt"><type>string</type><parameter>locale</parameter></methodparam>
   </methodsynopsis>
   <para>
 
@@ -27,7 +27,7 @@
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>"locale"</parameter></term>
+    <term><parameter>locale</parameter></term>
     <listitem>
      <para>
       
