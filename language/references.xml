@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 343850 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 344807 Maintainer: jpauli Status: ready -->
 <!-- CREDITS: DAnnebicque -->
 
 <chapter xml:id="language.references" xmlns="http://docbook.org/ns/docbook">
@@ -91,8 +91,7 @@ var_dump(property_exists($c, 'd')); // bool(true)
    </note>
    <para>
     La même syntaxe peut être utilisée avec les fonctions qui
-    retournent des références, et avec l'opérateur
-    <literal>new</literal> (depuis PHP 4.0.4 et avant PHP 5.0.0) :
+    retournent des références :
     <informalexample>
      <programlisting role="php">
 <![CDATA[

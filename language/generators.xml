@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342576 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344528 Maintainer: yannick Status: ready -->
 <!-- CREDITS: DAnnebicque -->
 
 <chapter xml:id="language.generators" xmlns="http://docbook.org/ns/docbook">
@@ -225,8 +225,9 @@ foreach ($generator as $value) {
     </para>
 
     <para>
-     Cette syntaxe peut être utilisée en conjonction de la méthode
-     <methodname>Generator::send</methodname> sur les objets Générateur.
+     La valeur qui sera affectée à <varname>$data</varname> est la valeur passée 
+     à <methodname>Generator::send</methodname>ou &null; si 
+     <methodname>Generator::next</methodname> est appelé à la place.
     </para>
    </caution>
    
