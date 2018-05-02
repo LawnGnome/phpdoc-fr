@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323674 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-is-registered">
@@ -50,10 +50,8 @@
   &reftitle.notes;
   <note>
    <para>
-    Si <varname>$_SESSION</varname> (ou
-    <varname>$HTTP_SESSION_VARS</varname> en PHP 4.0.6 et plus ancien)
-    est utilisé, utilisez la fonction <function>isset</function>
-    pour vérifier la présence de la variable dans
+    Si <varname>$_SESSION</varname> est utilisé, utilisez la fonction 
+    <function>isset</function> pour vérifier la présence de la variable dans
     <varname>$_SESSION</varname>.
    </para>
   </note>

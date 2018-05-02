@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323674 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341282 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-unregister">
@@ -49,12 +49,10 @@
   &reftitle.notes;
   <note>
    <para>
-    Si <varname>$_SESSION</varname> (ou
-    <varname>$HTTP_SESSION_VARS</varname> pour PHP 4.0.6 et plus ancien)
-    est utilisé, utilisez <function>unset</function> pour supprimer une
-    variable de session. N'utilisez pas <function>unset</function> directement
-    sur <varname>$_SESSION</varname> sinon cela désactivera les fonctions spéciales
-    du tableau superglobal <varname>$_SESSION</varname>.
+    Si <varname>$_SESSION</varname> est utilisé, utilisez <function>unset</function> 
+    pour supprimer une variable de session. N'utilisez pas <function>unset</function> 
+    directement sur <varname>$_SESSION</varname> sinon cela désactivera les 
+    fonctions spéciales du tableau superglobal <varname>$_SESSION</varname>.
    </para>
   </note>
   <caution>
