@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334641 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.ldap-modify-batch" xmlns="http://docbook.org/ns/docbook">
@@ -16,6 +16,7 @@
    <methodparam><type>resource</type><parameter>link_identifier</parameter></methodparam>
    <methodparam><type>string</type><parameter>dn</parameter></methodparam>
    <methodparam><type>array</type><parameter>entry</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>serverctrls</parameter></methodparam>
   </methodsynopsis>
   <para>
    Modifie une entrée existante dans un dossier LDAP. Permet

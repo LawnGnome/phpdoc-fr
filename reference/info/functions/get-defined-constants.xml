@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.get-defined-constants" xmlns="http://docbook.org/ns/docbook">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>get_defined_constants</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>categorize</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>categorize</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Retourne les noms et valeurs des constantes déjà définies.
