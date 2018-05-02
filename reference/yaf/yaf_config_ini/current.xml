@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343784 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="yaf-config-ini.current" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Config_Ini::current</refname>
-  <refpurpose>Le but de current</refpurpose>
+  <refpurpose>Récupérer la valeur actuelle</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
