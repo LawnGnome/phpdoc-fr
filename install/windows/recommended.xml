@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341344 Maintainer: jbnahan Status: ready -->
+<!-- EN-Revision: 344991 Maintainer: jbnahan Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="install.windows.recommended" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -71,7 +71,7 @@ opcache.cli_enable=On
 
 extension=php_wincache.dll
 wincache.fcenabled=1
-wincache.ocenabled=1
+wincache.ocenabled=1 ; removed as of wincache 2.0.0.0 
 
 ]]>
    </screen>
