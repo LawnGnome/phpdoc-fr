@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344742 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 
@@ -75,7 +75,7 @@ try {
    S'il existe encore d'autres références à cette instance PDO (par exemple, à 
    partir d'une instance PDOStatement ou d'autres variables référençant la 
    même instance PDO), celles-ci doivent également être supprimées (par 
-   exemple, en affectant null à la variable qui référence le PDOStatement).
+   exemple, en affectant &null; à la variable qui référence le PDOStatement).
   </simpara>
  </note>
  <para>

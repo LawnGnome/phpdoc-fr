@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336896 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341234 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="pdostatement.fetchcolumn" xmlns="http://docbook.org/ns/docbook">
@@ -56,7 +56,7 @@
   &reftitle.returnvalues;
   <para>
    <function>PDOStatement::fetchColumn</function> retourne une colonne
-   depuis la ligne suivante d'un jeu de résultats.
+   depuis la ligne suivante d'un jeu de résultats ou &false; s'il n'y a plus de lignes.
   </para>
   <warning>
    <para>

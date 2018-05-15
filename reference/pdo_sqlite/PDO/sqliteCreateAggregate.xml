@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 342286 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="pdo.sqlitecreateaggregate" xmlns="http://docbook.org/ns/docbook">
@@ -169,7 +169,7 @@ function max_len_step(&$context, $rownumber, $string)
 
 function max_len_finalize(&$context, $rownumber) 
 {
-    return $context;
+    return $context === null ? 0 : $context;
 }
 
 $db->sqliteCreateAggregate('max_len', 'max_len_step', 'max_len_finalize');
