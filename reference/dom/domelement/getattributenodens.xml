@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341824 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344565 Maintainer: yannick Status: ready -->
 <!-- CREDITS: DavidA -->
 
 <refentry xml:id='domelement.getattributenodens' xmlns="http://docbook.org/ns/docbook">
@@ -52,7 +52,7 @@
    Le noeud d'attribut. Notez que pour la déclaration de namespace XML 
    (les attributs <literal>xmlns</literal> et <literal>xmlns:*</literal>) 
    une instance de <classname>DOMNameSpaceNode</classname> est retourné au lieu
-   de <classname>DOMAttr</classname>.
+   d'un objet <classname>DOMAttr</classname>.
   </para>
  </refsect1>
  <refsect1 role="seealso">

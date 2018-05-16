@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322382 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343918 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id='domnode.lookupnamespaceuri' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>DOMNode::lookupNamespaceURI</refname>
+  <refname>DOMNode::lookupNamespaceUri</refname>
   <refpurpose>
    Retourne l'URI de l'espace de noms selon le préfixe
   </refpurpose>
@@ -13,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>string</type><methodname>DOMNode::lookupNamespaceURI</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>DOMNode::lookupNamespaceUri</methodname>
    <methodparam><type>string</type><parameter>prefix</parameter></methodparam>
   </methodsynopsis>
   <para>

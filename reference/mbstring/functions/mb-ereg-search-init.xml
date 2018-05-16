@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 291313 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344083 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.mb-ereg-search-init" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,7 +51,7 @@
      <term><parameter>option</parameter></term>
      <listitem>
       <para>
-       L'option de recherche.
+       L'option de recherche. Pour plus d'explications, consultez <function>mb_regex_set_options</function>.
       </para>
      </listitem>
     </varlistentry>

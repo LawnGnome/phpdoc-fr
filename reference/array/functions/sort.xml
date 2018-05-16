@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339490 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344469 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.sort" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -214,6 +214,7 @@ fruits[3] = orange20
   <para>
    <simplelist>
     <member><function>asort</function></member>
+    <member><function>rsort</function></member>
     <member>&seealso.array.sorting;</member>
    </simplelist>
   </para>
