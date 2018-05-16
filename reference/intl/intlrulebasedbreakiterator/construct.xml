@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343878 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="intlrulebasedbreakiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -28,7 +28,7 @@
   &reftitle.parameters;
   <variablelist>
    <varlistentry>
-    <term><parameter>"rules"</parameter></term>
+    <term><parameter>rules</parameter></term>
     <listitem>
      <para>
       
@@ -36,7 +36,7 @@
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><parameter>"areCompiled"</parameter></term>
+    <term><parameter>areCompiled</parameter></term>
     <listitem>
      <para>
       

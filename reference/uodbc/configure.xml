@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322138 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344496 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <section xml:id="odbc.installation" xmlns="http://docbook.org/ns/docbook">
@@ -168,6 +168,10 @@
   </variablelist>
  </para>
  &windows.builtin;
+ <simpara>
+  Depuis PHP 7.0.0, toutefois, les utilisateurs Windows doivent activer 
+  <filename>php_odbc.dll</filename> afin d'utiliser cette extension.
+ </simpara>
 </section>
 
 <!-- Keep this comment at the end of the file

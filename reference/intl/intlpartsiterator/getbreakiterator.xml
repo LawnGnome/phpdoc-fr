@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343886 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="intlpartsiterator.getbreakiterator" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>ReturnType</type><methodname>IntlPartsIterator::getBreakIterator</methodname>
+   <modifier>public</modifier> <type>IntlBreakIterator</type><methodname>IntlPartsIterator::getBreakIterator</methodname>
    <void />
   </methodsynopsis>
   <para>
