@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="harudoc.loadttf" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <type>string</type><methodname>HaruDoc::loadTTF</methodname>
    <methodparam><type>string</type><parameter>fontfile</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>embed</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>embed</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Charge le fichier TTF fourni et (optionnellement), l'intègre aux données

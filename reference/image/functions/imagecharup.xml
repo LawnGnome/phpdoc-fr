@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344594 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.imagecharup" xmlns="http://docbook.org/ns/docbook">
@@ -58,8 +58,7 @@
      <term><parameter>color</parameter></term>
      <listitem>
       <para>
-       Un identifiant de couleur, créé avec la fonction
-       <function>imagecolorallocate</function>.
+       &gd.identifier.color;
       </para>
      </listitem>
     </varlistentry>

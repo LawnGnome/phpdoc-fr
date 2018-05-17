@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-restore">
@@ -17,7 +17,7 @@
    <methodparam><type>string</type><parameter>source_file</parameter></methodparam>
    <methodparam><type>string</type><parameter>dest_db</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>options</parameter><initializer>0</initializer></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>verbose</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>verbose</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
 
    &warn.undocumented.func;
