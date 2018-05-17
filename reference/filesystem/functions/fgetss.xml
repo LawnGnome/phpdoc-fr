@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 340905 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fgetss">
@@ -48,6 +48,8 @@
       <para>
        Vous pouvez utiliser ce paramètre optionnel pour spécifier
        les balises qui ne doivent pas être supprimées.
+       Voir <function>strip_tags</function> pour plus de détails concernant
+       <parameter>allowable_tags</parameter>.
       </para>
      </listitem>
     </varlistentry>

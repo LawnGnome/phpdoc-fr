@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327263 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.clearstatcache">
@@ -13,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>void</type><methodname>clearstatcache</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>clear_realpath_cache</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>clear_realpath_cache</parameter><initializer>&false;</initializer></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
   <para>
