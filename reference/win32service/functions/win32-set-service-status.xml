@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342956 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 345077 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.win32-set-service-status" xmlns="http://docbook.org/ns/docbook">
@@ -79,11 +79,37 @@
   </para>
  </refsect1>
 
+ <refsect1 role="changelog"><!-- {{{ -->
+  &reftitle.changelog;
+  <para>
+   <informaltable>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>&Version;</entry>
+       <entry>&Description;</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>0.2.0</entry>
+       <entry>
+        Cette fonction fonctionne uniquement en ligne de 
+        commande.
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </informaltable>
+  </para>
+ </refsect1><!-- }}} -->
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
    <simplelist>
     <member><function>win32_start_service_ctrl_dispatcher</function></member>
+    <member><function>win32_get_last_control_message</function></member>
     <member>Les <link linkend="win32service.constants.servicestatus">constantes de statut des services Win32Service</link></member>
    </simplelist>
   </para>

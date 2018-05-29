@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305252 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 345076 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.win32-create-service" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15,6 +15,10 @@
    <methodparam><type>array</type><parameter>details</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>machine</parameter></methodparam>
   </methodsynopsis>
+  <para>
+   Tente d'ajouter un service dans la base de données SCM. Des privilèges 
+   d'administrateur sont nécessaires pour que cela réussisse.
+  </para>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
