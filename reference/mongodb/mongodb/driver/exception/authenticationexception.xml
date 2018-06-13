@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
+<!-- $Revision: 336290 $ -->
 <!-- EN-Revision: 336263 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
-<phpdoc:classref xml:id="class.mongodb-driver-connectionexception" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
+<phpdoc:classref xml:id="class.mongodb-driver-authenticationexception" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
- <title>La classe MongoDB\Driver\ConnectionException</title>
- <titleabbrev>MongoDB\Driver\ConnectionException</titleabbrev>
+ <title>La classe MongoDB\Driver\AuthenticationException</title>
+ <titleabbrev>MongoDB\Driver\AuthenticationException</titleabbrev>
 
  <partintro>
 
-<!-- {{{ MongoDB\Driver\ConnectionException intro -->
-  <section xml:id="mongodb-driver-connectionexception.intro">
+<!-- {{{ MongoDB\Driver\AuthenticationException intro -->
+  <section xml:id="mongodb-driver-authenticationexception.intro">
    &reftitle.intro;
    <para>
 
@@ -19,22 +19,22 @@
   </section>
 <!-- }}} -->
 
-  <section xml:id="mongodb-driver-connectionexception.synopsis">
+  <section xml:id="mongodb-driver-authenticationexception.synopsis">
    &reftitle.classsynopsis;
 
 <!-- {{{ Synopsis -->
    <classsynopsis>
-    <ooclass><classname>MongoDB\Driver\ConnectionException</classname></ooclass>
+    <ooclass><classname>MongoDB\Driver\AuthenticationException</classname></ooclass>
 
 <!-- {{{ Class synopsis -->
     <classsynopsisinfo>
      <ooclass>
-      <classname>MongoDB\Driver\ConnectionException</classname>
+      <classname>MongoDB\Driver\AuthenticationException</classname>
      </ooclass>
      
      <ooclass>
       <modifier>extends</modifier>
-      <classname>MongoDB\Driver\RuntimeException</classname>
+      <classname>MongoDB\Driver\ConnectionException</classname>
      </ooclass>
      
      <oointerface>
