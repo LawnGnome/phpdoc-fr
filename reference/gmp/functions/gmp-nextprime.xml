@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333674 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344880 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-nextprime">
@@ -62,7 +62,7 @@ echo gmp_strval($prime2) . "\n";
     <screen>
 <![CDATA[
 11
--997
+2
 ]]>
     </screen>
    </example>

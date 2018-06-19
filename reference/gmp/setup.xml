@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333674 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 338302 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <chapter xml:id="gmp.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -10,14 +10,14 @@
  <section xml:id="gmp.requirements">
   &reftitle.required;
   <para>
-   Vous pouvez télécharger <acronym>GMP</acronym> sur le site de
+   La librairie <acronym>GMP</acronym> peut être téléchargé depuis le site de
    <link xlink:href="&url.gmp;">&url.gmp;</link>. Ce site propose aussi un manuel
    <acronym>GMP</acronym>.
   </para>
   <simpara>
-   Vous devez utiliser <acronym>GMP</acronym> 2 ou plus récent pour
-   utiliser ces fonctions. Certaines d'entre elles peuvent requérir
-   une version encore plus récente de <acronym>GMP</acronym>.
+   Au moins la version 2 de <acronym>GMP</acronym> est requise, avec certaines 
+   fonctions nécessitant une version plus récente de la bibliothèque 
+   <acronym>GMP</acronym>.
   </simpara>
  </section>
  <!-- }}} -->
