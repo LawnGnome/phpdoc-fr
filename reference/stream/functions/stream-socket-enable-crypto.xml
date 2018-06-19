@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340287 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 345163 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xml:id="function.stream-socket-enable-crypto" xmlns="http://docbook.org/ns/docbook">
@@ -76,7 +76,7 @@
        </itemizedlist>
       </para>
       <para>
-       Si omis, l'option de contexte <parameter>crypto_type</parameter>
+       Si omis, l'option de contexte <parameter>crypto_method</parameter>
        sur le contexte SSL du flux sera utilisée à la place.
       </para>
      </listitem>

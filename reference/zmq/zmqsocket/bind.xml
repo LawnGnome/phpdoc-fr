@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333612 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="zmqsocket.bind" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
   <methodsynopsis>
    <modifier>public</modifier> <type>ZMQSocket</type><methodname>ZMQSocket::bind</methodname>
    <methodparam><type>string</type><parameter>dsn</parameter></methodparam>
-   <methodparam choice="opt"><type>boolean</type><parameter>force</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>force</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Lie un socket à un point final. Le point final est défini au format

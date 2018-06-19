@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332886 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 345139 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <sect1 xml:id="install.macosx.packages" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Utilisation des paquets</title>
  <simpara>
   Il existe quelques versions pré-packagées et pré-compilées
-  de PHP pour Mac OS X. Cela peut être utile pour mettre en place une configuration
+  de PHP pour macOS. Cela peut être utile pour mettre en place une configuration
   standard, mais si vous avez besoin d'accéder à des fonctionnalités
   spécifiques (comme un serveur sécurisé, ou un pilote de bases de données
   exotiques), vous aurez à compiler PHP et/ou votre serveur Web vous-même.
