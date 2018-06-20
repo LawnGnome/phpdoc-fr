@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 344473 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="locale.getdisplayname">
@@ -33,7 +33,7 @@
    <methodparam choice="opt"><type>string</type><parameter>in_locale</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Retourne un nom d'affichage correct pour une locale. Si &null; est passé,
+   Retourne un nom d'affichage correct pour une locale. Si <parameter>locale</parameter> est &null;,
    c'est la locale par défaut qui est utilisée.
   </para>
  </refsect1>
