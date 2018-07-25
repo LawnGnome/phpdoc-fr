@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 340377 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 345315 Maintainer: yannick Status: ready -->
 <!-- $Revision$ -->
 <!-- CREDITS: DavidA. -->
 
@@ -302,6 +302,10 @@ foreach ($data as $key => $row) {
     $volume[$key]  = $row['volume'];
     $edition[$key] = $row['edition'];
 }
+
+// a partir de PHP 5.5.0 vous pouvez utiliser array_column() au lieu du code ci-dessus
+$volume  = array_column($data, 'volume');
+$edition = array_column($data, 'edition');
 
 // Trie les données par volume décroissant, edition croissant
 // Ajoute $data en tant que dernier paramètre, pour trier par la clé commune

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342445 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 345238 Maintainer: yannick Status: ready -->
 <!-- CREDITS: DavidA -->
 
 <sect1 xml:id="language.pseudo-types">
@@ -61,7 +61,8 @@
   <para>
    <literal>void</literal> comme type retourné signifie que la valeur retournée
    est inutile. <literal>void</literal> dans une liste de paramètre signifie que
-   la fonction n'accepte aucun paramètre.
+   la fonction n'accepte aucun paramètre. A partir de PHP 7.1 <literal>void</literal> 
+   est accepté comme type de retour d'une fonction.
   </para>
 
  </sect2>
