@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: pierrick Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: pierrick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.wincache-fcache-fileinfo" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>wincache_fcache_fileinfo</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>summaryonly</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Extrait des informations sur le contenu du cache de fichiers et son utilisation.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 341634 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id='function.xml-set-end-namespace-decl-handler'>
@@ -22,6 +22,12 @@
    après le gestionnaire de la dernière balise de l'élément dont l'espace
    de noms a été déclaré.
   </para>
+  <caution>
+   <para>
+    Cet évènement n'est pas supporté sous libXML,
+    aussi, un gestionnaire enregistré ne sera pas appelé.
+   </para>
+  </caution>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -94,15 +100,6 @@
   <para>
    &return.success;
   </para>
- </refsect1>
- 
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    Cet évènement n'est pas supporté sous LibXML.
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">
