@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327529 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343807 Maintainer: yannick Status: ready -->
 <!-- Reviewed: yes Maintainer: yannick -->
 
 <refentry xml:id="yaf-response-abstract.clearbody" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Response_Abstract::clearBody</refname>
-  <refpurpose>Le but de clearBody</refpurpose>
+  <refpurpose>Supprime tous les corps de réponse existants</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

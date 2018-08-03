@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 343814 Maintainer: yannick Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-request-abstract.isrouted" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Request_Abstract::isRouted</refname>
-  <refpurpose>Le but de isRouted</refpurpose>
+  <refpurpose>Vérifie si la requête a été routée</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>Yaf_Request_Abstract::isRouted</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Yaf_Request_Abstract::isRouted</methodname>
    <void />
   </methodsynopsis>
   <para>
 
   </para>
-
-  &warn.undocumented.func;
-
  </refsect1>
 
  <refsect1 role="parameters">
@@ -31,10 +28,9 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-
+   Un booléen.
   </para>
  </refsect1>
-
 
 </refentry>
 
